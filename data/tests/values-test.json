@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "id": "values-test",
+    "slug": "values-test",
+    "title": "My Core Values",
+    "titleKo": "나의 핵심 가치관은?",
+    "description": "Discover the core values that drive your decisions and shape your life",
+    "descriptionKo": "당신의 결정을 이끌고 삶을 형성하는 핵심 가치관을 발견하세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Schwartz (1992) Values Theory",
+    "gradient": "from-emerald-400 to-teal-600",
+    "emoji": "💎"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What motivates you most when starting a new project?",
+      "textKo": "새로운 프로젝트를 시작할 때 가장 동기부여가 되는 것은?",
+      "options": [
+        { "id": "q1a", "text": "The opportunity to prove yourself and reach a milestone", "textKo": "자신을 증명하고 이정표에 도달할 기회", "scores": { "achievement-seeker": 3 } },
+        { "id": "q1b", "text": "Working together with others toward a shared goal", "textKo": "공동 목표를 향해 다른 사람들과 함께 일하는 것", "scores": { "harmony-seeker": 3 } },
+        { "id": "q1c", "text": "The freedom to do it your own way", "textKo": "나만의 방식으로 할 수 있는 자유", "scores": { "freedom-seeker": 3 } },
+        { "id": "q1d", "text": "Having a clear structure and reliable outcome", "textKo": "명확한 구조와 신뢰할 수 있는 결과물", "scores": { "security-seeker": 3 } },
+        { "id": "q1e", "text": "How it will benefit others or contribute to something larger", "textKo": "다른 사람들에게 도움이 되거나 더 큰 것에 기여하는 방법", "scores": { "benevolence-type": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When making an important life decision, your top priority is...",
+      "textKo": "중요한 인생 결정을 내릴 때, 최우선 고려사항은...",
+      "options": [
+        { "id": "q2a", "text": "Will this help me grow and achieve my goals?", "textKo": "이것이 나의 성장과 목표 달성에 도움이 될까?", "scores": { "achievement-seeker": 3 } },
+        { "id": "q2b", "text": "Will this maintain harmony in my important relationships?", "textKo": "이것이 중요한 관계의 조화를 유지할까?", "scores": { "harmony-seeker": 3 } },
+        { "id": "q2c", "text": "Will this preserve my independence and personal choice?", "textKo": "이것이 나의 독립성과 개인적 선택을 보존할까?", "scores": { "freedom-seeker": 3 } },
+        { "id": "q2d", "text": "Is this stable, low-risk, and sustainable?", "textKo": "이것이 안정적이고 위험이 낮으며 지속 가능한가?", "scores": { "security-seeker": 3 } },
+        { "id": "q2e", "text": "Who can I help or positively impact with this?", "textKo": "이것으로 누구를 도울 수 있고 긍정적인 영향을 줄 수 있을까?", "scores": { "benevolence-type": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "What does 'a good life' mean to you?",
+      "textKo": "'좋은 삶'이란 당신에게 무엇을 의미하나요?",
+      "options": [
+        { "id": "q3a", "text": "Accomplishing meaningful things and reaching your potential", "textKo": "의미 있는 것들을 이루고 잠재력을 발휘하는 것", "scores": { "achievement-seeker": 3 } },
+        { "id": "q3b", "text": "Being surrounded by people you love in a peaceful environment", "textKo": "사랑하는 사람들에 둘러싸여 평화로운 환경에서 사는 것", "scores": { "harmony-seeker": 3 } },
+        { "id": "q3c", "text": "Living on your own terms with full autonomy", "textKo": "완전한 자율성으로 자신만의 방식으로 사는 것", "scores": { "freedom-seeker": 3 } },
+        { "id": "q3d", "text": "Stability, safety, and a secure future", "textKo": "안정성, 안전, 그리고 보장된 미래", "scores": { "security-seeker": 3 } },
+        { "id": "q3e", "text": "Knowing that you made a positive difference in others' lives", "textKo": "다른 사람들의 삶에 긍정적인 변화를 가져왔다는 것을 아는 것", "scores": { "benevolence-type": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "What gives you the deepest sense of satisfaction?",
+      "textKo": "가장 깊은 만족감을 주는 것은?",
+      "options": [
+        { "id": "q4a", "text": "Surpassing a goal or being recognized for excellence", "textKo": "목표를 초과 달성하거나 탁월함을 인정받는 것", "scores": { "achievement-seeker": 3 } },
+        { "id": "q4b", "text": "Feeling genuine connection and belonging", "textKo": "진정한 연결과 소속감을 느끼는 것", "scores": { "harmony-seeker": 3 } },
+        { "id": "q4c", "text": "Doing something entirely on your own terms", "textKo": "전적으로 자신만의 방식으로 무언가를 하는 것", "scores": { "freedom-seeker": 3 } },
+        { "id": "q4d", "text": "Knowing things are under control and well-planned", "textKo": "모든 것이 통제되고 잘 계획되어 있다는 것을 아는 것", "scores": { "security-seeker": 3 } },
+        { "id": "q4e", "text": "Helping someone through a hard time", "textKo": "어려운 시간을 겪는 누군가를 돕는 것", "scores": { "benevolence-type": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "What do you most want others to remember about you?",
+      "textKo": "다른 사람들이 당신을 어떻게 기억하길 가장 원하나요?",
+      "options": [
+        { "id": "q5a", "text": "As someone who achieved great things", "textKo": "위대한 것을 이룬 사람", "scores": { "achievement-seeker": 3 } },
+        { "id": "q5b", "text": "As someone who brought people together", "textKo": "사람들을 하나로 모은 사람", "scores": { "harmony-seeker": 3 } },
+        { "id": "q5c", "text": "As someone who lived life on their own terms", "textKo": "자신만의 방식으로 삶을 살았던 사람", "scores": { "freedom-seeker": 3 } },
+        { "id": "q5d", "text": "As someone dependable and steady", "textKo": "믿음직스럽고 흔들림 없는 사람", "scores": { "security-seeker": 3 } },
+        { "id": "q5e", "text": "As someone who genuinely cared about others", "textKo": "다른 사람들을 진심으로 아꼈던 사람", "scores": { "benevolence-type": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When choosing a career or life path, you weigh it against...",
+      "textKo": "직업이나 인생 경로를 선택할 때 기준이 되는 것은...",
+      "options": [
+        { "id": "q6a", "text": "The level of challenge, growth, and recognition it offers", "textKo": "도전, 성장, 인정의 기회가 얼마나 있는지", "scores": { "achievement-seeker": 3 } },
+        { "id": "q6b", "text": "Whether it fits your values and feels balanced", "textKo": "가치관에 맞고 균형이 느껴지는지", "scores": { "harmony-seeker": 3 } },
+        { "id": "q6c", "text": "How much freedom and creativity it allows", "textKo": "얼마나 많은 자유와 창의성을 허용하는지", "scores": { "freedom-seeker": 3 } },
+        { "id": "q6d", "text": "How stable and secure the future it offers", "textKo": "얼마나 안정적이고 안전한 미래를 제공하는지", "scores": { "security-seeker": 3 } },
+        { "id": "q6e", "text": "The positive impact it can have on others or society", "textKo": "다른 사람이나 사회에 미칠 수 있는 긍정적인 영향", "scores": { "benevolence-type": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Which situation feels most fulfilling to you?",
+      "textKo": "가장 충만함을 느끼는 상황은?",
+      "options": [
+        { "id": "q7a", "text": "Completing a difficult challenge you worked hard for", "textKo": "열심히 노력한 어려운 도전을 완수했을 때", "scores": { "achievement-seeker": 3 } },
+        { "id": "q7b", "text": "Sharing a peaceful, meaningful moment with loved ones", "textKo": "사랑하는 사람들과 평화롭고 의미 있는 순간을 나눌 때", "scores": { "harmony-seeker": 3 } },
+        { "id": "q7c", "text": "Exploring something new and uncharted on your own", "textKo": "혼자 새롭고 미지의 것을 탐험할 때", "scores": { "freedom-seeker": 3 } },
+        { "id": "q7d", "text": "Knowing everything is in place and going as planned", "textKo": "모든 것이 제자리에 있고 계획대로 가고 있을 때", "scores": { "security-seeker": 3 } },
+        { "id": "q7e", "text": "Seeing someone you helped thrive because of your support", "textKo": "당신의 도움 덕분에 누군가가 성장하는 것을 볼 때", "scores": { "benevolence-type": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "What makes you most uncomfortable?",
+      "textKo": "가장 불편하게 느끼는 것은?",
+      "options": [
+        { "id": "q8a", "text": "Being held back or underestimated", "textKo": "제지당하거나 과소평가받는 것", "scores": { "achievement-seeker": 3 } },
+        { "id": "q8b", "text": "Conflict and broken relationships", "textKo": "갈등과 망가진 관계", "scores": { "harmony-seeker": 3 } },
+        { "id": "q8c", "text": "Being told what to do without choice", "textKo": "선택권 없이 무엇을 해야 한다는 말을 듣는 것", "scores": { "freedom-seeker": 3 } },
+        { "id": "q8d", "text": "Unpredictability and not knowing what's coming", "textKo": "예측 불가능하고 앞으로 무슨 일이 올지 모르는 것", "scores": { "security-seeker": 3 } },
+        { "id": "q8e", "text": "Feeling like you're not contributing or being useful", "textKo": "기여하지 못하거나 유용하지 않다는 느낌", "scores": { "benevolence-type": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When helping a friend, what matters most to you?",
+      "textKo": "친구를 도울 때, 가장 중요하게 생각하는 것은?",
+      "options": [
+        { "id": "q9a", "text": "Helping them identify concrete goals and take action", "textKo": "구체적인 목표를 파악하고 행동을 취하도록 돕는 것", "scores": { "achievement-seeker": 2 } },
+        { "id": "q9b", "text": "Making sure the relationship stays strong and warm", "textKo": "관계가 강하고 따뜻하게 유지되는 것", "scores": { "harmony-seeker": 3 } },
+        { "id": "q9c", "text": "Respecting their autonomy and not telling them what to do", "textKo": "그들의 자율성을 존중하고 무엇을 해야 할지 강요하지 않는 것", "scores": { "freedom-seeker": 2 } },
+        { "id": "q9d", "text": "Offering practical, reliable advice they can count on", "textKo": "믿을 수 있는 실용적이고 신뢰할 수 있는 조언을 하는 것", "scores": { "security-seeker": 2 } },
+        { "id": "q9e", "text": "Being fully present and giving everything you've got", "textKo": "완전히 곁에 있으며 가진 모든 것을 주는 것", "scores": { "benevolence-type": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Which phrase resonates with you most?",
+      "textKo": "가장 공감되는 표현은?",
+      "options": [
+        { "id": "q10a", "text": "'Success is the best revenge.'", "textKo": "'성공이 가장 좋은 복수다.'", "scores": { "achievement-seeker": 3 } },
+        { "id": "q10b", "text": "'Life is better when we're together.'", "textKo": "'함께할 때 삶이 더 좋아진다.'", "scores": { "harmony-seeker": 3 } },
+        { "id": "q10c", "text": "'Not all who wander are lost.'", "textKo": "'헤매는 모든 자가 길을 잃은 것은 아니다.'", "scores": { "freedom-seeker": 3 } },
+        { "id": "q10d", "text": "'Slow and steady wins the race.'", "textKo": "'천천히 꾸준히 하면 이긴다.'", "scores": { "security-seeker": 3 } },
+        { "id": "q10e", "text": "'The meaning of life is to give life meaning.'", "textKo": "'삶의 의미는 삶에 의미를 부여하는 것이다.'", "scores": { "benevolence-type": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "achievement-seeker",
+      "title": "Achievement Seeker",
+      "titleKo": "성취 추구형",
+      "description": "You are driven by the desire to grow, excel, and be recognized for your efforts. Goals, challenges, and mastery give your life meaning and momentum.",
+      "descriptionKo": "성장하고, 탁월해지고, 노력을 인정받고자 하는 욕구에 의해 움직입니다. 목표, 도전, 숙달이 삶에 의미와 추진력을 줍니다. 높은 기준을 향해 끊임없이 나아가는 것이 당신의 삶의 방식입니다.",
+      "traits": ["Ambitious", "Goal-driven", "Excellence-seeking"],
+      "traitsKo": ["야망 있는", "목표 지향적인", "탁월함을 추구하는"],
+      "emoji": "🏆",
+      "gradient": "from-emerald-400 to-teal-500"
+    },
+    {
+      "id": "harmony-seeker",
+      "title": "Harmony Seeker",
+      "titleKo": "조화 추구형",
+      "description": "You value deep relationships, peace, and belonging above all else. You find meaning in togetherness and work to create environments where everyone feels valued.",
+      "descriptionKo": "무엇보다 깊은 관계, 평화, 소속감을 소중히 여깁니다. 함께함에서 의미를 찾고 모든 사람이 소중하다고 느끼는 환경을 만들려 합니다. 관계의 조화가 당신에게 삶의 근본적인 기반입니다.",
+      "traits": ["Relational", "Peaceful", "Community-oriented"],
+      "traitsKo": ["관계 지향적인", "평화를 추구하는", "공동체 중심적인"],
+      "emoji": "🌿",
+      "gradient": "from-teal-400 to-cyan-500"
+    },
+    {
+      "id": "freedom-seeker",
+      "title": "Freedom Seeker",
+      "titleKo": "자유 추구형",
+      "description": "Autonomy, self-expression, and the ability to chart your own course define what a meaningful life looks like for you. You resist limitations and thrive in open, creative spaces.",
+      "descriptionKo": "자율성, 자기 표현, 그리고 자신만의 길을 개척하는 능력이 당신에게 의미 있는 삶을 정의합니다. 제한에 저항하고 열린 창의적인 공간에서 빛을 발합니다. 자유는 단순한 욕구가 아니라 삶의 핵심 가치입니다.",
+      "traits": ["Independent", "Creative", "Adventurous"],
+      "traitsKo": ["독립적인", "창의적인", "모험을 즐기는"],
+      "emoji": "🦋",
+      "gradient": "from-cyan-400 to-emerald-500"
+    },
+    {
+      "id": "security-seeker",
+      "title": "Security Seeker",
+      "titleKo": "안정 추구형",
+      "description": "You find peace of mind in stability, reliability, and a well-built foundation. You make thoughtful decisions and build your life on solid, dependable ground.",
+      "descriptionKo": "안정성, 신뢰성, 잘 구축된 기반에서 마음의 평화를 찾습니다. 사려 깊은 결정을 내리고 단단하고 믿을 수 있는 기반 위에 삶을 세웁니다. 꼼꼼하고 책임감 있는 태도로 미래를 준비하는 사람입니다.",
+      "traits": ["Careful", "Responsible", "Stability-oriented"],
+      "traitsKo": ["신중한", "책임감 있는", "안정을 추구하는"],
+      "emoji": "🏠",
+      "gradient": "from-emerald-500 to-teal-600"
+    },
+    {
+      "id": "benevolence-type",
+      "title": "Benevolent",
+      "titleKo": "헌신형",
+      "description": "You are motivated by a deep care for others and a genuine desire to contribute to the world. Your greatest satisfaction comes from helping, giving, and making a difference.",
+      "descriptionKo": "다른 사람들에 대한 깊은 관심과 세상에 기여하려는 진정한 욕구에 의해 움직입니다. 돕고, 주고, 변화를 만드는 것에서 가장 큰 만족을 얻습니다. 이타적인 마음이 당신의 삶 전반에 깊이 스며들어 있습니다.",
+      "traits": ["Caring", "Generous", "Impact-driven"],
+      "traitsKo": ["배려심 있는", "너그러운", "영향력을 추구하는"],
+      "emoji": "💚",
+      "gradient": "from-teal-500 to-emerald-600"
+    }
+  ]
+}

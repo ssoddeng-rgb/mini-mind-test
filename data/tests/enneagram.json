@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "id": "enneagram",
+    "slug": "enneagram",
+    "title": "Enneagram",
+    "titleKo": "에니어그램 검사",
+    "description": "Discover your core motivations and fears",
+    "descriptionKo": "당신의 핵심 동기와 두려움을 알아보세요",
+    "category": "self",
+    "questionCount": 9,
+    "estimatedMinutes": 3,
+    "academicSource": "Ichazo & Naranjo (1960s) / Riso & Hudson",
+    "gradient": "from-amber-400 to-orange-600",
+    "emoji": "🔮"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What drives you most in life?",
+      "textKo": "삶에서 당신을 가장 움직이는 것은 무엇인가요?",
+      "options": [
+        { "id": "q1a", "text": "Being good, ethical, and doing the right thing", "textKo": "옳은 일을 하고 선하고 도덕적인 사람이 되는 것", "scores": { "type1": 3 } },
+        { "id": "q1b", "text": "Being needed and loved by others", "textKo": "다른 사람들에게 필요하고 사랑받는 것", "scores": { "type2": 3 } },
+        { "id": "q1c", "text": "Achieving success and being admired", "textKo": "성공을 이루고 인정받는 것", "scores": { "type3": 3 } },
+        { "id": "q1d", "text": "Being unique and deeply understood", "textKo": "특별하고 깊이 이해받는 것", "scores": { "type4": 3 } },
+        { "id": "q1e", "text": "Understanding the world and gaining knowledge", "textKo": "세상을 이해하고 지식을 쌓는 것", "scores": { "type5": 3 } },
+        { "id": "q1f", "text": "Feeling safe, secure, and supported", "textKo": "안전하고 안심되고 지지받는 것", "scores": { "type6": 3 } },
+        { "id": "q1g", "text": "Staying happy and experiencing good things", "textKo": "행복하게 지내고 좋은 것들을 경험하는 것", "scores": { "type7": 3 } },
+        { "id": "q1h", "text": "Being strong and in control", "textKo": "강하고 통제력을 갖는 것", "scores": { "type8": 3 } },
+        { "id": "q1i", "text": "Maintaining peace and harmony", "textKo": "평화와 조화를 유지하는 것", "scores": { "type9": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "What do you fear most?",
+      "textKo": "가장 두려운 것은 무엇인가요?",
+      "options": [
+        { "id": "q2a", "text": "Being corrupt, bad, or making mistakes", "textKo": "부패하거나 나쁘거나 실수하는 것", "scores": { "type1": 3 } },
+        { "id": "q2b", "text": "Being unloved or unwanted", "textKo": "사랑받지 못하거나 필요 없는 사람이 되는 것", "scores": { "type2": 3 } },
+        { "id": "q2c", "text": "Being worthless or seen as a failure", "textKo": "가치 없거나 실패자로 보이는 것", "scores": { "type3": 3 } },
+        { "id": "q2d", "text": "Having no identity or personal significance", "textKo": "정체성이 없거나 개인적인 의미가 없는 것", "scores": { "type4": 3 } },
+        { "id": "q2e", "text": "Being helpless, incapable, or overwhelmed", "textKo": "무력하거나 무능하거나 압도당하는 것", "scores": { "type5": 3 } },
+        { "id": "q2f", "text": "Losing security or support", "textKo": "안전이나 지지를 잃는 것", "scores": { "type6": 3 } },
+        { "id": "q2g", "text": "Being deprived or stuck in pain", "textKo": "박탈당하거나 고통 속에 갇히는 것", "scores": { "type7": 3 } },
+        { "id": "q2h", "text": "Being controlled or harmed by others", "textKo": "다른 사람들에게 통제되거나 해를 입는 것", "scores": { "type8": 3 } },
+        { "id": "q2i", "text": "Conflict, disconnection, or loss of peace", "textKo": "갈등, 단절, 또는 평화를 잃는 것", "scores": { "type9": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How do others typically describe you?",
+      "textKo": "다른 사람들이 보통 당신을 어떻게 표현하나요?",
+      "options": [
+        { "id": "q3a", "text": "Principled, detail-oriented, sometimes critical", "textKo": "원칙적이고 세심하며 때로는 비판적이다", "scores": { "type1": 2 } },
+        { "id": "q3b", "text": "Warm, generous, always giving", "textKo": "따뜻하고 관대하며 항상 베푼다", "scores": { "type2": 2 } },
+        { "id": "q3c", "text": "Driven, charming, goal-focused", "textKo": "추진력 있고 매력적이며 목표 지향적이다", "scores": { "type3": 2 } },
+        { "id": "q3d", "text": "Expressive, sensitive, creative", "textKo": "표현력 있고 민감하며 창의적이다", "scores": { "type4": 2 } },
+        { "id": "q3e", "text": "Observant, private, very knowledgeable", "textKo": "관찰력 있고 내성적이며 지식이 풍부하다", "scores": { "type5": 2 } },
+        { "id": "q3f", "text": "Loyal, hardworking, sometimes anxious", "textKo": "충실하고 부지런하며 때로는 불안해 보인다", "scores": { "type6": 2 } },
+        { "id": "q3g", "text": "Fun, spontaneous, and enthusiastic", "textKo": "재미있고 즉흥적이며 열정적이다", "scores": { "type7": 2 } },
+        { "id": "q3h", "text": "Confident, protective, direct", "textKo": "자신감 있고 보호적이며 직접적이다", "scores": { "type8": 2 } },
+        { "id": "q3i", "text": "Easy-going, adaptable, patient", "textKo": "느긋하고 적응력 있으며 인내심 있다", "scores": { "type9": 2 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Under stress, you tend to...",
+      "textKo": "스트레스를 받을 때, 당신은 주로...",
+      "options": [
+        { "id": "q4a", "text": "Become overly critical of yourself and others", "textKo": "자신과 타인에게 지나치게 비판적이 된다", "scores": { "type1": 2 } },
+        { "id": "q4b", "text": "Feel unappreciated and become possessive", "textKo": "감사받지 못한다는 느낌과 집착이 생긴다", "scores": { "type2": 2 } },
+        { "id": "q4c", "text": "Work even harder and ignore emotions", "textKo": "더욱 열심히 일하고 감정을 무시한다", "scores": { "type3": 2 } },
+        { "id": "q4d", "text": "Withdraw and feel misunderstood", "textKo": "움츠러들고 오해받는 느낌이 든다", "scores": { "type4": 2 } },
+        { "id": "q4e", "text": "Isolate yourself and overthink", "textKo": "고립되고 과도하게 생각한다", "scores": { "type5": 2 } },
+        { "id": "q4f", "text": "Become suspicious and seek reassurance", "textKo": "의심스러워지고 안심을 구한다", "scores": { "type6": 2 } },
+        { "id": "q4g", "text": "Seek distraction and fun to escape", "textKo": "현실을 피하기 위해 즐거운 것을 찾는다", "scores": { "type7": 2 } },
+        { "id": "q4h", "text": "Become confrontational or controlling", "textKo": "대립적이 되거나 통제하려 한다", "scores": { "type8": 2 } },
+        { "id": "q4i", "text": "Shut down and become disengaged", "textKo": "마음을 닫고 무관심해진다", "scores": { "type9": 2 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Which sentence resonates with you most?",
+      "textKo": "다음 중 가장 공감되는 문장은?",
+      "options": [
+        { "id": "q5a", "text": "There's always a right way to do things.", "textKo": "모든 일에는 올바른 방법이 항상 있다.", "scores": { "type1": 2 } },
+        { "id": "q5b", "text": "I feel fulfilled when I help others.", "textKo": "다른 사람을 도울 때 충만함을 느낀다.", "scores": { "type2": 2 } },
+        { "id": "q5c", "text": "I'm focused on achieving my goals.", "textKo": "나는 목표 달성에 집중한다.", "scores": { "type3": 2 } },
+        { "id": "q5d", "text": "I feel like nobody truly understands me.", "textKo": "아무도 나를 진정으로 이해하지 못하는 것 같다.", "scores": { "type4": 2 } },
+        { "id": "q5e", "text": "I prefer to observe and think before acting.", "textKo": "행동하기 전에 관찰하고 생각하는 것을 선호한다.", "scores": { "type5": 2 } },
+        { "id": "q5f", "text": "I need to trust people before I open up.", "textKo": "마음을 열기 전에 먼저 신뢰가 필요하다.", "scores": { "type6": 2 } },
+        { "id": "q5g", "text": "Life is too short not to enjoy every moment.", "textKo": "매 순간을 즐기지 않기에는 삶이 너무 짧다.", "scores": { "type7": 2 } },
+        { "id": "q5h", "text": "I stand up for what I believe in, no matter what.", "textKo": "무슨 일이 있어도 내가 믿는 것을 위해 맞선다.", "scores": { "type8": 2 } },
+        { "id": "q5i", "text": "I try to avoid conflict and keep the peace.", "textKo": "갈등을 피하고 평화를 유지하려고 노력한다.", "scores": { "type9": 2 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "In your relationships, you are known for...",
+      "textKo": "당신의 관계에서 당신은 보통...",
+      "options": [
+        { "id": "q6a", "text": "High standards and honesty", "textKo": "높은 기준과 정직함으로 알려져 있다", "scores": { "type1": 2 } },
+        { "id": "q6b", "text": "Always being there for others", "textKo": "항상 다른 사람을 위해 있어주는 것으로 알려져 있다", "scores": { "type2": 2 } },
+        { "id": "q6c", "text": "Being ambitious and inspiring", "textKo": "야망 있고 영감을 주는 것으로 알려져 있다", "scores": { "type3": 2 } },
+        { "id": "q6d", "text": "Deep emotional connections", "textKo": "깊은 감정적 연결로 알려져 있다", "scores": { "type4": 2 } },
+        { "id": "q6e", "text": "Thoughtful, insightful conversations", "textKo": "사려 깊고 통찰력 있는 대화로 알려져 있다", "scores": { "type5": 2 } },
+        { "id": "q6f", "text": "Loyalty and dependability", "textKo": "충성심과 신뢰성으로 알려져 있다", "scores": { "type6": 2 } },
+        { "id": "q6g", "text": "Being fun and easy to be around", "textKo": "재미있고 함께하기 편한 것으로 알려져 있다", "scores": { "type7": 2 } },
+        { "id": "q6h", "text": "Protecting those you love fiercely", "textKo": "사랑하는 사람들을 강하게 지키는 것으로 알려져 있다", "scores": { "type8": 2 } },
+        { "id": "q6i", "text": "Being supportive and non-judgmental", "textKo": "지지적이고 판단하지 않는 것으로 알려져 있다", "scores": { "type9": 2 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Your biggest personal challenge is...",
+      "textKo": "당신의 가장 큰 개인적 도전은...",
+      "options": [
+        { "id": "q7a", "text": "Accepting imperfection in yourself and others", "textKo": "자신과 타인의 불완전함을 받아들이는 것", "scores": { "type1": 2 } },
+        { "id": "q7b", "text": "Recognizing your own needs and setting limits", "textKo": "자신의 필요를 인식하고 한계를 설정하는 것", "scores": { "type2": 2 } },
+        { "id": "q7c", "text": "Slowing down and connecting emotionally", "textKo": "속도를 늦추고 감정적으로 연결하는 것", "scores": { "type3": 2 } },
+        { "id": "q7d", "text": "Not getting lost in your emotions", "textKo": "감정에 빠져들지 않는 것", "scores": { "type4": 2 } },
+        { "id": "q7e", "text": "Engaging with others and sharing yourself", "textKo": "다른 사람들과 어울리고 자신을 나누는 것", "scores": { "type5": 2 } },
+        { "id": "q7f", "text": "Trusting yourself and letting go of doubt", "textKo": "자신을 믿고 의심을 내려놓는 것", "scores": { "type6": 2 } },
+        { "id": "q7g", "text": "Staying committed and dealing with painful feelings", "textKo": "헌신을 유지하고 고통스러운 감정을 다루는 것", "scores": { "type7": 2 } },
+        { "id": "q7h", "text": "Showing vulnerability and letting others in", "textKo": "취약함을 드러내고 다른 사람들이 다가오게 하는 것", "scores": { "type8": 2 } },
+        { "id": "q7i", "text": "Speaking up for yourself and making decisions", "textKo": "자신을 위해 목소리를 높이고 결정을 내리는 것", "scores": { "type9": 2 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "What do you value most?",
+      "textKo": "가장 중요하게 생각하는 것은?",
+      "options": [
+        { "id": "q8a", "text": "Integrity and doing what's right", "textKo": "성실함과 올바른 일을 하는 것", "scores": { "type1": 2 } },
+        { "id": "q8b", "text": "Love and deep relationships", "textKo": "사랑과 깊은 관계", "scores": { "type2": 2 } },
+        { "id": "q8c", "text": "Success and achievement", "textKo": "성공과 성취", "scores": { "type3": 2 } },
+        { "id": "q8d", "text": "Authenticity and self-expression", "textKo": "진정성과 자기 표현", "scores": { "type4": 2 } },
+        { "id": "q8e", "text": "Knowledge and understanding", "textKo": "지식과 이해", "scores": { "type5": 2 } },
+        { "id": "q8f", "text": "Security and trust", "textKo": "안전과 신뢰", "scores": { "type6": 2 } },
+        { "id": "q8g", "text": "Freedom and joy", "textKo": "자유와 기쁨", "scores": { "type7": 2 } },
+        { "id": "q8h", "text": "Power and justice", "textKo": "힘과 정의", "scores": { "type8": 2 } },
+        { "id": "q8i", "text": "Harmony and acceptance", "textKo": "조화와 수용", "scores": { "type9": 2 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "What kind of work makes you most fulfilled?",
+      "textKo": "어떤 종류의 일이 가장 보람 있나요?",
+      "options": [
+        { "id": "q9a", "text": "Work where I can improve and fix things", "textKo": "무언가를 개선하고 고칠 수 있는 일", "scores": { "type1": 2 } },
+        { "id": "q9b", "text": "Helping people directly and making a difference", "textKo": "사람들을 직접 돕고 변화를 만드는 일", "scores": { "type2": 2 } },
+        { "id": "q9c", "text": "High-profile work where I can be recognized", "textKo": "인정받을 수 있는 큰 일", "scores": { "type3": 2 } },
+        { "id": "q9d", "text": "Creative work where I can express myself", "textKo": "자신을 표현할 수 있는 창의적인 일", "scores": { "type4": 2 } },
+        { "id": "q9e", "text": "Research and analysis, deep thinking", "textKo": "연구와 분석, 깊은 생각이 필요한 일", "scores": { "type5": 2 } },
+        { "id": "q9f", "text": "Steady, reliable work in a safe environment", "textKo": "안전한 환경에서 꾸준하고 신뢰할 수 있는 일", "scores": { "type6": 2 } },
+        { "id": "q9g", "text": "Varied, exciting projects with lots of stimulation", "textKo": "다양하고 자극적인 프로젝트", "scores": { "type7": 2 } },
+        { "id": "q9h", "text": "Leadership with impact and real results", "textKo": "영향력 있고 실질적인 결과를 내는 리더십", "scores": { "type8": 2 } },
+        { "id": "q9i", "text": "Collaborative work that brings people together", "textKo": "사람들을 하나로 모으는 협력적인 일", "scores": { "type9": 2 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "type1",
+      "title": "The Reformer",
+      "titleKo": "개혁가 (1번 유형)",
+      "description": "You're principled, purposeful, self-controlled, and perfectionistic.",
+      "descriptionKo": "당신은 원칙적이고 목적의식이 강하며 자기 통제력이 있고 완벽주의적입니다. 높은 기준을 추구하며 세상을 더 나은 곳으로 만들고자 합니다.",
+      "traits": ["Principled", "Perfectionistic", "Ethical"],
+      "traitsKo": ["원칙적", "완벽주의", "윤리적"],
+      "emoji": "⚖️",
+      "gradient": "from-slate-500 to-gray-700"
+    },
+    {
+      "id": "type2",
+      "title": "The Helper",
+      "titleKo": "조력가 (2번 유형)",
+      "description": "You're caring, generous, and want to be loved and needed.",
+      "descriptionKo": "당신은 배려심 많고 관대하며 사랑받고 필요한 존재가 되고 싶어합니다. 다른 사람들을 위해 헌신하며 관계에서 큰 만족을 찾습니다.",
+      "traits": ["Caring", "Generous", "Supportive"],
+      "traitsKo": ["배려심 있는", "관대한", "지지적인"],
+      "emoji": "💝",
+      "gradient": "from-rose-400 to-pink-600"
+    },
+    {
+      "id": "type3",
+      "title": "The Achiever",
+      "titleKo": "성취자 (3번 유형)",
+      "description": "You're success-oriented, driven, and image-conscious.",
+      "descriptionKo": "당신은 성공 지향적이고 추진력 있으며 이미지를 중시합니다. 목표를 세우고 효율적으로 달성하는 능력이 뛰어나며 다른 사람들에게 영감을 줍니다.",
+      "traits": ["Ambitious", "Adaptable", "Driven"],
+      "traitsKo": ["야망 있는", "적응력 있는", "추진력 있는"],
+      "emoji": "🏆",
+      "gradient": "from-amber-400 to-yellow-600"
+    },
+    {
+      "id": "type4",
+      "title": "The Individualist",
+      "titleKo": "예술가 (4번 유형)",
+      "description": "You're expressive, dramatic, self-absorbed, and temperamental.",
+      "descriptionKo": "당신은 표현력이 풍부하고 자신만의 독특한 정체성을 추구합니다. 감수성이 예민하고 깊은 감정을 느끼며, 진정성과 아름다움을 중요하게 여깁니다.",
+      "traits": ["Creative", "Expressive", "Authentic"],
+      "traitsKo": ["창의적", "표현력 있는", "진정성 있는"],
+      "emoji": "🎨",
+      "gradient": "from-purple-400 to-indigo-600"
+    },
+    {
+      "id": "type5",
+      "title": "The Investigator",
+      "titleKo": "탐구자 (5번 유형)",
+      "description": "You're perceptive, innovative, and secretive.",
+      "descriptionKo": "당신은 통찰력 있고 혁신적이며 지식에 대한 깊은 갈망이 있습니다. 관찰하고 분석하는 것을 즐기며, 깊은 이해를 추구합니다.",
+      "traits": ["Analytical", "Perceptive", "Innovative"],
+      "traitsKo": ["분석적", "통찰력 있는", "혁신적"],
+      "emoji": "🔭",
+      "gradient": "from-blue-500 to-indigo-700"
+    },
+    {
+      "id": "type6",
+      "title": "The Loyalist",
+      "titleKo": "충성가 (6번 유형)",
+      "description": "You're engaging, responsible, anxious, and suspicious.",
+      "descriptionKo": "당신은 매력적이고 책임감 있으며 신뢰와 안전을 중요시합니다. 충성스럽고 헌신적이며, 문제를 예상하고 해결책을 준비하는 능력이 있습니다.",
+      "traits": ["Loyal", "Reliable", "Cautious"],
+      "traitsKo": ["충성스러운", "신뢰할 수 있는", "신중한"],
+      "emoji": "🛡️",
+      "gradient": "from-teal-400 to-cyan-600"
+    },
+    {
+      "id": "type7",
+      "title": "The Enthusiast",
+      "titleKo": "열정가 (7번 유형)",
+      "description": "You're spontaneous, versatile, and scattered.",
+      "descriptionKo": "당신은 즉흥적이고 다재다능하며 삶의 즐거움을 추구합니다. 긍정적이고 열정적이며, 새로운 경험에 열려 있습니다.",
+      "traits": ["Enthusiastic", "Spontaneous", "Versatile"],
+      "traitsKo": ["열정적", "즉흥적", "다재다능한"],
+      "emoji": "🎉",
+      "gradient": "from-orange-400 to-yellow-500"
+    },
+    {
+      "id": "type8",
+      "title": "The Challenger",
+      "titleKo": "도전자 (8번 유형)",
+      "description": "You're self-confident, decisive, and confrontational.",
+      "descriptionKo": "당신은 자신감 있고 결단력 있으며 도전을 두려워하지 않습니다. 강하고 보호적이며, 자신이 믿는 것을 위해 싸울 준비가 되어 있습니다.",
+      "traits": ["Confident", "Decisive", "Protective"],
+      "traitsKo": ["자신감 있는", "결단력 있는", "보호적인"],
+      "emoji": "🦁",
+      "gradient": "from-red-500 to-orange-600"
+    },
+    {
+      "id": "type9",
+      "title": "The Peacemaker",
+      "titleKo": "평화주의자 (9번 유형)",
+      "description": "You're receptive, reassuring, and complacent.",
+      "descriptionKo": "당신은 수용적이고 안심시켜 주며 내적 평화를 추구합니다. 조화롭고 타인과 잘 공감하며, 모든 관점을 이해하는 능력이 있습니다.",
+      "traits": ["Peaceful", "Supportive", "Receptive"],
+      "traitsKo": ["평화로운", "지지적인", "수용적인"],
+      "emoji": "☮️",
+      "gradient": "from-green-400 to-emerald-600"
+    }
+  ]
+}

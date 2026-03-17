@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "id": "introvert-spectrum",
+    "slug": "introvert-spectrum",
+    "title": "Introvert-Extrovert Spectrum Test",
+    "titleKo": "내향·외향 스펙트럼 테스트",
+    "description": "Find out where you fall on the introvert-extrovert spectrum",
+    "descriptionKo": "내향-외향 스펙트럼의 어디에 해당하는지 알아보세요",
+    "category": "self",
+    "questionCount": 12,
+    "estimatedMinutes": 3,
+    "academicSource": "Jung (1921) / Eysenck (1967)",
+    "gradient": "from-indigo-400 to-violet-600",
+    "emoji": "🔮"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "After a long social event, you feel...",
+      "textKo": "긴 사교 행사가 끝난 후, 당신은...",
+      "options": [
+        { "id": "q1a", "text": "Drained — you need quiet time to recharge", "textKo": "기운이 빠진다 - 재충전을 위한 조용한 시간이 필요하다", "scores": { "deep-introvert": 3 } },
+        { "id": "q1b", "text": "A bit tired but you enjoyed some parts", "textKo": "약간 피곤하지만 일부는 즐거웠다", "scores": { "ambivert-i": 3 } },
+        { "id": "q1c", "text": "Mostly fine but ready to wind down", "textKo": "대체로 괜찮지만 쉬고 싶다", "scores": { "ambivert-e": 3 } },
+        { "id": "q1d", "text": "Energized and not ready to go home yet", "textKo": "에너지가 넘치고 아직 집에 가기 싫다", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Your ideal Saturday looks like...",
+      "textKo": "이상적인 토요일은...",
+      "options": [
+        { "id": "q2a", "text": "Staying home with a good book or solo project", "textKo": "집에서 책이나 혼자 하는 프로젝트로 보낸다", "scores": { "deep-introvert": 3 } },
+        { "id": "q2b", "text": "A low-key hangout with one or two close friends", "textKo": "친한 친구 한두 명과 조용하게 시간을 보낸다", "scores": { "ambivert-i": 3 } },
+        { "id": "q2c", "text": "A mix of socializing and downtime", "textKo": "사교 활동과 휴식을 적절히 섞는다", "scores": { "ambivert-e": 3 } },
+        { "id": "q2d", "text": "A packed day of activities, people, and fun", "textKo": "활동과 사람, 즐거움으로 꽉 찬 하루를 보낸다", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When you have something to think through, you prefer to...",
+      "textKo": "무언가를 생각해야 할 때, 당신은 주로...",
+      "options": [
+        { "id": "q3a", "text": "Reflect quietly on your own before speaking", "textKo": "말하기 전에 혼자 조용히 생각한다", "scores": { "deep-introvert": 3 } },
+        { "id": "q3b", "text": "Think it through alone, then maybe talk to one person", "textKo": "혼자 정리한 후 한 사람에게 이야기한다", "scores": { "ambivert-i": 3 } },
+        { "id": "q3c", "text": "Think out loud with a trusted friend or two", "textKo": "믿을 수 있는 친구 한두 명과 소리 내어 생각한다", "scores": { "ambivert-e": 3 } },
+        { "id": "q3d", "text": "Talk it through with multiple people to get perspective", "textKo": "여러 사람과 이야기하며 다양한 관점을 얻는다", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How do you feel about working in open, collaborative spaces?",
+      "textKo": "열린 협업 공간에서 일하는 것에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q4a", "text": "Distracting — you work best with solitude and quiet", "textKo": "산만하다 - 혼자 조용한 환경에서 가장 잘 일한다", "scores": { "deep-introvert": 3 } },
+        { "id": "q4b", "text": "Manageable but you prefer more privacy", "textKo": "견딜 수 있지만 더 독립적인 공간이 좋다", "scores": { "ambivert-i": 3 } },
+        { "id": "q4c", "text": "Mostly fine — you can do both depending on the task", "textKo": "대체로 괜찮다 - 과제에 따라 둘 다 할 수 있다", "scores": { "ambivert-e": 3 } },
+        { "id": "q4d", "text": "Energizing — you thrive on team buzz and interaction", "textKo": "활기차다 - 팀의 분위기와 상호작용에서 힘을 얻는다", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "At a party where you don't know many people, you...",
+      "textKo": "잘 모르는 사람이 많은 파티에서, 당신은...",
+      "options": [
+        { "id": "q5a", "text": "Feel uncomfortable and stick close to who you know", "textKo": "불편하게 느끼고 아는 사람 곁에만 있는다", "scores": { "deep-introvert": 3 } },
+        { "id": "q5b", "text": "Have a few good conversations then need a break", "textKo": "몇 번 깊은 대화를 나눈 뒤 쉬고 싶다", "scores": { "ambivert-i": 3 } },
+        { "id": "q5c", "text": "Warm up gradually and enjoy it as the night goes on", "textKo": "시간이 지나면서 점점 분위기에 녹아들어 즐긴다", "scores": { "ambivert-e": 3 } },
+        { "id": "q5d", "text": "Love it — meeting new people is exciting", "textKo": "즐긴다 - 새로운 사람을 만나는 것이 신난다", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Your close friends would say you are...",
+      "textKo": "친한 친구들은 당신을 어떻게 표현할까요?",
+      "options": [
+        { "id": "q6a", "text": "Quiet, thoughtful, and deeply loyal", "textKo": "조용하고 사려 깊으며 깊이 의리 있는 사람", "scores": { "deep-introvert": 3 } },
+        { "id": "q6b", "text": "Warm but selective about who you let in", "textKo": "따뜻하지만 가까이 허용하는 사람을 가리는 사람", "scores": { "ambivert-i": 3 } },
+        { "id": "q6c", "text": "Friendly, easygoing, and fun in the right setting", "textKo": "상황에 따라 친근하고 편안하며 재미있는 사람", "scores": { "ambivert-e": 3 } },
+        { "id": "q6d", "text": "Outgoing, talkative, and always up for something", "textKo": "외향적이고 말이 많으며 늘 무언가를 하려는 사람", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How do you feel about small talk?",
+      "textKo": "가벼운 잡담에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q7a", "text": "Draining and hard — you prefer meaningful conversations", "textKo": "힘들고 소모적이다 - 깊이 있는 대화가 훨씬 좋다", "scores": { "deep-introvert": 3 } },
+        { "id": "q7b", "text": "Tolerable but you much prefer depth", "textKo": "견딜 수 있지만 깊이 있는 대화를 훨씬 선호한다", "scores": { "ambivert-i": 3 } },
+        { "id": "q7c", "text": "Fine as a starting point to deeper connection", "textKo": "더 깊은 연결의 시작점으로는 괜찮다", "scores": { "ambivert-e": 3 } },
+        { "id": "q7d", "text": "Fun and natural — you can chat with almost anyone", "textKo": "자연스럽고 즐겁다 - 거의 누구와도 이야기할 수 있다", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "When you need to restore your energy, you reach for...",
+      "textKo": "에너지를 회복해야 할 때, 당신이 선택하는 것은...",
+      "options": [
+        { "id": "q8a", "text": "Total solitude — time completely alone", "textKo": "완전한 고독 - 온전히 혼자인 시간", "scores": { "deep-introvert": 3 } },
+        { "id": "q8b", "text": "Quiet time, maybe with one trusted person nearby", "textKo": "조용한 시간, 신뢰하는 한 사람이 가까이 있을 수도 있다", "scores": { "ambivert-i": 3 } },
+        { "id": "q8c", "text": "A mix — some alone time and some light socializing", "textKo": "혼합 - 혼자만의 시간과 가벼운 사교 활동을 섞는다", "scores": { "ambivert-e": 3 } },
+        { "id": "q8d", "text": "People — being around others gives you energy", "textKo": "사람들 - 다른 사람들과 있으면 에너지가 생긴다", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "In a meeting or class, you tend to...",
+      "textKo": "회의나 수업에서 당신은 주로...",
+      "options": [
+        { "id": "q9a", "text": "Listen carefully and think before you say anything", "textKo": "조심스럽게 듣고 말하기 전에 충분히 생각한다", "scores": { "deep-introvert": 3 } },
+        { "id": "q9b", "text": "Contribute when you have something meaningful to add", "textKo": "의미 있는 것이 있을 때 기여한다", "scores": { "ambivert-i": 3 } },
+        { "id": "q9c", "text": "Participate actively once you feel comfortable", "textKo": "편안함을 느끼면 적극적으로 참여한다", "scores": { "ambivert-e": 3 } },
+        { "id": "q9d", "text": "Jump in freely and enjoy the discussion", "textKo": "자유롭게 뛰어들어 토론을 즐긴다", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Your idea of a perfect vacation is...",
+      "textKo": "완벽한 휴가는...",
+      "options": [
+        { "id": "q10a", "text": "A quiet retreat — nature, reading, and total peace", "textKo": "조용한 은둔 - 자연, 독서, 완전한 평화", "scores": { "deep-introvert": 3 } },
+        { "id": "q10b", "text": "A relaxed trip with one close companion", "textKo": "가까운 한 사람과 함께하는 여유로운 여행", "scores": { "ambivert-i": 3 } },
+        { "id": "q10c", "text": "A trip with a small group, balancing activities and rest", "textKo": "소규모 그룹과 함께 활동과 휴식의 균형을 맞춘 여행", "scores": { "ambivert-e": 3 } },
+        { "id": "q10d", "text": "An adventure packed with people, events, and nightlife", "textKo": "사람들과 이벤트, 나이트라이프로 가득한 모험", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "When you have free time with no plans, you feel...",
+      "textKo": "아무 계획 없는 자유 시간이 생기면, 당신은...",
+      "options": [
+        { "id": "q11a", "text": "Relieved and happy — you savor solitude", "textKo": "안도되고 기쁘다 - 고독을 즐긴다", "scores": { "deep-introvert": 3 } },
+        { "id": "q11b", "text": "Comfortable — you'll find meaningful ways to fill it alone", "textKo": "편안하다 - 혼자만의 의미 있는 방식으로 채울 것이다", "scores": { "ambivert-i": 3 } },
+        { "id": "q11c", "text": "Good — you might do something solo or reach out", "textKo": "좋다 - 혼자 뭔가 하거나 누군가에게 연락할 수도 있다", "scores": { "ambivert-e": 3 } },
+        { "id": "q11d", "text": "Restless — you'd rather be doing something with people", "textKo": "불안하다 - 사람들과 함께 뭔가를 하고 싶다", "scores": { "full-extrovert": 3 } }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "Which phrase feels most like you?",
+      "textKo": "가장 자신처럼 느껴지는 표현은?",
+      "options": [
+        { "id": "q12a", "text": "'I feel most like myself when I'm alone.'", "textKo": "'혼자 있을 때 가장 나다운 것 같다.'", "scores": { "deep-introvert": 3 } },
+        { "id": "q12b", "text": "'I enjoy people but need plenty of space.'", "textKo": "'사람들이 좋지만 충분한 공간이 필요하다.'", "scores": { "ambivert-i": 3 } },
+        { "id": "q12c", "text": "'I enjoy both being social and having time to myself.'", "textKo": "'사교 활동과 혼자만의 시간 모두 즐긴다.'", "scores": { "ambivert-e": 3 } },
+        { "id": "q12d", "text": "'I come alive around other people.'", "textKo": "'다른 사람들 주변에 있을 때 살아있음을 느낀다.'", "scores": { "full-extrovert": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "deep-introvert",
+      "title": "Deep Introvert",
+      "titleKo": "깊은 내향인",
+      "description": "You thrive in solitude and deep, one-on-one connections. Your inner world is rich and you need quiet to process, recharge, and feel like yourself.",
+      "descriptionKo": "고독과 깊은 일대일 관계에서 빛을 발합니다. 내면 세계가 풍요롭고 생각을 정리하고 재충전하며 자신다워지기 위해 조용함이 필요합니다. 깊이 있는 사유와 진정성 있는 연결을 추구하는 내면이 풍부한 사람입니다.",
+      "traits": ["Reflective", "Deep", "Self-sufficient"],
+      "traitsKo": ["성찰적인", "깊이 있는", "자기 충족적인"],
+      "emoji": "🔮",
+      "gradient": "from-indigo-500 to-violet-700"
+    },
+    {
+      "id": "ambivert-i",
+      "title": "Introverted Ambivert",
+      "titleKo": "내향적 양향인",
+      "description": "You lean introvert but have real capacity for social connection when it matters. You carefully select your social investments and they tend to be deep and meaningful.",
+      "descriptionKo": "내향 쪽에 가깝지만 필요할 때 사회적 연결을 잘 맺을 수 있습니다. 사회적 투자를 신중하게 선택하며, 그것은 대체로 깊고 의미 있습니다. 선택한 관계에서는 진실하고 깊은 유대를 형성하는 능력이 있습니다.",
+      "traits": ["Selective", "Thoughtful", "Deep connection"],
+      "traitsKo": ["선택적인", "사려 깊은", "깊은 연결을 추구하는"],
+      "emoji": "🌙",
+      "gradient": "from-indigo-400 to-violet-600"
+    },
+    {
+      "id": "ambivert-e",
+      "title": "Extroverted Ambivert",
+      "titleKo": "외향적 양향인",
+      "description": "You lean extrovert but also value and need downtime. You're socially skilled and comfortable, while knowing when you need to step back and reset.",
+      "descriptionKo": "외향 쪽에 가깝지만 휴식 시간도 소중히 여깁니다. 사회적으로 능숙하고 편안하면서도 언제 물러서서 재설정해야 하는지 압니다. 사교성과 자기 돌봄의 균형을 잘 맞추는 유연한 사람입니다.",
+      "traits": ["Flexible", "Socially comfortable", "Balanced"],
+      "traitsKo": ["유연한", "사교적으로 편안한", "균형 잡힌"],
+      "emoji": "✨",
+      "gradient": "from-violet-400 to-fuchsia-500"
+    },
+    {
+      "id": "full-extrovert",
+      "title": "Full Extrovert",
+      "titleKo": "완전한 외향인",
+      "description": "You come alive in the company of others. Social interaction energizes you, and you bring warmth, enthusiasm, and momentum wherever you go.",
+      "descriptionKo": "다른 사람들과 함께할 때 살아납니다. 사회적 상호작용이 에너지를 주고, 어디를 가든 따뜻함과 열정, 추진력을 가져옵니다. 사람들과의 연결이 당신의 삶에서 가장 중요한 에너지원입니다.",
+      "traits": ["Outgoing", "Energizing", "People-oriented"],
+      "traitsKo": ["외향적인", "에너지를 주는", "사람 중심적인"],
+      "emoji": "🌟",
+      "gradient": "from-fuchsia-400 to-pink-500"
+    }
+  ]
+}

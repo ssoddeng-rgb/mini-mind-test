@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "id": "love-languages",
+    "slug": "love-languages",
+    "title": "Love Languages",
+    "titleKo": "사랑의 언어 테스트",
+    "description": "Discover how you prefer to give and receive love",
+    "descriptionKo": "당신이 사랑을 주고받는 방식을 알아보세요",
+    "category": "romance",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Chapman (1992)",
+    "gradient": "from-rose-400 to-pink-600",
+    "emoji": "💝"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "I feel most loved when my partner...",
+      "textKo": "파트너가 이럴 때 가장 사랑받는 느낌이다...",
+      "options": [
+        { "id": "q1a", "text": "Tells me they love me and gives compliments", "textKo": "사랑한다고 말하고 칭찬해 줄 때", "scores": { "words": 2 } },
+        { "id": "q1b", "text": "Spends quality time with me", "textKo": "나와 함께 있어 줄 때", "scores": { "time": 2 } },
+        { "id": "q1c", "text": "Gives me thoughtful gifts", "textKo": "정성스러운 선물을 해줄 때", "scores": { "gifts": 2 } },
+        { "id": "q1d", "text": "Does helpful things for me", "textKo": "도움이 되는 일을 해줄 때", "scores": { "acts": 2 } },
+        { "id": "q1e", "text": "Hugs, holds hands, or touches me affectionately", "textKo": "안아주고, 손잡아 주고, 다정하게 스킨십할 때", "scores": { "touch": 2 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When I want to show love, I tend to...",
+      "textKo": "사랑을 표현할 때 나는 주로...",
+      "options": [
+        { "id": "q2a", "text": "Say sweet things and give encouragement", "textKo": "달콤한 말과 응원을 한다", "scores": { "words": 2 } },
+        { "id": "q2b", "text": "Plan special activities together", "textKo": "함께할 특별한 활동을 계획한다", "scores": { "time": 2 } },
+        { "id": "q2c", "text": "Find or make the perfect gift", "textKo": "완벽한 선물을 찾거나 만든다", "scores": { "gifts": 2 } },
+        { "id": "q2d", "text": "Help with tasks and chores", "textKo": "일이나 집안일을 도와준다", "scores": { "acts": 2 } },
+        { "id": "q2e", "text": "Give hugs and physical affection", "textKo": "안아주고 스킨십으로 표현한다", "scores": { "touch": 2 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "It upsets me most when my partner...",
+      "textKo": "파트너가 이럴 때 가장 속상하다...",
+      "options": [
+        { "id": "q3a", "text": "Criticizes me or doesn't say kind words", "textKo": "비판하거나 다정한 말을 하지 않을 때", "scores": { "words": 2 } },
+        { "id": "q3b", "text": "Is always distracted when we're together", "textKo": "함께 있을 때 항상 딴 생각을 할 때", "scores": { "time": 2 } },
+        { "id": "q3c", "text": "Forgets important dates or never gives gifts", "textKo": "중요한 날을 잊거나 선물을 전혀 안 할 때", "scores": { "gifts": 2 } },
+        { "id": "q3d", "text": "Doesn't help when I'm struggling", "textKo": "내가 힘들 때 도와주지 않을 때", "scores": { "acts": 2 } },
+        { "id": "q3e", "text": "Avoids physical contact with me", "textKo": "나와의 신체 접촉을 피할 때", "scores": { "touch": 2 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "My ideal date would be...",
+      "textKo": "나의 이상적인 데이트는...",
+      "options": [
+        { "id": "q4a", "text": "Deep conversations where we share our hearts", "textKo": "마음을 나누는 깊은 대화를 하는 것", "scores": { "words": 2 } },
+        { "id": "q4b", "text": "Being fully present together, without phones", "textKo": "핸드폰 없이 온전히 함께하는 것", "scores": { "time": 2 } },
+        { "id": "q4c", "text": "Surprising each other with thoughtful gifts", "textKo": "서로 깜짝 선물을 주는 것", "scores": { "gifts": 2 } },
+        { "id": "q4d", "text": "Working together on a project or cooking", "textKo": "함께 프로젝트를 하거나 요리하는 것", "scores": { "acts": 2 } },
+        { "id": "q4e", "text": "Cuddling while watching a movie", "textKo": "영화를 보며 함께 붙어 있는 것", "scores": { "touch": 2 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "After a hard day, what helps you most?",
+      "textKo": "힘든 하루 후에 가장 도움이 되는 것은?",
+      "options": [
+        { "id": "q5a", "text": "Hearing 'I'm proud of you' or words of comfort", "textKo": "'잘했어', '자랑스러워' 같은 위로와 격려의 말", "scores": { "words": 2 } },
+        { "id": "q5b", "text": "My partner putting away their phone and listening", "textKo": "파트너가 핸드폰을 내려놓고 집중해서 들어주는 것", "scores": { "time": 2 } },
+        { "id": "q5c", "text": "A small surprise treat or gift", "textKo": "작은 깜짝 선물이나 간식", "scores": { "gifts": 2 } },
+        { "id": "q5d", "text": "My partner cooking dinner or running a bath", "textKo": "파트너가 저녁을 차려주거나 목욕을 준비해 주는 것", "scores": { "acts": 2 } },
+        { "id": "q5e", "text": "A long warm hug", "textKo": "따뜻한 긴 포옹", "scores": { "touch": 2 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "I feel the most disconnected when my partner...",
+      "textKo": "파트너가 이럴 때 가장 멀게 느껴진다...",
+      "options": [
+        { "id": "q6a", "text": "Doesn't acknowledge my efforts verbally", "textKo": "내 노력을 말로 인정해 주지 않을 때", "scores": { "words": 2 } },
+        { "id": "q6b", "text": "Is physically present but mentally elsewhere", "textKo": "몸은 함께 있지만 마음은 딴 곳에 있을 때", "scores": { "time": 2 } },
+        { "id": "q6c", "text": "Doesn't remember things that matter to me", "textKo": "나에게 중요한 것들을 기억하지 못할 때", "scores": { "gifts": 2 } },
+        { "id": "q6d", "text": "Doesn't notice when I need help", "textKo": "내가 도움이 필요할 때 알아채지 못할 때", "scores": { "acts": 2 } },
+        { "id": "q6e", "text": "Stops being physically affectionate", "textKo": "스킨십이 없어질 때", "scores": { "touch": 2 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "On my birthday, the best gift would be...",
+      "textKo": "생일에 가장 좋은 선물은...",
+      "options": [
+        { "id": "q7a", "text": "A heartfelt letter or card with their feelings", "textKo": "마음을 담은 편지나 카드", "scores": { "words": 2 } },
+        { "id": "q7b", "text": "A whole day together doing what I love", "textKo": "내가 좋아하는 것을 함께 하루 종일 하는 것", "scores": { "time": 2 } },
+        { "id": "q7c", "text": "A carefully chosen, meaningful gift", "textKo": "정성껏 고른 의미 있는 선물", "scores": { "gifts": 2 } },
+        { "id": "q7d", "text": "Them handling all my responsibilities for the day", "textKo": "하루 동안 내 모든 일을 대신 처리해 주는 것", "scores": { "acts": 2 } },
+        { "id": "q7e", "text": "Lots of hugs and being close all day", "textKo": "하루 종일 안아주고 가까이 있는 것", "scores": { "touch": 2 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "When I feel insecure in a relationship, what reassures me most?",
+      "textKo": "관계에서 불안할 때 가장 안심이 되는 것은?",
+      "options": [
+        { "id": "q8a", "text": "My partner saying 'I love you' and 'I'm here for you'", "textKo": "파트너가 '사랑해', '늘 여기 있어'라고 말해줄 때", "scores": { "words": 2 } },
+        { "id": "q8b", "text": "Spending uninterrupted time together", "textKo": "방해 없이 함께하는 시간을 보낼 때", "scores": { "time": 2 } },
+        { "id": "q8c", "text": "Receiving a token of love or thinking-of-you gift", "textKo": "'당신을 생각했어'라는 의미의 작은 선물을 받을 때", "scores": { "gifts": 2 } },
+        { "id": "q8d", "text": "My partner doing something helpful without being asked", "textKo": "파트너가 말하지 않아도 도움을 줄 때", "scores": { "acts": 2 } },
+        { "id": "q8e", "text": "Being held or having physical closeness", "textKo": "안겨 있거나 신체적으로 가까이 있을 때", "scores": { "touch": 2 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "The most romantic thing a partner can do is...",
+      "textKo": "파트너가 할 수 있는 가장 로맨틱한 것은...",
+      "options": [
+        { "id": "q9a", "text": "Write me a love poem or send sweet messages", "textKo": "사랑 편지나 달콤한 메시지를 보내는 것", "scores": { "words": 2 } },
+        { "id": "q9b", "text": "Plan a special trip or experience just for us", "textKo": "우리만을 위한 특별한 여행이나 경험을 계획하는 것", "scores": { "time": 2 } },
+        { "id": "q9c", "text": "Surprise me with something I've been wanting", "textKo": "내가 갖고 싶었던 것을 깜짝 선물로 주는 것", "scores": { "gifts": 2 } },
+        { "id": "q9d", "text": "Take care of something stressful so I don't have to", "textKo": "내가 신경 쓰지 않아도 되도록 스트레스받는 일을 처리해 주는 것", "scores": { "acts": 2 } },
+        { "id": "q9e", "text": "Hold my hand in public or give spontaneous hugs", "textKo": "공공장소에서 손잡거나 갑자기 안아주는 것", "scores": { "touch": 2 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "In a long-distance relationship, what keeps me feeling connected?",
+      "textKo": "장거리 연애에서 연결감을 유지시켜 주는 것은?",
+      "options": [
+        { "id": "q10a", "text": "Frequent texts and voice messages expressing love", "textKo": "자주 주고받는 애정 어린 문자와 음성 메시지", "scores": { "words": 2 } },
+        { "id": "q10b", "text": "Regular video calls where we're just 'together'", "textKo": "그냥 함께 있는 것 같은 정기적인 영상 통화", "scores": { "time": 2 } },
+        { "id": "q10c", "text": "Sending and receiving surprise packages", "textKo": "깜짝 소포를 주고받는 것", "scores": { "gifts": 2 } },
+        { "id": "q10d", "text": "Them helping me solve problems remotely", "textKo": "원격으로 내 문제를 해결하는 데 도움을 주는 것", "scores": { "acts": 2 } },
+        { "id": "q10e", "text": "When we reunite, lots of holding each other", "textKo": "다시 만났을 때 오래 안고 있는 것", "scores": { "touch": 2 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "words",
+      "title": "Words of Affirmation",
+      "titleKo": "인정하는 말",
+      "description": "Verbal expressions of love mean the most to you. Compliments, encouragement, and 'I love you' fill your heart.",
+      "descriptionKo": "언어적 사랑 표현이 당신에게 가장 의미 있습니다. 칭찬, 격려, 그리고 '사랑해'라는 말이 당신의 마음을 가득 채웁니다. 진심 어린 말 한마디가 어떤 것보다 소중하게 느껴집니다.",
+      "traits": ["Verbal", "Expressive", "Encouraging"],
+      "traitsKo": ["언어적", "표현력 있는", "격려하는"],
+      "emoji": "💬",
+      "gradient": "from-pink-400 to-rose-500"
+    },
+    {
+      "id": "time",
+      "title": "Quality Time",
+      "titleKo": "함께하는 시간",
+      "description": "Undivided attention and quality time together makes you feel most loved.",
+      "descriptionKo": "온전한 관심과 함께하는 시간이 당신을 가장 사랑받게 느끼게 합니다. 파트너와 함께 있을 때 진정으로 집중하는 것이 당신에게 매우 중요합니다.",
+      "traits": ["Present", "Attentive", "Connected"],
+      "traitsKo": ["현재에 집중하는", "주의를 기울이는", "연결된"],
+      "emoji": "⏰",
+      "gradient": "from-violet-400 to-purple-600"
+    },
+    {
+      "id": "gifts",
+      "title": "Receiving Gifts",
+      "titleKo": "선물",
+      "description": "Thoughtful gifts are a powerful symbol of love and affection for you.",
+      "descriptionKo": "정성스러운 선물은 당신에게 사랑과 애정의 강력한 상징입니다. 선물의 가격보다는 상대방이 당신을 생각했다는 마음이 중요합니다.",
+      "traits": ["Appreciative", "Sentimental", "Thoughtful"],
+      "traitsKo": ["감사하는", "감성적", "사려깊은"],
+      "emoji": "🎁",
+      "gradient": "from-amber-400 to-orange-500"
+    },
+    {
+      "id": "acts",
+      "title": "Acts of Service",
+      "titleKo": "봉사 행동",
+      "description": "Actions speak louder than words. When someone does helpful things for you, it shows love.",
+      "descriptionKo": "행동이 말보다 강합니다. 누군가 당신을 위해 도움이 되는 일을 해줄 때 사랑을 느낍니다. 작은 배려 행동 하나가 당신에게는 큰 의미입니다.",
+      "traits": ["Helpful", "Practical", "Action-oriented"],
+      "traitsKo": ["도움을 주는", "실용적", "행동 중심적"],
+      "emoji": "🤲",
+      "gradient": "from-emerald-400 to-green-600"
+    },
+    {
+      "id": "touch",
+      "title": "Physical Touch",
+      "titleKo": "신체 접촉",
+      "description": "Physical presence and touch are your primary love language. Hugs and closeness connect you deeply.",
+      "descriptionKo": "신체적 존재감과 접촉이 당신의 주요 사랑 언어입니다. 포옹과 가까운 거리가 당신을 깊이 연결시켜 줍니다. 사랑하는 사람의 따뜻한 손길이 말보다 많은 것을 전달합니다.",
+      "traits": ["Physical", "Warm", "Connected"],
+      "traitsKo": ["신체적", "따뜻한", "연결된"],
+      "emoji": "🤗",
+      "gradient": "from-red-400 to-rose-600"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "stress-style",
+    "slug": "stress-style",
+    "title": "Stress Coping Style Test",
+    "titleKo": "스트레스 대처 유형 테스트",
+    "description": "Discover how you naturally cope with stress and pressure",
+    "descriptionKo": "스트레스와 압박에 당신이 어떻게 대처하는지 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Lazarus & Folkman (1984)",
+    "gradient": "from-teal-400 to-cyan-600",
+    "emoji": "🌊"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When a big problem appears, your first instinct is to...",
+      "textKo": "큰 문제가 생겼을 때 당신의 첫 번째 본능은?",
+      "options": [
+        { "id": "q1a", "text": "Break it down and create an action plan", "textKo": "문제를 분석하고 행동 계획을 세운다", "scores": { "problem-solver": 3 } },
+        { "id": "q1b", "text": "Calm yourself down before doing anything", "textKo": "먼저 마음을 가라앉힌 뒤 행동한다", "scores": { "emotion-regulator": 3 } },
+        { "id": "q1c", "text": "Call someone you trust to talk it over", "textKo": "믿을 수 있는 사람에게 전화해 이야기한다", "scores": { "support-seeker": 3 } },
+        { "id": "q1d", "text": "Take a step back and hope it resolves itself", "textKo": "한 발짝 물러나 저절로 해결되기를 기대한다", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When you're overwhelmed with work, you...",
+      "textKo": "업무에 압도될 때 당신은...",
+      "options": [
+        { "id": "q2a", "text": "Prioritize tasks and tackle them one by one", "textKo": "할 일을 우선순위로 정리하고 하나씩 처리한다", "scores": { "problem-solver": 3 } },
+        { "id": "q2b", "text": "Take a short break to reset emotionally", "textKo": "감정을 리셋하기 위해 잠깐 휴식을 취한다", "scores": { "emotion-regulator": 3 } },
+        { "id": "q2c", "text": "Ask for help from a colleague or friend", "textKo": "동료나 친구에게 도움을 요청한다", "scores": { "support-seeker": 3 } },
+        { "id": "q2d", "text": "Distract yourself and deal with it later", "textKo": "다른 것에 집중하고 나중에 처리한다", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When you feel anxious about the future, you tend to...",
+      "textKo": "미래에 대해 불안할 때 당신은 주로...",
+      "options": [
+        { "id": "q3a", "text": "Research and prepare as much as possible", "textKo": "최대한 조사하고 준비한다", "scores": { "problem-solver": 3 } },
+        { "id": "q3b", "text": "Practice mindfulness or journaling to process feelings", "textKo": "마음챙김이나 일기로 감정을 정리한다", "scores": { "emotion-regulator": 3 } },
+        { "id": "q3c", "text": "Seek reassurance from someone close", "textKo": "가까운 사람에게 위로를 구한다", "scores": { "support-seeker": 3 } },
+        { "id": "q3d", "text": "Try not to think about it for now", "textKo": "지금 당장은 생각하지 않으려 한다", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "After a stressful day, how do you most want to unwind?",
+      "textKo": "스트레스가 많은 하루를 보낸 후 어떻게 풀고 싶나요?",
+      "options": [
+        { "id": "q4a", "text": "Review the day and plan how to tackle tomorrow better", "textKo": "하루를 되돌아보고 내일을 더 잘 대비한다", "scores": { "problem-solver": 2 } },
+        { "id": "q4b", "text": "Do something soothing — exercise, music, or a bath", "textKo": "운동, 음악, 목욕 등으로 마음을 달랜다", "scores": { "emotion-regulator": 3 } },
+        { "id": "q4c", "text": "Vent to a friend or family member", "textKo": "친구나 가족에게 털어놓는다", "scores": { "support-seeker": 3 } },
+        { "id": "q4d", "text": "Watch something mindless and zone out", "textKo": "아무 생각 없이 볼 수 있는 것을 보며 멍하게 있는다", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "When a conflict at work causes you stress, you...",
+      "textKo": "직장에서 갈등으로 스트레스를 받으면 당신은...",
+      "options": [
+        { "id": "q5a", "text": "Address it directly and look for a solution", "textKo": "직접 대면하고 해결책을 찾는다", "scores": { "problem-solver": 3 } },
+        { "id": "q5b", "text": "Work on managing your emotional reaction first", "textKo": "먼저 내 감정 반응을 조절하는 데 집중한다", "scores": { "emotion-regulator": 3 } },
+        { "id": "q5c", "text": "Talk to a trusted coworker about what happened", "textKo": "믿을 수 있는 동료에게 상황을 이야기한다", "scores": { "support-seeker": 3 } },
+        { "id": "q5d", "text": "Ignore it and hope the tension passes", "textKo": "무시하고 긴장이 사라지기를 기대한다", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When you're dealing with uncertainty, your coping strategy is...",
+      "textKo": "불확실한 상황에 처했을 때 당신의 대처 전략은...",
+      "options": [
+        { "id": "q6a", "text": "Gather information and create contingency plans", "textKo": "정보를 모으고 대비책을 마련한다", "scores": { "problem-solver": 3 } },
+        { "id": "q6b", "text": "Accept the uncertainty and focus on staying calm", "textKo": "불확실성을 받아들이고 침착함을 유지하는 데 집중한다", "scores": { "emotion-regulator": 3 } },
+        { "id": "q6c", "text": "Lean on your support network for guidance", "textKo": "지지 네트워크에 의지해 조언을 구한다", "scores": { "support-seeker": 3 } },
+        { "id": "q6d", "text": "Avoid thinking about it until you have to", "textKo": "어쩔 수 없을 때까지 생각하지 않는다", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "When you feel emotionally drained, you recharge by...",
+      "textKo": "감정적으로 소진됐을 때 당신이 회복하는 방법은...",
+      "options": [
+        { "id": "q7a", "text": "Channeling that energy into productive work", "textKo": "그 에너지를 생산적인 일에 쏟아붓는다", "scores": { "problem-solver": 2 } },
+        { "id": "q7b", "text": "Spending quiet time processing your emotions", "textKo": "조용한 시간을 갖고 감정을 정리한다", "scores": { "emotion-regulator": 3 } },
+        { "id": "q7c", "text": "Being around people who give you energy", "textKo": "에너지를 주는 사람들과 함께한다", "scores": { "support-seeker": 3 } },
+        { "id": "q7d", "text": "Completely shutting down and doing nothing", "textKo": "완전히 차단하고 아무것도 하지 않는다", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Stress, to you, is best described as...",
+      "textKo": "스트레스는 당신에게 어떤 의미인가요?",
+      "options": [
+        { "id": "q8a", "text": "A problem to solve with the right approach", "textKo": "올바른 접근법으로 해결해야 할 문제", "scores": { "problem-solver": 3 } },
+        { "id": "q8b", "text": "A signal to check in with myself emotionally", "textKo": "내 감정 상태를 점검해야 한다는 신호", "scores": { "emotion-regulator": 3 } },
+        { "id": "q8c", "text": "A reminder to lean on others more", "textKo": "타인에게 더 기댈 때임을 알려주는 것", "scores": { "support-seeker": 3 } },
+        { "id": "q8d", "text": "Something uncomfortable I'd rather not face", "textKo": "가능하면 마주하고 싶지 않은 불편한 것", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When things go wrong despite your best efforts, you...",
+      "textKo": "최선을 다했는데도 일이 잘못됐을 때, 당신은...",
+      "options": [
+        { "id": "q9a", "text": "Analyze what went wrong and adjust your approach", "textKo": "무엇이 잘못됐는지 분석하고 접근법을 수정한다", "scores": { "problem-solver": 3 } },
+        { "id": "q9b", "text": "Allow yourself to feel the frustration, then move on", "textKo": "좌절감을 충분히 느낀 후 앞으로 나아간다", "scores": { "emotion-regulator": 3 } },
+        { "id": "q9c", "text": "Seek comfort and perspective from someone you trust", "textKo": "신뢰하는 사람에게 위로와 관점을 구한다", "scores": { "support-seeker": 3 } },
+        { "id": "q9d", "text": "Try to put it out of your mind for a while", "textKo": "한동안 마음에서 지우려 한다", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Your ideal stress-free environment looks like...",
+      "textKo": "당신이 생각하는 이상적인 스트레스 없는 환경은...",
+      "options": [
+        { "id": "q10a", "text": "Everything is organized and I have clear goals", "textKo": "모든 것이 정돈되어 있고 명확한 목표가 있다", "scores": { "problem-solver": 3 } },
+        { "id": "q10b", "text": "I feel emotionally balanced and at peace", "textKo": "감정적으로 균형이 잡혀 있고 평화롭다", "scores": { "emotion-regulator": 3 } },
+        { "id": "q10c", "text": "I'm surrounded by supportive and caring people", "textKo": "지지하고 배려하는 사람들에게 둘러싸여 있다", "scores": { "support-seeker": 3 } },
+        { "id": "q10d", "text": "I have no pressure or responsibilities for a while", "textKo": "한동안 아무런 압박이나 책임이 없다", "scores": { "avoider": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "problem-solver",
+      "title": "Problem Solver",
+      "titleKo": "문제 해결형",
+      "description": "You tackle stress head-on by analyzing the situation and finding concrete solutions. You thrive when you have agency and a clear plan.",
+      "descriptionKo": "당신은 상황을 분석하고 구체적인 해결책을 찾아 스트레스에 정면으로 맞섭니다. 주도권을 갖고 명확한 계획이 있을 때 빛을 발합니다. 어려운 상황에서도 냉철하게 방법을 찾아내는 능력이 있습니다.",
+      "traits": ["Analytical", "Proactive", "Solution-focused"],
+      "traitsKo": ["분석적인", "주도적인", "해결 지향적인"],
+      "emoji": "🔧",
+      "gradient": "from-teal-400 to-cyan-600"
+    },
+    {
+      "id": "emotion-regulator",
+      "title": "Emotion Regulator",
+      "titleKo": "감정 조절형",
+      "description": "You manage stress by regulating your emotional state first. Inner calm is your foundation, and you know how to restore it.",
+      "descriptionKo": "당신은 먼저 감정 상태를 조절함으로써 스트레스를 관리합니다. 내면의 평온함이 당신의 기반이며, 그것을 회복하는 방법을 알고 있습니다. 감정 조절 능력이 뛰어나 스트레스 상황에서도 균형을 유지합니다.",
+      "traits": ["Self-regulating", "Mindful", "Calm"],
+      "traitsKo": ["자기 조절이 잘 되는", "마음챙김을 하는", "침착한"],
+      "emoji": "🌊",
+      "gradient": "from-cyan-400 to-blue-500"
+    },
+    {
+      "id": "support-seeker",
+      "title": "Support Seeker",
+      "titleKo": "지지 추구형",
+      "description": "You manage stress by reaching out to others. Connection and shared experience help you feel grounded and understood.",
+      "descriptionKo": "당신은 다른 사람들에게 손을 내밀어 스트레스를 관리합니다. 연결과 공유된 경험이 안정감과 이해받는 느낌을 줍니다. 관계의 힘을 통해 어려운 시간을 이겨내는 사회적 강점이 있습니다.",
+      "traits": ["Connected", "Open", "Relational"],
+      "traitsKo": ["연결을 중시하는", "개방적인", "관계 지향적인"],
+      "emoji": "🤝",
+      "gradient": "from-emerald-400 to-teal-500"
+    },
+    {
+      "id": "avoider",
+      "title": "Avoider",
+      "titleKo": "회피형",
+      "description": "When stress hits, you tend to step back and create distance from the problem. While this can offer temporary relief, building more active coping strategies can help you feel more in control.",
+      "descriptionKo": "스트레스가 닥치면 한 발짝 물러나 문제와 거리를 두는 경향이 있습니다. 일시적인 안도감을 줄 수 있지만, 더 적극적인 대처 전략을 키우면 더 큰 통제감을 느낄 수 있습니다. 자신만의 회복 방식을 찾아가는 과정 중에 있습니다.",
+      "traits": ["Withdrawing", "Reflective", "Conflict-averse"],
+      "traitsKo": ["거리를 두는", "자기만의 시간이 필요한", "갈등을 피하는"],
+      "emoji": "🌿",
+      "gradient": "from-sky-400 to-teal-500"
+    }
+  ]
+}

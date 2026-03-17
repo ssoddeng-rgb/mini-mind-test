@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "communication-style",
+    "slug": "communication-style",
+    "title": "My Communication Style",
+    "titleKo": "나의 소통 스타일은?",
+    "description": "Discover how you naturally communicate and connect with others",
+    "descriptionKo": "당신이 자연스럽게 소통하고 연결하는 방식을 알아보세요",
+    "category": "friendship",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Mehrabian (1971) / Norton (1983)",
+    "gradient": "from-sky-400 to-blue-600",
+    "emoji": "💬"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you share information with others, you tend to...",
+      "textKo": "다른 사람들에게 정보를 전달할 때, 당신은 주로...",
+      "options": [
+        { "id": "q1a", "text": "Use vivid stories and animated examples", "textKo": "생생한 이야기와 생동감 있는 예시를 사용한다", "scores": { "expressive": 3 } },
+        { "id": "q1b", "text": "Present facts and logical structure clearly", "textKo": "사실과 논리적 구조를 명확하게 제시한다", "scores": { "analytical": 3 } },
+        { "id": "q1c", "text": "Get to the point quickly and efficiently", "textKo": "빠르고 효율적으로 핵심을 짚는다", "scores": { "driver": 3 } },
+        { "id": "q1d", "text": "Make sure everyone feels included and comfortable", "textKo": "모든 사람이 포함되고 편안하게 느끼도록 한다", "scores": { "amiable": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "In a group discussion, your role is usually to...",
+      "textKo": "그룹 토론에서 당신의 역할은 주로...",
+      "options": [
+        { "id": "q2a", "text": "Energize the conversation and inspire enthusiasm", "textKo": "대화에 활기를 불어넣고 열정을 불러일으킨다", "scores": { "expressive": 3 } },
+        { "id": "q2b", "text": "Bring data, evidence, and careful reasoning", "textKo": "데이터, 근거, 신중한 논리를 가져온다", "scores": { "analytical": 3 } },
+        { "id": "q2c", "text": "Push the group toward a decision and action", "textKo": "그룹이 결정과 행동으로 나아가게 이끈다", "scores": { "driver": 3 } },
+        { "id": "q2d", "text": "Make sure quieter people have a chance to speak", "textKo": "조용한 사람들이 말할 기회를 갖도록 배려한다", "scores": { "amiable": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When giving feedback, you naturally...",
+      "textKo": "피드백을 줄 때, 당신은 자연스럽게...",
+      "options": [
+        { "id": "q3a", "text": "Frame it with enthusiasm and encouragement", "textKo": "열정과 격려로 포장한다", "scores": { "expressive": 3 } },
+        { "id": "q3b", "text": "Be thorough and specific with supporting rationale", "textKo": "지지하는 근거와 함께 꼼꼼하고 구체적으로 한다", "scores": { "analytical": 3 } },
+        { "id": "q3c", "text": "Be direct and concise — no sugarcoating", "textKo": "직접적이고 간결하게 - 포장하지 않는다", "scores": { "driver": 3 } },
+        { "id": "q3d", "text": "Lead with empathy and focus on what they did well", "textKo": "공감으로 시작하고 잘한 것에 집중한다", "scores": { "amiable": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "What frustrates you most in conversations?",
+      "textKo": "대화에서 가장 답답한 것은?",
+      "options": [
+        { "id": "q4a", "text": "When people are too rigid or unenthusiastic", "textKo": "사람들이 너무 딱딱하거나 열의 없을 때", "scores": { "expressive": 3 } },
+        { "id": "q4b", "text": "When people make claims without evidence", "textKo": "근거 없이 주장할 때", "scores": { "analytical": 3 } },
+        { "id": "q4c", "text": "When conversations drag on without a point", "textKo": "요점 없이 대화가 질질 이어질 때", "scores": { "driver": 3 } },
+        { "id": "q4d", "text": "When people are dismissive or unkind", "textKo": "사람들이 무시하거나 불친절할 때", "scores": { "amiable": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "When you want to persuade someone, you tend to...",
+      "textKo": "누군가를 설득하고 싶을 때, 당신은 주로...",
+      "options": [
+        { "id": "q5a", "text": "Appeal to their emotions and paint a vivid picture", "textKo": "감정에 호소하고 생생한 그림을 그려준다", "scores": { "expressive": 3 } },
+        { "id": "q5b", "text": "Present a well-researched, logical argument", "textKo": "잘 조사된 논리적 주장을 제시한다", "scores": { "analytical": 3 } },
+        { "id": "q5c", "text": "Focus on the practical benefits and results", "textKo": "실질적인 이점과 결과에 집중한다", "scores": { "driver": 3 } },
+        { "id": "q5d", "text": "Build rapport and let them come around in their own time", "textKo": "친밀감을 쌓고 스스로 마음이 열릴 때까지 기다린다", "scores": { "amiable": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How do you prefer to receive important information?",
+      "textKo": "중요한 정보를 받을 때 선호하는 방식은?",
+      "options": [
+        { "id": "q6a", "text": "Through an engaging conversation with a personal touch", "textKo": "개인적인 감성이 담긴 활기찬 대화를 통해", "scores": { "expressive": 3 } },
+        { "id": "q6b", "text": "In writing, with clear structure and detailed backup", "textKo": "명확한 구조와 상세한 근거가 담긴 문서로", "scores": { "analytical": 3 } },
+        { "id": "q6c", "text": "A concise summary of what matters and what to do", "textKo": "중요한 것과 해야 할 일의 간결한 요약으로", "scores": { "driver": 3 } },
+        { "id": "q6d", "text": "A relaxed chat where questions feel welcome", "textKo": "질문이 환영받는 편안한 대화를 통해", "scores": { "amiable": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "People who know you well would say you communicate...",
+      "textKo": "당신을 잘 아는 사람들은 당신이 이렇게 소통한다고 할 것이다...",
+      "options": [
+        { "id": "q7a", "text": "With flair — you make conversations memorable", "textKo": "개성 있게 - 대화를 기억에 남게 만든다", "scores": { "expressive": 3 } },
+        { "id": "q7b", "text": "Precisely — you always have your facts straight", "textKo": "정확하게 - 항상 사실을 바탕으로 한다", "scores": { "analytical": 3 } },
+        { "id": "q7c", "text": "Directly — no beating around the bush", "textKo": "직접적으로 - 돌려 말하지 않는다", "scores": { "driver": 3 } },
+        { "id": "q7d", "text": "Warmly — people feel at ease talking to you", "textKo": "따뜻하게 - 사람들이 편안하게 이야기한다", "scores": { "amiable": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "In a tense discussion, you...",
+      "textKo": "긴장된 토론에서 당신은...",
+      "options": [
+        { "id": "q8a", "text": "Lighten the mood and add warmth to the exchange", "textKo": "분위기를 부드럽게 하고 따뜻함을 더한다", "scores": { "expressive": 2 } },
+        { "id": "q8b", "text": "Stick to the facts and avoid emotional escalation", "textKo": "사실에 집중하고 감정적 확대를 피한다", "scores": { "analytical": 3 } },
+        { "id": "q8c", "text": "Push through to a resolution without delay", "textKo": "지체 없이 해결로 밀고 나아간다", "scores": { "driver": 3 } },
+        { "id": "q8d", "text": "Focus on maintaining respect and relationship", "textKo": "존중과 관계 유지에 집중한다", "scores": { "amiable": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When meeting someone new, you typically...",
+      "textKo": "새로운 사람을 만날 때 당신은 보통...",
+      "options": [
+        { "id": "q9a", "text": "Jump into conversation and find things to connect on", "textKo": "대화로 뛰어들어 연결 고리를 찾는다", "scores": { "expressive": 3 } },
+        { "id": "q9b", "text": "Ask thoughtful questions to understand them better", "textKo": "깊이 있는 질문으로 상대를 더 잘 이해하려 한다", "scores": { "analytical": 3 } },
+        { "id": "q9c", "text": "Get to know them efficiently and find common ground", "textKo": "효율적으로 알아가며 공통점을 찾는다", "scores": { "driver": 3 } },
+        { "id": "q9d", "text": "Make them feel welcome and put them at ease", "textKo": "환영받는 느낌을 주고 편안하게 해준다", "scores": { "amiable": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What do you most want others to feel after talking with you?",
+      "textKo": "당신과 대화 후 상대방이 어떻게 느끼기를 가장 원하나요?",
+      "options": [
+        { "id": "q10a", "text": "Energized and inspired", "textKo": "활력을 얻고 영감을 받았다", "scores": { "expressive": 3 } },
+        { "id": "q10b", "text": "Better informed and clearer about the topic", "textKo": "더 잘 알게 되고 주제에 대해 명확해졌다", "scores": { "analytical": 3 } },
+        { "id": "q10c", "text": "Focused, clear on next steps, ready to act", "textKo": "집중되고, 다음 단계가 명확하며, 행동할 준비가 됐다", "scores": { "driver": 3 } },
+        { "id": "q10d", "text": "Valued, heard, and genuinely cared for", "textKo": "소중하게 여겨지고, 들었으며, 진심으로 배려받았다", "scores": { "amiable": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "expressive",
+      "title": "The Expressive",
+      "titleKo": "표현형",
+      "description": "You communicate with passion, creativity, and warmth. You light up rooms with your storytelling and make people feel emotionally engaged.",
+      "descriptionKo": "열정, 창의성, 따뜻함으로 소통합니다. 이야기로 분위기를 밝히고 사람들이 감정적으로 몰입하게 만듭니다. 당신의 표현력은 사람들을 끌어당기는 자석 같은 힘이 있습니다.",
+      "traits": ["Passionate", "Storytelling", "Energizing"],
+      "traitsKo": ["열정적인", "이야기를 잘 하는", "에너지를 주는"],
+      "emoji": "💬",
+      "gradient": "from-sky-400 to-blue-500"
+    },
+    {
+      "id": "analytical",
+      "title": "The Analytical",
+      "titleKo": "분석형",
+      "description": "You communicate with precision, depth, and structure. Others trust your judgment because you back everything up with thorough thinking.",
+      "descriptionKo": "정확성, 깊이, 구조로 소통합니다. 모든 것을 꼼꼼한 사고로 뒷받침하기 때문에 다른 사람들이 당신의 판단을 신뢰합니다. 복잡한 정보를 명확하게 전달하는 능력이 뛰어납니다.",
+      "traits": ["Precise", "Structured", "Evidence-based"],
+      "traitsKo": ["정확한", "체계적인", "근거에 기반한"],
+      "emoji": "🔍",
+      "gradient": "from-blue-400 to-indigo-500"
+    },
+    {
+      "id": "driver",
+      "title": "The Driver",
+      "titleKo": "추진형",
+      "description": "You communicate with clarity, confidence, and purpose. You cut through noise, keep things moving, and inspire people to take action.",
+      "descriptionKo": "명확성, 자신감, 목적의식으로 소통합니다. 소음을 차단하고 일을 추진하며 사람들이 행동에 나서게 합니다. 명확한 방향을 제시하는 리더십 있는 소통 방식을 가졌습니다.",
+      "traits": ["Direct", "Results-focused", "Decisive"],
+      "traitsKo": ["직접적인", "결과 지향적인", "결단력 있는"],
+      "emoji": "🚀",
+      "gradient": "from-indigo-400 to-violet-500"
+    },
+    {
+      "id": "amiable",
+      "title": "The Amiable",
+      "titleKo": "친화형",
+      "description": "You communicate with empathy, patience, and care. People feel genuinely heard in your presence, and you naturally create safe spaces for honest conversation.",
+      "descriptionKo": "공감, 인내심, 배려로 소통합니다. 당신 곁에서는 진정으로 들린다는 느낌을 받고, 자연스럽게 솔직한 대화를 위한 안전한 공간을 만들어냅니다. 관계를 소중히 여기는 따뜻한 소통 방식이 당신의 강점입니다.",
+      "traits": ["Warm", "Patient", "Inclusive"],
+      "traitsKo": ["따뜻한", "인내심 있는", "포용적인"],
+      "emoji": "🌸",
+      "gradient": "from-cyan-400 to-sky-500"
+    }
+  ]
+}

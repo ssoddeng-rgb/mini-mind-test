@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "emotional-intelligence",
+    "slug": "emotional-intelligence",
+    "title": "Emotional Intelligence Test (EQ)",
+    "titleKo": "감성 지능 테스트",
+    "description": "Discover your emotional intelligence style and how you understand and manage emotions",
+    "descriptionKo": "자신과 타인의 감정을 얼마나 잘 인식하고 다루는지 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Salovey & Mayer (1990) / Goleman (1995)",
+    "gradient": "from-amber-400 to-orange-500",
+    "emoji": "💡"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you notice you're feeling irritated, what do you do first?",
+      "textKo": "짜증이 난다는 것을 느꼈을 때, 당신이 제일 먼저 하는 것은?",
+      "options": [
+        { "id": "q1a", "text": "Identify the exact emotion and its cause", "textKo": "감정의 이름과 원인을 정확히 파악한다", "scores": { "emotional-aware": 3 } },
+        { "id": "q1b", "text": "Check how others around you are feeling", "textKo": "주변 사람들의 감정 상태도 살핀다", "scores": { "high-eq": 3 } },
+        { "id": "q1c", "text": "Try to navigate the situation to avoid conflict", "textKo": "갈등을 피하기 위해 상황을 조율하려 한다", "scores": { "social-navigator": 3 } },
+        { "id": "q1d", "text": "Remind yourself this is a chance to grow", "textKo": "성장의 기회라고 스스로를 다독인다", "scores": { "growth-seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "A close friend seems upset but says 'I'm fine.' You...",
+      "textKo": "친한 친구가 표정이 어두운데 '괜찮아'라고 한다. 당신은...",
+      "options": [
+        { "id": "q2a", "text": "Gently press — you can tell something's wrong", "textKo": "뭔가 잘못됐다는 걸 느끼고 조심스럽게 물어본다", "scores": { "high-eq": 3 } },
+        { "id": "q2b", "text": "Reflect on whether you may have caused their mood", "textKo": "내가 원인을 제공했는지 돌아본다", "scores": { "emotional-aware": 2 } },
+        { "id": "q2c", "text": "Give them space but stay available", "textKo": "공간을 주되 곁에 있어 준다", "scores": { "social-navigator": 3 } },
+        { "id": "q2d", "text": "Accept their words and wait for them to open up", "textKo": "말을 믿고 열릴 때까지 기다린다", "scores": { "growth-seeker": 2 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When you're in a bad mood, how does it affect your behavior?",
+      "textKo": "기분이 좋지 않을 때, 당신의 행동에 어떤 영향을 미치나요?",
+      "options": [
+        { "id": "q3a", "text": "I try not to let it show and keep things normal", "textKo": "티 내지 않으려 노력하고 평소처럼 행동한다", "scores": { "social-navigator": 3 } },
+        { "id": "q3b", "text": "I'm aware of it and consciously manage my reactions", "textKo": "인식하고 반응을 의식적으로 조절한다", "scores": { "emotional-aware": 3 } },
+        { "id": "q3c", "text": "I talk it through with someone I trust", "textKo": "믿을 수 있는 사람에게 이야기한다", "scores": { "high-eq": 2 } },
+        { "id": "q3d", "text": "I see it as information about what I need to work on", "textKo": "내가 무엇을 개선해야 할지 알려주는 정보로 본다", "scores": { "growth-seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "You're about to give important feedback to someone. You...",
+      "textKo": "누군가에게 중요한 피드백을 전달해야 할 때, 당신은...",
+      "options": [
+        { "id": "q4a", "text": "Think about how they'll feel and choose your words carefully", "textKo": "상대방의 감정을 생각해 말을 신중하게 고른다", "scores": { "high-eq": 3 } },
+        { "id": "q4b", "text": "Be honest even if it's uncomfortable", "textKo": "불편하더라도 솔직하게 말한다", "scores": { "emotional-aware": 2 } },
+        { "id": "q4c", "text": "Read the room and find the best moment to speak", "textKo": "분위기를 읽고 가장 좋은 타이밍을 찾는다", "scores": { "social-navigator": 3 } },
+        { "id": "q4d", "text": "Frame it as a learning opportunity for both of you", "textKo": "둘 모두의 배움의 기회로 표현한다", "scores": { "growth-seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "After a conflict, what do you typically do?",
+      "textKo": "갈등 후에 당신이 주로 하는 것은?",
+      "options": [
+        { "id": "q5a", "text": "Reflect on what emotions were at play for both sides", "textKo": "양쪽의 감정이 어땠는지 돌아본다", "scores": { "high-eq": 3 } },
+        { "id": "q5b", "text": "Analyze what triggered my emotional response", "textKo": "내 감정 반응의 원인을 분석한다", "scores": { "emotional-aware": 3 } },
+        { "id": "q5c", "text": "Work to repair the relationship quickly", "textKo": "관계를 빠르게 회복하려 노력한다", "scores": { "social-navigator": 3 } },
+        { "id": "q5d", "text": "Think about what I can do differently next time", "textKo": "다음에는 어떻게 다르게 할 수 있을지 생각한다", "scores": { "growth-seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Someone at work is struggling quietly. You...",
+      "textKo": "직장 동료가 조용히 힘들어하고 있는 것 같을 때, 당신은...",
+      "options": [
+        { "id": "q6a", "text": "Approach them privately and let them know you noticed", "textKo": "조용히 다가가 알아챘다고 말한다", "scores": { "high-eq": 3 } },
+        { "id": "q6b", "text": "Check in with yourself first — are you reading it right?", "textKo": "먼저 내 판단이 맞는지 스스로 점검한다", "scores": { "emotional-aware": 2 } },
+        { "id": "q6c", "text": "Create a comfortable environment so they feel safe", "textKo": "편안한 분위기를 만들어 스스로 말할 수 있게 한다", "scores": { "social-navigator": 3 } },
+        { "id": "q6d", "text": "Offer resources or suggest ways they could improve things", "textKo": "도움이 될 자료나 방법을 제안한다", "scores": { "growth-seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "You feel very anxious before an important presentation. You...",
+      "textKo": "중요한 발표 전에 불안감이 심하게 든다. 당신은...",
+      "options": [
+        { "id": "q7a", "text": "Acknowledge the anxiety and channel it into energy", "textKo": "불안을 인정하고 에너지로 전환한다", "scores": { "high-eq": 3 } },
+        { "id": "q7b", "text": "Trace back the source of the anxiety", "textKo": "불안의 근원이 무엇인지 거슬러 올라가 본다", "scores": { "emotional-aware": 3 } },
+        { "id": "q7c", "text": "Think about what the audience needs and focus on them", "textKo": "청중이 원하는 것에 집중해 나를 잊는다", "scores": { "social-navigator": 2 } },
+        { "id": "q7d", "text": "Treat it as practice — every experience builds skill", "textKo": "이것도 연습이라고 생각하고 기술을 쌓는 기회로 삼는다", "scores": { "growth-seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "What best describes how you handle joy or excitement?",
+      "textKo": "기쁨이나 흥분을 느낄 때 당신이 행동하는 방식은?",
+      "options": [
+        { "id": "q8a", "text": "Share it generously — emotions are meant to connect people", "textKo": "아낌없이 나눈다 - 감정은 사람을 연결하는 것이라고 생각한다", "scores": { "high-eq": 3 } },
+        { "id": "q8b", "text": "Savor it quietly and understand where it comes from", "textKo": "조용히 음미하고 어디서 오는 것인지 이해하려 한다", "scores": { "emotional-aware": 3 } },
+        { "id": "q8c", "text": "Use it to uplift the mood of those around you", "textKo": "주변 사람들의 분위기를 끌어올리는 데 활용한다", "scores": { "social-navigator": 3 } },
+        { "id": "q8d", "text": "Note what's working well so you can repeat it", "textKo": "무엇이 잘 되고 있는지 기록해 반복할 수 있게 한다", "scores": { "growth-seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When someone expresses a very different emotion from what you expected...",
+      "textKo": "누군가 예상과 전혀 다른 감정 반응을 보일 때, 당신은...",
+      "options": [
+        { "id": "q9a", "text": "Try to understand their perspective without judgment", "textKo": "판단 없이 그 사람의 관점에서 이해하려 한다", "scores": { "high-eq": 3 } },
+        { "id": "q9b", "text": "Reflect on whether you misread the situation", "textKo": "내가 상황을 잘못 읽은 것은 아닌지 반성한다", "scores": { "emotional-aware": 3 } },
+        { "id": "q9c", "text": "Adapt quickly to the new emotional tone", "textKo": "새로운 감정 분위기에 빠르게 적응한다", "scores": { "social-navigator": 3 } },
+        { "id": "q9d", "text": "Stay curious and ask questions to learn more", "textKo": "호기심을 갖고 더 알기 위해 질문한다", "scores": { "growth-seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "How would you describe your overall relationship with your own emotions?",
+      "textKo": "자신의 감정과의 관계를 어떻게 표현하겠나요?",
+      "options": [
+        { "id": "q10a", "text": "I understand my emotions and use them to connect with others", "textKo": "내 감정을 이해하고 타인과 연결하는 데 활용한다", "scores": { "high-eq": 3 } },
+        { "id": "q10b", "text": "I observe my emotions like data points about myself", "textKo": "감정을 나 자신에 대한 데이터처럼 관찰한다", "scores": { "emotional-aware": 3 } },
+        { "id": "q10c", "text": "I use my emotional awareness to navigate social situations", "textKo": "감정 인식을 사회적 상황을 헤쳐나가는 데 사용한다", "scores": { "social-navigator": 3 } },
+        { "id": "q10d", "text": "I see my emotional experiences as fuel for becoming better", "textKo": "감정 경험을 더 나은 사람이 되는 연료로 본다", "scores": { "growth-seeker": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "high-eq",
+      "title": "Empathic Leader",
+      "titleKo": "공감형 리더",
+      "description": "You have a natural gift for reading and responding to emotions — your own and others'. You lead with heart and build deep trust.",
+      "descriptionKo": "당신은 자신과 타인의 감정을 읽고 반응하는 타고난 재능이 있습니다. 감성으로 사람들을 이끌고 깊은 신뢰를 쌓습니다. 당신 주변 사람들은 이해받고 있다는 느낌을 자주 받습니다.",
+      "traits": ["Empathic", "Perceptive", "Connecting"],
+      "traitsKo": ["공감 능력이 높은", "감정을 잘 읽는", "유대감을 형성하는"],
+      "emoji": "💡",
+      "gradient": "from-amber-400 to-orange-500"
+    },
+    {
+      "id": "emotional-aware",
+      "title": "Self-Aware Thinker",
+      "titleKo": "자기 인식가",
+      "description": "You have a sharp awareness of your inner emotional world. You observe your feelings with clarity and use that insight wisely.",
+      "descriptionKo": "당신은 자신의 내면 감정 세계에 대한 예리한 인식을 가지고 있습니다. 감정을 명확하게 관찰하고 그 통찰력을 현명하게 활용합니다. 자기 이해가 깊어 스스로를 잘 조절할 수 있습니다.",
+      "traits": ["Self-aware", "Introspective", "Grounded"],
+      "traitsKo": ["자기 인식이 높은", "성찰적인", "자기 조절이 가능한"],
+      "emoji": "🔍",
+      "gradient": "from-yellow-400 to-amber-500"
+    },
+    {
+      "id": "social-navigator",
+      "title": "Social Navigator",
+      "titleKo": "사회적 탐색가",
+      "description": "You have a talent for reading group dynamics and emotional climates. You know how to move through social situations with grace and sensitivity.",
+      "descriptionKo": "당신은 집단의 역학과 감정적 분위기를 읽는 재능이 있습니다. 사회적 상황을 우아하고 섬세하게 헤쳐나갈 줄 압니다. 복잡한 인간관계 속에서도 균형을 유지하는 능력이 뛰어납니다.",
+      "traits": ["Adaptable", "Socially skilled", "Harmonious"],
+      "traitsKo": ["적응력 있는", "사회적 기술이 높은", "조화를 추구하는"],
+      "emoji": "🧭",
+      "gradient": "from-orange-400 to-red-500"
+    },
+    {
+      "id": "growth-seeker",
+      "title": "Growth Seeker",
+      "titleKo": "성장 추구자",
+      "description": "You treat every emotional experience as a stepping stone toward becoming a better version of yourself. You embrace challenges with curiosity.",
+      "descriptionKo": "당신은 모든 감정 경험을 더 나은 자신이 되기 위한 디딤돌로 삼습니다. 호기심으로 어려움을 받아들이고 끊임없이 발전하려 합니다. 감정을 성장의 연료로 전환하는 능력이 탁월합니다.",
+      "traits": ["Growth-oriented", "Curious", "Resilient"],
+      "traitsKo": ["성장 지향적인", "호기심 많은", "회복력 있는"],
+      "emoji": "🌱",
+      "gradient": "from-amber-500 to-yellow-400"
+    }
+  ]
+}

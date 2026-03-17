@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "self-esteem",
+    "slug": "self-esteem",
+    "title": "My Self-Esteem Level",
+    "titleKo": "나의 자존감 수준은?",
+    "description": "Explore your relationship with yourself and your sense of self-worth",
+    "descriptionKo": "자신과의 관계와 자기 가치감을 탐색해보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Rosenberg (1965)",
+    "gradient": "from-violet-400 to-purple-600",
+    "emoji": "🌟"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you make a mistake, how do you typically respond?",
+      "textKo": "실수를 했을 때 당신의 반응은 보통 어떤가요?",
+      "options": [
+        { "id": "q1a", "text": "Acknowledge it, learn from it, and move on without harsh self-blame", "textKo": "인정하고, 배우고, 자기 비난 없이 앞으로 나아간다", "scores": { "high-esteem": 3 } },
+        { "id": "q1b", "text": "Feel momentarily bad, then reframe it constructively", "textKo": "잠깐 속상하지만 건설적으로 재해석한다", "scores": { "moderate-esteem": 3 } },
+        { "id": "q1c", "text": "Feel quite bad but gradually recover with time", "textKo": "꽤 많이 속상하지만 시간이 지나면 회복한다", "scores": { "variable-esteem": 3 } },
+        { "id": "q1d", "text": "Dwell on it and question your own competence", "textKo": "계속 생각하며 자신의 능력을 의심한다", "scores": { "growing-esteem": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When someone compliments you, you...",
+      "textKo": "누군가 칭찬할 때 당신은...",
+      "options": [
+        { "id": "q2a", "text": "Accept it graciously and feel genuinely good", "textKo": "품위 있게 받아들이고 진심으로 기뻐한다", "scores": { "high-esteem": 3 } },
+        { "id": "q2b", "text": "Say thank you and feel pleased, though a little modest", "textKo": "감사하다고 하고 기뻐하지만 조금 겸손하게 반응한다", "scores": { "moderate-esteem": 3 } },
+        { "id": "q2c", "text": "Feel good in the moment but second-guess it later", "textKo": "그 순간은 기쁘지만 나중에 의심이 든다", "scores": { "variable-esteem": 3 } },
+        { "id": "q2d", "text": "Deflect or feel uncomfortable — you don't quite believe it", "textKo": "불편해하거나 흘려보낸다 - 믿기 어렵다", "scores": { "growing-esteem": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How do you feel about your own worth as a person?",
+      "textKo": "한 사람으로서 자신의 가치에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q3a", "text": "I have inherent worth that doesn't depend on achievement", "textKo": "성취와 무관하게 나는 고유한 가치가 있다", "scores": { "high-esteem": 3 } },
+        { "id": "q3b", "text": "I generally feel worthy, though I need reassurance sometimes", "textKo": "대체로 가치 있다고 느끼지만 가끔 확인이 필요하다", "scores": { "moderate-esteem": 3 } },
+        { "id": "q3c", "text": "It varies depending on how things are going", "textKo": "상황이 어떻게 돌아가느냐에 따라 달라진다", "scores": { "variable-esteem": 3 } },
+        { "id": "q3d", "text": "I often feel I need to earn my worth through what I do", "textKo": "종종 내가 한 일로 가치를 증명해야 한다고 느낀다", "scores": { "growing-esteem": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "When facing a challenge, your internal voice tends to say...",
+      "textKo": "도전에 직면했을 때, 당신의 내면의 목소리는 주로...",
+      "options": [
+        { "id": "q4a", "text": "'I can handle this. Let's see what I can do.'", "textKo": "'해낼 수 있어. 내가 뭘 할 수 있는지 보자.'", "scores": { "high-esteem": 3 } },
+        { "id": "q4b", "text": "'This is tough, but I've gotten through hard things before.'", "textKo": "'어렵긴 한데, 전에도 힘든 걸 이겨냈잖아.'", "scores": { "moderate-esteem": 3 } },
+        { "id": "q4c", "text": "'Maybe I can do it... or maybe I'll mess up.'", "textKo": "'할 수 있을 수도 있고... 망칠 수도 있지.'", "scores": { "variable-esteem": 3 } },
+        { "id": "q4d", "text": "'This might be too much for me. What if I fail?'", "textKo": "'나한테는 너무 어려울 수도 있어. 실패하면 어쩌지?'", "scores": { "growing-esteem": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How comfortable are you setting boundaries with others?",
+      "textKo": "다른 사람들과의 경계를 설정하는 것이 얼마나 편한가요?",
+      "options": [
+        { "id": "q5a", "text": "Very comfortable — I know my needs matter", "textKo": "매우 편하다 - 나의 필요가 중요하다는 것을 안다", "scores": { "high-esteem": 3 } },
+        { "id": "q5b", "text": "Generally okay, though it depends on the person", "textKo": "대체로 괜찮지만, 상대에 따라 다르다", "scores": { "moderate-esteem": 3 } },
+        { "id": "q5c", "text": "Sometimes okay, sometimes I cave under pressure", "textKo": "때로는 괜찮지만, 압박받으면 무너지기도 한다", "scores": { "variable-esteem": 3 } },
+        { "id": "q5d", "text": "Difficult — I worry it will damage the relationship", "textKo": "어렵다 - 관계가 나빠질까 걱정된다", "scores": { "growing-esteem": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When you compare yourself to others, you usually feel...",
+      "textKo": "다른 사람들과 자신을 비교할 때, 당신은 보통...",
+      "options": [
+        { "id": "q6a", "text": "Secure — comparison doesn't shake your sense of self", "textKo": "안정적이다 - 비교해도 자아감이 흔들리지 않는다", "scores": { "high-esteem": 3 } },
+        { "id": "q6b", "text": "Mostly okay, but occasionally a bit envious", "textKo": "대체로 괜찮지만 가끔 약간의 부러움을 느낀다", "scores": { "moderate-esteem": 3 } },
+        { "id": "q6c", "text": "Sometimes inspired, sometimes inadequate", "textKo": "때로는 자극받고, 때로는 부족하다고 느낀다", "scores": { "variable-esteem": 3 } },
+        { "id": "q6d", "text": "Often like you don't quite measure up", "textKo": "종종 충분하지 않다는 느낌이 든다", "scores": { "growing-esteem": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How do you talk to yourself when things go wrong?",
+      "textKo": "일이 잘못됐을 때 자신에게 어떻게 말하나요?",
+      "options": [
+        { "id": "q7a", "text": "With compassion — the same kindness I'd give a friend", "textKo": "친구에게 할 것처럼 친절하게 대한다", "scores": { "high-esteem": 3 } },
+        { "id": "q7b", "text": "Firmly but fairly — I acknowledge fault without overdoing it", "textKo": "단호하지만 공정하게 - 잘못을 인정하되 과하게 하지 않는다", "scores": { "moderate-esteem": 3 } },
+        { "id": "q7c", "text": "Harshly in the moment, better after I calm down", "textKo": "순간에는 가혹하게, 진정하면 나아진다", "scores": { "variable-esteem": 3 } },
+        { "id": "q7d", "text": "Very critically — I'm much harder on myself than others", "textKo": "매우 비판적으로 - 다른 사람보다 훨씬 가혹하게 대한다", "scores": { "growing-esteem": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How do external opinions about you affect you?",
+      "textKo": "자신에 대한 외부의 의견이 당신에게 어떤 영향을 미치나요?",
+      "options": [
+        { "id": "q8a", "text": "I consider them but they don't define me", "textKo": "고려하지만 그것이 나를 정의하지 않는다", "scores": { "high-esteem": 3 } },
+        { "id": "q8b", "text": "They matter, but I can take them in stride", "textKo": "중요하지만 침착하게 받아들일 수 있다", "scores": { "moderate-esteem": 3 } },
+        { "id": "q8c", "text": "Good feedback lifts me; criticism hits hard", "textKo": "좋은 피드백은 기운을 주지만 비판은 상처가 된다", "scores": { "variable-esteem": 3 } },
+        { "id": "q8d", "text": "Criticism tends to confirm my fears about myself", "textKo": "비판은 자신에 대한 두려움을 확인하는 것처럼 느껴진다", "scores": { "growing-esteem": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When you achieve something meaningful, you tend to...",
+      "textKo": "의미 있는 것을 성취했을 때, 당신은 주로...",
+      "options": [
+        { "id": "q9a", "text": "Feel proud and let yourself savor the moment", "textKo": "자랑스럽게 여기고 그 순간을 충분히 즐긴다", "scores": { "high-esteem": 3 } },
+        { "id": "q9b", "text": "Feel satisfied and share it with those close to you", "textKo": "만족감을 느끼고 가까운 사람들과 나눈다", "scores": { "moderate-esteem": 3 } },
+        { "id": "q9c", "text": "Feel happy briefly, then quickly move to the next worry", "textKo": "잠깐 기쁘다가 곧 다음 걱정으로 넘어간다", "scores": { "variable-esteem": 3 } },
+        { "id": "q9d", "text": "Wonder if you just got lucky or if it will last", "textKo": "운이 좋았던 것인지, 계속될 수 있는지 의심한다", "scores": { "growing-esteem": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Which statement best reflects your current relationship with yourself?",
+      "textKo": "현재 자신과의 관계를 가장 잘 표현하는 문장은?",
+      "options": [
+        { "id": "q10a", "text": "I like who I am and feel at ease in my own skin", "textKo": "나는 내가 좋고 내 모습 그대로 편안하다", "scores": { "high-esteem": 3 } },
+        { "id": "q10b", "text": "I mostly like myself, with things I'm still working on", "textKo": "대체로 나를 좋아하며, 계속 발전하고 있다", "scores": { "moderate-esteem": 3 } },
+        { "id": "q10c", "text": "My feelings about myself shift a lot depending on the day", "textKo": "나에 대한 감정이 날마다 많이 달라진다", "scores": { "variable-esteem": 3 } },
+        { "id": "q10d", "text": "I'm learning to be kinder to myself — it's a work in progress", "textKo": "나 자신에게 더 친절해지는 법을 배우는 중이다", "scores": { "growing-esteem": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "high-esteem",
+      "title": "High Self-Esteem",
+      "titleKo": "높은 자존감",
+      "description": "You have a stable, healthy sense of self-worth. You accept yourself — flaws included — and approach life from a place of inner security.",
+      "descriptionKo": "안정적이고 건강한 자기 가치감을 갖고 있습니다. 단점을 포함한 자신을 있는 그대로 받아들이고 내면의 안정감에서 삶을 대합니다. 타인의 평가에 흔들리지 않는 든든한 자아가 당신의 강점입니다.",
+      "traits": ["Self-accepting", "Secure", "Resilient"],
+      "traitsKo": ["자기 수용적인", "안정적인", "회복력 있는"],
+      "emoji": "🌟",
+      "gradient": "from-violet-400 to-purple-600"
+    },
+    {
+      "id": "moderate-esteem",
+      "title": "Stable Self-Esteem",
+      "titleKo": "안정적 자존감",
+      "description": "You have a generally positive view of yourself, with moments of doubt you handle well. Your self-esteem is a reliable foundation even when things get hard.",
+      "descriptionKo": "자신에 대해 전반적으로 긍정적인 시각을 가지며, 간헐적인 의심도 잘 다스립니다. 힘든 상황에서도 자존감이 믿을 수 있는 기반이 됩니다. 건강한 자기 인식과 현실적인 태도가 균형을 이루고 있습니다.",
+      "traits": ["Grounded", "Balanced", "Self-aware"],
+      "traitsKo": ["안정된", "균형 잡힌", "자기 인식이 있는"],
+      "emoji": "⭐",
+      "gradient": "from-purple-400 to-violet-500"
+    },
+    {
+      "id": "variable-esteem",
+      "title": "Fluctuating Self-Esteem",
+      "titleKo": "기복있는 자존감",
+      "description": "Your self-worth is tied to circumstances and how things are going. Success lifts you, setbacks knock you down. Building a more stable inner foundation is your next frontier.",
+      "descriptionKo": "자기 가치감이 상황과 일이 잘 풀리는지에 따라 달라집니다. 성공이 당신을 올리고, 좌절이 당신을 낮춥니다. 더 안정적인 내면의 기반을 구축하는 것이 다음 성장 단계입니다.",
+      "traits": ["Sensitive", "Context-dependent", "Emotionally aware"],
+      "traitsKo": ["감수성 있는", "상황에 민감한", "감정을 잘 느끼는"],
+      "emoji": "💜",
+      "gradient": "from-fuchsia-400 to-purple-500"
+    },
+    {
+      "id": "growing-esteem",
+      "title": "Growing Self-Esteem",
+      "titleKo": "성장 중인 자존감",
+      "description": "You're on a journey toward self-acceptance and inner confidence. The critical voice inside is still loud, but recognizing it is the first step toward changing it.",
+      "descriptionKo": "자기 수용과 내면의 자신감을 향한 여정 중에 있습니다. 내면의 비판적인 목소리가 아직 크지만, 그것을 인식하는 것이 변화의 첫 걸음입니다. 스스로에게 친절해지는 연습이 당신의 가장 중요한 성장 과제입니다.",
+      "traits": ["Self-aware", "Developing", "Seeking growth"],
+      "traitsKo": ["자기 인식이 있는", "발전 중인", "성장을 추구하는"],
+      "emoji": "🌱",
+      "gradient": "from-indigo-400 to-violet-500"
+    }
+  ]
+}

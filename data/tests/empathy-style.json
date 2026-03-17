@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "empathy-style",
+    "slug": "empathy-style",
+    "title": "My Empathy Style",
+    "titleKo": "나의 공감 스타일은?",
+    "description": "Discover how you naturally empathize and connect with others",
+    "descriptionKo": "당신이 자연스럽게 공감하고 타인과 연결하는 방식을 발견하세요",
+    "category": "friendship",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Davis (1980) IRI / Baron-Cohen (2003)",
+    "gradient": "from-pink-400 to-rose-500",
+    "emoji": "🤍"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When a friend is struggling, what comes most naturally to you?",
+      "textKo": "친구가 힘들어할 때, 가장 자연스럽게 나오는 것은?",
+      "options": [
+        { "id": "q1a", "text": "Trying to understand exactly what they're feeling and why", "textKo": "정확히 무엇을 느끼는지, 왜 그런지 이해하려 한다", "scores": { "cognitive-empath": 3 } },
+        { "id": "q1b", "text": "Feeling their pain deeply yourself", "textKo": "그들의 고통을 내 것처럼 깊이 느낀다", "scores": { "affective-empath": 3 } },
+        { "id": "q1c", "text": "Figuring out what you can do to help right now", "textKo": "지금 당장 도울 수 있는 것을 찾는다", "scores": { "action-empath": 3 } },
+        { "id": "q1d", "text": "Listening thoughtfully while offering both understanding and support", "textKo": "이해와 지지를 모두 제공하며 사려 깊게 듣는다", "scores": { "balanced-empath": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When watching a sad movie, you tend to...",
+      "textKo": "슬픈 영화를 볼 때, 당신은 주로...",
+      "options": [
+        { "id": "q2a", "text": "Analyze the character's emotional journey with curiosity", "textKo": "캐릭터의 감정 여정을 호기심 있게 분석한다", "scores": { "cognitive-empath": 3 } },
+        { "id": "q2b", "text": "Cry or feel deeply moved by what they're going through", "textKo": "그들이 겪는 것에 깊이 감동받아 울기도 한다", "scores": { "affective-empath": 3 } },
+        { "id": "q2c", "text": "Wonder how you could help if this were a real situation", "textKo": "실제 상황이라면 어떻게 도울 수 있을지 생각한다", "scores": { "action-empath": 2 } },
+        { "id": "q2d", "text": "Feel moved and reflect on what it means for real life", "textKo": "감동받고 실제 삶에서 무슨 의미인지 생각한다", "scores": { "balanced-empath": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When someone shares bad news with you, you instinctively...",
+      "textKo": "누군가 나쁜 소식을 전할 때, 당신은 본능적으로...",
+      "options": [
+        { "id": "q3a", "text": "Ask questions to understand the full picture", "textKo": "전체적인 상황을 이해하기 위해 질문한다", "scores": { "cognitive-empath": 3 } },
+        { "id": "q3b", "text": "Feel a wave of emotion — almost like it happened to you", "textKo": "마치 자신에게 일어난 것처럼 감정의 물결을 느낀다", "scores": { "affective-empath": 3 } },
+        { "id": "q3c", "text": "Immediately think about what practical help you can offer", "textKo": "즉시 어떤 실질적인 도움을 줄 수 있을지 생각한다", "scores": { "action-empath": 3 } },
+        { "id": "q3d", "text": "Sit with them first, then gently explore what they need", "textKo": "먼저 함께 있어주고 나서 무엇이 필요한지 부드럽게 탐색한다", "scores": { "balanced-empath": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "What do people most often say after sharing something hard with you?",
+      "textKo": "힘든 것을 나눈 후 사람들이 가장 자주 하는 말은?",
+      "options": [
+        { "id": "q4a", "text": "'You really understood what I was going through.'", "textKo": "'당신은 내가 겪는 걸 정말 이해했어요.'", "scores": { "cognitive-empath": 3 } },
+        { "id": "q4b", "text": "'I could feel that you really felt it with me.'", "textKo": "'같이 느껴준다는 게 느껴졌어요.'", "scores": { "affective-empath": 3 } },
+        { "id": "q4c", "text": "'You always know exactly what to do to help.'", "textKo": "'어떻게 도와야 하는지 정확히 알고 있어요.'", "scores": { "action-empath": 3 } },
+        { "id": "q4d", "text": "'I felt completely heard and supported.'", "textKo": "'완전히 들리고 지지받는 느낌이었어요.'", "scores": { "balanced-empath": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "After being around someone who is very upset, you feel...",
+      "textKo": "매우 속상한 사람 곁에 있고 난 후, 당신은...",
+      "options": [
+        { "id": "q5a", "text": "Mentally engaged but emotionally pretty stable", "textKo": "정신적으로 몰두했지만 감정적으로는 꽤 안정적이다", "scores": { "cognitive-empath": 3 } },
+        { "id": "q5b", "text": "Emotionally drained — you absorbed some of their pain", "textKo": "감정적으로 고갈됐다 - 그들의 고통을 흡수했다", "scores": { "affective-empath": 3 } },
+        { "id": "q5c", "text": "Energized if you helped, but restless if you couldn't", "textKo": "도왔다면 활력이 생기고, 그렇지 못했다면 불안하다", "scores": { "action-empath": 3 } },
+        { "id": "q5d", "text": "A mix — somewhat emotionally affected but centered", "textKo": "혼합적이다 - 약간 감정적으로 영향을 받지만 중심을 잡는다", "scores": { "balanced-empath": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When comforting someone, what feels most natural?",
+      "textKo": "누군가를 위로할 때, 가장 자연스럽게 나오는 것은?",
+      "options": [
+        { "id": "q6a", "text": "Listening deeply and reflecting back what they're feeling", "textKo": "깊이 듣고 그들이 느끼는 것을 반영해준다", "scores": { "cognitive-empath": 3 } },
+        { "id": "q6b", "text": "Sitting close and letting them know they're not alone", "textKo": "가까이 앉아 혼자가 아님을 알게 해준다", "scores": { "affective-empath": 3 } },
+        { "id": "q6c", "text": "Taking care of something concrete to lighten their load", "textKo": "부담을 덜어줄 구체적인 것을 처리해준다", "scores": { "action-empath": 3 } },
+        { "id": "q6d", "text": "Being present and following their lead on what they need", "textKo": "함께 있으며 그들이 필요한 것에 따른다", "scores": { "balanced-empath": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "You sense someone is sad even though they haven't said anything. You...",
+      "textKo": "아무 말도 하지 않았지만 누군가 슬프다고 느껴진다. 당신은...",
+      "options": [
+        { "id": "q7a", "text": "Check in gently and ask if they want to talk about it", "textKo": "조심스럽게 확인하고 이야기하고 싶은지 물어본다", "scores": { "cognitive-empath": 3 } },
+        { "id": "q7b", "text": "Sit close and let your presence show you care", "textKo": "가까이 앉아 존재로 관심을 표현한다", "scores": { "affective-empath": 3 } },
+        { "id": "q7c", "text": "Do something kind without making a big deal of it", "textKo": "큰 소란 없이 친절한 것을 해준다", "scores": { "action-empath": 3 } },
+        { "id": "q7d", "text": "Both acknowledge it and create space for them to open up", "textKo": "인정하면서도 열릴 수 있는 공간을 만들어준다", "scores": { "balanced-empath": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "What is your greatest strength when supporting others?",
+      "textKo": "다른 사람을 지지할 때 가장 큰 강점은?",
+      "options": [
+        { "id": "q8a", "text": "Truly getting what someone is experiencing from the inside", "textKo": "상대방이 내면적으로 경험하는 것을 진정으로 이해하는 것", "scores": { "cognitive-empath": 3 } },
+        { "id": "q8b", "text": "Making people feel genuinely not alone in their pain", "textKo": "고통 속에서 진정으로 혼자가 아님을 느끼게 하는 것", "scores": { "affective-empath": 3 } },
+        { "id": "q8c", "text": "Finding concrete ways to make their situation better", "textKo": "상황을 더 좋게 만들 구체적인 방법을 찾는 것", "scores": { "action-empath": 3 } },
+        { "id": "q8d", "text": "Adapting to whatever they need — emotional or practical", "textKo": "감정적이든 실질적이든 그들에게 필요한 것에 적응하는 것", "scores": { "balanced-empath": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Which of these feels most true about you?",
+      "textKo": "가장 자신에게 해당된다고 느끼는 것은?",
+      "options": [
+        { "id": "q9a", "text": "I'm very good at understanding what others are thinking and feeling", "textKo": "다른 사람들이 무엇을 생각하고 느끼는지 잘 이해한다", "scores": { "cognitive-empath": 3 } },
+        { "id": "q9b", "text": "I feel others' emotions almost as if they were my own", "textKo": "다른 사람들의 감정을 마치 내 것처럼 느낀다", "scores": { "affective-empath": 3 } },
+        { "id": "q9c", "text": "I show I care through what I do, not just what I say", "textKo": "말만이 아니라 행동으로 관심을 보여준다", "scores": { "action-empath": 3 } },
+        { "id": "q9d", "text": "I naturally shift between understanding and feeling and helping", "textKo": "이해하고 느끼고 돕는 것 사이를 자연스럽게 오간다", "scores": { "balanced-empath": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "When you think about empathy, what does it mean most to you?",
+      "textKo": "공감에 대해 생각할 때, 당신에게 가장 의미 있는 것은?",
+      "options": [
+        { "id": "q10a", "text": "Seeing the world through someone else's eyes", "textKo": "다른 사람의 눈으로 세상을 보는 것", "scores": { "cognitive-empath": 3 } },
+        { "id": "q10b", "text": "Feeling what someone else feels in your own heart", "textKo": "다른 사람이 느끼는 것을 내 마음 속에서 느끼는 것", "scores": { "affective-empath": 3 } },
+        { "id": "q10c", "text": "Taking meaningful action that shows someone you care", "textKo": "관심을 보여주는 의미 있는 행동을 취하는 것", "scores": { "action-empath": 3 } },
+        { "id": "q10d", "text": "Creating a space where someone feels fully seen and supported", "textKo": "누군가가 완전히 보이고 지지받는다고 느끼는 공간을 만드는 것", "scores": { "balanced-empath": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "cognitive-empath",
+      "title": "Cognitive Empath",
+      "titleKo": "인지적 공감가",
+      "description": "You are skilled at intellectually understanding what others are experiencing. You read people with precision, which makes you an insightful and trustworthy presence.",
+      "descriptionKo": "다른 사람들이 경험하는 것을 지적으로 이해하는 데 능숙합니다. 사람들을 정확하게 읽어내어 통찰력 있고 믿을 수 있는 존재가 됩니다. 상대방의 입장을 깊이 이해하고 그 관점을 소중히 여기는 사람입니다.",
+      "traits": ["Perceptive", "Analytical", "Understanding"],
+      "traitsKo": ["통찰력 있는", "분석적인", "이해심 깊은"],
+      "emoji": "🤍",
+      "gradient": "from-pink-400 to-rose-500"
+    },
+    {
+      "id": "affective-empath",
+      "title": "Affective Empath",
+      "titleKo": "정서적 공감가",
+      "description": "You feel the emotions of others deeply and authentically. Your warmth and emotional presence make people feel truly seen and never alone.",
+      "descriptionKo": "다른 사람들의 감정을 깊고 진정성 있게 느낍니다. 따뜻함과 감정적인 존재감이 사람들이 진정으로 보이고 결코 혼자가 아니라고 느끼게 합니다. 감정으로 연결하는 능력이 당신의 가장 큰 선물입니다.",
+      "traits": ["Warm", "Emotionally attuned", "Compassionate"],
+      "traitsKo": ["따뜻한", "감정적으로 동조하는", "연민 있는"],
+      "emoji": "💗",
+      "gradient": "from-rose-400 to-pink-500"
+    },
+    {
+      "id": "action-empath",
+      "title": "Action Empath",
+      "titleKo": "실천적 공감가",
+      "description": "You express empathy through what you do. You show care with tangible actions, and people know they can count on you to show up and help when it matters.",
+      "descriptionKo": "하는 일을 통해 공감을 표현합니다. 실질적인 행동으로 관심을 보여주며, 사람들은 중요할 때 나타나 도와줄 것을 신뢰합니다. 말보다 행동으로 마음을 전하는 것이 당신만의 공감 방식입니다.",
+      "traits": ["Helpful", "Reliable", "Practical"],
+      "traitsKo": ["도움이 되는", "믿을 수 있는", "실용적인"],
+      "emoji": "🌸",
+      "gradient": "from-fuchsia-400 to-pink-500"
+    },
+    {
+      "id": "balanced-empath",
+      "title": "Balanced Empath",
+      "titleKo": "균형잡힌 공감가",
+      "description": "You naturally blend understanding, emotional connection, and practical support. You read what's needed in the moment and respond with rare wholeness.",
+      "descriptionKo": "이해, 감정적 연결, 실질적 지지를 자연스럽게 조화시킵니다. 그 순간에 필요한 것을 읽고 드문 완전함으로 반응합니다. 공감의 다양한 측면을 유연하게 통합하는 능력이 당신의 특별한 강점입니다.",
+      "traits": ["Versatile", "Attentive", "Holistic"],
+      "traitsKo": ["다재다능한", "세심한", "전체적인"],
+      "emoji": "✨",
+      "gradient": "from-pink-300 to-rose-400"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "id": "big-five",
+    "slug": "big-five",
+    "title": "Big Five Personality",
+    "titleKo": "빅파이브 성격 검사",
+    "description": "Measure the five core dimensions of your personality",
+    "descriptionKo": "성격의 다섯 가지 핵심 차원을 측정해 보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Costa & McCrae (1992) / OCEAN Model",
+    "gradient": "from-violet-400 to-purple-600",
+    "emoji": "🌊"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "I enjoy trying new and different things in life.",
+      "textKo": "나는 새롭고 다양한 것들을 시도하는 것을 즐긴다.",
+      "options": [
+        { "id": "q1a", "text": "Very much like me", "textKo": "나와 매우 비슷하다", "scores": { "openness": 3 } },
+        { "id": "q1b", "text": "Somewhat like me", "textKo": "나와 어느 정도 비슷하다", "scores": { "openness": 2 } },
+        { "id": "q1c", "text": "Not really like me", "textKo": "나와 별로 비슷하지 않다", "scores": { "conscientiousness": 1 } },
+        { "id": "q1d", "text": "Not at all like me", "textKo": "나와 전혀 비슷하지 않다", "scores": { "conscientiousness": 2 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "I usually keep my things organized and follow plans.",
+      "textKo": "나는 보통 물건을 정리하고 계획을 잘 따른다.",
+      "options": [
+        { "id": "q2a", "text": "Yes, very organized", "textKo": "네, 매우 체계적이다", "scores": { "conscientiousness": 3 } },
+        { "id": "q2b", "text": "Somewhat organized", "textKo": "어느 정도 체계적이다", "scores": { "conscientiousness": 2 } },
+        { "id": "q2c", "text": "Not very organized", "textKo": "별로 체계적이지 않다", "scores": { "openness": 1 } },
+        { "id": "q2d", "text": "I prefer to be flexible and spontaneous", "textKo": "유연하고 즉흥적인 것을 선호한다", "scores": { "openness": 2 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "I love being around people and socializing.",
+      "textKo": "나는 사람들과 함께 있고 어울리는 것을 좋아한다.",
+      "options": [
+        { "id": "q3a", "text": "Absolutely, I thrive around people", "textKo": "확실히, 사람들 사이에서 활기를 얻는다", "scores": { "extraversion": 3 } },
+        { "id": "q3b", "text": "I enjoy it in moderation", "textKo": "적당히 즐긴다", "scores": { "extraversion": 2 } },
+        { "id": "q3c", "text": "I prefer smaller gatherings", "textKo": "소규모 모임을 선호한다", "scores": { "agreeableness": 1 } },
+        { "id": "q3d", "text": "I prefer alone time or one-on-one", "textKo": "혼자 있거나 일대일을 선호한다", "scores": { "neuroticism": 1 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "I genuinely care about others' feelings and wellbeing.",
+      "textKo": "나는 타인의 감정과 안녕을 진심으로 걱정한다.",
+      "options": [
+        { "id": "q4a", "text": "Very strongly — I'm very empathetic", "textKo": "매우 강하게 - 나는 매우 공감 능력이 높다", "scores": { "agreeableness": 3 } },
+        { "id": "q4b", "text": "I try my best to be considerate", "textKo": "배려하려고 최선을 다한다", "scores": { "agreeableness": 2 } },
+        { "id": "q4c", "text": "Sometimes, but I focus on logic", "textKo": "가끔, 하지만 논리에 집중한다", "scores": { "conscientiousness": 1 } },
+        { "id": "q4d", "text": "I tend to be more objective than emotional", "textKo": "감정보다 객관적인 편이다", "scores": { "openness": 1 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "I sometimes feel anxious, stressed, or emotionally unstable.",
+      "textKo": "나는 때때로 불안하거나 스트레스를 받거나 감정적으로 불안정하다.",
+      "options": [
+        { "id": "q5a", "text": "Often — my emotions are intense", "textKo": "자주 - 감정이 강렬하다", "scores": { "neuroticism": 3 } },
+        { "id": "q5b", "text": "Sometimes, in stressful situations", "textKo": "가끔, 스트레스받는 상황에서", "scores": { "neuroticism": 2 } },
+        { "id": "q5c", "text": "Rarely, I'm quite stable emotionally", "textKo": "거의 없다, 감정적으로 꽤 안정적이다", "scores": { "agreeableness": 1 } },
+        { "id": "q5d", "text": "Barely ever — I stay calm under pressure", "textKo": "거의 없다 - 압박 속에서도 침착하다", "scores": { "conscientiousness": 1 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "I enjoy deep conversations about abstract ideas.",
+      "textKo": "나는 추상적인 아이디어에 대한 깊은 대화를 즐긴다.",
+      "options": [
+        { "id": "q6a", "text": "Yes, I find them fascinating", "textKo": "네, 매우 흥미롭다", "scores": { "openness": 3 } },
+        { "id": "q6b", "text": "I enjoy them sometimes", "textKo": "가끔 즐긴다", "scores": { "openness": 2 } },
+        { "id": "q6c", "text": "I prefer practical topics", "textKo": "실용적인 주제를 선호한다", "scores": { "conscientiousness": 2 } },
+        { "id": "q6d", "text": "I find them overwhelming or uninteresting", "textKo": "부담스럽거나 흥미롭지 않다", "scores": { "extraversion": 1 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "I finish what I start and follow through on commitments.",
+      "textKo": "나는 시작한 것을 끝내고 약속을 잘 지킨다.",
+      "options": [
+        { "id": "q7a", "text": "Always — I'm very reliable", "textKo": "항상 - 나는 매우 믿음직스럽다", "scores": { "conscientiousness": 3 } },
+        { "id": "q7b", "text": "Usually, I try my best", "textKo": "보통은, 최선을 다한다", "scores": { "conscientiousness": 2 } },
+        { "id": "q7c", "text": "Sometimes, depending on my interest", "textKo": "가끔, 관심 여부에 따라 다르다", "scores": { "openness": 1 } },
+        { "id": "q7d", "text": "I struggle with follow-through", "textKo": "마무리를 잘 못하는 편이다", "scores": { "neuroticism": 1 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "I'm the person who talks first and takes charge in groups.",
+      "textKo": "나는 그룹에서 먼저 말하고 주도하는 사람이다.",
+      "options": [
+        { "id": "q8a", "text": "Yes, I naturally take leadership", "textKo": "네, 자연스럽게 리더십을 발휘한다", "scores": { "extraversion": 3 } },
+        { "id": "q8b", "text": "Sometimes, when no one else does", "textKo": "가끔, 다른 사람이 없을 때", "scores": { "extraversion": 2 } },
+        { "id": "q8c", "text": "I prefer to observe first", "textKo": "먼저 관찰하는 것을 선호한다", "scores": { "agreeableness": 1 } },
+        { "id": "q8d", "text": "I'm quiet in groups, I prefer to listen", "textKo": "그룹에서 조용하게 듣는 편이다", "scores": { "neuroticism": 1 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When someone needs help, I volunteer right away.",
+      "textKo": "누군가 도움이 필요하면 바로 나선다.",
+      "options": [
+        { "id": "q9a", "text": "Always, helping others fulfills me", "textKo": "항상, 다른 사람을 돕는 것이 보람 있다", "scores": { "agreeableness": 3 } },
+        { "id": "q9b", "text": "Often, if I have the capacity", "textKo": "여력이 있으면 자주 돕는다", "scores": { "agreeableness": 2 } },
+        { "id": "q9c", "text": "Sometimes, if it doesn't conflict with my tasks", "textKo": "가끔, 내 일과 충돌하지 않으면", "scores": { "conscientiousness": 1 } },
+        { "id": "q9d", "text": "I need encouragement to step forward", "textKo": "먼저 나서기 위해 격려가 필요하다", "scores": { "neuroticism": 1 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "I worry about things that might go wrong.",
+      "textKo": "잘못될 수 있는 것들에 대해 걱정한다.",
+      "options": [
+        { "id": "q10a", "text": "Very often — I'm a natural worrier", "textKo": "매우 자주 - 타고난 걱정꾼이다", "scores": { "neuroticism": 3 } },
+        { "id": "q10b", "text": "Sometimes, when things are uncertain", "textKo": "가끔, 불확실할 때", "scores": { "neuroticism": 2 } },
+        { "id": "q10c", "text": "Rarely, I tend to focus on the positive", "textKo": "거의 없다, 긍정적인 면에 집중한다", "scores": { "extraversion": 1 } },
+        { "id": "q10d", "text": "Almost never — I trust things will work out", "textKo": "거의 없다 - 잘 될 거라 믿는다", "scores": { "agreeableness": 1 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "openness",
+      "title": "Open to Experience",
+      "titleKo": "경험에 대한 개방성",
+      "description": "You score highest in Openness. You're imaginative, curious, and love new ideas and experiences.",
+      "descriptionKo": "당신은 개방성이 가장 높습니다. 상상력이 풍부하고 호기심이 많으며, 새로운 아이디어와 경험을 사랑합니다. 예술, 철학, 창의적 사고에 이끌리며 독창적인 관점을 가지고 있습니다.",
+      "traits": ["Curious", "Creative", "Imaginative"],
+      "traitsKo": ["호기심 많은", "창의적", "상상력 풍부한"],
+      "emoji": "🌌",
+      "gradient": "from-indigo-400 to-purple-600"
+    },
+    {
+      "id": "conscientiousness",
+      "title": "Conscientious",
+      "titleKo": "성실성",
+      "description": "You score highest in Conscientiousness. You're organized, dependable, and goal-oriented.",
+      "descriptionKo": "당신은 성실성이 가장 높습니다. 체계적이고 신뢰할 수 있으며 목표 지향적입니다. 계획을 세우고 따르는 것을 좋아하며, 맡은 일은 반드시 완수하는 책임감이 있습니다.",
+      "traits": ["Organized", "Reliable", "Goal-oriented"],
+      "traitsKo": ["체계적", "신뢰할 수 있는", "목표 지향적"],
+      "emoji": "📐",
+      "gradient": "from-blue-500 to-cyan-600"
+    },
+    {
+      "id": "extraversion",
+      "title": "Extraverted",
+      "titleKo": "외향성",
+      "description": "You score highest in Extraversion. You're energetic, sociable, and thrive in social situations.",
+      "descriptionKo": "당신은 외향성이 가장 높습니다. 활력이 넘치고 사교적이며 사회적 상황에서 번창합니다. 사람들과 함께할 때 에너지를 얻으며, 긍정적이고 활기찬 성격을 가지고 있습니다.",
+      "traits": ["Sociable", "Energetic", "Outgoing"],
+      "traitsKo": ["사교적", "활력적", "외향적"],
+      "emoji": "🌟",
+      "gradient": "from-yellow-400 to-orange-500"
+    },
+    {
+      "id": "agreeableness",
+      "title": "Agreeable",
+      "titleKo": "친화성",
+      "description": "You score highest in Agreeableness. You're cooperative, empathetic, and prioritize harmony.",
+      "descriptionKo": "당신은 친화성이 가장 높습니다. 협력적이고 공감 능력이 뛰어나며 조화를 중시합니다. 다른 사람들의 필요를 먼저 생각하고, 따뜻하고 배려심 깊은 성격을 가지고 있습니다.",
+      "traits": ["Empathetic", "Cooperative", "Kind"],
+      "traitsKo": ["공감적", "협력적", "친절한"],
+      "emoji": "💚",
+      "gradient": "from-green-400 to-teal-600"
+    },
+    {
+      "id": "neuroticism",
+      "title": "Emotionally Sensitive",
+      "titleKo": "감성적 민감성",
+      "description": "You score highest in Neuroticism. You feel emotions deeply and are highly attuned to your inner world.",
+      "descriptionKo": "당신은 신경성이 가장 높습니다. 감정을 깊이 느끼고 내면 세계에 매우 민감합니다. 이는 강렬한 공감 능력과 깊은 예술적 감수성으로 이어질 수 있습니다.",
+      "traits": ["Sensitive", "Emotional", "Self-aware"],
+      "traitsKo": ["민감한", "감정적", "자기 인식이 높은"],
+      "emoji": "🌊",
+      "gradient": "from-slate-400 to-blue-600"
+    }
+  ]
+}

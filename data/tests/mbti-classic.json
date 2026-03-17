@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "id": "mbti-classic",
+    "slug": "mbti-classic",
+    "title": "MBTI Classic",
+    "titleKo": "MBTI 성격 유형 검사",
+    "description": "Discover your personality type based on Jung's cognitive functions",
+    "descriptionKo": "융의 심리 유형론을 기반으로 당신의 성격 유형을 알아보세요",
+    "category": "self",
+    "questionCount": 20,
+    "estimatedMinutes": 5,
+    "academicSource": "Myers & Briggs (1962) / Jung (1921)",
+    "gradient": "from-cyan-400 to-blue-600",
+    "emoji": "🧠"
+  },
+  "scoring": {
+    "method": "mbti-dichotomy",
+    "axes": ["EI", "SN", "TF", "JP"]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "At a party, you tend to...",
+      "textKo": "파티에서 당신은 주로...",
+      "options": [
+        { "id": "q1a", "text": "Talk to many different people", "textKo": "여러 사람들과 두루 이야기한다", "scores": { "E": 1 } },
+        { "id": "q1b", "text": "Stick with a few close friends", "textKo": "친한 몇몇 사람들과 함께 있는다", "scores": { "I": 1 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When making decisions, you prefer to...",
+      "textKo": "결정을 내릴 때 당신은...",
+      "options": [
+        { "id": "q2a", "text": "Follow logical analysis", "textKo": "논리적 분석을 따른다", "scores": { "T": 1 } },
+        { "id": "q2b", "text": "Consider people's feelings", "textKo": "사람들의 감정을 고려한다", "scores": { "F": 1 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "You prefer...",
+      "textKo": "당신은 어떤 것을 선호하나요?",
+      "options": [
+        { "id": "q3a", "text": "A structured schedule", "textKo": "체계적인 일정", "scores": { "J": 1 } },
+        { "id": "q3b", "text": "Going with the flow", "textKo": "흐름에 따라 자유롭게", "scores": { "P": 1 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "You are more interested in...",
+      "textKo": "당신은 어떤 것에 더 관심이 있나요?",
+      "options": [
+        { "id": "q4a", "text": "What is real and concrete", "textKo": "실질적이고 구체적인 것", "scores": { "S": 1 } },
+        { "id": "q4b", "text": "Possibilities and ideas", "textKo": "가능성과 아이디어", "scores": { "N": 1 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "After spending time with a large group, you feel...",
+      "textKo": "많은 사람들과 시간을 보낸 후 당신은...",
+      "options": [
+        { "id": "q5a", "text": "Energized and want more", "textKo": "활기차고 더 함께하고 싶다", "scores": { "E": 1 } },
+        { "id": "q5b", "text": "Drained and need alone time", "textKo": "지치고 혼자 있는 시간이 필요하다", "scores": { "I": 1 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When learning something new, you prefer...",
+      "textKo": "새로운 것을 배울 때 당신은...",
+      "options": [
+        { "id": "q6a", "text": "Step-by-step instructions", "textKo": "단계별 지시를 따른다", "scores": { "S": 1 } },
+        { "id": "q6b", "text": "Understanding the big picture first", "textKo": "먼저 전체적인 그림을 파악한다", "scores": { "N": 1 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "In conflicts, you tend to...",
+      "textKo": "갈등 상황에서 당신은...",
+      "options": [
+        { "id": "q7a", "text": "Stay objective and fair", "textKo": "객관적이고 공정하게 판단한다", "scores": { "T": 1 } },
+        { "id": "q7b", "text": "Prioritize harmony and feelings", "textKo": "조화와 감정을 우선시한다", "scores": { "F": 1 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Your workspace is usually...",
+      "textKo": "당신의 작업 공간은 보통...",
+      "options": [
+        { "id": "q8a", "text": "Organized and tidy", "textKo": "정리정돈이 잘 되어 있다", "scores": { "J": 1 } },
+        { "id": "q8b", "text": "Creative chaos with a system", "textKo": "나만의 방식으로 자유롭게 배치되어 있다", "scores": { "P": 1 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "You prefer to express yourself by...",
+      "textKo": "자신을 표현할 때 당신은...",
+      "options": [
+        { "id": "q9a", "text": "Talking through ideas out loud", "textKo": "아이디어를 소리 내어 이야기한다", "scores": { "E": 1 } },
+        { "id": "q9b", "text": "Thinking before speaking", "textKo": "말하기 전에 깊이 생각한다", "scores": { "I": 1 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "You trust more...",
+      "textKo": "당신은 어떤 것을 더 신뢰하나요?",
+      "options": [
+        { "id": "q10a", "text": "Your direct experience", "textKo": "직접적인 경험과 사실", "scores": { "S": 1 } },
+        { "id": "q10b", "text": "Your gut instincts", "textKo": "직관과 영감", "scores": { "N": 1 } }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "When giving feedback, you tend to be...",
+      "textKo": "피드백을 줄 때 당신은...",
+      "options": [
+        { "id": "q11a", "text": "Direct and honest, even if it stings", "textKo": "솔직하고 직접적으로 말한다", "scores": { "T": 1 } },
+        { "id": "q11b", "text": "Gentle, trying not to hurt feelings", "textKo": "상대방 감정을 배려하며 부드럽게 말한다", "scores": { "F": 1 } }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "You feel more comfortable when things are...",
+      "textKo": "당신은 어떨 때 더 편안함을 느끼나요?",
+      "options": [
+        { "id": "q12a", "text": "Decided and settled", "textKo": "결정되고 확실할 때", "scores": { "J": 1 } },
+        { "id": "q12b", "text": "Open and flexible", "textKo": "열려 있고 유연할 때", "scores": { "P": 1 } }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": "Your ideal weekend involves...",
+      "textKo": "이상적인 주말은...",
+      "options": [
+        { "id": "q13a", "text": "Going out and being social", "textKo": "밖에 나가서 사람들을 만난다", "scores": { "E": 1 } },
+        { "id": "q13b", "text": "Staying in and recharging", "textKo": "집에서 쉬며 재충전한다", "scores": { "I": 1 } }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": "When reading, you prefer...",
+      "textKo": "독서할 때 당신은...",
+      "options": [
+        { "id": "q14a", "text": "Factual, informational books", "textKo": "사실적이고 정보를 주는 책", "scores": { "S": 1 } },
+        { "id": "q14b", "text": "Imaginative, creative works", "textKo": "상상력이 풍부한 창의적인 작품", "scores": { "N": 1 } }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": "You believe good decisions are based on...",
+      "textKo": "좋은 결정의 근거는...",
+      "options": [
+        { "id": "q15a", "text": "Logic and evidence", "textKo": "논리와 증거", "scores": { "T": 1 } },
+        { "id": "q15b", "text": "Values and emotions", "textKo": "가치관과 감정", "scores": { "F": 1 } }
+      ]
+    },
+    {
+      "id": "q16",
+      "text": "When starting a project, you prefer to...",
+      "textKo": "프로젝트를 시작할 때 당신은...",
+      "options": [
+        { "id": "q16a", "text": "Plan everything out first", "textKo": "모든 것을 먼저 계획한다", "scores": { "J": 1 } },
+        { "id": "q16b", "text": "Jump in and figure it out", "textKo": "일단 시작하고 방법을 찾는다", "scores": { "P": 1 } }
+      ]
+    },
+    {
+      "id": "q17",
+      "text": "In group conversations, you tend to...",
+      "textKo": "그룹 대화에서 당신은...",
+      "options": [
+        { "id": "q17a", "text": "Drive and dominate the discussion", "textKo": "대화를 주도하며 이끈다", "scores": { "E": 1 } },
+        { "id": "q17b", "text": "Listen more than you speak", "textKo": "말하기보다 듣는 편이다", "scores": { "I": 1 } }
+      ]
+    },
+    {
+      "id": "q18",
+      "text": "You describe things as...",
+      "textKo": "상황을 설명할 때 당신은...",
+      "options": [
+        { "id": "q18a", "text": "Precise and literal", "textKo": "정확하고 사실적으로 말한다", "scores": { "S": 1 } },
+        { "id": "q18b", "text": "Metaphorical and figurative", "textKo": "비유적이고 추상적으로 말한다", "scores": { "N": 1 } }
+      ]
+    },
+    {
+      "id": "q19",
+      "text": "You are more proud of your...",
+      "textKo": "당신은 어떤 면이 더 자랑스럽나요?",
+      "options": [
+        { "id": "q19a", "text": "Fairness and rationality", "textKo": "공정함과 합리성", "scores": { "T": 1 } },
+        { "id": "q19b", "text": "Empathy and compassion", "textKo": "공감 능력과 따뜻함", "scores": { "F": 1 } }
+      ]
+    },
+    {
+      "id": "q20",
+      "text": "Deadlines are...",
+      "textKo": "마감 기한은...",
+      "options": [
+        { "id": "q20a", "text": "Sacred — you finish early", "textKo": "신성한 것 - 항상 미리 끝낸다", "scores": { "J": 1 } },
+        { "id": "q20b", "text": "Flexible — you work best under pressure", "textKo": "유연한 것 - 압박감 속에서 최고의 결과를 낸다", "scores": { "P": 1 } }
+      ]
+    }
+  ],
+  "results": [
+    { "id": "INTJ", "title": "The Architect", "titleKo": "전략가", "description": "Strategic and independent thinker", "descriptionKo": "독립적이고 전략적인 사고를 가진 당신은 목표를 향해 묵묵히 나아갑니다. 완벽주의적 성향으로 높은 기준을 세우며, 복잡한 시스템을 이해하는 능력이 뛰어납니다.", "traits": ["Strategic", "Independent", "Decisive"], "traitsKo": ["전략적", "독립적", "결단력 있는"], "emoji": "🏛️", "gradient": "from-slate-700 to-slate-900" },
+    { "id": "INTP", "title": "The Thinker", "titleKo": "논리술사", "description": "Innovative inventor with a thirst for knowledge", "descriptionKo": "지식에 대한 갈증이 넘치는 혁신적인 사색가입니다. 논리적 분석을 즐기며 복잡한 문제를 해결하는 것에서 큰 보람을 느낍니다.", "traits": ["Analytical", "Objective", "Creative"], "traitsKo": ["분석적", "객관적", "창의적"], "emoji": "💡", "gradient": "from-blue-600 to-indigo-800" },
+    { "id": "ENTJ", "title": "The Commander", "titleKo": "통솔자", "description": "Bold leader driven by long-term vision", "descriptionKo": "대담하고 상상력이 풍부한 강한 의지의 지도자입니다. 언제나 길을 찾아내거나 스스로 길을 만들어 냅니다.", "traits": ["Leadership", "Confident", "Decisive"], "traitsKo": ["리더십", "자신감", "결단력"], "emoji": "👑", "gradient": "from-red-600 to-red-900" },
+    { "id": "ENTP", "title": "The Debater", "titleKo": "변론가", "description": "Smart and curious thinker who loves debate", "descriptionKo": "지적 호기심이 넘치고 토론을 즐기는 영리한 사색가입니다. 새로운 아이디어에 도전하는 것을 좋아합니다.", "traits": ["Innovative", "Strategic", "Enterprising"], "traitsKo": ["혁신적", "전략적", "진취적"], "emoji": "⚡", "gradient": "from-yellow-500 to-orange-600" },
+    { "id": "INFJ", "title": "The Advocate", "titleKo": "옹호자", "description": "Quiet visionary with a deep sense of idealism", "descriptionKo": "깊은 이상주의적 신념을 가진 조용한 선지자입니다. 사람들을 돕고 세상에 긍정적인 영향을 미치고자 합니다.", "traits": ["Insightful", "Principled", "Passionate"], "traitsKo": ["통찰력", "원칙적", "열정적"], "emoji": "🌟", "gradient": "from-purple-600 to-indigo-700" },
+    { "id": "INFP", "title": "The Mediator", "titleKo": "중재자", "description": "Poetic soul guided by personal values", "descriptionKo": "자신만의 가치관에 따라 살아가는 시적인 영혼을 가진 사람입니다. 진실하고 이상적인 세상을 꿈꿉니다.", "traits": ["Empathetic", "Creative", "Idealistic"], "traitsKo": ["공감적", "창의적", "이상주의적"], "emoji": "🌈", "gradient": "from-pink-500 to-purple-600" },
+    { "id": "ENFJ", "title": "The Protagonist", "titleKo": "선도자", "description": "Charismatic leader who helps others flourish", "descriptionKo": "다른 사람들이 성장하도록 돕는 카리스마 넘치는 지도자입니다. 사람들에게 영감을 주는 것을 즐깁니다.", "traits": ["Charismatic", "Empathetic", "Natural Leader"], "traitsKo": ["카리스마", "공감적", "타고난 리더"], "emoji": "✨", "gradient": "from-green-500 to-teal-600" },
+    { "id": "ENFP", "title": "The Campaigner", "titleKo": "활동가", "description": "Enthusiastic creative spirit full of possibilities", "descriptionKo": "열정적이고 창의적인 정신의 소유자입니다. 삶에서 감정적, 사회적, 정신적인 연결을 찾습니다.", "traits": ["Enthusiastic", "Creative", "Sociable"], "traitsKo": ["열정적", "창의적", "사교적"], "emoji": "🎨", "gradient": "from-orange-400 to-pink-500" },
+    { "id": "ISTJ", "title": "The Logistician", "titleKo": "현실주의자", "description": "Responsible organizer who upholds duty", "descriptionKo": "성실하고 책임감 강한 현실주의자입니다. 전통과 충성을 중요하게 여기며 안정적이고 신뢰할 수 있습니다.", "traits": ["Responsible", "Organized", "Dependable"], "traitsKo": ["책임감", "조직적", "신뢰할 수 있는"], "emoji": "📋", "gradient": "from-gray-600 to-gray-800" },
+    { "id": "ISFJ", "title": "The Defender", "titleKo": "수호자", "description": "Dedicated protector who cherishes others", "descriptionKo": "헌신적이고 따뜻한 보호자입니다. 사랑하는 사람들을 지키기 위해 항상 노력합니다.", "traits": ["Caring", "Supportive", "Reliable"], "traitsKo": ["배려심", "지지적", "신뢰할 수 있는"], "emoji": "🛡️", "gradient": "from-blue-500 to-cyan-600" },
+    { "id": "ESTJ", "title": "The Executive", "titleKo": "경영자", "description": "Excellent administrator who manages things well", "descriptionKo": "뛰어난 관리 능력을 가진 사람입니다. 가족과 공동체를 하나로 모으는 역할을 합니다.", "traits": ["Organized", "Loyal", "Dedicated"], "traitsKo": ["조직적", "충실한", "헌신적"], "emoji": "💼", "gradient": "from-amber-600 to-orange-700" },
+    { "id": "ESFJ", "title": "The Consul", "titleKo": "집정관", "description": "Caring social butterfly who supports others", "descriptionKo": "인기 있고 사교적인 사람입니다. 언제나 타인을 도울 준비가 되어 있습니다.", "traits": ["Warm", "Social", "Loyal"], "traitsKo": ["따뜻한", "사교적", "충실한"], "emoji": "🤝", "gradient": "from-rose-500 to-pink-600" },
+    { "id": "ISTP", "title": "The Virtuoso", "titleKo": "장인", "description": "Bold, practical experimenter and craftsman", "descriptionKo": "대담하고 실용적인 실험가입니다. 손으로 무언가를 만들고 문제를 해결하는 것을 즐깁니다.", "traits": ["Bold", "Practical", "Experimental"], "traitsKo": ["대담한", "실용적", "실험적"], "emoji": "🔧", "gradient": "from-zinc-600 to-zinc-800" },
+    { "id": "ISFP", "title": "The Adventurer", "titleKo": "모험가", "description": "Flexible artist always ready to explore", "descriptionKo": "유연하고 매력적인 예술가입니다. 항상 새로운 것을 탐험하고 경험할 준비가 되어 있습니다.", "traits": ["Artistic", "Gentle", "Sensitive"], "traitsKo": ["예술적", "온화한", "감수성 풍부"], "emoji": "🎭", "gradient": "from-violet-500 to-purple-700" },
+    { "id": "ESTP", "title": "The Entrepreneur", "titleKo": "사업가", "description": "Smart, energetic risk-taker who thrives on excitement", "descriptionKo": "영리하고 활력 넘치는 모험가입니다. 즉각적인 행동을 통해 문제를 해결하는 것을 즐깁니다.", "traits": ["Energetic", "Perceptive", "Direct"], "traitsKo": ["활력적", "통찰력", "직접적"], "emoji": "🚀", "gradient": "from-red-500 to-orange-500" },
+    { "id": "ESFP", "title": "The Entertainer", "titleKo": "연예인", "description": "Spontaneous entertainer who loves life", "descriptionKo": "즉흥적이고 활력 넘치는 엔터테이너입니다. 삶을 사랑하고 주변 사람들을 즐겁게 합니다.", "traits": ["Spontaneous", "Enthusiastic", "Fun-loving"], "traitsKo": ["즉흥적", "열정적", "재미있는"], "emoji": "🎉", "gradient": "from-yellow-400 to-pink-500" }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "id": "friendship-style",
+    "slug": "friendship-style",
+    "title": "Friendship Style",
+    "titleKo": "우정 스타일 테스트",
+    "description": "Discover what kind of friend you are",
+    "descriptionKo": "당신이 어떤 유형의 친구인지 알아보세요",
+    "category": "friendship",
+    "questionCount": 8,
+    "estimatedMinutes": 2,
+    "academicSource": "Social Psychology / Friendship Research",
+    "gradient": "from-teal-400 to-emerald-600",
+    "emoji": "🤗"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When a friend is going through something tough, you...",
+      "textKo": "친구가 힘든 상황에 처했을 때, 당신은...",
+      "options": [
+        { "id": "q1a", "text": "Drop everything and rush to be with them", "textKo": "모든 것을 내려놓고 달려간다", "scores": { "devoted": 3 } },
+        { "id": "q1b", "text": "Listen carefully and offer thoughtful advice", "textKo": "주의 깊게 듣고 사려 깊은 조언을 한다", "scores": { "wise": 3 } },
+        { "id": "q1c", "text": "Plan something fun to cheer them up", "textKo": "기운을 북돋아 줄 재미있는 것을 계획한다", "scores": { "cheerful": 3 } },
+        { "id": "q1d", "text": "Check in regularly to make sure they're okay", "textKo": "괜찮은지 정기적으로 확인한다", "scores": { "steady": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Your ideal way to spend time with friends is...",
+      "textKo": "친구들과 시간을 보내는 이상적인 방법은...",
+      "options": [
+        { "id": "q2a", "text": "Deep, meaningful one-on-one conversations", "textKo": "깊고 의미 있는 일대일 대화", "scores": { "devoted": 2, "wise": 1 } },
+        { "id": "q2b", "text": "Sharing knowledge and discussing interesting topics", "textKo": "지식을 나누고 흥미로운 주제를 토론하는 것", "scores": { "wise": 3 } },
+        { "id": "q2c", "text": "Fun adventures and trying new things together", "textKo": "함께 재미있는 모험을 하고 새로운 것을 시도하는 것", "scores": { "cheerful": 3 } },
+        { "id": "q2d", "text": "Comfortable hangouts without needing to plan", "textKo": "계획 없이 편안하게 함께 있는 것", "scores": { "steady": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Friends would say they can always count on you to...",
+      "textKo": "친구들은 당신이 항상 이럴 거라고 믿는다고 할 것이다...",
+      "options": [
+        { "id": "q3a", "text": "Show up, no matter what", "textKo": "무슨 일이 있어도 나타날 것이다", "scores": { "devoted": 3 } },
+        { "id": "q3b", "text": "Give them honest, wise perspective", "textKo": "정직하고 현명한 관점을 줄 것이다", "scores": { "wise": 3 } },
+        { "id": "q3c", "text": "Make them laugh and lift their spirits", "textKo": "웃게 해주고 기운을 북돋아 줄 것이다", "scores": { "cheerful": 3 } },
+        { "id": "q3d", "text": "Be there consistently, without drama", "textKo": "소란 없이 꾸준히 함께 있을 것이다", "scores": { "steady": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "In a friend group, you tend to be...",
+      "textKo": "친구 그룹에서 당신은 주로...",
+      "options": [
+        { "id": "q4a", "text": "The one who remembers everyone's important moments", "textKo": "모든 사람의 중요한 순간을 기억하는 사람이다", "scores": { "devoted": 3 } },
+        { "id": "q4b", "text": "The one everyone asks for advice", "textKo": "모두가 조언을 구하는 사람이다", "scores": { "wise": 3 } },
+        { "id": "q4c", "text": "The one who organizes fun events", "textKo": "재미있는 행사를 주선하는 사람이다", "scores": { "cheerful": 3 } },
+        { "id": "q4d", "text": "The quiet anchor who keeps things stable", "textKo": "상황을 안정적으로 유지하는 조용한 기둥이다", "scores": { "steady": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How do you handle disagreements with friends?",
+      "textKo": "친구와의 불화를 어떻게 처리하나요?",
+      "options": [
+        { "id": "q5a", "text": "Address it right away — it matters too much to ignore", "textKo": "바로 해결한다 - 무시하기에는 너무 중요하다", "scores": { "devoted": 2 } },
+        { "id": "q5b", "text": "Talk it through calmly and find common ground", "textKo": "차분하게 이야기하고 공통점을 찾는다", "scores": { "wise": 3 } },
+        { "id": "q5c", "text": "Try to lighten the tension with humor", "textKo": "유머로 긴장을 완화하려 한다", "scores": { "cheerful": 2 } },
+        { "id": "q5d", "text": "Give it time and let things settle naturally", "textKo": "시간을 주고 자연스럽게 해결되기를 기다린다", "scores": { "steady": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "What do you bring to your friendships?",
+      "textKo": "당신이 우정에 가져오는 것은 무엇인가요?",
+      "options": [
+        { "id": "q6a", "text": "Unconditional support and loyalty", "textKo": "무조건적인 지지와 충성심", "scores": { "devoted": 3 } },
+        { "id": "q6b", "text": "Wisdom, depth, and honest conversations", "textKo": "지혜, 깊이, 그리고 솔직한 대화", "scores": { "wise": 3 } },
+        { "id": "q6c", "text": "Energy, fun, and memorable experiences", "textKo": "에너지, 재미, 그리고 기억에 남는 경험", "scores": { "cheerful": 3 } },
+        { "id": "q6d", "text": "Stability, consistency, and calm presence", "textKo": "안정감, 일관성, 그리고 차분한 존재감", "scores": { "steady": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "When you're busy, how do you maintain friendships?",
+      "textKo": "바쁠 때 우정을 어떻게 유지하나요?",
+      "options": [
+        { "id": "q7a", "text": "Make time no matter what — relationships are a priority", "textKo": "무슨 일이 있어도 시간을 낸다 - 관계가 우선이다", "scores": { "devoted": 3 } },
+        { "id": "q7b", "text": "Send meaningful messages checking in on them", "textKo": "의미 있는 안부 메시지를 보낸다", "scores": { "wise": 2, "steady": 1 } },
+        { "id": "q7c", "text": "Suggest quick fun catch-ups to reconnect", "textKo": "빠르게 즐거운 만남을 제안한다", "scores": { "cheerful": 3 } },
+        { "id": "q7d", "text": "Trust that good friendships survive distance", "textKo": "좋은 우정은 거리를 이겨낸다고 믿는다", "scores": { "steady": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "The friendship quality you value most in others is...",
+      "textKo": "다른 사람에게서 가장 중요하게 여기는 우정의 자질은...",
+      "options": [
+        { "id": "q8a", "text": "That they'd do anything for me", "textKo": "나를 위해 무엇이든 해줄 것이라는 것", "scores": { "devoted": 3 } },
+        { "id": "q8b", "text": "That they're honest and give good advice", "textKo": "솔직하고 좋은 조언을 해준다는 것", "scores": { "wise": 3 } },
+        { "id": "q8c", "text": "That they know how to have fun", "textKo": "즐길 줄 안다는 것", "scores": { "cheerful": 3 } },
+        { "id": "q8d", "text": "That they're reliable and always show up", "textKo": "믿음직스럽고 항상 나타난다는 것", "scores": { "steady": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "devoted",
+      "title": "The Devoted Friend",
+      "titleKo": "헌신적인 친구",
+      "description": "You give your whole heart to your friendships. You show up, remember details, and make friends feel truly cherished.",
+      "descriptionKo": "당신은 우정에 온 마음을 바칩니다. 어떤 상황에서도 나타나고, 세세한 것들을 기억하며, 친구들이 진정으로 소중하게 느껴지게 합니다. 당신의 헌신은 관계를 특별하게 만드는 힘이 있습니다.",
+      "traits": ["Loyal", "Devoted", "Caring"],
+      "traitsKo": ["충성스러운", "헌신적인", "배려심 있는"],
+      "compatibleWith": ["steady", "wise"],
+      "emoji": "💜",
+      "gradient": "from-purple-400 to-violet-600"
+    },
+    {
+      "id": "wise",
+      "title": "The Wise Friend",
+      "titleKo": "지혜로운 친구",
+      "description": "You're the friend people turn to for honest perspective. You listen deeply and offer guidance rooted in real care.",
+      "descriptionKo": "당신은 솔직한 관점을 위해 사람들이 찾는 친구입니다. 깊이 경청하고 진정한 배려에서 나온 조언을 제공합니다. 당신의 지혜와 통찰력은 친구들에게 큰 힘이 됩니다.",
+      "traits": ["Honest", "Insightful", "Thoughtful"],
+      "traitsKo": ["솔직한", "통찰력 있는", "사려 깊은"],
+      "compatibleWith": ["devoted", "steady"],
+      "emoji": "🦉",
+      "gradient": "from-blue-400 to-indigo-600"
+    },
+    {
+      "id": "cheerful",
+      "title": "The Sunshine Friend",
+      "titleKo": "햇살 같은 친구",
+      "description": "You bring joy and energy wherever you go. Friends know that time with you means laughter and good memories.",
+      "descriptionKo": "당신은 어디를 가든 기쁨과 에너지를 가져옵니다. 친구들은 당신과 함께하는 시간이 웃음과 좋은 추억을 의미한다는 것을 알고 있습니다. 당신의 긍정적인 에너지는 전염성이 있습니다.",
+      "traits": ["Fun", "Energetic", "Uplifting"],
+      "traitsKo": ["재미있는", "활기찬", "기운을 주는"],
+      "compatibleWith": ["steady", "devoted"],
+      "emoji": "☀️",
+      "gradient": "from-yellow-400 to-orange-500"
+    },
+    {
+      "id": "steady",
+      "title": "The Steady Friend",
+      "titleKo": "든든한 친구",
+      "description": "You're the rock everyone leans on. Consistent, calm, and always there — your reliability makes friends feel safe.",
+      "descriptionKo": "당신은 모두가 기대는 든든한 바위입니다. 일관적이고 차분하며 항상 곁에 있는 당신의 신뢰성은 친구들에게 안정감을 줍니다. 관계에서 진정한 평온함을 가져다 줍니다.",
+      "traits": ["Reliable", "Calm", "Consistent"],
+      "traitsKo": ["믿음직스러운", "차분한", "일관적인"],
+      "compatibleWith": ["cheerful", "wise"],
+      "emoji": "🌳",
+      "gradient": "from-emerald-400 to-teal-600"
+    }
+  ]
+}

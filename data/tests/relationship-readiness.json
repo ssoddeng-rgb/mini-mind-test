@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "relationship-readiness",
+    "slug": "relationship-readiness",
+    "title": "My Relationship Readiness",
+    "titleKo": "나의 연애 준비도는?",
+    "description": "Find out how ready you are for a meaningful romantic relationship",
+    "descriptionKo": "의미 있는 연애 관계를 맺을 준비가 얼마나 되어 있는지 알아보세요",
+    "category": "romance",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Gottman (1999) / Sternberg (1986)",
+    "gradient": "from-fuchsia-400 to-pink-600",
+    "emoji": "💫"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How do you feel about your own emotional availability right now?",
+      "textKo": "지금 자신의 감정적 가용성에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q1a", "text": "Open, present, and genuinely ready to let someone in", "textKo": "열려 있고, 현재에 있으며, 진심으로 누군가를 받아들일 준비가 됐다", "scores": { "ready-to-love": 3 } },
+        { "id": "q1b", "text": "Mostly open, with a few things still in progress", "textKo": "대체로 열려 있지만 아직 진행 중인 것들이 있다", "scores": { "almost-ready": 3 } },
+        { "id": "q1c", "text": "Working through some personal stuff that takes priority", "textKo": "우선 처리해야 할 개인적인 것들을 정리 중이다", "scores": { "self-first": 3 } },
+        { "id": "q1d", "text": "Enjoying my freedom and not particularly looking for that", "textKo": "자유를 즐기고 있어 딱히 그것을 찾고 있지 않다", "scores": { "free-spirit": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When you imagine being in a relationship, you feel...",
+      "textKo": "연애를 하는 것을 상상했을 때, 당신은...",
+      "options": [
+        { "id": "q2a", "text": "Excited and genuinely looking forward to it", "textKo": "설레고 진심으로 기대된다", "scores": { "ready-to-love": 3 } },
+        { "id": "q2b", "text": "Hopeful but a little nervous about it", "textKo": "기대되지만 조금 긴장된다", "scores": { "almost-ready": 3 } },
+        { "id": "q2c", "text": "Interested but not sure you're in the right place yet", "textKo": "관심은 있지만 지금이 적절한 시기인지 확실하지 않다", "scores": { "self-first": 3 } },
+        { "id": "q2d", "text": "A bit ambivalent — it sounds nice but also complicated", "textKo": "약간 양가적이다 - 좋을 것 같지만 복잡하게 느껴진다", "scores": { "free-spirit": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How do you feel about your past relationships or emotional history?",
+      "textKo": "지난 연애나 감정적 역사에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q3a", "text": "Largely processed and at peace — it made you who you are", "textKo": "대체로 정리됐고 평화롭다 - 지금의 나를 만들어줬다", "scores": { "ready-to-love": 3 } },
+        { "id": "q3b", "text": "Mostly okay, with some things you're still making peace with", "textKo": "대체로 괜찮지만 아직 평화를 찾는 중인 것들이 있다", "scores": { "almost-ready": 3 } },
+        { "id": "q3c", "text": "Still actively working through things from the past", "textKo": "아직도 과거의 것들을 적극적으로 처리 중이다", "scores": { "self-first": 3 } },
+        { "id": "q3d", "text": "Prefer not to revisit — you'd rather focus on now", "textKo": "다시 돌아보기보다 지금에 집중하고 싶다", "scores": { "free-spirit": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How comfortable are you with compromise and vulnerability in relationships?",
+      "textKo": "관계에서의 타협과 취약함에 얼마나 편안한가요?",
+      "options": [
+        { "id": "q4a", "text": "Very — you see it as what makes love real", "textKo": "매우 편하다 - 그것이 사랑을 진짜로 만드는 것이라고 본다", "scores": { "ready-to-love": 3 } },
+        { "id": "q4b", "text": "Fairly comfortable, though you're still building that muscle", "textKo": "꽤 편하지만 아직 그 근육을 키우는 중이다", "scores": { "almost-ready": 3 } },
+        { "id": "q4c", "text": "Working on it — vulnerability doesn't come easily", "textKo": "노력 중이다 - 취약함이 쉽게 오지 않는다", "scores": { "self-first": 3 } },
+        { "id": "q4d", "text": "Cautious — you value your independence and boundaries", "textKo": "조심스럽다 - 독립성과 경계를 소중히 여긴다", "scores": { "free-spirit": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How do you feel about your own life outside of a relationship right now?",
+      "textKo": "지금 연애 밖에서의 자신의 삶에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q5a", "text": "Fulfilled and stable — a relationship would add to it, not fix it", "textKo": "충만하고 안정적이다 - 연애는 고치는 것이 아니라 더하는 것이다", "scores": { "ready-to-love": 3 } },
+        { "id": "q5b", "text": "Good overall, with some areas still growing", "textKo": "전반적으로 좋고 아직 성장 중인 부분들이 있다", "scores": { "almost-ready": 3 } },
+        { "id": "q5c", "text": "Still working on building the life I want", "textKo": "원하는 삶을 만드는 데 아직 집중하고 있다", "scores": { "self-first": 3 } },
+        { "id": "q5d", "text": "Happy and full — I'm not feeling a gap that needs filling", "textKo": "행복하고 충만하다 - 채워야 할 공백을 느끼지 않는다", "scores": { "free-spirit": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How do you feel about the idea of building long-term plans with someone?",
+      "textKo": "누군가와 장기적인 계획을 세우는 것에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q6a", "text": "Appealing and even exciting to think about", "textKo": "매력적이고 생각만 해도 설렌다", "scores": { "ready-to-love": 3 } },
+        { "id": "q6b", "text": "Open to it when the right person comes along", "textKo": "맞는 사람이 나타나면 열려 있다", "scores": { "almost-ready": 3 } },
+        { "id": "q6c", "text": "Not quite where your head is at right now", "textKo": "지금 내 머릿속이 그쪽으로 향하고 있지 않다", "scores": { "self-first": 3 } },
+        { "id": "q6d", "text": "A bit daunting — you like the freedom of the present", "textKo": "다소 부담스럽다 - 현재의 자유가 좋다", "scores": { "free-spirit": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "When you think about what you'd bring to a relationship...",
+      "textKo": "관계에 내가 가져올 수 있는 것에 대해 생각할 때...",
+      "options": [
+        { "id": "q7a", "text": "You feel genuinely ready — you have a lot to offer", "textKo": "진심으로 준비됐다고 느낀다 - 줄 수 있는 것이 많다", "scores": { "ready-to-love": 3 } },
+        { "id": "q7b", "text": "You're getting there — you've grown a lot recently", "textKo": "가까이 왔다 - 최근에 많이 성장했다", "scores": { "almost-ready": 3 } },
+        { "id": "q7c", "text": "You want to be more ready before diving in", "textKo": "뛰어들기 전에 더 준비되고 싶다", "scores": { "self-first": 3 } },
+        { "id": "q7d", "text": "You're not sure a relationship is what you need right now", "textKo": "지금 내게 연애가 필요한 건지 확실하지 않다", "scores": { "free-spirit": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How do you handle conflict or disagreement in close relationships?",
+      "textKo": "가까운 관계에서 갈등이나 불일치를 어떻게 다루나요?",
+      "options": [
+        { "id": "q8a", "text": "Openly and constructively — you've worked on this", "textKo": "개방적이고 건설적으로 - 이 부분을 노력해왔다", "scores": { "ready-to-love": 3 } },
+        { "id": "q8b", "text": "Pretty well, with some room to improve", "textKo": "꽤 잘 하지만 개선할 여지가 있다", "scores": { "almost-ready": 3 } },
+        { "id": "q8c", "text": "It's an area you're actively working to get better at", "textKo": "적극적으로 더 잘 하려고 노력 중인 부분이다", "scores": { "self-first": 3 } },
+        { "id": "q8d", "text": "You prefer to avoid conflict when possible", "textKo": "가능한 한 갈등을 피하는 편을 선호한다", "scores": { "free-spirit": 2 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "If someone great came into your life right now, you'd...",
+      "textKo": "지금 당장 멋진 사람이 나타난다면, 당신은...",
+      "options": [
+        { "id": "q9a", "text": "Be excited and open to exploring something real", "textKo": "설레고 진지하게 탐색하는 것에 열려 있을 것이다", "scores": { "ready-to-love": 3 } },
+        { "id": "q9b", "text": "Be interested but take it slow and see what unfolds", "textKo": "관심은 있겠지만 천천히 진행하며 어떻게 되는지 볼 것이다", "scores": { "almost-ready": 3 } },
+        { "id": "q9c", "text": "Like the idea but worry you're not in the best place yet", "textKo": "생각은 좋지만 아직 최선의 상태가 아닌 것 같아 걱정될 것이다", "scores": { "self-first": 3 } },
+        { "id": "q9d", "text": "Enjoy their company but keep things casual", "textKo": "함께하는 시간을 즐기되 가볍게 유지할 것이다", "scores": { "free-spirit": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What does love mean to you right now, in this chapter of your life?",
+      "textKo": "지금 이 인생의 챕터에서 당신에게 사랑은 무엇을 의미하나요?",
+      "options": [
+        { "id": "q10a", "text": "Something I genuinely want to build with someone", "textKo": "누군가와 함께 진심으로 만들어가고 싶은 것", "scores": { "ready-to-love": 3 } },
+        { "id": "q10b", "text": "Something I'm slowly opening myself up to", "textKo": "서서히 마음을 열어가고 있는 것", "scores": { "almost-ready": 3 } },
+        { "id": "q10c", "text": "Something I'll be ready for once I've done more inner work", "textKo": "더 많은 내적 작업을 한 후 준비될 수 있는 것", "scores": { "self-first": 3 } },
+        { "id": "q10d", "text": "Something beautiful, but not necessarily on my agenda right now", "textKo": "아름다운 것이지만 지금 당장 내 어젠다에 있는 것은 아니다", "scores": { "free-spirit": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "ready-to-love",
+      "title": "Ready to Love",
+      "titleKo": "연애 준비 완료",
+      "description": "You are emotionally available, self-aware, and genuinely open to a meaningful connection. Your inner work has prepared you well and love feels like the natural next step.",
+      "descriptionKo": "감정적으로 가용 가능하고, 자기 인식이 있으며, 의미 있는 연결에 진심으로 열려 있습니다. 내면의 작업이 잘 준비되었고 사랑이 자연스러운 다음 단계처럼 느껴집니다. 지금이 바로 당신의 시간입니다.",
+      "traits": ["Emotionally available", "Self-aware", "Open to love"],
+      "traitsKo": ["감정적으로 가용한", "자기 인식이 있는", "사랑에 열려 있는"],
+      "emoji": "💫",
+      "gradient": "from-fuchsia-400 to-pink-600"
+    },
+    {
+      "id": "almost-ready",
+      "title": "Almost Ready",
+      "titleKo": "거의 준비됨",
+      "description": "You're in a good place and steadily growing. A meaningful relationship is within reach — you're just fine-tuning the last pieces of your readiness journey.",
+      "descriptionKo": "좋은 상태에 있으며 꾸준히 성장하고 있습니다. 의미 있는 관계가 가까이 있고, 준비 여정의 마지막 조각들을 조율하는 중입니다. 조금 더 시간을 갖고 스스로를 신뢰하며 나아가세요.",
+      "traits": ["Growing", "Hopeful", "Nearly ready"],
+      "traitsKo": ["성장 중인", "희망적인", "거의 준비된"],
+      "emoji": "🌙",
+      "gradient": "from-pink-400 to-fuchsia-500"
+    },
+    {
+      "id": "self-first",
+      "title": "Self First",
+      "titleKo": "나부터 충전",
+      "description": "Right now, your energy is best invested in yourself. The inner work you're doing is important — loving yourself fully makes it possible to love others well.",
+      "descriptionKo": "지금은 자신에게 에너지를 투자하는 것이 가장 좋습니다. 하고 있는 내면의 작업이 중요하고, 자신을 온전히 사랑하는 것이 다른 사람들을 잘 사랑할 수 있게 합니다. 스스로를 충전하는 시간이 미래의 연애를 더 건강하게 만들 것입니다.",
+      "traits": ["Self-investing", "Growing", "Self-prioritizing"],
+      "traitsKo": ["자기 투자 중인", "성장 중인", "자신을 우선시하는"],
+      "emoji": "🌱",
+      "gradient": "from-rose-400 to-pink-500"
+    },
+    {
+      "id": "free-spirit",
+      "title": "Free Spirit",
+      "titleKo": "자유로운 영혼",
+      "description": "You are thriving independently and not feeling a pull toward commitment right now. There's real wisdom in honoring where you are — connection will find you when the time is right.",
+      "descriptionKo": "독립적으로 번성하고 있으며 지금은 헌신을 향한 이끌림을 느끼지 않습니다. 지금 있는 그 자리를 존중하는 것에 진정한 지혜가 있습니다. 적절한 시간이 오면 연결은 자연스럽게 찾아올 것입니다.",
+      "traits": ["Independent", "Content", "Unrushed"],
+      "traitsKo": ["독립적인", "만족스러운", "서두르지 않는"],
+      "emoji": "🦋",
+      "gradient": "from-purple-400 to-fuchsia-500"
+    }
+  ]
+}
