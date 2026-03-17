@@ -2,7 +2,8 @@ import { ImageResponse } from '@vercel/og';
 import { NextRequest } from 'next/server';
 import { getTest } from '@/lib/tests';
 
-export const runtime = 'edge';
+// OG image — served via Cloudflare Workers or Vercel Edge when deployed
+// export const runtime = 'edge';
 
 interface PageProps {
   params: Promise<{ resultId: string }>;

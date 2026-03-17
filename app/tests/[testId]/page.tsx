@@ -1,7 +1,14 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { getTest } from '@/lib/tests';
+import { getTest, getAllTests } from '@/lib/tests';
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const tests = getAllTests();
+  return tests.map(t => ({ testId: t.id }));
+}
 
 interface PageProps {
   params: Promise<{ testId: string }>;

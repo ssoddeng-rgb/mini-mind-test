@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/results — save a test result
 export async function POST(request: NextRequest) {
   try {

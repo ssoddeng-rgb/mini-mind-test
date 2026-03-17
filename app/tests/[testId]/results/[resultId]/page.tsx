@@ -1,10 +1,20 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { getTest } from '@/lib/tests';
+import { getTest, getAllTests } from '@/lib/tests';
 import ResultCard from '@/components/results/ResultCard';
 import ShareButtons from '@/components/results/ShareButtons';
 import CommentSection from '@/components/comments/CommentSection';
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const tests = getAllTests();
+  return tests.flatMap(meta => {
+    const test = getTest(meta.id);
+    return test.results.map(r => ({ testId: meta.id, resultId: r.id }));
+  });
+}
 
 interface PageProps {
   params: Promise<{ testId: string; resultId: string }>;
