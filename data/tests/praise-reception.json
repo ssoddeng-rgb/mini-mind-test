@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "praise-reception",
+    "slug": "praise-reception",
+    "title": "Praise Reception Style",
+    "titleKo": "나는 칭찬을 어떻게 받아들일까?",
+    "description": "Discover how you receive and process compliments and praise",
+    "descriptionKo": "칭찬을 받아들이고 처리하는 방식을 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Dweck (2006) Mindset Theory",
+    "gradient": "from-pink-400 to-fuchsia-500",
+    "emoji": "🌟"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When someone praises your work, your immediate reaction is...",
+      "textKo": "누군가 당신의 일을 칭찬할 때 즉각적인 반응은...",
+      "options": [
+        { "id": "q1a", "text": "Smile warmly and say 'Thank you, I worked hard on that!'", "textKo": "따뜻하게 웃으며 '감사해요, 열심히 했어요!'라고 말해요", "scores": { "graceful-receiver": 3 } },
+        { "id": "q1b", "text": "'Oh it's nothing, anyone could have done it'", "textKo": "'별거 아니에요, 누구든 할 수 있었을 거예요'", "scores": { "deflector": 3 } },
+        { "id": "q1c", "text": "Wonder if they really mean it or are just being polite", "textKo": "정말 그렇게 생각하는 건지 아니면 그냥 예의로 하는 건지 궁금해요", "scores": { "suspicious": 3 } },
+        { "id": "q1d", "text": "Feel deeply happy — you were hoping they'd notice", "textKo": "깊이 행복해요 — 알아봐 주길 바라고 있었어요", "scores": { "hungry-receiver": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "A colleague says 'You're the best at this in the whole team'. You feel...",
+      "textKo": "동료가 '팀에서 이걸 제일 잘하는 건 당신이에요'라고 해요. 어떻게 느끼나요?",
+      "options": [
+        { "id": "q2a", "text": "Proud — you do put in the effort and it's good to be recognized", "textKo": "자랑스러워요 — 노력을 기울이고 인정받는 것은 좋은 일이에요", "scores": { "graceful-receiver": 3 } },
+        { "id": "q2b", "text": "Embarrassed — quickly point out the team's collective effort", "textKo": "당황해요 — 빠르게 팀 전체의 노력을 언급해요", "scores": { "deflector": 3 } },
+        { "id": "q2c", "text": "Skeptical — wonder if they want something from you", "textKo": "회의적이에요 — 당신에게 뭔가 원하는 게 있는지 궁금해요", "scores": { "suspicious": 3 } },
+        { "id": "q2d", "text": "Energized — this kind of recognition means a lot", "textKo": "에너지가 생겨요 — 이런 인정은 정말 큰 의미가 있어요", "scores": { "hungry-receiver": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "In Korean culture where modesty (겸손) is valued, how do you handle public praise?",
+      "textKo": "겸손을 중시하는 한국 문화에서 공개적인 칭찬을 어떻게 처리하나요?",
+      "options": [
+        { "id": "q3a", "text": "Accept gracefully while staying genuinely humble", "textKo": "진정으로 겸손하면서 우아하게 받아들여요", "scores": { "graceful-receiver": 3 } },
+        { "id": "q3b", "text": "Deflect reflexively — Korean culture trained you to minimize it", "textKo": "반사적으로 회피해요 — 한국 문화가 그렇게 훈련시켰어요", "scores": { "deflector": 3 } },
+        { "id": "q3c", "text": "Feel uncomfortable with public praise regardless of culture", "textKo": "문화와 관계없이 공개적인 칭찬이 불편해요", "scores": { "suspicious": 3 } },
+        { "id": "q3d", "text": "Inside you love it, even if you deflect on the outside", "textKo": "겉으로는 회피하지만 속으로는 너무 좋아요", "scores": { "hungry-receiver": 2, "deflector": 1 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "A parent or authority figure praises you highly. You...",
+      "textKo": "부모님이나 권위 있는 분이 당신을 크게 칭찬해요. 어떻게 하나요?",
+      "options": [
+        { "id": "q4a", "text": "Receive it genuinely and feel appreciated", "textKo": "진심으로 받아들이고 소중하게 느껴요", "scores": { "graceful-receiver": 3 } },
+        { "id": "q4b", "text": "Feel awkward and change the subject or minimize", "textKo": "어색해서 화제를 돌리거나 축소해요", "scores": { "deflector": 3 } },
+        { "id": "q4c", "text": "Feel uncertain — is this praise genuine or strategic?", "textKo": "불확실해요 — 진심인가요 아니면 전략적인가요?", "scores": { "suspicious": 3 } },
+        { "id": "q4d", "text": "Feel a deep warmth — approval from authority matters deeply", "textKo": "깊은 따뜻함을 느껴요 — 권위자의 인정은 깊이 중요해요", "scores": { "hungry-receiver": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "If someone compliments your appearance (e.g., 'You look great today!'), you...",
+      "textKo": "외모를 칭찬받으면 (예: '오늘 정말 멋져 보여요!') 어떻게 하나요?",
+      "options": [
+        { "id": "q5a", "text": "Say 'Thank you!' and mean it", "textKo": "'감사해요!'라고 말하고 진심으로 받아들여요", "scores": { "graceful-receiver": 3 } },
+        { "id": "q5b", "text": "Say 'Oh no, I look terrible' almost automatically", "textKo": "거의 자동으로 '아니에요, 오늘 별로예요'라고 말해요", "scores": { "deflector": 3 } },
+        { "id": "q5c", "text": "Feel self-conscious and wonder if they're being sincere", "textKo": "자의식이 강해지고 진심인지 궁금해해요", "scores": { "suspicious": 3 } },
+        { "id": "q5d", "text": "Feel genuinely lifted — you love hearing this kind of thing", "textKo": "진심으로 기분이 좋아져요 — 이런 말을 듣는 것을 좋아해요", "scores": { "hungry-receiver": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "If you receive no praise for good work, you...",
+      "textKo": "좋은 일을 하고도 칭찬을 받지 못하면...",
+      "options": [
+        { "id": "q6a", "text": "Feel fine — the quality of the work is its own reward", "textKo": "괜찮아요 — 일의 질 자체가 보상이에요", "scores": { "graceful-receiver": 3 } },
+        { "id": "q6b", "text": "Feel a little deflated but understand — others are busy", "textKo": "약간 기운이 빠지지만 이해해요 — 다른 사람들은 바빠요", "scores": { "deflector": 2 } },
+        { "id": "q6c", "text": "Feel relieved — praise often makes you feel uncomfortable anyway", "textKo": "안도해요 — 칭찬은 어차피 자주 불편하게 느껴지니까요", "scores": { "suspicious": 3 } },
+        { "id": "q6d", "text": "Feel overlooked and it significantly affects your motivation", "textKo": "간과된 것 같아 동기 부여에 상당히 영향을 미쳐요", "scores": { "hungry-receiver": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "When a mentor says 'You have real talent', you believe...",
+      "textKo": "멘토가 '당신은 정말 재능이 있어요'라고 말할 때...",
+      "options": [
+        { "id": "q7a", "text": "Thank them warmly — they've seen your hard work pay off", "textKo": "따뜻하게 감사드려요 — 당신의 노력이 보여진 거예요", "scores": { "graceful-receiver": 3 } },
+        { "id": "q7b", "text": "'It's not talent, it's just practice' — downplay it", "textKo": "'재능이 아니에요, 그냥 연습이에요' — 축소해요", "scores": { "deflector": 3 } },
+        { "id": "q7c", "text": "Wonder if they're trying to build you up for a reason", "textKo": "어떤 이유로 당신을 세우려는 건지 궁금해해요", "scores": { "suspicious": 3 } },
+        { "id": "q7d", "text": "Feel deeply affirmed — it validates your sense of identity", "textKo": "깊이 확인받아요 — 나의 정체성 감각을 검증해줘요", "scores": { "hungry-receiver": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How do you feel giving yourself credit for your own achievements?",
+      "textKo": "자신의 성취에 스스로 공을 돌리는 것이 어떤가요?",
+      "options": [
+        { "id": "q8a", "text": "Natural — it's okay to acknowledge what you did well", "textKo": "자연스러워요 — 잘한 것을 인정하는 것은 괜찮아요", "scores": { "graceful-receiver": 3 } },
+        { "id": "q8b", "text": "Uncomfortable — it feels arrogant or unsafe", "textKo": "불편해요 — 오만하거나 안전하지 않게 느껴져요", "scores": { "deflector": 3 } },
+        { "id": "q8c", "text": "Hard to do — you're not sure it's really your credit", "textKo": "하기 어려워요 — 정말 내 공인지 확신이 없어요", "scores": { "suspicious": 3 } },
+        { "id": "q8d", "text": "Good but you prefer it when others acknowledge you first", "textKo": "좋지만 다른 사람들이 먼저 인정해주는 것을 더 선호해요", "scores": { "hungry-receiver": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When people praise you on social media (likes, comments), you feel...",
+      "textKo": "소셜 미디어에서 칭찬받을 때 (좋아요, 댓글) 어떻게 느끼나요?",
+      "options": [
+        { "id": "q9a", "text": "Grateful — it's nice to be appreciated", "textKo": "감사해요 — 감사받는 것은 좋은 일이에요", "scores": { "graceful-receiver": 3 } },
+        { "id": "q9b", "text": "Embarrassed — you almost want to hide the post", "textKo": "당황해요 — 게시물을 숨기고 싶기도 해요", "scores": { "deflector": 3 } },
+        { "id": "q9c", "text": "Ambivalent — are they being genuine or performative?", "textKo": "양가적이에요 — 진심인가요 아니면 보여주기인가요?", "scores": { "suspicious": 3 } },
+        { "id": "q9d", "text": "Very happy — online recognition still counts and matters", "textKo": "매우 행복해요 — 온라인 인정도 여전히 중요하고 의미 있어요", "scores": { "hungry-receiver": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Which statement about praise resonates most with you?",
+      "textKo": "칭찬에 대한 다음 중 가장 공감되는 것은?",
+      "options": [
+        { "id": "q10a", "text": "Praise fuels me, but I don't need it to feel good about myself", "textKo": "칭찬은 나에게 에너지를 주지만 자신감을 위해 필요하진 않아요", "scores": { "graceful-receiver": 3 } },
+        { "id": "q10b", "text": "Praise makes me uncomfortable — I'd rather just do the work quietly", "textKo": "칭찬은 불편해요 — 그냥 조용히 일하는 것이 낫겠어요", "scores": { "deflector": 3 } },
+        { "id": "q10c", "text": "Praise is nice but I always wonder about the intention behind it", "textKo": "칭찬은 좋지만 항상 그 의도가 궁금해요", "scores": { "suspicious": 3 } },
+        { "id": "q10d", "text": "Feeling appreciated and recognized deeply matters to my wellbeing", "textKo": "감사받고 인정받는 것이 행복에 깊이 중요해요", "scores": { "hungry-receiver": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "graceful-receiver",
+      "title": "The Graceful Receiver",
+      "titleKo": "우아한 수용형",
+      "description": "You accept praise with ease and warmth. You can take in compliments without deflecting or being overwhelmed by them.",
+      "descriptionKo": "칭찬을 편안함과 따뜻함으로 받아들입니다. 회피하거나 압도되지 않고 칭찬을 받아들일 수 있습니다. 이 건강한 자기 수용이 성숙한 자존감의 증거입니다.",
+      "traits": ["Self-accepting", "Confident", "Grounded"],
+      "traitsKo": ["자기 수용적인", "자신감 있는", "안정된"],
+      "strengthsKo": ["칭찬을 자연스럽게 받아들여 관계에서 유대감을 높여요", "건강한 자아 존중감이 안정적이에요", "칭찬을 동력으로 긍정적으로 활용해요"],
+      "weaknessesKo": ["때로 칭찬에 너무 여유로워 보여 자만처럼 보일 수 있어요", "더 많은 성장 피드백을 원하는 사람들을 놓칠 수 있어요"],
+      "careerFitsKo": ["퍼포먼스 예술가/발표자", "리더/매니저", "코치/트레이너"],
+      "relationshipTipKo": "자신이 칭찬을 잘 받아들이는 것처럼 파트너에게도 진심 어린 구체적인 칭찬을 자주 표현해보세요.",
+      "compatibleWith": ["deflector"],
+      "compatibleDescriptionKo": "우아한 수용형이 모델을 보여주면 겸손 회피형이 칭찬을 더 자연스럽게 받아들이는 법을 배울 수 있어요.",
+      "emoji": "🌺",
+      "gradient": "from-rose-300 to-pink-400"
+    },
+    {
+      "id": "deflector",
+      "title": "The Humble Deflector",
+      "titleKo": "겸손 회피형",
+      "description": "You deflect compliments almost automatically. Often this reflects deep humility, but it can also be worth asking: is it genuine modesty or difficulty receiving love?",
+      "descriptionKo": "거의 자동으로 칭찬을 회피합니다. 종종 이것은 깊은 겸손함을 반영하지만, 진정한 겸손인지 아니면 사랑을 받아들이는 것의 어려움인지 물어볼 가치가 있습니다.",
+      "traits": ["Modest", "Self-effacing", "Humble"],
+      "traitsKo": ["겸손한", "자기 낮춤의", "자기 희생적인"],
+      "strengthsKo": ["진정한 겸손함으로 주변 사람들에게 신뢰를 줘요", "공을 타인과 나누는 넓은 마음이 있어요", "오만함 없이 자신의 일을 해요"],
+      "weaknessesKo": ["칭찬을 회피함으로써 칭찬하는 사람을 무시하는 것처럼 보일 수 있어요", "진정한 자기 가치 인정이 부족할 수 있어요"],
+      "careerFitsKo": ["공동 작업 환경", "연구/학문 분야", "조용히 기여하는 서비스 역할"],
+      "relationshipTipKo": "다음번 칭찬을 받을 때 회피 전에 딱 3초 동안 '감사해요'만 먼저 말해보세요 — 그것으로 충분해요.",
+      "compatibleWith": ["graceful-receiver"],
+      "compatibleDescriptionKo": "우아한 수용형이 자연스럽게 칭찬을 받아들이는 모습이 겸손 회피형에게 영감이 되어 자기 수용을 배울 수 있어요.",
+      "emoji": "🌾",
+      "gradient": "from-amber-300 to-yellow-400"
+    },
+    {
+      "id": "suspicious",
+      "title": "The Suspicious Receiver",
+      "titleKo": "의심형",
+      "description": "You question the motives behind praise. This can be protective, but it also keeps genuine appreciation from truly reaching you.",
+      "descriptionKo": "칭찬 뒤의 동기를 의심합니다. 이것이 보호적일 수 있지만 진정한 감사가 당신에게 도달하는 것을 막기도 합니다. 모든 칭찬이 뭔가를 위한 것이 아님을 천천히 배워가는 과정에 있습니다.",
+      "traits": ["Skeptical", "Protective", "Perceptive"],
+      "traitsKo": ["회의적인", "보호적인", "지각 있는"],
+      "strengthsKo": ["빈 칭찬이나 아부를 잘 알아챠요", "진심 어린 인정의 가치를 깊이 알아요", "관계에서 조작이나 착취를 잘 피해요"],
+      "weaknessesKo": ["진심 어린 칭찬을 받아들이지 못해 관계에 거리가 생길 수 있어요", "의심이 자기 가치감을 낮추는 내면의 비판자로 연결될 수 있어요"],
+      "careerFitsKo": ["리스크 분석가", "탐사 저널리스트", "법률/규정 준수 전문가"],
+      "relationshipTipKo": "칭찬을 받을 때 '이것이 사실일 수도 있다'는 가능성을 5%만 더 열어두는 연습을 해보세요.",
+      "compatibleWith": ["graceful-receiver"],
+      "compatibleDescriptionKo": "우아한 수용형의 열린 태도가 의심형에게 칭찬이 안전하다는 것을 몸으로 보여줄 수 있어요.",
+      "emoji": "🔎",
+      "gradient": "from-slate-400 to-indigo-500"
+    },
+    {
+      "id": "hungry-receiver",
+      "title": "The Hungry Receiver",
+      "titleKo": "갈망형",
+      "description": "Recognition deeply nourishes you. You thrive on praise and notice keenly when it's absent. Understanding this can help you build internal validation.",
+      "descriptionKo": "인정이 깊이 당신을 키워줍니다. 칭찬을 받으면 활기를 얻고 없을 때 예민하게 알아챕니다. 이것을 이해하면 내적 인정을 키우는 데 도움이 됩니다. 외부의 칭찬만큼 자기 자신으로부터의 인정도 소중히 키워가세요.",
+      "traits": ["Recognition-seeking", "Highly sensitive to praise", "Responsive"],
+      "traitsKo": ["인정을 구하는", "칭찬에 매우 민감한", "반응적인"],
+      "strengthsKo": ["칭찬에 적극적으로 반응해 주는 사람을 기쁘게 해요", "인정을 받으면 최고의 성과를 발휘해요", "감사와 인정의 중요성을 깊이 알고 표현해요"],
+      "weaknessesKo": ["칭찬이 없을 때 동기 부여가 크게 떨어질 수 있어요", "인정에 대한 의존이 불건강한 관계 패턴을 만들 수 있어요"],
+      "careerFitsKo": ["퍼포먼스 예술 분야", "영업/고객 대응 직종", "사회적 영향력 중시 역할"],
+      "relationshipTipKo": "하루에 한 가지 자신을 칭찬하는 연습을 해보세요 — 외부의 인정을 기다리지 않아도 되는 내면의 목소리를 키울 수 있어요.",
+      "compatibleWith": ["graceful-receiver"],
+      "compatibleDescriptionKo": "우아한 수용형이 진심으로 칭찬을 주고받는 방식을 보여주면 갈망형이 더 건강한 인정 패턴을 만들어갈 수 있어요.",
+      "emoji": "🌻",
+      "gradient": "from-fuchsia-400 to-pink-500"
+    }
+  ]
+}

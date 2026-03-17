@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "self-care-style",
+    "slug": "self-care-style",
+    "title": "Self-Care Style",
+    "titleKo": "나의 자기 돌봄 유형은?",
+    "description": "Discover how you tend to your own wellbeing and emotional needs",
+    "descriptionKo": "자신의 행복과 감정적 필요를 돌보는 방식을 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Neff (2003) Self-Compassion Scale",
+    "gradient": "from-rose-300 to-pink-500",
+    "emoji": "🌸"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you're feeling burned out, you typically...",
+      "textKo": "번아웃을 느낄 때 보통...",
+      "options": [
+        { "id": "q1a", "text": "Recognize it early and take proactive steps to restore yourself", "textKo": "일찍 알아차리고 자신을 회복하기 위한 적극적인 조치를 취해요", "scores": { "nurturer": 3 } },
+        { "id": "q1b", "text": "Push through — others need you and you can rest later", "textKo": "버텨요 — 다른 사람들이 당신을 필요로 하고 나중에 쉴 수 있어요", "scores": { "neglector": 3 } },
+        { "id": "q1c", "text": "Look for someone or something external to help you recover", "textKo": "회복을 도울 외부적인 사람이나 것을 찾아요", "scores": { "seeker": 3 } },
+        { "id": "q1d", "text": "Alternate between healthy habits and not-so-healthy ones", "textKo": "건강한 습관과 그렇지 않은 것 사이를 오가요", "scores": { "balanced-care": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When you make a significant mistake, how do you treat yourself?",
+      "textKo": "큰 실수를 했을 때 자신을 어떻게 대하나요?",
+      "options": [
+        { "id": "q2a", "text": "With kindness — you'd offer the same grace to a friend", "textKo": "친절하게요 — 친구에게 같은 배려를 줄 거예요", "scores": { "nurturer": 3 } },
+        { "id": "q2b", "text": "Harshly — you hold yourself to very high standards", "textKo": "가혹하게요 — 스스로에게 매우 높은 기준을 적용해요", "scores": { "neglector": 3 } },
+        { "id": "q2c", "text": "Look for validation or comfort from others to feel better", "textKo": "기분이 나아지기 위해 다른 사람의 검증이나 위로를 찾아요", "scores": { "seeker": 3 } },
+        { "id": "q2d", "text": "Acknowledge the mistake, forgive yourself, and learn from it", "textKo": "실수를 인정하고 자신을 용서하고 배워요", "scores": { "balanced-care": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How consistent is your self-care routine (sleep, food, movement)?",
+      "textKo": "자기 돌봄 루틴 (수면, 음식, 운동)은 얼마나 일관적인가요?",
+      "options": [
+        { "id": "q3a", "text": "Very — I prioritize the basics because I know they matter", "textKo": "매우 일관적이에요 — 기본이 중요하다는 것을 알기에 우선시해요", "scores": { "nurturer": 3 } },
+        { "id": "q3b", "text": "Inconsistent — I often skip basics when life gets busy", "textKo": "불일관적이에요 — 삶이 바빠지면 기본을 자주 건너뛰어요", "scores": { "neglector": 3 } },
+        { "id": "q3c", "text": "Good when I have support, but I struggle alone", "textKo": "지지가 있을 때는 좋지만 혼자면 힘들어요", "scores": { "seeker": 3 } },
+        { "id": "q3d", "text": "Mostly good with occasional lapses — and I don't beat myself up", "textKo": "대체로 좋지만 가끔 실수하고 — 자책하지 않아요", "scores": { "balanced-care": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "When a friend or family member asks for help and you're already depleted...",
+      "textKo": "이미 지쳐있는데 친구나 가족이 도움을 요청할 때...",
+      "options": [
+        { "id": "q4a", "text": "Let them know honestly you need to refill first", "textKo": "먼저 충전이 필요하다고 솔직하게 알려요", "scores": { "nurturer": 3 } },
+        { "id": "q4b", "text": "Help regardless — their needs feel more important than yours", "textKo": "어차피 도와요 — 그들의 필요가 내 것보다 더 중요하게 느껴져요", "scores": { "neglector": 3 } },
+        { "id": "q4c", "text": "Help if they can also reciprocate emotional support for you", "textKo": "그들이 나에게 감정적 지원을 상호적으로 해줄 수 있으면 도와요", "scores": { "seeker": 3 } },
+        { "id": "q4d", "text": "Do what you can without overextending yourself", "textKo": "과도하게 확장하지 않고 할 수 있는 것을 해요", "scores": { "balanced-care": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How do you feel about spending money on yourself (e.g., therapy, massages, hobbies)?",
+      "textKo": "자신을 위해 돈 쓰는 것 (치료, 마사지, 취미 등)에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q5a", "text": "Worth it — investing in yourself is important", "textKo": "가치 있어요 — 자신에 대한 투자는 중요해요", "scores": { "nurturer": 3 } },
+        { "id": "q5b", "text": "Guilty — feels selfish or like a luxury you don't deserve", "textKo": "죄책감이 들어요 — 이기적이거나 받을 자격 없는 사치 같아요", "scores": { "neglector": 3 } },
+        { "id": "q5c", "text": "Good, especially when shared with others or done socially", "textKo": "좋아요, 특히 다른 사람들과 함께하거나 사교적으로 할 때", "scores": { "seeker": 3 } },
+        { "id": "q5d", "text": "Fine in moderation — it depends on the need and timing", "textKo": "적당히 하면 괜찮아요 — 필요와 타이밍에 따라 달라요", "scores": { "balanced-care": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When you say 'I'm fine' to someone asking how you are, it usually means...",
+      "textKo": "어떠냐는 질문에 '괜찮아요'라고 말할 때 보통 의미는...",
+      "options": [
+        { "id": "q6a", "text": "You genuinely feel okay — you've been tending to yourself", "textKo": "진짜 괜찮아요 — 자신을 잘 돌봐왔어요", "scores": { "nurturer": 3 } },
+        { "id": "q6b", "text": "You're not fine but don't want to be a burden", "textKo": "괜찮지 않지만 짐이 되고 싶지 않아요", "scores": { "neglector": 3 } },
+        { "id": "q6c", "text": "You want them to ask more and be curious about you", "textKo": "그들이 더 물어보고 당신에게 관심을 가져주길 원해요", "scores": { "seeker": 3 } },
+        { "id": "q6d", "text": "It's a genuine first answer — more details if the conversation continues", "textKo": "진심 어린 첫 번째 대답이에요 — 대화가 이어지면 더 이야기해요", "scores": { "balanced-care": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "What does 'rest' look like for you?",
+      "textKo": "'쉬는 것'이 당신에게 어떤 모습인가요?",
+      "options": [
+        { "id": "q7a", "text": "Intentional downtime — activities that actively restore my energy", "textKo": "의도적인 여가 시간 — 에너지를 적극적으로 회복하는 활동", "scores": { "nurturer": 3 } },
+        { "id": "q7b", "text": "Rarely happens — I feel guilty resting when there's so much to do", "textKo": "거의 없어요 — 할 일이 많을 때 쉬면 죄책감이 들어요", "scores": { "neglector": 3 } },
+        { "id": "q7c", "text": "Best when shared — relaxing with others energizes me", "textKo": "함께할 때 가장 좋아요 — 다른 사람들과 쉬는 것이 에너지를 줘요", "scores": { "seeker": 3 } },
+        { "id": "q7d", "text": "A mix — sometimes alone, sometimes social, always guilt-free", "textKo": "혼합이에요 — 때로는 혼자, 때로는 사교적으로, 항상 죄책감 없이", "scores": { "balanced-care": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "If you were going through a difficult time emotionally, you would...",
+      "textKo": "감정적으로 어려운 시간을 보내고 있다면...",
+      "options": [
+        { "id": "q8a", "text": "Check in with yourself, name the feeling, and take care of it", "textKo": "자신을 확인하고 감정을 명명하고 그것을 돌봐요", "scores": { "nurturer": 3 } },
+        { "id": "q8b", "text": "Keep going and deal with it later when it's less inconvenient", "textKo": "계속 나아가고 덜 불편할 때 나중에 처리해요", "scores": { "neglector": 3 } },
+        { "id": "q8c", "text": "Reach out to friends or a therapist almost immediately", "textKo": "거의 즉시 친구나 치료사에게 연락해요", "scores": { "seeker": 3 } },
+        { "id": "q8d", "text": "Some introspection, some connection — whatever helps most", "textKo": "약간의 성찰, 약간의 연결 — 가장 도움이 되는 것", "scores": { "balanced-care": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "In Korean work culture with strong 눈치 (social pressure), when do you take time for yourself?",
+      "textKo": "강한 눈치 문화의 한국 직장에서 언제 자신을 위한 시간을 가지나요?",
+      "options": [
+        { "id": "q9a", "text": "Protect time for yourself even under social pressure", "textKo": "사회적 압박 아래에서도 자신을 위한 시간을 보호해요", "scores": { "nurturer": 3 } },
+        { "id": "q9b", "text": "Rarely — work and social obligations always come first", "textKo": "거의 없어요 — 업무와 사회적 의무가 항상 먼저예요", "scores": { "neglector": 3 } },
+        { "id": "q9c", "text": "When colleagues or friends validate that you need it", "textKo": "동료나 친구들이 필요하다고 확인해줄 때", "scores": { "seeker": 3 } },
+        { "id": "q9d", "text": "As a natural part of your week, without needing permission", "textKo": "허락 없이 주간 자연스러운 일부로", "scores": { "balanced-care": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "How do you talk to yourself after a hard day?",
+      "textKo": "힘든 하루 후 자신에게 어떻게 이야기하나요?",
+      "options": [
+        { "id": "q10a", "text": "With warmth — 'You did your best, and that's enough'", "textKo": "따뜻하게 — '최선을 다했고 그것으로 충분해요'", "scores": { "nurturer": 3 } },
+        { "id": "q10b", "text": "Critically — focus on what you could have done better", "textKo": "비판적으로 — 더 잘할 수 있었던 것에 집중해요", "scores": { "neglector": 3 } },
+        { "id": "q10c", "text": "Seek reassurance — you need to hear from someone that you're okay", "textKo": "확신을 구해요 — 누군가로부터 괜찮다는 말을 들어야 해요", "scores": { "seeker": 3 } },
+        { "id": "q10d", "text": "Honestly — acknowledge both what went well and what didn't", "textKo": "솔직하게 — 잘된 것과 그렇지 않은 것 모두 인정해요", "scores": { "balanced-care": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "nurturer",
+      "title": "The Active Self-Nurturer",
+      "titleKo": "적극적 자기돌봄형",
+      "description": "You actively tend to your own wellbeing and practice genuine self-compassion. You're the friend you wish everyone had.",
+      "descriptionKo": "자신의 행복을 적극적으로 돌보고 진정한 자기 자비를 실천합니다. 당신은 모든 사람이 가졌으면 하는 친구입니다. 이 건강한 자기 돌봄이 다른 사람을 더 온전하게 도울 수 있는 기반이 됩니다.",
+      "traits": ["Self-compassionate", "Proactive", "Restorative"],
+      "traitsKo": ["자기 자비로운", "선제적인", "회복하는"],
+      "strengthsKo": ["건강한 경계와 자기 돌봄으로 번아웃을 예방해요", "자신을 친구처럼 대하는 자기 자비가 탁월해요", "충전된 상태에서 다른 사람에게 더 온전히 줄 수 있어요"],
+      "weaknessesKo": ["때로 자기 돌봄이 자기 중심적으로 보일 수 있어요", "다른 사람의 고통에 좀 더 공감이 필요할 수 있어요"],
+      "careerFitsKo": ["상담사/치료사", "코치/멘토", "자기 계발 분야"],
+      "relationshipTipKo": "자기 돌봄의 방식을 파트너와 나누고, 서로가 필요한 회복 방식을 존중하는 언어를 함께 만들어보세요.",
+      "compatibleWith": ["balanced-care"],
+      "compatibleDescriptionKo": "균형형 자기돌봄과는 서로의 자기 돌봄 철학이 비슷해 건강한 개인 공간과 함께하는 시간을 자연스럽게 조율할 수 있어요.",
+      "emoji": "🌸",
+      "gradient": "from-pink-400 to-rose-500"
+    },
+    {
+      "id": "neglector",
+      "title": "The Self-Sacrificer",
+      "titleKo": "자기희생형",
+      "description": "You consistently put others first and neglect your own needs. Your generosity is beautiful, but the well can run dry.",
+      "descriptionKo": "항상 다른 사람을 먼저 두고 자신의 필요를 무시합니다. 관대함은 아름답지만 우물은 말라갈 수 있습니다. '먼저 내 산소 마스크를 착용한 후 도와주세요'의 원리가 삶의 가장 중요한 가르침이 될 수 있어요.",
+      "traits": ["Selfless", "Other-focused", "Guilt-prone"],
+      "traitsKo": ["사심 없는", "타인 중심의", "죄책감을 잘 느끼는"],
+      "strengthsKo": ["다른 사람들에게 깊은 헌신을 보여줘요", "필요한 사람들에게 항상 곁에 있어요", "팀이나 가족을 위해 희생하는 마음이 있어요"],
+      "weaknessesKo": ["자기 방치로 인한 번아웃, 분노, 또는 건강 문제가 생길 수 있어요", "자신의 필요를 표현하는 것이 어려워요"],
+      "careerFitsKo": ["사회복지/의료 분야", "교사/부모 역할", "봉사 단체"],
+      "relationshipTipKo": "오늘 자신을 위해 하나의 작은 것을 하고 그것이 이기적인 것이 아님을 의식적으로 인정해보세요.",
+      "compatibleWith": ["nurturer"],
+      "compatibleDescriptionKo": "적극적 자기돌봄형이 자신을 돌보는 모델을 보여주면 자기희생형이 자신도 돌봄이 가능하다는 것을 배울 수 있어요.",
+      "emoji": "🕊️",
+      "gradient": "from-slate-300 to-blue-400"
+    },
+    {
+      "id": "seeker",
+      "title": "The External Seeker",
+      "titleKo": "외부 의존형",
+      "description": "You look outward for care and replenishment. Others help you feel good, which is valid — and building internal resources adds resilience.",
+      "descriptionKo": "돌봄과 보충을 위해 외부를 봅니다. 다른 사람들이 기분을 좋게 해주는데 이것은 유효하며 내적 자원을 구축하면 회복력이 높아집니다. 외부 지지를 잘 활용하면서 내면의 자기 돌봄 능력도 함께 키워가세요.",
+      "traits": ["Socially recharged", "Connection-dependent", "Supportive"],
+      "traitsKo": ["사회적으로 충전되는", "연결 의존적인", "지지를 주고받는"],
+      "strengthsKo": ["도움을 요청하는 것을 두려워하지 않아요", "관계에서 상호적인 돌봄을 잘 줘요", "사회적 지원 네트워크를 잘 구축하고 활용해요"],
+      "weaknessesKo": ["혼자일 때 자기 돌봄이 어려울 수 있어요", "다른 사람의 가용성에 자신의 행복이 의존할 수 있어요"],
+      "careerFitsKo": ["팀 기반 환경의 모든 직종", "커뮤니티 케어 분야", "상담/코칭 (함께 치유)"],
+      "relationshipTipKo": "혼자서 기분을 좋게 만들 수 있는 한 가지 루틴을 만들어보세요 — 독립적인 자기 돌봄이 관계를 더 건강하게 해요.",
+      "compatibleWith": ["balanced-care"],
+      "compatibleDescriptionKo": "균형형 자기돌봄이 독립적 자기 돌봄의 모델을 보여주면 외부 의존형이 내면의 자원을 키우는 데 영감을 받아요.",
+      "emoji": "🌻",
+      "gradient": "from-amber-300 to-orange-400"
+    },
+    {
+      "id": "balanced-care",
+      "title": "The Balanced Self-Carer",
+      "titleKo": "균형형 자기돌봄",
+      "description": "You take care of yourself without obsession. You know when to rest, when to push, and when to ask for help.",
+      "descriptionKo": "집착 없이 자신을 돌봅니다. 언제 쉬어야 하는지, 언제 밀어붙여야 하는지, 언제 도움을 구해야 하는지 알고 있습니다. 이 균형 잡힌 자기 돌봄이 지속 가능한 행복의 기반이 됩니다.",
+      "traits": ["Self-aware", "Flexible", "Self-compassionate"],
+      "traitsKo": ["자기 인식이 높은", "유연한", "자기 자비로운"],
+      "strengthsKo": ["지속 가능한 자기 돌봄 루틴을 유지해요", "자신의 필요에 맞게 돌봄 방식을 유연하게 조정해요", "번아웃 없이 꾸준히 높은 기능 수준을 유지해요"],
+      "weaknessesKo": ["때로 지나치게 합리적이어서 감정을 충분히 느끼지 않을 수 있어요", "자기 돌봄이 너무 체계적으로 되어 자발성이 부족할 수 있어요"],
+      "careerFitsKo": ["지속 가능한 고성과 전문직", "치료사/웰니스 코치", "모든 균형 잡힌 환경"],
+      "relationshipTipKo": "자신을 잘 돌보는 것처럼 파트너의 자기 돌봄 방식도 존중하고 서로 충전할 공간을 의도적으로 만들어보세요.",
+      "compatibleWith": ["nurturer"],
+      "compatibleDescriptionKo": "적극적 자기돌봄형의 의도적인 돌봄과 균형형의 유연성이 만나면 서로의 행복을 지지하는 최고의 조합이 돼요.",
+      "emoji": "🌿",
+      "gradient": "from-green-400 to-teal-500"
+    }
+  ]
+}

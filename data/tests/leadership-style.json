@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "id": "leadership-style",
+    "slug": "leadership-style",
+    "title": "Leadership Style",
+    "titleKo": "나의 리더십 유형은?",
+    "description": "Discover how you naturally lead and influence others",
+    "descriptionKo": "당신이 자연스럽게 다른 사람을 이끌고 영향을 미치는 방식을 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Goleman (2000) Leadership Styles",
+    "gradient": "from-orange-500 to-red-600",
+    "emoji": "👑"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When starting a new team project, you first...",
+      "textKo": "새로운 팀 프로젝트를 시작할 때 가장 먼저...",
+      "options": [
+        { "id": "q1a", "text": "Paint a compelling vision of where we're headed", "textKo": "우리가 나아갈 방향에 대한 매력적인 비전을 그려요", "scores": { "visionary": 3 } },
+        { "id": "q1b", "text": "Get to know each person's strengths and goals", "textKo": "각 사람의 강점과 목표를 파악해요", "scores": { "coaching": 3 } },
+        { "id": "q1c", "text": "Call a group meeting to get everyone's input", "textKo": "모두의 의견을 듣기 위해 그룹 미팅을 소집해요", "scores": { "democratic": 3 } },
+        { "id": "q1d", "text": "Set high standards and demonstrate them myself", "textKo": "높은 기준을 설정하고 직접 시범을 보여줘요", "scores": { "pacesetting": 3 } },
+        { "id": "q1e", "text": "Clearly define roles, responsibilities and deadlines", "textKo": "역할, 책임, 마감 기한을 명확하게 정의해요", "scores": { "commanding": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "A team member is struggling with their workload. You...",
+      "textKo": "팀원이 업무량으로 힘들어할 때...",
+      "options": [
+        { "id": "q2a", "text": "Remind them how their work connects to the bigger purpose", "textKo": "그들의 일이 더 큰 목적과 어떻게 연결되는지 상기시켜요", "scores": { "visionary": 3 } },
+        { "id": "q2b", "text": "Have a one-on-one to understand their challenges deeply", "textKo": "일대일로 만나 어려움을 깊이 이해해요", "scores": { "coaching": 3 } },
+        { "id": "q2c", "text": "Ask the team to collectively brainstorm solutions", "textKo": "팀에게 해결책을 함께 브레인스토밍하도록 요청해요", "scores": { "democratic": 3 } },
+        { "id": "q2d", "text": "Show them how you would do it more efficiently", "textKo": "더 효율적으로 하는 방법을 직접 보여줘요", "scores": { "pacesetting": 3 } },
+        { "id": "q2e", "text": "Reassign tasks and give clear directives to resolve it", "textKo": "업무를 재배분하고 명확한 지시를 내려 해결해요", "scores": { "commanding": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "What do you believe most about leadership?",
+      "textKo": "리더십에 대해 가장 믿는 것은 무엇인가요?",
+      "options": [
+        { "id": "q3a", "text": "Leaders inspire people toward a shared dream", "textKo": "리더는 공유된 꿈을 향해 사람들을 영감으로 이끌어요", "scores": { "visionary": 3 } },
+        { "id": "q3b", "text": "Leaders grow other leaders", "textKo": "리더는 다른 리더를 키워요", "scores": { "coaching": 3 } },
+        { "id": "q3c", "text": "The best decisions come from collective wisdom", "textKo": "최선의 결정은 집단적 지혜에서 나와요", "scores": { "democratic": 3 } },
+        { "id": "q3d", "text": "Leading by example is the most powerful form", "textKo": "솔선수범이 가장 강력한 리더십이에요", "scores": { "pacesetting": 3 } },
+        { "id": "q3e", "text": "Clear authority and structure produce results", "textKo": "명확한 권위와 구조가 결과를 만들어요", "scores": { "commanding": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "In a crisis situation, you...",
+      "textKo": "위기 상황에서 당신은...",
+      "options": [
+        { "id": "q4a", "text": "Refocus the team on the long-term mission", "textKo": "팀을 장기적 미션에 다시 집중시켜요", "scores": { "visionary": 3 } },
+        { "id": "q4b", "text": "Stay calm and coach people through their anxiety", "textKo": "침착하게 사람들의 불안을 코칭으로 다독여요", "scores": { "coaching": 3 } },
+        { "id": "q4c", "text": "Consult the team before making decisions", "textKo": "결정하기 전에 팀과 상의해요", "scores": { "democratic": 2 } },
+        { "id": "q4d", "text": "Jump in and handle things at maximum speed", "textKo": "직접 뛰어들어 최대 속도로 처리해요", "scores": { "pacesetting": 3 } },
+        { "id": "q4e", "text": "Take charge immediately and issue clear orders", "textKo": "즉시 지휘를 맡고 명확한 명령을 내려요", "scores": { "commanding": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How do you give feedback to your team?",
+      "textKo": "팀에게 피드백을 어떻게 전달하나요?",
+      "options": [
+        { "id": "q5a", "text": "Link their performance back to the team's vision", "textKo": "그들의 성과를 팀의 비전과 연결 지어요", "scores": { "visionary": 3 } },
+        { "id": "q5b", "text": "Have in-depth conversations focused on growth", "textKo": "성장에 초점을 맞춘 심층 대화를 나눠요", "scores": { "coaching": 3 } },
+        { "id": "q5c", "text": "Create open forums for peer feedback", "textKo": "동료 피드백을 위한 개방적인 장을 만들어요", "scores": { "democratic": 3 } },
+        { "id": "q5d", "text": "Point out gaps between their performance and your standard", "textKo": "그들의 성과와 내 기준 사이의 차이를 짚어줘요", "scores": { "pacesetting": 3 } },
+        { "id": "q5e", "text": "Give direct, specific, immediate feedback", "textKo": "직접적이고 구체적이며 즉각적인 피드백을 줘요", "scores": { "commanding": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "What does success look like to you as a leader?",
+      "textKo": "리더로서 성공은 어떤 모습인가요?",
+      "options": [
+        { "id": "q6a", "text": "When the team is deeply aligned on purpose and direction", "textKo": "팀이 목적과 방향에 깊이 정렬됐을 때", "scores": { "visionary": 3 } },
+        { "id": "q6b", "text": "When team members grow beyond what they thought possible", "textKo": "팀원들이 가능하다고 생각한 것 이상으로 성장했을 때", "scores": { "coaching": 3 } },
+        { "id": "q6c", "text": "When everyone feels heard and the decision is collective", "textKo": "모두가 존중받고 결정이 공동으로 이루어졌을 때", "scores": { "democratic": 3 } },
+        { "id": "q6d", "text": "When quality and speed both exceed expectations", "textKo": "품질과 속도 모두 기대를 뛰어넘었을 때", "scores": { "pacesetting": 3 } },
+        { "id": "q6e", "text": "When goals are met on time with clear accountability", "textKo": "명확한 책임감으로 목표가 제시간에 달성됐을 때", "scores": { "commanding": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "A team member disagrees with your decision. You...",
+      "textKo": "팀원이 당신의 결정에 동의하지 않을 때...",
+      "options": [
+        { "id": "q7a", "text": "Explain the 'why' behind it — connect it to the bigger picture", "textKo": "'왜'를 설명해요 — 큰 그림과 연결시켜요", "scores": { "visionary": 3 } },
+        { "id": "q7b", "text": "Listen deeply and help them see it from multiple angles", "textKo": "깊이 경청하고 다양한 각도에서 보도록 도와요", "scores": { "coaching": 3 } },
+        { "id": "q7c", "text": "Open it up to the team for broader discussion", "textKo": "팀 전체에 열어 더 폭넓은 토론을 해요", "scores": { "democratic": 3 } },
+        { "id": "q7d", "text": "Challenge them to match the standard you've set", "textKo": "내가 설정한 기준에 맞춰 도전하도록 격려해요", "scores": { "pacesetting": 2 } },
+        { "id": "q7e", "text": "Acknowledge but maintain your position firmly", "textKo": "인정하지만 내 입장을 단호하게 유지해요", "scores": { "commanding": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How do you build team morale?",
+      "textKo": "팀의 사기를 어떻게 높이나요?",
+      "options": [
+        { "id": "q8a", "text": "Share stories of where the team is heading and why it matters", "textKo": "팀이 어디로 가고 있고 왜 중요한지 이야기를 나눠요", "scores": { "visionary": 3 } },
+        { "id": "q8b", "text": "Invest time in each person individually", "textKo": "각 사람에게 개별적으로 시간을 투자해요", "scores": { "coaching": 3 } },
+        { "id": "q8c", "text": "Create shared experiences and celebrate together", "textKo": "공유된 경험을 만들고 함께 축하해요", "scores": { "democratic": 3 } },
+        { "id": "q8d", "text": "Recognize high performers publicly and push others to rise", "textKo": "우수자를 공개적으로 인정하고 다른 이들도 올라오도록 독려해요", "scores": { "pacesetting": 3 } },
+        { "id": "q8e", "text": "Set a clear win condition and unite everyone around achieving it", "textKo": "명확한 승리 조건을 설정하고 모두를 달성에 집중시켜요", "scores": { "commanding": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "In Korean workplace culture, how do you handle 위계 (hierarchy)?",
+      "textKo": "한국의 직장 문화에서 위계를 어떻게 다루나요?",
+      "options": [
+        { "id": "q9a", "text": "I transcend hierarchy through shared vision and values", "textKo": "공유된 비전과 가치를 통해 위계를 초월해요", "scores": { "visionary": 3 } },
+        { "id": "q9b", "text": "I use informal channels to coach and develop people", "textKo": "비공식적 채널을 활용해 사람들을 코칭하고 개발해요", "scores": { "coaching": 3 } },
+        { "id": "q9c", "text": "I try to flatten hierarchy to encourage open dialogue", "textKo": "개방적 대화를 위해 위계를 수평화하려 해요", "scores": { "democratic": 3 } },
+        { "id": "q9d", "text": "I lead by performance — results command more respect than rank", "textKo": "성과로 이끌어요 — 직급보다 결과가 더 큰 존중을 얻어요", "scores": { "pacesetting": 3 } },
+        { "id": "q9e", "text": "Hierarchy provides useful clarity — I respect and use structure", "textKo": "위계는 유용한 명확성을 제공해요 — 구조를 존중하고 활용해요", "scores": { "commanding": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "When a project fails, you first...",
+      "textKo": "프로젝트가 실패했을 때 가장 먼저...",
+      "options": [
+        { "id": "q10a", "text": "Reconnect the team to the mission and look ahead", "textKo": "팀을 미션에 다시 연결하고 앞을 바라봐요", "scores": { "visionary": 3 } },
+        { "id": "q10b", "text": "Have one-on-ones to process and find growth lessons", "textKo": "일대일로 만나 과정을 돌아보고 성장 교훈을 찾아요", "scores": { "coaching": 3 } },
+        { "id": "q10c", "text": "Hold a retrospective with the whole team", "textKo": "팀 전체와 회고 미팅을 해요", "scores": { "democratic": 3 } },
+        { "id": "q10d", "text": "Analyze what went wrong and set stricter standards", "textKo": "무엇이 잘못됐는지 분석하고 더 엄격한 기준을 설정해요", "scores": { "pacesetting": 3 } },
+        { "id": "q10e", "text": "Identify accountability and establish clearer processes", "textKo": "책임을 파악하고 더 명확한 프로세스를 수립해요", "scores": { "commanding": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "visionary",
+      "title": "The Visionary Leader",
+      "titleKo": "비전형 리더",
+      "description": "You lead by inspiring others with a compelling future. People follow you because they believe in where you're taking them.",
+      "descriptionKo": "당신은 매력적인 미래로 다른 사람을 영감을 주며 이끕니다. 사람들은 당신이 데려가는 곳을 믿기 때문에 당신을 따릅니다. 목적 의식과 방향성을 명확히 제시하는 능력이 탁월하며, 조직에 의미와 동기를 부여합니다.",
+      "traits": ["Inspiring", "Purpose-driven", "Forward-thinking"],
+      "traitsKo": ["영감을 주는", "목적 중심의", "미래 지향적인"],
+      "strengthsKo": ["팀에게 의미와 방향을 명확히 줘요", "변화와 불확실성 속에서 사람들을 안정시켜요", "장기적 목표를 향해 팀을 결집시키는 능력이 탁월해요"],
+      "weaknessesKo": ["현실적인 세부 실행 계획이 부족할 수 있어요", "단기 문제 해결보다 큰 그림에만 집중할 수 있어요"],
+      "careerFitsKo": ["CEO/창업자", "비영리 단체장", "전략 컨설턴트"],
+      "relationshipTipKo": "팀원들의 일상적 어려움에도 귀를 기울여 비전이 실제 삶과 연결될 수 있게 해주세요.",
+      "compatibleWith": ["coaching"],
+      "compatibleDescriptionKo": "코칭형 리더가 개별 팀원을 성장시키면 비전형 리더의 큰 그림이 실현 가능해져요.",
+      "emoji": "🌟",
+      "gradient": "from-amber-400 to-orange-500"
+    },
+    {
+      "id": "coaching",
+      "title": "The Coaching Leader",
+      "titleKo": "코칭형 리더",
+      "description": "You lead by developing people. You see the full potential in everyone and invest deeply in their personal and professional growth.",
+      "descriptionKo": "당신은 사람을 개발함으로써 이끕니다. 모든 사람의 완전한 잠재력을 보고 그들의 개인적, 직업적 성장에 깊이 투자합니다. 단기 결과보다 장기적 인재 육성을 중시하는 리더로, 사람들이 스스로를 발견하도록 돕습니다.",
+      "traits": ["Empathetic", "Developmental", "Patient"],
+      "traitsKo": ["공감하는", "개발 중심의", "인내심 있는"],
+      "strengthsKo": ["팀원의 장기적 성장을 이끌어내요", "개인의 강점을 발견하고 활용해요", "심리적 안전감이 있는 팀 문화를 만들어요"],
+      "weaknessesKo": ["즉각적인 결과가 필요한 상황에서 느릴 수 있어요", "성과가 낮은 팀원에게 너무 오래 투자할 수 있어요"],
+      "careerFitsKo": ["팀 리더/매니저", "인재 개발 전문가", "멘토/코치"],
+      "relationshipTipKo": "때로는 성장보다 당장의 결과가 필요한 순간을 인식하고 유연하게 스타일을 전환해보세요.",
+      "compatibleWith": ["democratic"],
+      "compatibleDescriptionKo": "민주형 리더의 집단 의사결정과 코칭형 리더의 개별 성장 지원이 만나면 강한 팀이 형성돼요.",
+      "emoji": "🌱",
+      "gradient": "from-green-500 to-emerald-600"
+    },
+    {
+      "id": "democratic",
+      "title": "The Democratic Leader",
+      "titleKo": "민주형 리더",
+      "description": "You lead by consensus. You believe the best solutions emerge from collective intelligence and everyone deserves a voice.",
+      "descriptionKo": "당신은 합의를 통해 이끕니다. 최선의 해결책은 집단 지성에서 나오며 모든 사람이 목소리를 가져야 한다고 믿습니다. 포용적인 의사결정 과정을 만들어 팀의 주인의식과 참여도를 높입니다.",
+      "traits": ["Inclusive", "Consensus-building", "Fair"],
+      "traitsKo": ["포용적인", "합의 지향적인", "공정한"],
+      "strengthsKo": ["팀의 참여도와 주인의식을 높여요", "다양한 관점을 수용하는 결정을 내려요", "신뢰와 투명성 기반의 팀 문화를 만들어요"],
+      "weaknessesKo": ["신속한 결정이 필요할 때 느릴 수 있어요", "의견 충돌 시 결론 도출이 어려울 수 있어요"],
+      "careerFitsKo": ["프로젝트 매니저", "HR 리더", "팀장/부서장"],
+      "relationshipTipKo": "합의가 항상 가능하지 않을 때 최종 결정을 내리는 것을 주저하지 말고, 경청 후 결단하는 연습을 해보세요.",
+      "compatibleWith": ["coaching"],
+      "compatibleDescriptionKo": "코칭형 리더와는 사람 중심의 가치를 공유하며 서로의 접근법이 자연스럽게 보완돼요.",
+      "emoji": "🤝",
+      "gradient": "from-blue-500 to-cyan-600"
+    },
+    {
+      "id": "pacesetting",
+      "title": "The Pacesetting Leader",
+      "titleKo": "선도형 리더",
+      "description": "You lead by example with relentlessly high standards. You get results, and you expect the same excellence from your team.",
+      "descriptionKo": "당신은 끊임없이 높은 기준으로 솔선수범합니다. 결과를 만들어내며 팀에게도 동일한 탁월함을 기대합니다. 빠른 실행과 높은 성과를 이끌어내지만, 팀원들이 따라오는 데 숨이 차지 않도록 페이스를 조절해주세요.",
+      "traits": ["High-standards", "Performance-driven", "Self-directed"],
+      "traitsKo": ["높은 기준의", "성과 중심의", "자기 주도적인"],
+      "strengthsKo": ["빠른 속도로 높은 품질의 결과를 만들어요", "자신이 먼저 기준을 보여줘 신뢰를 얻어요", "목표 달성에 대한 강한 드라이브가 있어요"],
+      "weaknessesKo": ["팀원들에게 번아웃을 유발할 수 있어요", "혼자 다 하려 해 팀 역량이 개발되지 않을 수 있어요"],
+      "careerFitsKo": ["스타트업 초기 리더", "고성과 팀 리더", "전문직 파트너/시니어"],
+      "relationshipTipKo": "팀원 각자의 한계와 성장 속도를 인정하고, 높은 기준 대신 방향성과 의미를 먼저 제공해보세요.",
+      "compatibleWith": ["commanding"],
+      "compatibleDescriptionKo": "지시형 리더의 명확한 구조와 선도형 리더의 높은 기준이 결합하면 강한 실행력이 나와요.",
+      "emoji": "🏃",
+      "gradient": "from-orange-400 to-red-500"
+    },
+    {
+      "id": "commanding",
+      "title": "The Commanding Leader",
+      "titleKo": "지시형 리더",
+      "description": "You lead with authority and clarity. In high-stakes situations, your decisiveness and clear direction are invaluable.",
+      "descriptionKo": "당신은 권위와 명확성으로 이끕니다. 위험 부담이 높은 상황에서 당신의 결단력과 명확한 방향성은 매우 귀중합니다. 위기와 혼란 속에서 팀을 안정시키는 힘이 있지만, 평상시에는 팀원의 자율성도 존중해주세요.",
+      "traits": ["Decisive", "Authoritative", "Structured"],
+      "traitsKo": ["결단력 있는", "권위 있는", "구조적인"],
+      "strengthsKo": ["위기 상황에서 빠르고 명확한 결정을 내려요", "책임감과 질서를 부여해 팀을 안정시켜요", "목표 달성을 위한 명확한 로드맵을 제시해요"],
+      "weaknessesKo": ["팀원의 자율성과 창의성을 억누를 수 있어요", "신뢰 없이 지시만 하면 반발을 살 수 있어요"],
+      "careerFitsKo": ["군/경찰 리더", "응급 의료 관리자", "운영 책임자(COO)"],
+      "relationshipTipKo": "지시를 내리기 전에 팀원들에게 '왜'를 설명하는 습관을 들이면 저항이 줄고 팀의 신뢰가 높아져요.",
+      "compatibleWith": ["pacesetting"],
+      "compatibleDescriptionKo": "선도형 리더가 성과 기준을 높이고 지시형 리더가 구조를 제공하면 강력한 실행 팀이 돼요.",
+      "emoji": "⚔️",
+      "gradient": "from-red-500 to-rose-700"
+    }
+  ]
+}

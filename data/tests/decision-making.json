@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "decision-making",
+    "slug": "decision-making",
+    "title": "Decision Making Style",
+    "titleKo": "나의 의사결정 유형은?",
+    "description": "Discover how you make decisions under pressure and in everyday life",
+    "descriptionKo": "압박 상황과 일상에서 결정을 내리는 방식을 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Hammond et al. (1998) Decision Traps",
+    "gradient": "from-teal-500 to-emerald-600",
+    "emoji": "🎯"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When choosing a new restaurant for 회식, you...",
+      "textKo": "회식 장소를 고를 때...",
+      "options": [
+        { "id": "q1a", "text": "Research reviews, ratings, and menus in detail", "textKo": "리뷰, 평점, 메뉴를 상세히 조사해요", "scores": { "analytical": 3 } },
+        { "id": "q1b", "text": "Go with a place that feels right based on past experience", "textKo": "과거 경험을 바탕으로 느낌이 좋은 곳으로 가요", "scores": { "intuitive": 3 } },
+        { "id": "q1c", "text": "Ask everyone in the group and decide together", "textKo": "그룹의 모든 사람에게 물어보고 함께 결정해요", "scores": { "collaborative": 3 } },
+        { "id": "q1d", "text": "Pick the first good-looking option and go", "textKo": "괜찮아 보이는 첫 번째 선택지를 잡고 가요", "scores": { "spontaneous": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "You have to make an important life decision (job, move, relationship). You...",
+      "textKo": "중요한 인생 결정 (직업, 이사, 관계)을 해야 해요. 어떻게 하나요?",
+      "options": [
+        { "id": "q2a", "text": "Create a pros/cons list and weigh all factors systematically", "textKo": "장단점 목록을 만들고 모든 요소를 체계적으로 저울질해요", "scores": { "analytical": 3 } },
+        { "id": "q2b", "text": "Trust your gut — you'll know when it feels right", "textKo": "직감을 믿어요 — 맞는다는 느낌이 올 때를 알 거예요", "scores": { "intuitive": 3 } },
+        { "id": "q2c", "text": "Consult trusted people in your life before deciding", "textKo": "결정하기 전에 삶의 믿음직한 사람들과 상의해요", "scores": { "collaborative": 3 } },
+        { "id": "q2d", "text": "Make a decision quickly and adjust as you go", "textKo": "빠르게 결정하고 가면서 조정해요", "scores": { "spontaneous": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Under time pressure, your decision-making...",
+      "textKo": "시간 압박 아래에서 의사결정은...",
+      "options": [
+        { "id": "q3a", "text": "Gets stressed — I need time to think properly", "textKo": "스트레스를 받아요 — 제대로 생각할 시간이 필요해요", "scores": { "analytical": 3 } },
+        { "id": "q3b", "text": "Actually works well — pressure sharpens my intuition", "textKo": "오히려 잘 돼요 — 압박이 직감을 날카롭게 해요", "scores": { "intuitive": 3 } },
+        { "id": "q3c", "text": "Suffers — I struggle without others' input", "textKo": "어려워요 — 다른 사람의 의견 없이는 힘들어요", "scores": { "collaborative": 2 } },
+        { "id": "q3d", "text": "Thrives — I love making quick calls", "textKo": "잘 돼요 — 빠른 결정 내리는 걸 좋아해요", "scores": { "spontaneous": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "After making a significant decision, you usually feel...",
+      "textKo": "중요한 결정을 내린 후 보통 어떻게 느끼나요?",
+      "options": [
+        { "id": "q4a", "text": "Confident — I did the research and trust the process", "textKo": "자신 있어요 — 조사했고 과정을 믿어요", "scores": { "analytical": 3 } },
+        { "id": "q4b", "text": "At peace — it felt right, so it probably is", "textKo": "평온해요 — 맞는 느낌이었으니 아마 그럴 거예요", "scores": { "intuitive": 3 } },
+        { "id": "q4c", "text": "Validated — knowing others agreed makes me confident", "textKo": "확인받은 느낌이에요 — 다른 사람들이 동의했다는 걸 알면 자신감이 생겨요", "scores": { "collaborative": 3 } },
+        { "id": "q4d", "text": "Ready to act — I don't dwell on it", "textKo": "행동할 준비가 됐어요 — 깊이 생각하지 않아요", "scores": { "spontaneous": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "When you make a decision that turns out to be wrong, you...",
+      "textKo": "잘못된 결정을 내렸을 때...",
+      "options": [
+        { "id": "q5a", "text": "Analyze where the logic failed and what to do differently", "textKo": "논리가 어디서 실패했는지 분석하고 다르게 할 것을 생각해요", "scores": { "analytical": 3 } },
+        { "id": "q5b", "text": "Accept it — sometimes intuition is off", "textKo": "받아들여요 — 가끔 직관도 틀릴 수 있어요", "scores": { "intuitive": 3 } },
+        { "id": "q5c", "text": "Wonder if consulting more people could have helped", "textKo": "더 많은 사람과 상의했더라면 도움이 됐을까 생각해요", "scores": { "collaborative": 3 } },
+        { "id": "q5d", "text": "Move on quickly — dwelling on it doesn't help", "textKo": "빠르게 넘어가요 — 생각해봐야 도움이 안 돼요", "scores": { "spontaneous": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When booking a vacation, you...",
+      "textKo": "휴가를 예약할 때...",
+      "options": [
+        { "id": "q6a", "text": "Compare options for weeks and book the objectively best one", "textKo": "몇 주 동안 옵션을 비교하고 객관적으로 최선을 예약해요", "scores": { "analytical": 3 } },
+        { "id": "q6b", "text": "Book the destination that excites you most in the moment", "textKo": "그 순간 가장 설레는 목적지를 예약해요", "scores": { "intuitive": 3 } },
+        { "id": "q6c", "text": "Decide with the people you'll be traveling with", "textKo": "함께 여행할 사람들과 결정해요", "scores": { "collaborative": 3 } },
+        { "id": "q6d", "text": "Book something spontaneously on a whim", "textKo": "충동적으로 즉흥 예약해요", "scores": { "spontaneous": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "In a group meeting where a decision needs to be made...",
+      "textKo": "결정을 내려야 하는 그룹 미팅에서...",
+      "options": [
+        { "id": "q7a", "text": "You present data and logical arguments to support your view", "textKo": "내 관점을 지지하는 데이터와 논리적 주장을 제시해요", "scores": { "analytical": 3 } },
+        { "id": "q7b", "text": "You speak from experience and instinct", "textKo": "경험과 본능에서 말해요", "scores": { "intuitive": 3 } },
+        { "id": "q7c", "text": "You ensure everyone has a chance to share their view first", "textKo": "모두가 먼저 의견을 나눌 기회가 있도록 해요", "scores": { "collaborative": 3 } },
+        { "id": "q7d", "text": "You push to make a decision and move forward quickly", "textKo": "빨리 결정을 내리고 앞으로 나아가도록 촉구해요", "scores": { "spontaneous": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Before choosing a 대학 major or career change, you would...",
+      "textKo": "대학 전공이나 직업 변경 전, 어떻게 하나요?",
+      "options": [
+        { "id": "q8a", "text": "Research extensively and map out all possible paths", "textKo": "광범위하게 조사하고 가능한 모든 경로를 지도로 그려요", "scores": { "analytical": 3 } },
+        { "id": "q8b", "text": "Reflect deeply on what genuinely excites and fulfills you", "textKo": "진정으로 설레고 만족감을 주는 것에 대해 깊이 성찰해요", "scores": { "intuitive": 3 } },
+        { "id": "q8c", "text": "Talk to many people in those fields and take their advice", "textKo": "그 분야의 많은 사람과 이야기하고 그들의 조언을 들어요", "scores": { "collaborative": 3 } },
+        { "id": "q8d", "text": "Try something new before fully committing — leap first", "textKo": "완전히 결정하기 전에 새로운 것을 먼저 시도해봐요 — 먼저 뛰어들어요", "scores": { "spontaneous": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "How do you handle situations with too many choices (e.g., endless menus, shopping)?",
+      "textKo": "너무 많은 선택지가 있을 때 (메뉴, 쇼핑 등) 어떻게 하나요?",
+      "options": [
+        { "id": "q9a", "text": "Systematically narrow down by criteria until one option remains", "textKo": "기준으로 체계적으로 좁혀나가 하나가 남을 때까지 해요", "scores": { "analytical": 3 } },
+        { "id": "q9b", "text": "Quickly sense which one feels right and go for it", "textKo": "어느 것이 맞는 느낌인지 빠르게 감지하고 선택해요", "scores": { "intuitive": 3 } },
+        { "id": "q9c", "text": "Ask someone with you or check what others recommend", "textKo": "함께 있는 사람에게 물어보거나 다른 사람 추천을 확인해요", "scores": { "collaborative": 3 } },
+        { "id": "q9d", "text": "Just pick something without overthinking it", "textKo": "너무 생각하지 않고 그냥 고르면 돼요", "scores": { "spontaneous": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What do you believe makes for the best decisions?",
+      "textKo": "최선의 결정을 만드는 것이 무엇이라고 믿나요?",
+      "options": [
+        { "id": "q10a", "text": "Logic, data, and thorough analysis", "textKo": "논리, 데이터, 철저한 분석", "scores": { "analytical": 3 } },
+        { "id": "q10b", "text": "Inner wisdom built through lived experience", "textKo": "살아온 경험을 통해 쌓인 내면의 지혜", "scores": { "intuitive": 3 } },
+        { "id": "q10c", "text": "Collective wisdom and diverse perspectives", "textKo": "집단적 지혜와 다양한 관점", "scores": { "collaborative": 3 } },
+        { "id": "q10d", "text": "Action — the best way to learn is by doing", "textKo": "행동 — 배우는 가장 좋은 방법은 해보는 것이에요", "scores": { "spontaneous": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "analytical",
+      "title": "The Analytical Decider",
+      "titleKo": "분석형 의사결정자",
+      "description": "You trust data and logic. Your decisions are well-researched and systematic, which makes you highly reliable and reduces costly mistakes.",
+      "descriptionKo": "당신은 데이터와 논리를 신뢰합니다. 결정이 잘 조사되고 체계적이어서 매우 믿음직스럽고 값비싼 실수를 줄여줍니다. 분석 능력이 탁월하지만, 때로는 분석에서 결정으로 넘어가는 것을 더 빠르게 하는 연습이 필요할 수 있어요.",
+      "traits": ["Systematic", "Data-driven", "Thorough"],
+      "traitsKo": ["체계적인", "데이터 중심의", "철저한"],
+      "strengthsKo": ["잘못된 결정으로 인한 후회가 적어요", "복잡한 문제를 구조화하는 능력이 탁월해요", "장기적으로 신뢰받는 결정을 내려요"],
+      "weaknessesKo": ["분석 마비 (analysis paralysis)에 빠질 수 있어요", "빠른 결정이 필요한 상황에서 느릴 수 있어요"],
+      "careerFitsKo": ["데이터 분석가/과학자", "전략 컨설턴트", "재무 분석가"],
+      "relationshipTipKo": "중요한 결정에는 분석이 필요하지만, 일상의 작은 결정은 더 빠르게 내리는 연습을 통해 에너지를 아껴보세요.",
+      "compatibleWith": ["collaborative"],
+      "compatibleDescriptionKo": "협력형이 다양한 관점을 모아오면 분석형이 이를 체계적으로 정리해 더 나은 결정을 내릴 수 있어요.",
+      "emoji": "📊",
+      "gradient": "from-blue-500 to-indigo-600"
+    },
+    {
+      "id": "intuitive",
+      "title": "The Intuitive Decider",
+      "titleKo": "직관형 의사결정자",
+      "description": "You trust your inner compass. Your intuition is fueled by pattern recognition from experience, making you fast and often surprisingly accurate.",
+      "descriptionKo": "당신은 내면의 나침반을 신뢰합니다. 직관은 경험에서 나온 패턴 인식으로 강화되어 빠르고 종종 놀랍도록 정확합니다. 이 빠른 판단력은 시간이 중요한 상황에서 특히 빛을 발합니다.",
+      "traits": ["Instinctive", "Pattern-recognizing", "Fast"],
+      "traitsKo": ["본능적인", "패턴 인식형", "빠른"],
+      "strengthsKo": ["빠르고 효과적인 결정을 내려요", "경험에서 쌓인 지혜를 잘 활용해요", "과도한 분석 없이도 좋은 결과를 만들어요"],
+      "weaknessesKo": ["편향이나 감정이 직관에 개입할 수 있어요", "데이터와 논리적 근거가 필요한 상황에서 설명이 어려울 수 있어요"],
+      "careerFitsKo": ["기업가/경영자", "크리에이티브 디렉터", "응급 의료 종사자"],
+      "relationshipTipKo": "중요한 결정에서 직관이 이끄는 이유를 한 번쯤 글로 써보면 편향을 확인하고 직관을 더 정확하게 만들 수 있어요.",
+      "compatibleWith": ["analytical"],
+      "compatibleDescriptionKo": "분석형이 데이터로 검증하면 직관형의 빠른 감각이 신뢰할 수 있는 결정으로 완성돼요.",
+      "emoji": "🔮",
+      "gradient": "from-violet-400 to-purple-600"
+    },
+    {
+      "id": "collaborative",
+      "title": "The Collaborative Decider",
+      "titleKo": "협력형 의사결정자",
+      "description": "You make better decisions with others. You value diverse input and believe that the best answers emerge when people think together.",
+      "descriptionKo": "당신은 다른 사람들과 함께 더 나은 결정을 내립니다. 다양한 의견을 소중히 여기며 최선의 답은 사람들이 함께 생각할 때 나온다고 믿습니다. 팀 합의를 이끌어내는 능력이 탁월합니다.",
+      "traits": ["Consensus-seeking", "Inclusive", "Team-oriented"],
+      "traitsKo": ["합의를 추구하는", "포용적인", "팀 지향적인"],
+      "strengthsKo": ["팀원들의 의견을 잘 수렴해요", "다양한 관점을 반영한 균형 잡힌 결정을 내려요", "결정에 대한 팀의 주인의식을 높여요"],
+      "weaknessesKo": ["시급한 상황에서 합의를 기다리다 늦을 수 있어요", "혼자 결정해야 할 때 어려움을 느낄 수 있어요"],
+      "careerFitsKo": ["팀 리더/프로젝트 매니저", "커뮤니티 오거나이저", "HR 전문가"],
+      "relationshipTipKo": "때로는 자신의 판단을 믿고 독립적으로 결정하는 연습을 하면 리더십이 더 강해져요.",
+      "compatibleWith": ["intuitive"],
+      "compatibleDescriptionKo": "직관형의 빠른 감각과 협력형의 팀 합의 능력이 만나면 빠르면서도 수용도 높은 결정이 나와요.",
+      "emoji": "🤝",
+      "gradient": "from-teal-400 to-emerald-500"
+    },
+    {
+      "id": "spontaneous",
+      "title": "The Spontaneous Decider",
+      "titleKo": "즉흥형 의사결정자",
+      "description": "You decide fast and adapt faster. You believe in learning by doing, and you're not afraid to course-correct along the way.",
+      "descriptionKo": "빠르게 결정하고 더 빠르게 적응합니다. 해보면서 배운다는 것을 믿으며 과정에서 방향을 수정하는 것을 두려워하지 않습니다. 이 유연성과 행동력이 많은 상황에서 강점이 됩니다.",
+      "traits": ["Agile", "Action-first", "Flexible"],
+      "traitsKo": ["민첩한", "행동 우선의", "유연한"],
+      "strengthsKo": ["기회가 왔을 때 빠르게 포착해요", "변화하는 상황에 빠르게 적응해요", "분석 마비 없이 실행력이 높아요"],
+      "weaknessesKo": ["충분한 정보 없이 결정해 후회할 수 있어요", "중요한 결정에 필요한 준비가 부족할 수 있어요"],
+      "careerFitsKo": ["스타트업 창업자", "세일즈/영업 전문가", "여행/이벤트 기획자"],
+      "relationshipTipKo": "중요한 결정에는 24시간의 '쿨다운' 시간을 두고, 충동적 결정을 잠시 검토하는 습관을 만들어보세요.",
+      "compatibleWith": ["analytical"],
+      "compatibleDescriptionKo": "분석형이 제동을 걸어주고 즉흥형이 실행력을 높이면 빠르고 현명한 결정의 조합이 나와요.",
+      "emoji": "⚡",
+      "gradient": "from-orange-400 to-amber-500"
+    }
+  ]
+}

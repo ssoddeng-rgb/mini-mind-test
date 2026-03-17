@@ -39,7 +39,12 @@ export interface ResultType {
   descriptionKo: string;
   traits: string[];
   traitsKo: string[];
+  strengthsKo?: string[];
+  weaknessesKo?: string[];
+  careerFitsKo?: string[];
+  relationshipTipKo?: string;
   compatibleWith?: string[];
+  compatibleDescriptionKo?: string;
   emoji: string;
   gradient: string;
 }

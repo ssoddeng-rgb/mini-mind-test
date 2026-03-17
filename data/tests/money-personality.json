@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "money-personality",
+    "slug": "money-personality",
+    "title": "Money Personality",
+    "titleKo": "나의 돈 관리 유형은?",
+    "description": "Discover your relationship with money and financial behavior",
+    "descriptionKo": "돈과 나의 관계, 재정적 행동 패턴을 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Klontz & Klontz (2011) Money Script",
+    "gradient": "from-yellow-500 to-amber-600",
+    "emoji": "💰"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you receive unexpected money (e.g., 세뱃돈, bonus), you typically...",
+      "textKo": "예상치 못한 돈이 생겼을 때 (세뱃돈, 보너스 등), 보통 어떻게 하나요?",
+      "options": [
+        { "id": "q1a", "text": "Put most of it into savings immediately", "textKo": "대부분 바로 저축해요", "scores": { "saver": 3 } },
+        { "id": "q1b", "text": "Treat myself to something I've been wanting", "textKo": "원하던 것을 사며 저 자신에게 선물해요", "scores": { "spender": 3 } },
+        { "id": "q1c", "text": "Look for investment opportunities", "textKo": "투자할 곳을 찾아봐요", "scores": { "investor": 3 } },
+        { "id": "q1d", "text": "Feel overwhelmed and leave it in my account untouched", "textKo": "어떻게 할지 몰라 그냥 통장에 놔둬요", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How do you feel when checking your bank account balance?",
+      "textKo": "통장 잔고를 확인할 때 어떤 기분인가요?",
+      "options": [
+        { "id": "q2a", "text": "Satisfied — I enjoy watching it grow", "textKo": "뿌듯해요 — 잔고가 늘어나는 걸 보는 게 좋아요", "scores": { "saver": 3 } },
+        { "id": "q2b", "text": "Fine — money is made to be spent after all", "textKo": "괜찮아요 — 돈은 쓰라고 있는 거니까요", "scores": { "spender": 3 } },
+        { "id": "q2c", "text": "I check it to see if I can allocate more to investments", "textKo": "더 투자할 여력이 있는지 보기 위해 확인해요", "scores": { "investor": 3 } },
+        { "id": "q2d", "text": "Anxious — I try to avoid looking too often", "textKo": "불안해요 — 자주 보는 걸 피하려 해요", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "A friend suggests splitting a luxury restaurant bill 5:5. You think...",
+      "textKo": "친구가 고급 레스토랑을 더치페이로 가자고 해요. 어떻게 생각하나요?",
+      "options": [
+        { "id": "q3a", "text": "That's too expensive — can we try somewhere cheaper?", "textKo": "너무 비싸요 — 더 저렴한 곳은 안 될까요?", "scores": { "saver": 3 } },
+        { "id": "q3b", "text": "Sure! You only live once", "textKo": "좋아요! 인생 한 번뿐인데요", "scores": { "spender": 3 } },
+        { "id": "q3c", "text": "I calculate the value and decide based on that", "textKo": "가성비를 따져보고 결정해요", "scores": { "investor": 3 } },
+        { "id": "q3d", "text": "I agree because I feel awkward saying no", "textKo": "싫다고 말하기 어색해서 그냥 동의해요", "scores": { "avoider": 2, "spender": 1 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How much do you know about personal finance (주식, 적금, ETF, etc.)?",
+      "textKo": "개인 재테크에 대해 얼마나 알고 있나요? (주식, 적금, ETF 등)",
+      "options": [
+        { "id": "q4a", "text": "I know enough to keep my budget in check", "textKo": "예산을 관리할 정도는 알아요", "scores": { "saver": 2 } },
+        { "id": "q4b", "text": "Not much — I don't think about it much", "textKo": "별로 몰라요 — 많이 생각 안 해요", "scores": { "spender": 2 } },
+        { "id": "q4c", "text": "Quite a lot — I actively study financial topics", "textKo": "꽤 많이 알아요 — 재테크를 적극적으로 공부해요", "scores": { "investor": 3 } },
+        { "id": "q4d", "text": "I know it exists but find it overwhelming", "textKo": "있다는 건 알지만 너무 복잡하게 느껴져요", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "When you see a limited-time sale on something you don't urgently need...",
+      "textKo": "당장 필요하지 않은 물건이 한정 세일 중일 때...",
+      "options": [
+        { "id": "q5a", "text": "I resist — buying things I don't need is wasteful", "textKo": "참아요 — 필요 없는 걸 사는 건 낭비예요", "scores": { "saver": 3 } },
+        { "id": "q5b", "text": "I buy it — the deal is too good to pass up", "textKo": "사요 — 이런 기회를 놓치면 안 되잖아요", "scores": { "spender": 3 } },
+        { "id": "q5c", "text": "I evaluate if it's a smart buy that holds value", "textKo": "가치가 유지되는 현명한 구매인지 따져봐요", "scores": { "investor": 3 } },
+        { "id": "q5d", "text": "I keep the tab open but never end up deciding", "textKo": "탭은 열어두지만 결국 결정을 못 해요", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How do you feel when talking about money with family or friends?",
+      "textKo": "가족이나 친구와 돈 이야기를 할 때 어떤가요?",
+      "options": [
+        { "id": "q6a", "text": "Comfortable — budgeting tips are always welcome", "textKo": "편해요 — 절약 팁 공유는 언제나 환영이에요", "scores": { "saver": 3 } },
+        { "id": "q6b", "text": "Fun — I love sharing shopping discoveries", "textKo": "즐거워요 — 쇼핑 발견들을 나누는 걸 좋아해요", "scores": { "spender": 3 } },
+        { "id": "q6c", "text": "Engaged — I like exchanging investment ideas", "textKo": "적극적이에요 — 투자 아이디어를 나누는 걸 좋아해요", "scores": { "investor": 3 } },
+        { "id": "q6d", "text": "Uncomfortable — I change the subject if possible", "textKo": "불편해요 — 가능하면 화제를 바꿔요", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Do you have a monthly budget plan?",
+      "textKo": "월별 예산 계획을 세우나요?",
+      "options": [
+        { "id": "q7a", "text": "Yes, a detailed one I track closely", "textKo": "네, 세세하게 세우고 철저히 관리해요", "scores": { "saver": 3 } },
+        { "id": "q7b", "text": "Not really — I just spend as I feel", "textKo": "아니요 — 느끼는 대로 써요", "scores": { "spender": 3 } },
+        { "id": "q7c", "text": "Yes, with investment allocations built in", "textKo": "네, 투자 배분이 포함된 계획을 세워요", "scores": { "investor": 3 } },
+        { "id": "q7d", "text": "I try to make one but never actually follow it", "textKo": "세우려고 하는데 실제로 지키지는 못해요", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "What is your attitude toward debt (대출, credit cards)?",
+      "textKo": "빚 (대출, 신용카드)에 대한 태도는 어떤가요?",
+      "options": [
+        { "id": "q8a", "text": "I avoid debt at all costs — it stresses me", "textKo": "빚은 절대 안 져요 — 스트레스받아요", "scores": { "saver": 3 } },
+        { "id": "q8b", "text": "I use credit cards freely and pay minimums", "textKo": "신용카드를 자유롭게 쓰고 최소 금액만 내요", "scores": { "spender": 3 } },
+        { "id": "q8c", "text": "I leverage debt strategically for investment", "textKo": "투자를 위해 전략적으로 대출을 활용해요", "scores": { "investor": 3 } },
+        { "id": "q8d", "text": "I have debt but try not to think about it", "textKo": "빚이 있지만 생각하지 않으려 해요", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "How do you approach retirement or long-term financial planning?",
+      "textKo": "노후나 장기 재무 계획에 대해 어떻게 접근하나요?",
+      "options": [
+        { "id": "q9a", "text": "I save a fixed percentage of income regularly", "textKo": "수입의 일정 비율을 정기적으로 저축해요", "scores": { "saver": 3 } },
+        { "id": "q9b", "text": "I'll worry about it later — enjoy the present", "textKo": "나중에 생각할게요 — 지금을 즐기는 게 먼저예요", "scores": { "spender": 3 } },
+        { "id": "q9c", "text": "I have a clear portfolio strategy for the future", "textKo": "미래를 위한 명확한 포트폴리오 전략이 있어요", "scores": { "investor": 3 } },
+        { "id": "q9d", "text": "It worries me, but I haven't taken steps yet", "textKo": "걱정은 되는데 아직 행동으로 옮기지 못했어요", "scores": { "avoider": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "If a close friend asks to borrow a significant amount of money...",
+      "textKo": "친한 친구가 상당한 금액의 돈을 빌려달라고 하면...",
+      "options": [
+        { "id": "q10a", "text": "I'd think hard before lending — money can ruin relationships", "textKo": "신중하게 생각해요 — 돈 거래는 관계를 망칠 수 있어요", "scores": { "saver": 3 } },
+        { "id": "q10b", "text": "I'd probably lend it — what are friends for?", "textKo": "아마 빌려줄 거예요 — 친구가 있는 이유가 뭔가요?", "scores": { "spender": 2 } },
+        { "id": "q10c", "text": "I'd propose terms like a contract or interest", "textKo": "계약서나 이자 같은 조건을 제안해요", "scores": { "investor": 3 } },
+        { "id": "q10d", "text": "I'd feel terrible saying no but also scared to say yes", "textKo": "싫다고 말하기도 두렵고 그렇다고 말하기도 겁나요", "scores": { "avoider": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "saver",
+      "title": "The Saver",
+      "titleKo": "절약가",
+      "description": "Security and stability are your financial north stars. You find satisfaction in watching savings grow and avoiding waste.",
+      "descriptionKo": "안전과 안정이 당신의 재정적 북극성입니다. 저축이 늘어가는 것에서 만족을 찾고 낭비를 피하는 것을 즐깁니다. 꼼꼼한 예산 관리로 재정 기반이 탄탄하지만, 가끔은 돈을 즐기는 것도 삶의 일부임을 기억해요.",
+      "traits": ["Frugal", "Disciplined", "Security-oriented"],
+      "traitsKo": ["검소한", "자기절제가 강한", "안전 지향적인"],
+      "strengthsKo": ["재정적 안정성이 뛰어나요", "충동구매를 잘 참아요", "미래를 위한 자금 확보 능력이 탁월해요"],
+      "weaknessesKo": ["너무 인색하게 보일 수 있어요", "현재의 즐거움을 희생하는 경향이 있어요"],
+      "careerFitsKo": ["회계사/세무사", "재무 분석가", "공무원/안정적 직종"],
+      "relationshipTipKo": "파트너와 돈에 관한 가치관을 초기에 솔직하게 이야기하고, 공동 저축 목표를 함께 세워보세요.",
+      "compatibleWith": ["investor"],
+      "compatibleDescriptionKo": "투자가 유형과는 재정적 규율을 공유하며 서로의 전략을 보완할 수 있어요.",
+      "emoji": "🐿️",
+      "gradient": "from-green-500 to-teal-600"
+    },
+    {
+      "id": "spender",
+      "title": "The Spender",
+      "titleKo": "소비가",
+      "description": "You believe money is for enjoying life. You're generous and spontaneous, finding joy in experiences and giving to others.",
+      "descriptionKo": "돈은 삶을 즐기기 위해 있다고 믿습니다. 관대하고 즉흥적이며 경험과 다른 사람에게 베푸는 것에서 기쁨을 찾습니다. 현재를 충분히 즐기는 것이 장점이지만, 미래를 위한 최소한의 저축 습관도 함께 길러나가면 좋아요.",
+      "traits": ["Generous", "Spontaneous", "Present-focused"],
+      "traitsKo": ["관대한", "즉흥적인", "현재 중심적인"],
+      "strengthsKo": ["삶의 질을 높이는 경험을 잘 만들어요", "주변 사람들에게 풍요로움을 나눠요", "현재의 행복을 잘 누려요"],
+      "weaknessesKo": ["저축 잔고가 부족할 수 있어요", "충동구매로 나중에 후회할 수 있어요"],
+      "careerFitsKo": ["마케터/브랜드 전략가", "이벤트 기획자", "영업 전문가"],
+      "relationshipTipKo": "매달 '즐기기 위한 예산'을 따로 정해놓으면 소비의 즐거움을 누리면서도 죄책감을 줄일 수 있어요.",
+      "compatibleWith": ["investor"],
+      "compatibleDescriptionKo": "투자가 유형이 재정 관리를 담당하면 소비가 유형은 삶의 질을 높이는 역할을 해 균형을 이뤄요.",
+      "emoji": "🛍️",
+      "gradient": "from-pink-400 to-rose-500"
+    },
+    {
+      "id": "investor",
+      "title": "The Investor",
+      "titleKo": "투자가",
+      "description": "Money is a tool for growing wealth. You think strategically about every financial decision and your money works for you.",
+      "descriptionKo": "돈은 부를 키우기 위한 도구입니다. 모든 재정적 결정을 전략적으로 생각하고 돈이 스스로 일하게 만듭니다. 재테크 지식이 풍부하고 장기적 안목이 있지만, 때로는 삶의 소소한 기쁨에도 투자하는 것을 잊지 마세요.",
+      "traits": ["Strategic", "Growth-minded", "Financially savvy"],
+      "traitsKo": ["전략적인", "성장 지향적인", "재정 지식이 풍부한"],
+      "strengthsKo": ["장기적 재산 증식에 능해요", "재정 지식과 정보 수집 능력이 뛰어나요", "돈에 대한 두려움 없이 주도적으로 대처해요"],
+      "weaknessesKo": ["돈에 너무 집착해 인간관계가 소홀해질 수 있어요", "리스크 관리 실패 시 큰 손실을 볼 수 있어요"],
+      "careerFitsKo": ["펀드매니저/투자 분석가", "스타트업 창업자", "부동산 전문가"],
+      "relationshipTipKo": "재정 목표를 파트너와 함께 공유하고, 모든 투자 결정을 단독으로 하지 않고 중요한 것은 함께 논의해보세요.",
+      "compatibleWith": ["saver"],
+      "compatibleDescriptionKo": "절약가 유형과는 재정적 규율을 공유하며 저축과 투자를 함께 늘려갈 수 있어요.",
+      "emoji": "📈",
+      "gradient": "from-blue-500 to-indigo-600"
+    },
+    {
+      "id": "avoider",
+      "title": "The Avoider",
+      "titleKo": "회피형",
+      "description": "Financial matters feel overwhelming and stressful. You tend to avoid money topics, which can create anxiety over time.",
+      "descriptionKo": "재정 문제는 당신에게 압도적이고 스트레스로 느껴집니다. 돈 관련 주제를 회피하는 경향이 있는데, 이것이 시간이 지날수록 불안을 키울 수 있습니다. 작은 것부터 시작하면 돼요 — 통장 잔고 확인하는 것부터 시작해봐요.",
+      "traits": ["Avoidant", "Anxious", "Overwhelmed"],
+      "traitsKo": ["회피하는", "불안한", "압도당하는"],
+      "strengthsKo": ["감정적 소비를 비교적 덜 해요", "재정 개선의 의지와 가능성이 커요", "경제적 스트레스에 대한 인식이 높아요"],
+      "weaknessesKo": ["재정 방치로 문제가 커질 수 있어요", "금융 관련 결정을 미루는 경향이 있어요"],
+      "careerFitsKo": ["복지/사회 서비스 분야", "예술/창작 분야", "교육 분야 (재정 걱정 없는 구조)"],
+      "relationshipTipKo": "신뢰할 수 있는 사람에게 재정 상황을 솔직하게 털어놓고 함께 작은 첫 걸음을 내딛어보세요.",
+      "compatibleWith": ["saver"],
+      "compatibleDescriptionKo": "절약가 유형이 구체적인 시스템을 만들어주면 회피형이 첫 발을 내딛는 데 큰 도움이 돼요.",
+      "emoji": "🙈",
+      "gradient": "from-gray-400 to-slate-600"
+    }
+  ]
+}

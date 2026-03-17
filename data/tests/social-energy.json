@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "social-energy",
+    "slug": "social-energy",
+    "title": "Social Energy Type",
+    "titleKo": "나의 사회적 에너지 유형은?",
+    "description": "Discover how social interaction energizes or drains you",
+    "descriptionKo": "사회적 교류가 당신에게 에너지를 주는지 빼앗는지 알아보세요",
+    "category": "friendship",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Cain (2012) Quiet / Kahneman (2011)",
+    "gradient": "from-amber-400 to-yellow-500",
+    "emoji": "⚡"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "After a full day of socializing (e.g., a 모임 or party), you feel...",
+      "textKo": "모임이나 파티로 가득한 하루를 보낸 후...",
+      "options": [
+        { "id": "q1a", "text": "Energized and wanting even more social time", "textKo": "에너지가 넘치고 더 많은 사교 시간을 원해요", "scores": { "high-social": 3 } },
+        { "id": "q1b", "text": "Satisfied but ready for some downtime", "textKo": "만족하지만 이제 여유로운 시간이 필요해요", "scores": { "selective-social": 3 } },
+        { "id": "q1c", "text": "Drained and needing significant quiet time to recharge", "textKo": "소진되어 충전을 위한 충분한 조용한 시간이 필요해요", "scores": { "recharge-needed": 3 } },
+        { "id": "q1d", "text": "Exhausted and happiest getting home to be alone", "textKo": "지쳐서 집에 혼자 있는 게 가장 행복해요", "scores": { "solo-powered": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "On a free weekend with no plans, you would ideally...",
+      "textKo": "계획이 없는 자유로운 주말에 이상적으로는...",
+      "options": [
+        { "id": "q2a", "text": "Fill it with social plans immediately", "textKo": "즉시 사교 계획으로 채워요", "scores": { "high-social": 3 } },
+        { "id": "q2b", "text": "Mix socializing with personal time — the best of both", "textKo": "사교와 개인 시간을 섞어요 — 둘 다의 최선", "scores": { "selective-social": 3 } },
+        { "id": "q2c", "text": "Start solo and maybe meet one or two people if energy allows", "textKo": "혼자로 시작하고 에너지가 허락하면 한두 명을 만나요", "scores": { "recharge-needed": 3 } },
+        { "id": "q2d", "text": "Enjoy complete solitude and recharge thoroughly", "textKo": "완전한 고독을 즐기고 철저히 충전해요", "scores": { "solo-powered": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How do you feel about being in large group gatherings like 동창회 or company dinners?",
+      "textKo": "동창회나 회사 단체 행사 같은 큰 모임에서 어떻게 느끼나요?",
+      "options": [
+        { "id": "q3a", "text": "Love it — the bigger the better!", "textKo": "좋아요 — 클수록 더 좋아요!", "scores": { "high-social": 3 } },
+        { "id": "q3b", "text": "Fine in small doses, especially with the right people", "textKo": "적당히는 괜찮아요, 특히 좋은 사람들과 함께면", "scores": { "selective-social": 3 } },
+        { "id": "q3c", "text": "Uncomfortable — too much stimulation", "textKo": "불편해요 — 자극이 너무 많아요", "scores": { "recharge-needed": 3 } },
+        { "id": "q3d", "text": "Draining — I usually look for the exit", "textKo": "지쳐요 — 보통 출구를 찾아요", "scores": { "solo-powered": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How many close friends or meaningful connections do you need to feel fulfilled?",
+      "textKo": "만족감을 느끼기 위해 몇 명의 친한 친구나 의미 있는 연결이 필요한가요?",
+      "options": [
+        { "id": "q4a", "text": "Many — the more connections, the richer my life feels", "textKo": "많이요 — 연결이 많을수록 삶이 풍요로워요", "scores": { "high-social": 3 } },
+        { "id": "q4b", "text": "A handful of quality relationships — breadth isn't necessary", "textKo": "소수의 질 좋은 관계들 — 폭이 필요하지 않아요", "scores": { "selective-social": 3 } },
+        { "id": "q4c", "text": "Just a few — but they need to be deep and understanding", "textKo": "단 몇 명 — 하지만 깊고 이해해주는 관계여야 해요", "scores": { "recharge-needed": 3 } },
+        { "id": "q4d", "text": "One or two very deep connections is enough for me", "textKo": "한두 개의 매우 깊은 연결이면 충분해요", "scores": { "solo-powered": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "What do your friends most often say about your social energy?",
+      "textKo": "친구들이 당신의 사회적 에너지에 대해 가장 자주 뭐라고 하나요?",
+      "options": [
+        { "id": "q5a", "text": "'You know everyone — you're always the connector'", "textKo": "'너는 모든 사람을 알아 — 항상 연결해주는 사람이야'", "scores": { "high-social": 3 } },
+        { "id": "q5b", "text": "'You're great company but we know when you need space'", "textKo": "'넌 함께 있기 좋은데 언제 공간이 필요한지 우리도 알아'", "scores": { "selective-social": 3 } },
+        { "id": "q5c", "text": "'You're amazing but sometimes you go quiet on us'", "textKo": "'넌 멋진데 가끔 조용해져버려'", "scores": { "recharge-needed": 3 } },
+        { "id": "q5d", "text": "'You're hard to pin down — getting time with you is precious'", "textKo": "'너와 시간 잡기 어려워 — 함께하는 시간이 소중해'", "scores": { "solo-powered": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How do you feel about small talk?",
+      "textKo": "소소한 잡담 (small talk)에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q6a", "text": "Love it — it's the beginning of every great connection", "textKo": "좋아요 — 모든 좋은 연결의 시작이에요", "scores": { "high-social": 3 } },
+        { "id": "q6b", "text": "Fine as a warm-up but I prefer deeper conversations", "textKo": "워밍업으로는 괜찮지만 더 깊은 대화를 선호해요", "scores": { "selective-social": 3 } },
+        { "id": "q6c", "text": "Tolerable in short bursts, exhausting over time", "textKo": "짧게는 견딜 수 있지만 시간이 지나면 지쳐요", "scores": { "recharge-needed": 3 } },
+        { "id": "q6d", "text": "Draining — I find it mostly pointless", "textKo": "지쳐요 — 대부분 의미 없다고 느껴요", "scores": { "solo-powered": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "When you need to solve a complex problem, you prefer to...",
+      "textKo": "복잡한 문제를 해결해야 할 때...",
+      "options": [
+        { "id": "q7a", "text": "Brainstorm with others — energy and ideas flow in groups", "textKo": "다른 사람들과 브레인스토밍해요 — 그룹에서 에너지와 아이디어가 흘러요", "scores": { "high-social": 3 } },
+        { "id": "q7b", "text": "Think it through alone first, then discuss with someone", "textKo": "먼저 혼자 생각하고 그 다음 누군가와 논의해요", "scores": { "selective-social": 3 } },
+        { "id": "q7c", "text": "Need significant quiet time to think deeply", "textKo": "깊이 생각하기 위한 충분한 조용한 시간이 필요해요", "scores": { "recharge-needed": 3 } },
+        { "id": "q7d", "text": "Work best alone with zero interruptions", "textKo": "방해 없이 혼자 일할 때 가장 잘 돼요", "scores": { "solo-powered": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How do you feel about sharing an office or working in an open workspace?",
+      "textKo": "사무실을 공유하거나 개방형 작업 공간에서 일하는 것은 어떤가요?",
+      "options": [
+        { "id": "q8a", "text": "Love it — being around people makes me more productive", "textKo": "좋아요 — 사람들 주변에 있으면 더 생산적이 돼요", "scores": { "high-social": 3 } },
+        { "id": "q8b", "text": "Fine if there's also space for focused quiet work", "textKo": "집중된 조용한 작업 공간도 있다면 괜찮아요", "scores": { "selective-social": 3 } },
+        { "id": "q8c", "text": "Challenging — the noise and interruptions drain me", "textKo": "힘들어요 — 소음과 방해가 나를 소진시켜요", "scores": { "recharge-needed": 3 } },
+        { "id": "q8d", "text": "Prefer working from home or a private space entirely", "textKo": "완전히 재택 또는 개인 공간에서 일하는 걸 선호해요", "scores": { "solo-powered": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "At a party where you only know the host, you...",
+      "textKo": "주최자만 아는 파티에서...",
+      "options": [
+        { "id": "q9a", "text": "Dive right in — strangers become friends quickly", "textKo": "바로 뛰어들어요 — 낯선 사람들은 빠르게 친구가 돼요", "scores": { "high-social": 3 } },
+        { "id": "q9b", "text": "Warm up slowly but find your people and enjoy it", "textKo": "천천히 워밍업하지만 나의 사람을 찾고 즐겨요", "scores": { "selective-social": 3 } },
+        { "id": "q9c", "text": "Manage through it but need to decompress afterward", "textKo": "어떻게든 버티지만 이후에 풀어야 해요", "scores": { "recharge-needed": 3 } },
+        { "id": "q9d", "text": "Find it very taxing and probably leave early", "textKo": "매우 힘들어서 일찍 나갈 것 같아요", "scores": { "solo-powered": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What's your ideal Friday night after a busy work week?",
+      "textKo": "바쁜 한 주 후 이상적인 금요일 밤은?",
+      "options": [
+        { "id": "q10a", "text": "Hit the town — plans with as many friends as possible", "textKo": "외출해요 — 가능한 많은 친구들과 약속", "scores": { "high-social": 3 } },
+        { "id": "q10b", "text": "Dinner or drinks with a small group of close friends", "textKo": "친한 소수의 친구들과 저녁 식사나 술 한 잔", "scores": { "selective-social": 3 } },
+        { "id": "q10c", "text": "A quiet night in with just one close friend or partner", "textKo": "친한 친구 한 명이나 파트너와 함께 조용한 밤", "scores": { "recharge-needed": 3 } },
+        { "id": "q10d", "text": "Complete solitude — movies, books, or gaming alone", "textKo": "완전한 혼자만의 시간 — 영화, 책, 또는 혼자 게임", "scores": { "solo-powered": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "high-social",
+      "title": "High Social Energy Type",
+      "titleKo": "사교 에너지형",
+      "description": "Social interaction is your fuel. You light up around people and your energy grows the more connections you make.",
+      "descriptionKo": "사회적 교류가 당신의 연료입니다. 사람들 주변에서 빛나고 더 많은 연결을 만들수록 에너지가 커집니다. 관계 속에서 진정한 활력을 얻는 외향적 에너지가 당신의 가장 큰 자원입니다.",
+      "traits": ["Extroverted", "Energized by people", "Connected"],
+      "traitsKo": ["외향적인", "사람에게서 에너지를 얻는", "연결된"],
+      "strengthsKo": ["어디서든 관계를 만들고 네트워크를 구축해요", "팀 환경에서 에너지와 활기를 불어넣어요", "다양한 사람들과 빠르게 친해지는 능력이 있어요"],
+      "weaknessesKo": ["혼자만의 충전 시간이 부족해 번아웃이 올 수 있어요", "조용한 환경에서 집중이 어려울 수 있어요"],
+      "careerFitsKo": ["영업/마케팅", "이벤트 기획", "교육/강연"],
+      "relationshipTipKo": "내향적인 파트너나 친구가 에너지 충전을 위해 혼자만의 시간이 필요할 때 거부감이 아님을 기억하세요.",
+      "compatibleWith": ["selective-social"],
+      "compatibleDescriptionKo": "선택적 사교형이 깊이를 더하고 사교 에너지형이 활력을 불어넣어 균형 잡힌 사교 생활을 만들어요.",
+      "emoji": "🌟",
+      "gradient": "from-orange-400 to-amber-500"
+    },
+    {
+      "id": "selective-social",
+      "title": "Selective Social Type",
+      "titleKo": "선택적 사교형",
+      "description": "You enjoy social connection but are selective about when and with whom. Quality trumps quantity for you.",
+      "descriptionKo": "사회적 연결을 즐기지만 언제, 누구와 함께할지 선택적입니다. 당신에게는 양보다 질이 우선입니다. 깊이 있는 연결에서 진정한 에너지를 얻는 균형 잡힌 유형입니다.",
+      "traits": ["Ambivert", "Quality-focused", "Selective"],
+      "traitsKo": ["양향성의", "질 중심의", "선택적인"],
+      "strengthsKo": ["에너지 관리를 잘 해 번아웃이 적어요", "깊고 의미 있는 관계를 형성해요", "혼자와 함께하는 시간 모두를 즐길 수 있어요"],
+      "weaknessesKo": ["때로 너무 까다롭게 보일 수 있어요", "새로운 관계 형성이 느릴 수 있어요"],
+      "careerFitsKo": ["전략가/컨설턴트", "소규모 팀 리더", "프리랜서 전문가"],
+      "relationshipTipKo": "선택적 사교성을 파트너에게 솔직하게 설명하고, 함께하는 시간에 온전히 존재하는 것에 집중해보세요.",
+      "compatibleWith": ["high-social"],
+      "compatibleDescriptionKo": "사교 에너지형이 새로운 연결의 문을 열면 선택적 사교형이 그 중 가장 의미 있는 것을 깊게 키워가요.",
+      "emoji": "✨",
+      "gradient": "from-yellow-400 to-amber-400"
+    },
+    {
+      "id": "recharge-needed",
+      "title": "Recharge Needed Type",
+      "titleKo": "재충전 필요형",
+      "description": "Social interaction requires deliberate recovery time. You value connection deeply but need solitude to refuel after it.",
+      "descriptionKo": "사회적 교류는 의도적인 회복 시간을 필요로 합니다. 연결을 깊이 소중히 여기지만 그 이후 재충전을 위해 고독이 필요합니다. 혼자만의 시간이 자기 관리의 핵심입니다.",
+      "traits": ["Introvert-leaning", "Thoughtful", "Depth-seeking"],
+      "traitsKo": ["내향 성향의", "사려 깊은", "깊이를 추구하는"],
+      "strengthsKo": ["자기 에너지 한계를 잘 알고 관리해요", "깊이 있는 대화와 관계에서 탁월해요", "충전 후 나타날 때 더욱 온전하게 함께해요"],
+      "weaknessesKo": ["사교 후 충전이 필요해 갑자기 사라지는 것처럼 보일 수 있어요", "과도한 사회적 요구가 있는 환경에서 지속적으로 힘들어요"],
+      "careerFitsKo": ["연구원/분석가", "작가/크리에이터", "전문 기술직"],
+      "relationshipTipKo": "에너지 충전이 필요한 신호를 미리 파트너에게 알리고, 혼자만의 시간 후 다시 연결하겠다고 약속해보세요.",
+      "compatibleWith": ["selective-social"],
+      "compatibleDescriptionKo": "선택적 사교형은 재충전 필요형의 에너지 경계를 이해하고 존중하면서 의미 있는 연결을 함께 만들어가요.",
+      "emoji": "🌙",
+      "gradient": "from-indigo-400 to-purple-500"
+    },
+    {
+      "id": "solo-powered",
+      "title": "Solo-Powered Type",
+      "titleKo": "혼자 충전형",
+      "description": "Solitude is your superpower. You recharge deeply in your own company and bring your best self to others when you're well-rested alone.",
+      "descriptionKo": "고독이 당신의 슈퍼파워입니다. 혼자만의 시간에 깊이 충전하고 혼자서 충분히 쉰 후 다른 사람들에게 최고의 자신을 가져옵니다. 이 자립적인 에너지 구조가 당신을 독립적이고 깊이 있는 존재로 만듭니다.",
+      "traits": ["Introverted", "Self-sufficient", "Deep thinker"],
+      "traitsKo": ["내향적인", "자급자족하는", "깊은 사색가"],
+      "strengthsKo": ["혼자 있는 시간에 창의성과 생산성이 극대화돼요", "자기 자신을 잘 알고 독립적으로 기능해요", "깊이 있는 소수의 관계에서 진정한 연결을 느껴요"],
+      "weaknessesKo": ["사회적 고립이 심해질 수 있어요", "팀 환경이나 강한 사교 문화에서 에너지 소모가 커요"],
+      "careerFitsKo": ["독립 연구자/작가", "재택 프리랜서", "1인 크리에이터/아티스트"],
+      "relationshipTipKo": "혼자만의 시간을 충분히 취하되, 의도적으로 한 명의 가까운 사람과 정기적으로 연결하는 루틴을 만들어보세요.",
+      "compatibleWith": ["recharge-needed"],
+      "compatibleDescriptionKo": "재충전 필요형도 혼자만의 시간이 중요하기 때문에 혼자 충전형의 에너지 패턴을 이해하고 존중할 수 있어요.",
+      "emoji": "🌌",
+      "gradient": "from-slate-500 to-indigo-700"
+    }
+  ]
+}

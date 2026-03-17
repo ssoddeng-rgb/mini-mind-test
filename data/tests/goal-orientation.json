@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "goal-orientation",
+    "slug": "goal-orientation",
+    "title": "Goal Orientation Type",
+    "titleKo": "나의 목표 설정 유형은?",
+    "description": "Discover how you set, pursue, and relate to your goals",
+    "descriptionKo": "목표를 설정하고 추구하며 관계 맺는 방식을 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Elliot & McGregor (2001) Achievement Goal Framework",
+    "gradient": "from-red-400 to-orange-600",
+    "emoji": "🚀"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you set a goal, you're most motivated by...",
+      "textKo": "목표를 설정할 때 가장 동기 부여되는 것은...",
+      "options": [
+        { "id": "q1a", "text": "The process of mastering the skill or knowledge itself", "textKo": "기술이나 지식 자체를 숙달하는 과정", "scores": { "mastery-approach": 3 } },
+        { "id": "q1b", "text": "Outperforming others and being recognized as the best", "textKo": "다른 사람들보다 뛰어나고 최고로 인정받는 것", "scores": { "performance-approach": 3 } },
+        { "id": "q1c", "text": "Avoiding failure and making sure you don't fall behind", "textKo": "실패를 피하고 뒤처지지 않도록 하는 것", "scores": { "security-seeker-g": 3 } },
+        { "id": "q1d", "text": "The inspiration and excitement of imagining the vision", "textKo": "비전을 상상하는 영감과 설렘", "scores": { "dreamer-type": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How do you define success for a goal?",
+      "textKo": "목표에 대한 성공을 어떻게 정의하나요?",
+      "options": [
+        { "id": "q2a", "text": "When I've genuinely learned and grown through the pursuit", "textKo": "추구를 통해 진정으로 배우고 성장했을 때", "scores": { "mastery-approach": 3 } },
+        { "id": "q2b", "text": "When I've outperformed others or beaten my previous best", "textKo": "다른 사람을 능가하거나 이전 최고를 넘었을 때", "scores": { "performance-approach": 3 } },
+        { "id": "q2c", "text": "When I've safely avoided failure and met the baseline", "textKo": "안전하게 실패를 피하고 기준을 충족했을 때", "scores": { "security-seeker-g": 3 } },
+        { "id": "q2d", "text": "The goal felt meaningful while I was dreaming about it", "textKo": "꿈꾸는 동안 목표가 의미 있게 느껴졌을 때", "scores": { "dreamer-type": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "What happens when you don't achieve a goal?",
+      "textKo": "목표를 달성하지 못했을 때 어떻게 되나요?",
+      "options": [
+        { "id": "q3a", "text": "Disappointed but curious — what can I learn from this?", "textKo": "실망하지만 궁금해요 — 이것에서 무엇을 배울 수 있을까요?", "scores": { "mastery-approach": 3 } },
+        { "id": "q3b", "text": "Frustrated — falling behind others is hard to accept", "textKo": "좌절해요 — 다른 사람들에게 뒤처지는 것을 받아들이기 어려워요", "scores": { "performance-approach": 3 } },
+        { "id": "q3c", "text": "Relieved if you avoided something worse; upset if you truly failed", "textKo": "더 나쁜 것을 피했으면 안도하고, 진짜 실패하면 속상해요", "scores": { "security-seeker-g": 3 } },
+        { "id": "q3d", "text": "Sad but already imagining a new exciting goal to replace it", "textKo": "슬프지만 이미 대체할 새롭고 신나는 목표를 상상해요", "scores": { "dreamer-type": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How do you feel about competition (e.g., entrance exams, rankings)?",
+      "textKo": "경쟁 (입시, 순위 등)에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q4a", "text": "It's less interesting than personal growth — I compete with myself", "textKo": "개인 성장보다 덜 흥미로워요 — 저 자신과 경쟁해요", "scores": { "mastery-approach": 3 } },
+        { "id": "q4b", "text": "Exciting — I come alive in competitive environments", "textKo": "설레요 — 경쟁적인 환경에서 활기를 찾아요", "scores": { "performance-approach": 3 } },
+        { "id": "q4c", "text": "Stressful — the fear of losing is stronger than the joy of winning", "textKo": "스트레스예요 — 지는 것에 대한 두려움이 이기는 기쁨보다 강해요", "scores": { "security-seeker-g": 3 } },
+        { "id": "q4d", "text": "Distracting — I'd rather focus on my own vision than rankings", "textKo": "방해가 돼요 — 순위보다 내 비전에 집중하고 싶어요", "scores": { "dreamer-type": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "When you set a new goal, you most often...",
+      "textKo": "새 목표를 설정할 때 가장 자주...",
+      "options": [
+        { "id": "q5a", "text": "Build a concrete learning plan and milestone system", "textKo": "구체적인 학습 계획과 마일스톤 시스템을 만들어요", "scores": { "mastery-approach": 3 } },
+        { "id": "q5b", "text": "Research where you rank relative to others and aim above that", "textKo": "다른 사람들과 비교해 현재 순위를 조사하고 그 위를 목표로 해요", "scores": { "performance-approach": 3 } },
+        { "id": "q5c", "text": "Focus on what you need to do to not fail or fall behind", "textKo": "실패하거나 뒤처지지 않기 위해 해야 할 것에 집중해요", "scores": { "security-seeker-g": 3 } },
+        { "id": "q5d", "text": "Write/vision board it and imagine the amazing end result", "textKo": "글이나 비전 보드에 쓰고 놀라운 최종 결과를 상상해요", "scores": { "dreamer-type": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When studying for a major exam (수능, TOEIC, etc.), you focus on...",
+      "textKo": "중요한 시험 (수능, TOEIC 등) 준비 시 집중하는 것은...",
+      "options": [
+        { "id": "q6a", "text": "Deeply understanding the material, not just the answers", "textKo": "정답만이 아닌 내용을 깊이 이해하는 것", "scores": { "mastery-approach": 3 } },
+        { "id": "q6b", "text": "Getting a score that puts you at the top", "textKo": "상위권에 올려주는 점수 받기", "scores": { "performance-approach": 3 } },
+        { "id": "q6c", "text": "Passing and not embarrassing yourself", "textKo": "통과하고 창피당하지 않는 것", "scores": { "security-seeker-g": 3 } },
+        { "id": "q6d", "text": "Imagining how great life will be once you pass", "textKo": "합격하면 삶이 얼마나 훌륭해질지 상상하는 것", "scores": { "dreamer-type": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Which best describes your relationship with long-term goals?",
+      "textKo": "장기적 목표와의 관계를 가장 잘 설명하는 것은?",
+      "options": [
+        { "id": "q7a", "text": "I break them into skills to learn — the journey is the goal", "textKo": "배울 기술로 분해해요 — 여정이 목표예요", "scores": { "mastery-approach": 3 } },
+        { "id": "q7b", "text": "I track progress against benchmarks and others' achievements", "textKo": "벤치마크와 다른 사람들의 성취 대비 진행 상황을 추적해요", "scores": { "performance-approach": 3 } },
+        { "id": "q7c", "text": "I focus on maintaining progress and not falling back", "textKo": "진행을 유지하고 후퇴하지 않는 것에 집중해요", "scores": { "security-seeker-g": 3 } },
+        { "id": "q7d", "text": "I'm great at envisioning them but struggle with daily execution", "textKo": "비전을 잘 그리지만 일상적 실행이 어려워요", "scores": { "dreamer-type": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "What type of feedback is most useful for your goals?",
+      "textKo": "목표를 위해 어떤 유형의 피드백이 가장 유용한가요?",
+      "options": [
+        { "id": "q8a", "text": "Detailed insight into what I can improve and how", "textKo": "무엇을 어떻게 개선할 수 있는지에 대한 세부적인 통찰", "scores": { "mastery-approach": 3 } },
+        { "id": "q8b", "text": "Comparison data — where do I rank and how far ahead are the best?", "textKo": "비교 데이터 — 순위가 어디고 최고 대비 얼마나 차이 나나요?", "scores": { "performance-approach": 3 } },
+        { "id": "q8c", "text": "Reassurance that I'm not falling behind the required standard", "textKo": "요구되는 기준에서 뒤처지지 않고 있다는 확인", "scores": { "security-seeker-g": 3 } },
+        { "id": "q8d", "text": "Encouragement and belief in my potential", "textKo": "격려와 내 가능성에 대한 믿음", "scores": { "dreamer-type": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "In Korean academic culture (입시 culture), your primary driver is...",
+      "textKo": "한국 학업 문화 (입시 문화) 속에서 주요 동기는...",
+      "options": [
+        { "id": "q9a", "text": "Genuine love of learning and deep subject mastery", "textKo": "진정한 학습에 대한 사랑과 깊은 과목 숙달", "scores": { "mastery-approach": 3 } },
+        { "id": "q9b", "text": "Achieving the best possible ranking and university placement", "textKo": "가능한 최고 순위와 대학 배치 달성", "scores": { "performance-approach": 3 } },
+        { "id": "q9c", "text": "Making sure you don't fail or disappoint your parents", "textKo": "실패하거나 부모님을 실망시키지 않도록 하는 것", "scores": { "security-seeker-g": 3 } },
+        { "id": "q9d", "text": "The dream of the life that opens up after success", "textKo": "성공 후 열릴 삶의 꿈", "scores": { "dreamer-type": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "When you look at someone ahead of you in a goal area, you feel...",
+      "textKo": "목표 영역에서 당신보다 앞서 있는 사람을 볼 때...",
+      "options": [
+        { "id": "q10a", "text": "Curious — what can I learn from how they got there?", "textKo": "궁금해요 — 그들이 어떻게 그곳에 갔는지 무엇을 배울 수 있을까요?", "scores": { "mastery-approach": 3 } },
+        { "id": "q10b", "text": "Driven — I need to catch up and eventually surpass them", "textKo": "의욕이 생겨요 — 따라잡고 결국 능가해야 해요", "scores": { "performance-approach": 3 } },
+        { "id": "q10c", "text": "Anxious — what if I never catch up?", "textKo": "불안해요 — 절대 따라잡지 못하면 어쩌죠?", "scores": { "security-seeker-g": 3 } },
+        { "id": "q10d", "text": "Inspired — maybe someday I'll be there too", "textKo": "영감을 받아요 — 언젠가 나도 거기 있을 거예요", "scores": { "dreamer-type": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "mastery-approach",
+      "title": "The Mastery Pursuer",
+      "titleKo": "숙달 추구형",
+      "description": "You're driven by the love of learning and genuine improvement. The process is as fulfilling as the outcome.",
+      "descriptionKo": "학습에 대한 사랑과 진정한 향상에 의해 움직입니다. 과정이 결과만큼 만족스럽습니다. 내재적 동기로 움직이는 이 유형은 장기적으로 가장 지속 가능하고 깊은 성취를 만들어냅니다.",
+      "traits": ["Growth-oriented", "Intrinsically motivated", "Process-focused"],
+      "traitsKo": ["성장 지향적인", "내재적으로 동기 부여된", "과정 중심적인"],
+      "strengthsKo": ["학습 자체에서 지속 가능한 동기를 얻어요", "외부 인정 없이도 자기 발전을 이뤄요", "깊은 전문성과 통찰력을 쌓아요"],
+      "weaknessesKo": ["결과보다 과정에 집중하다 성과 측정이 부족할 수 있어요", "경쟁 상황에서 상대적 성과를 무시할 수 있어요"],
+      "careerFitsKo": ["연구원/학자", "전문 기술직 장인", "교육자/강사"],
+      "relationshipTipKo": "파트너의 목표 추구 방식이 다를 수 있음을 존중하되, 함께 배우는 공유 목표를 만들어보세요.",
+      "compatibleWith": ["dreamer-type"],
+      "compatibleDescriptionKo": "꿈꾸는 몽상가 유형의 큰 비전에 숙달 추구형의 실질적인 학습 계획이 더해지면 꿈이 현실이 돼요.",
+      "emoji": "📖",
+      "gradient": "from-blue-500 to-cyan-600"
+    },
+    {
+      "id": "performance-approach",
+      "title": "The Performance Seeker",
+      "titleKo": "성과 추구형",
+      "description": "You're driven to outperform and excel. Competition sharpens your focus and recognition fuels your energy.",
+      "descriptionKo": "능가하고 탁월해지도록 움직입니다. 경쟁이 집중력을 날카롭게 하고 인정이 에너지를 공급합니다. 이 경쟁적 에너지가 높은 성취의 원동력이 되지만, 내면의 성장도 동시에 키워가면 더 완성됩니다.",
+      "traits": ["Competitive", "Performance-driven", "Achievement-oriented"],
+      "traitsKo": ["경쟁적인", "성과 주도적인", "성취 지향적인"],
+      "strengthsKo": ["경쟁 환경에서 최고의 성과를 발휘해요", "결과를 향해 강하게 드라이브해요", "높은 기준을 설정하고 달성해요"],
+      "weaknessesKo": ["순위나 비교에 집착해 번아웃이 올 수 있어요", "경쟁에서 지면 자기 가치감이 흔들릴 수 있어요"],
+      "careerFitsKo": ["영업 챔피언", "스포츠 선수", "고성과 전문직"],
+      "relationshipTipKo": "경쟁에서 이기는 것만큼 파트너의 성공도 진심으로 응원하는 연습이 관계를 더 깊게 만들어요.",
+      "compatibleWith": ["mastery-approach"],
+      "compatibleDescriptionKo": "숙달 추구형이 깊이를 더하고 성과 추구형이 높이를 더해 서로의 목표 추구 방식을 완성시켜요.",
+      "emoji": "🏆",
+      "gradient": "from-amber-400 to-red-500"
+    },
+    {
+      "id": "security-seeker-g",
+      "title": "The Security Seeker",
+      "titleKo": "안전 추구형",
+      "description": "You're primarily motivated by avoiding failure and maintaining stability. This can be protective, but the best goals also pull you forward.",
+      "descriptionKo": "주로 실패를 피하고 안정성을 유지하도록 동기 부여됩니다. 이것이 보호적일 수 있지만 최선의 목표는 앞으로도 당기는 것이기도 합니다. 두려움을 안전망으로 바꾸고 그 위에서 성장 목표를 세워보세요.",
+      "traits": ["Cautious", "Stability-seeking", "Failure-avoidant"],
+      "traitsKo": ["신중한", "안정 추구적인", "실패 회피적인"],
+      "strengthsKo": ["리스크를 신중하게 평가하고 관리해요", "안정적인 기반 위에서 꾸준히 성취해요", "무모한 실수를 최소화해요"],
+      "weaknessesKo": ["두려움이 잠재력 발현을 제한할 수 있어요", "목표가 소극적이어서 큰 성장을 놓칠 수 있어요"],
+      "careerFitsKo": ["안정적인 전문직", "리스크 관리 분야", "규정 준수 전문가"],
+      "relationshipTipKo": "안전을 위한 목표와 성장을 위한 목표를 각각 하나씩 가져보세요 — 균형이 더 풍요로운 삶을 만들어요.",
+      "compatibleWith": ["mastery-approach"],
+      "compatibleDescriptionKo": "숙달 추구형이 성장의 기쁨을 보여주면 안전 추구형이 두려움보다 성장을 향해 나아가는 용기를 얻어요.",
+      "emoji": "🏠",
+      "gradient": "from-teal-400 to-green-600"
+    },
+    {
+      "id": "dreamer-type",
+      "title": "The Visionary Dreamer",
+      "titleKo": "꿈꾸는 몽상가",
+      "description": "You have big, beautiful visions. Your imagination is powerful — the challenge is translating dreams into daily action.",
+      "descriptionKo": "크고 아름다운 비전을 가지고 있습니다. 상상력이 강력하며 도전은 꿈을 일상적인 행동으로 전환하는 것입니다. 꿈꾸는 능력은 선물이에요 — 거기에 작은 첫 걸음을 더하면 됩니다.",
+      "traits": ["Imaginative", "Vision-driven", "Inspiring"],
+      "traitsKo": ["상상력 풍부한", "비전 주도적인", "영감을 주는"],
+      "strengthsKo": ["큰 그림을 그리고 사람들을 영감으로 이끌어요", "목표에 대한 강한 열정과 설렘을 가져요", "새로운 가능성을 끊임없이 상상해요"],
+      "weaknessesKo": ["꿈을 일상 행동으로 옮기는 것이 어려울 수 있어요", "여러 큰 꿈 사이에서 집중이 분산될 수 있어요"],
+      "careerFitsKo": ["창업자/비전너리", "크리에이티브 디렉터", "동기 부여 강연가"],
+      "relationshipTipKo": "큰 꿈을 꾸되 파트너에게 오늘 실천할 한 가지 구체적인 행동을 공유하면 꿈이 더 현실에 가까워져요.",
+      "compatibleWith": ["mastery-approach"],
+      "compatibleDescriptionKo": "숙달 추구형이 실질적인 학습 단계를 설계하면 몽상가 유형의 비전이 현실로 이루어지기 시작해요.",
+      "emoji": "🌠",
+      "gradient": "from-purple-400 to-pink-500"
+    }
+  ]
+}

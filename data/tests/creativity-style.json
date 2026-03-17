@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "creativity-style",
+    "slug": "creativity-style",
+    "title": "Creativity Style",
+    "titleKo": "나의 창의성 유형은?",
+    "description": "Discover how your creative mind works and generates ideas",
+    "descriptionKo": "당신의 창의적인 마음이 어떻게 작동하고 아이디어를 만들어내는지 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Kirton (1994) Adaptor-Innovator Theory",
+    "gradient": "from-fuchsia-500 to-pink-600",
+    "emoji": "🎨"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When faced with a problem, your first instinct is to...",
+      "textKo": "문제에 직면했을 때, 첫 번째 본능은...",
+      "options": [
+        { "id": "q1a", "text": "Completely reinvent the approach from scratch", "textKo": "처음부터 완전히 새로운 방식으로 접근해요", "scores": { "innovator": 3 } },
+        { "id": "q1b", "text": "Improve and refine the existing solution", "textKo": "기존 해결책을 개선하고 다듬어요", "scores": { "adapter": 3 } },
+        { "id": "q1c", "text": "Combine ideas from different fields", "textKo": "서로 다른 분야의 아이디어를 결합해요", "scores": { "synthesizer": 3 } },
+        { "id": "q1d", "text": "Explore widely to discover unexpected angles", "textKo": "예상치 못한 각도를 찾아 폭넓게 탐구해요", "scores": { "explorer": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How do you feel about following established rules and conventions?",
+      "textKo": "정해진 규칙과 관습을 따르는 것에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q2a", "text": "Rules are made to be broken — they limit creativity", "textKo": "규칙은 깨라고 있어요 — 창의성을 제한해요", "scores": { "innovator": 3 } },
+        { "id": "q2b", "text": "Rules are useful — creativity works within structure", "textKo": "규칙은 유용해요 — 창의성은 구조 안에서도 가능해요", "scores": { "adapter": 3 } },
+        { "id": "q2c", "text": "Rules from one context can be creatively applied elsewhere", "textKo": "한 맥락의 규칙을 다른 곳에 창의적으로 적용할 수 있어요", "scores": { "synthesizer": 3 } },
+        { "id": "q2d", "text": "Rules are just starting points for exploration", "textKo": "규칙은 탐구의 출발점일 뿐이에요", "scores": { "explorer": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How do you prefer to work on creative projects?",
+      "textKo": "창의적인 프로젝트를 어떻게 진행하는 걸 선호하나요?",
+      "options": [
+        { "id": "q3a", "text": "Solo, with total freedom to experiment wildly", "textKo": "혼자, 마음껏 실험할 완전한 자유를 가지고", "scores": { "innovator": 3 } },
+        { "id": "q3b", "text": "With a clear brief and room for incremental improvements", "textKo": "명확한 방향과 점진적 개선의 여지를 두고", "scores": { "adapter": 3 } },
+        { "id": "q3c", "text": "Collaboratively, gathering diverse inputs", "textKo": "협력해서, 다양한 관점을 모으며", "scores": { "synthesizer": 3 } },
+        { "id": "q3d", "text": "In new environments that spark fresh perspectives", "textKo": "새로운 시각을 자극하는 환경에서", "scores": { "explorer": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "When you share a creative idea, you typically...",
+      "textKo": "창의적인 아이디어를 공유할 때 보통 어떻게 하나요?",
+      "options": [
+        { "id": "q4a", "text": "Present something radically different from expectations", "textKo": "기대와 완전히 다른 것을 제시해요", "scores": { "innovator": 3 } },
+        { "id": "q4b", "text": "Show a carefully refined version of an existing approach", "textKo": "기존 방식을 꼼꼼하게 다듬은 버전을 보여줘요", "scores": { "adapter": 3 } },
+        { "id": "q4c", "text": "Present a hybrid idea with influences from multiple sources", "textKo": "여러 출처의 영향을 받은 하이브리드 아이디어를 제시해요", "scores": { "synthesizer": 3 } },
+        { "id": "q4d", "text": "Share a concept still full of unexplored potential", "textKo": "아직 탐구되지 않은 가능성이 가득한 개념을 공유해요", "scores": { "explorer": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Which creative environment makes you most productive?",
+      "textKo": "어떤 창의적 환경에서 가장 생산적으로 되나요?",
+      "options": [
+        { "id": "q5a", "text": "A blank slate with no constraints", "textKo": "아무 제약 없는 백지 상태", "scores": { "innovator": 3 } },
+        { "id": "q5b", "text": "A structured setting with clear goals", "textKo": "명확한 목표가 있는 구조화된 환경", "scores": { "adapter": 3 } },
+        { "id": "q5c", "text": "A multi-disciplinary team with diverse expertise", "textKo": "다양한 전문성을 가진 다학제 팀", "scores": { "synthesizer": 3 } },
+        { "id": "q5d", "text": "New and unfamiliar places or fields", "textKo": "새롭고 익숙하지 않은 장소나 분야", "scores": { "explorer": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How do you handle creative blocks?",
+      "textKo": "창의적인 막힘을 어떻게 극복하나요?",
+      "options": [
+        { "id": "q6a", "text": "Throw out everything and start completely over", "textKo": "모든 것을 버리고 완전히 새로 시작해요", "scores": { "innovator": 3 } },
+        { "id": "q6b", "text": "Step back and analyze what's not working", "textKo": "뒤로 물러서서 뭐가 안 되는지 분석해요", "scores": { "adapter": 3 } },
+        { "id": "q6c", "text": "Seek inspiration from a completely different field", "textKo": "완전히 다른 분야에서 영감을 찾아요", "scores": { "synthesizer": 3 } },
+        { "id": "q6d", "text": "Just keep exploring without pressure", "textKo": "부담 없이 계속 탐구해요", "scores": { "explorer": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "What excites you most about a new project?",
+      "textKo": "새 프로젝트에서 가장 설레는 것은 무엇인가요?",
+      "options": [
+        { "id": "q7a", "text": "The chance to do something no one has done before", "textKo": "아무도 하지 않은 것을 할 기회", "scores": { "innovator": 3 } },
+        { "id": "q7b", "text": "The chance to perfect and excel at the craft", "textKo": "기술을 완성하고 탁월해질 기회", "scores": { "adapter": 3 } },
+        { "id": "q7c", "text": "The chance to connect surprising dots", "textKo": "놀라운 점들을 연결할 기회", "scores": { "synthesizer": 3 } },
+        { "id": "q7d", "text": "The unknown — not knowing where it'll go", "textKo": "미지의 것 — 어디로 갈지 모르는 설렘", "scores": { "explorer": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Others describe your creative work as...",
+      "textKo": "다른 사람들은 당신의 창작물을 이렇게 묘사해요...",
+      "options": [
+        { "id": "q8a", "text": "Bold and unconventional", "textKo": "대담하고 파격적이에요", "scores": { "innovator": 3 } },
+        { "id": "q8b", "text": "Polished and skillfully executed", "textKo": "세련되고 능숙하게 실행됐어요", "scores": { "adapter": 3 } },
+        { "id": "q8c", "text": "Surprisingly well-rounded and layered", "textKo": "놀라울 정도로 균형 잡히고 다층적이에요", "scores": { "synthesizer": 3 } },
+        { "id": "q8d", "text": "Imaginative and full of wonder", "textKo": "상상력이 풍부하고 경이로움이 가득해요", "scores": { "explorer": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When a creative project gets critical feedback, you...",
+      "textKo": "창작 프로젝트에 비판적인 피드백이 오면...",
+      "options": [
+        { "id": "q9a", "text": "Feel defensive — you believe strongly in your vision", "textKo": "방어적이 돼요 — 내 비전을 강하게 믿어요", "scores": { "innovator": 2, "explorer": 1 } },
+        { "id": "q9b", "text": "Welcome it — feedback helps you improve the work", "textKo": "환영해요 — 피드백이 작업을 개선시켜요", "scores": { "adapter": 3 } },
+        { "id": "q9c", "text": "Synthesize the critique into a new direction", "textKo": "비평을 통합해 새로운 방향을 잡아요", "scores": { "synthesizer": 3 } },
+        { "id": "q9d", "text": "Get curious about what the feedback opens up", "textKo": "피드백이 열어주는 것에 호기심을 느껴요", "scores": { "explorer": 2 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Which Korean creative figure resonates most with you?",
+      "textKo": "다음 중 어떤 한국의 창의적 인물과 가장 공감이 되나요?",
+      "options": [
+        { "id": "q10a", "text": "BTS — completely transforming the global music scene", "textKo": "BTS — 글로벌 음악 씬을 완전히 변화시킨", "scores": { "innovator": 3 } },
+        { "id": "q10b", "text": "A skilled 장인 (artisan) perfecting traditional craft", "textKo": "전통 기술을 완성해가는 숙련된 장인", "scores": { "adapter": 3 } },
+        { "id": "q10c", "text": "Bong Joon-ho — blending genres to create something new", "textKo": "봉준호 — 장르를 융합해 새로운 것을 창조한", "scores": { "synthesizer": 3 } },
+        { "id": "q10d", "text": "A webtoon artist exploring stories no one's told", "textKo": "아무도 말하지 않은 이야기를 탐구하는 웹툰 작가", "scores": { "explorer": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "innovator",
+      "title": "The Innovator",
+      "titleKo": "혁신가",
+      "description": "You prefer to disrupt and reimagine rather than refine. Your best ideas emerge when you have total freedom to break the mold.",
+      "descriptionKo": "당신은 개선하기보다 파괴하고 재상상하는 것을 선호합니다. 틀을 깰 완전한 자유가 있을 때 최고의 아이디어가 나옵니다. 기존의 방식에 의문을 제기하는 것이 자연스럽고, 세상이 당연하다고 여기는 것에 도전하는 것에서 에너지를 얻습니다.",
+      "traits": ["Disruptive", "Visionary", "Rule-breaking"],
+      "traitsKo": ["파괴적인", "비전을 가진", "규칙을 깨는"],
+      "strengthsKo": ["아무도 생각지 못한 아이디어를 만들어내요", "변화를 두려워하지 않고 이끌어가요", "기존 틀에 갇히지 않는 사고를 해요"],
+      "weaknessesKo": ["아이디어를 끝까지 실행하는 데 어려움을 겪을 수 있어요", "협업 시 다른 사람의 아이디어를 무시할 수 있어요"],
+      "careerFitsKo": ["스타트업 창업자", "제품 혁신 디자이너", "예술 감독/크리에이티브 디렉터"],
+      "relationshipTipKo": "파트너나 동료의 아이디어를 충분히 경청하는 시간을 의도적으로 만들어보세요.",
+      "compatibleWith": ["synthesizer"],
+      "compatibleDescriptionKo": "융합가 유형이 혁신가의 급진적 아이디어를 실현 가능한 형태로 연결해줘요.",
+      "emoji": "⚡",
+      "gradient": "from-purple-500 to-pink-600"
+    },
+    {
+      "id": "adapter",
+      "title": "The Adapter",
+      "titleKo": "적응가",
+      "description": "You create excellence through refinement. Your creativity shines when you take something good and make it better.",
+      "descriptionKo": "당신은 개선을 통해 탁월함을 만들어냅니다. 좋은 것을 더 좋게 만들 때 창의성이 빛납니다. 기존의 구조와 체계 안에서 더 나은 방법을 찾는 데 탁월하며, 지속적인 품질 향상이 당신의 창의적 동력입니다.",
+      "traits": ["Methodical", "Refinement-focused", "Practical"],
+      "traitsKo": ["체계적인", "개선 중심의", "실용적인"],
+      "strengthsKo": ["기존 시스템을 더욱 효율적으로 만들어요", "세부 사항에 대한 주의가 탁월해요", "실행 가능한 창의적 해결책을 잘 만들어요"],
+      "weaknessesKo": ["급진적인 변화를 요구하는 상황에서 주저할 수 있어요", "새로운 아이디어보다 기존 방식에 의존하는 경향이 있어요"],
+      "careerFitsKo": ["UX/UI 디자이너", "제품 매니저", "기획자/편집자"],
+      "relationshipTipKo": "가끔 '완벽하지 않아도 괜찮다'는 마음으로 새로운 것에 도전해보는 연습을 해보세요.",
+      "compatibleWith": ["explorer"],
+      "compatibleDescriptionKo": "탐험가 유형이 새로운 영역을 열면 적응가 유형이 이를 현실에서 작동하도록 다듬어줘요.",
+      "emoji": "🔧",
+      "gradient": "from-blue-400 to-cyan-500"
+    },
+    {
+      "id": "synthesizer",
+      "title": "The Synthesizer",
+      "titleKo": "융합가",
+      "description": "You see connections others miss. Your creativity blossoms when you blend seemingly unrelated ideas into something new.",
+      "descriptionKo": "당신은 다른 사람들이 놓치는 연결을 발견합니다. 서로 관련 없어 보이는 아이디어들을 새로운 것으로 융합할 때 창의성이 꽃핍니다. 다양한 분야에 걸친 지식을 보유하고 있으며 이것이 당신만의 독특한 관점을 만들어냅니다.",
+      "traits": ["Interdisciplinary", "Connecting", "Holistic"],
+      "traitsKo": ["다학제적인", "연결하는", "전체론적인"],
+      "strengthsKo": ["서로 다른 분야의 아이디어를 연결하는 능력이 뛰어나요", "복잡한 문제를 다각도로 바라봐요", "다양한 팀 내에서 가교 역할을 잘 해요"],
+      "weaknessesKo": ["너무 많은 것을 융합하려다 산만해질 수 있어요", "하나의 전문성을 깊이 파는 것이 어려울 수 있어요"],
+      "careerFitsKo": ["크로스오버 아티스트/작가", "서비스 디자이너", "컨설턴트/전략가"],
+      "relationshipTipKo": "하나의 아이디어나 프로젝트에 집중하는 연습을 통해 폭넓은 사고를 깊이 있는 실행으로 연결해보세요.",
+      "compatibleWith": ["innovator"],
+      "compatibleDescriptionKo": "혁신가 유형의 급진적 비전을 융합가 유형이 다양한 재료로 풍성하게 채워줄 수 있어요.",
+      "emoji": "🌀",
+      "gradient": "from-fuchsia-400 to-violet-500"
+    },
+    {
+      "id": "explorer",
+      "title": "The Explorer",
+      "titleKo": "탐험가",
+      "description": "You create by wandering. You're driven by curiosity and discovery, and your best work comes from going where no one expected.",
+      "descriptionKo": "당신은 방랑함으로써 창조합니다. 호기심과 발견에 의해 움직이며, 아무도 예상하지 못한 곳으로 갈 때 최고의 작업이 나옵니다. 미지의 영역에 발을 내딛는 것을 즐기며, 과정 그 자체에서 의미를 찾습니다.",
+      "traits": ["Curious", "Adventurous", "Open-ended"],
+      "traitsKo": ["호기심 많은", "모험적인", "결말이 열린"],
+      "strengthsKo": ["아무도 가지 않은 길을 기꺼이 탐험해요", "새로운 아이디어에 대한 개방성이 높아요", "과정 자체에서 창의적 에너지를 얻어요"],
+      "weaknessesKo": ["마감이나 결과물 완성이 어려울 수 있어요", "방향 없이 표류하다 에너지를 소진할 수 있어요"],
+      "careerFitsKo": ["여행/문화 콘텐츠 크리에이터", "인류학자/탐험가", "독립 아티스트/작가"],
+      "relationshipTipKo": "창의적 탐험에 시간 제한을 두고, 일정 기간 후 정리하는 루틴을 만들면 결과물로 이어지게 돼요.",
+      "compatibleWith": ["adapter"],
+      "compatibleDescriptionKo": "적응가 유형이 탐험가의 자유로운 발견을 구체적인 작품으로 만들어주는 역할을 해요.",
+      "emoji": "🧭",
+      "gradient": "from-emerald-400 to-teal-500"
+    }
+  ]
+}

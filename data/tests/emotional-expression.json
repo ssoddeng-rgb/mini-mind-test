@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "emotional-expression",
+    "slug": "emotional-expression",
+    "title": "Emotional Expression Type",
+    "titleKo": "나의 감정 표현 유형은?",
+    "description": "Discover how you express and regulate your emotions",
+    "descriptionKo": "감정을 표현하고 조절하는 방식을 알아보세요",
+    "category": "romance",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Gross & John (2003) ERQ",
+    "gradient": "from-rose-400 to-pink-600",
+    "emoji": "💭"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When something really upsets you, you typically...",
+      "textKo": "정말 화나는 일이 생겼을 때...",
+      "options": [
+        { "id": "q1a", "text": "Express it openly and honestly in the moment", "textKo": "그 순간 솔직하고 개방적으로 표현해요", "scores": { "expressive-open": 3 } },
+        { "id": "q1b", "text": "Take time alone to journal or reflect on your feelings first", "textKo": "먼저 혼자 일기를 쓰거나 감정을 성찰해요", "scores": { "reflective": 3 } },
+        { "id": "q1c", "text": "Keep it inside — showing emotions feels vulnerable or weak", "textKo": "속으로만 삭혀요 — 감정을 보이는 것이 취약하거나 약해 보여요", "scores": { "suppressive": 3 } },
+        { "id": "q1d", "text": "Wait for the right moment and communicate thoughtfully", "textKo": "적절한 순간을 기다렸다가 사려 깊게 소통해요", "scores": { "balanced-expr": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How comfortable are you crying in front of others?",
+      "textKo": "다른 사람 앞에서 우는 것이 얼마나 편한가요?",
+      "options": [
+        { "id": "q2a", "text": "Totally fine — emotions are natural and human", "textKo": "완전히 괜찮아요 — 감정은 자연스럽고 인간적이에요", "scores": { "expressive-open": 3 } },
+        { "id": "q2b", "text": "I prefer to process privately, then talk about it later", "textKo": "먼저 혼자 처리하고 나서 이야기하는 걸 선호해요", "scores": { "reflective": 3 } },
+        { "id": "q2c", "text": "Very uncomfortable — I would almost never cry in front of others", "textKo": "매우 불편해요 — 거의 절대로 다른 사람 앞에서 울지 않아요", "scores": { "suppressive": 3 } },
+        { "id": "q2d", "text": "Depends on who it is and how safe the space feels", "textKo": "누구인지와 얼마나 안전한 공간인지에 따라 달라요", "scores": { "balanced-expr": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When you're in a difficult emotional state at work, you...",
+      "textKo": "직장에서 감정적으로 힘든 상태일 때...",
+      "options": [
+        { "id": "q3a", "text": "May let it show — it's hard to hide how you feel", "textKo": "드러날 수 있어요 — 감정을 숨기는 게 어려워요", "scores": { "expressive-open": 3 } },
+        { "id": "q3b", "text": "Work through it internally while maintaining a composed exterior", "textKo": "겉으로는 차분하게 유지하면서 내면으로 처리해요", "scores": { "reflective": 3 } },
+        { "id": "q3c", "text": "Suppress it entirely and act as if everything is fine", "textKo": "완전히 억제하고 모든 것이 괜찮은 것처럼 행동해요", "scores": { "suppressive": 3 } },
+        { "id": "q3d", "text": "Acknowledge it to yourself, then choose when/how to address it", "textKo": "스스로에게 인정하고, 언제/어떻게 해결할지 선택해요", "scores": { "balanced-expr": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "In Korean culture, 눈치 (reading the room) and emotional restraint are valued. You...",
+      "textKo": "한국 문화에서 눈치와 감정 자제를 중시하는 것에 대해...",
+      "options": [
+        { "id": "q4a", "text": "Sometimes struggle — authentic expression feels more important", "textKo": "가끔 힘들어요 — 진정한 표현이 더 중요하게 느껴져요", "scores": { "expressive-open": 3 } },
+        { "id": "q4b", "text": "Navigate it well — reflection before expression feels natural", "textKo": "잘 대처해요 — 표현 전에 성찰하는 것이 자연스러워요", "scores": { "reflective": 3 } },
+        { "id": "q4c", "text": "Align with it strongly — showing emotions publicly is inappropriate", "textKo": "강하게 공감해요 — 감정을 공개적으로 드러내는 것은 부적절해요", "scores": { "suppressive": 3 } },
+        { "id": "q4d", "text": "Balance both — context determines appropriate expression", "textKo": "둘 다 균형을 맞춰요 — 상황이 적절한 표현을 결정해요", "scores": { "balanced-expr": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "When a romantic partner is upset with you, you...",
+      "textKo": "연인이 나에게 화가 났을 때...",
+      "options": [
+        { "id": "q5a", "text": "Want to talk it through right away and resolve it emotionally", "textKo": "바로 이야기해서 감정적으로 해결하고 싶어요", "scores": { "expressive-open": 3 } },
+        { "id": "q5b", "text": "Need space to understand your own feelings first, then talk", "textKo": "먼저 내 감정을 이해할 공간이 필요하고 그 다음 이야기해요", "scores": { "reflective": 3 } },
+        { "id": "q5c", "text": "Shut down — emotional conversations feel overwhelming", "textKo": "닫혀버려요 — 감정적 대화가 압도적으로 느껴져요", "scores": { "suppressive": 3 } },
+        { "id": "q5d", "text": "Let the tension settle a bit, then initiate a calm conversation", "textKo": "긴장이 조금 가라앉게 두고, 차분한 대화를 시작해요", "scores": { "balanced-expr": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When you're feeling really happy or excited, you...",
+      "textKo": "정말 행복하거나 신날 때...",
+      "options": [
+        { "id": "q6a", "text": "Show it fully — your joy is visible and infectious", "textKo": "완전히 드러내요 — 기쁨이 눈에 띄고 전염성이 있어요", "scores": { "expressive-open": 3 } },
+        { "id": "q6b", "text": "Feel it deeply but express it more quietly, in your own way", "textKo": "깊이 느끼지만 나만의 방식으로 더 조용하게 표현해요", "scores": { "reflective": 3 } },
+        { "id": "q6c", "text": "Feel it internally but rarely express it outwardly", "textKo": "내면으로 느끼지만 거의 외부로 표현하지 않아요", "scores": { "suppressive": 3 } },
+        { "id": "q6d", "text": "Express it with the right people in the right context", "textKo": "적절한 맥락에서 적절한 사람들과 표현해요", "scores": { "balanced-expr": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "After a stressful day, your emotional recovery routine is...",
+      "textKo": "스트레스 받는 하루 후, 감정 회복 루틴은...",
+      "options": [
+        { "id": "q7a", "text": "Venting to a trusted friend or partner — talking helps", "textKo": "믿을 수 있는 친구나 파트너에게 털어놓기 — 말하면 도움이 돼요", "scores": { "expressive-open": 3 } },
+        { "id": "q7b", "text": "Journaling, meditating, or quiet reflection alone", "textKo": "일기 쓰기, 명상, 또는 혼자 조용히 성찰하기", "scores": { "reflective": 3 } },
+        { "id": "q7c", "text": "Distract yourself — TV, games, sleep — don't think about it", "textKo": "TV, 게임, 수면으로 주의를 돌려요 — 생각하지 않아요", "scores": { "suppressive": 3 } },
+        { "id": "q7d", "text": "A mix: some solitude followed by connection with loved ones", "textKo": "혼합이에요: 약간의 혼자만의 시간 후 사랑하는 사람들과 연결", "scores": { "balanced-expr": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "When someone asks 'How are you really feeling?', you typically...",
+      "textKo": "'정말 어떤 기분이에요?'라고 물어보면 보통...",
+      "options": [
+        { "id": "q8a", "text": "Tell them honestly, sometimes in more detail than they expected", "textKo": "솔직하게 말해요, 가끔 그들이 예상했던 것보다 더 자세하게", "scores": { "expressive-open": 3 } },
+        { "id": "q8b", "text": "Take a moment to genuinely check in with yourself first", "textKo": "먼저 진정으로 자신의 상태를 확인하는 잠시 시간을 가져요", "scores": { "reflective": 3 } },
+        { "id": "q8c", "text": "Say 'Fine' or deflect — the real answer feels too private", "textKo": "'괜찮아요' 또는 화제를 돌려요 — 진짜 대답은 너무 개인적인 것 같아요", "scores": { "suppressive": 3 } },
+        { "id": "q8d", "text": "Give a genuine but calibrated answer based on trust", "textKo": "신뢰를 바탕으로 진솔하지만 조절된 답을 줘요", "scores": { "balanced-expr": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "How does unexpressed emotion affect you physically?",
+      "textKo": "표현되지 않은 감정이 신체적으로 어떻게 영향을 미치나요?",
+      "options": [
+        { "id": "q9a", "text": "I express enough that it rarely builds up physically", "textKo": "충분히 표현해서 신체적으로 쌓이는 경우가 거의 없어요", "scores": { "expressive-open": 3 } },
+        { "id": "q9b", "text": "Reflective processing relieves it before it becomes physical", "textKo": "성찰적 처리가 신체적으로 되기 전에 해소해줘요", "scores": { "reflective": 3 } },
+        { "id": "q9c", "text": "I notice tension, headaches, or fatigue — the body holds it", "textKo": "긴장감, 두통, 피로를 느껴요 — 몸이 감정을 담고 있어요", "scores": { "suppressive": 3 } },
+        { "id": "q9d", "text": "Rarely builds up because I process and release in healthy ways", "textKo": "건강한 방식으로 처리하고 해소하기 때문에 거의 쌓이지 않아요", "scores": { "balanced-expr": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What role do you think emotions should play in decision-making?",
+      "textKo": "의사결정에서 감정은 어떤 역할을 해야 한다고 생각하나요?",
+      "options": [
+        { "id": "q10a", "text": "A central role — emotions carry important information", "textKo": "핵심적인 역할이요 — 감정은 중요한 정보를 담고 있어요", "scores": { "expressive-open": 3 } },
+        { "id": "q10b", "text": "An important voice to listen to, then carefully interpret", "textKo": "귀 기울인 후 신중하게 해석해야 할 중요한 목소리", "scores": { "reflective": 3 } },
+        { "id": "q10c", "text": "A minimal role — logic and facts should drive decisions", "textKo": "최소한의 역할이요 — 논리와 사실이 결정을 이끌어야 해요", "scores": { "suppressive": 3 } },
+        { "id": "q10d", "text": "One voice among many, considered alongside logic and values", "textKo": "논리와 가치관과 함께 고려되는 여러 목소리 중 하나", "scores": { "balanced-expr": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "expressive-open",
+      "title": "The Open Expresser",
+      "titleKo": "표현형",
+      "description": "You wear your heart on your sleeve. Your emotional openness creates deep connections and authentic relationships.",
+      "descriptionKo": "마음을 소매에 달고 다닙니다. 감정적 개방성이 깊은 연결과 진정성 있는 관계를 만들어냅니다. 감정을 솔직하게 표현하는 용기가 있는 이 유형은 진정성 있는 인간관계의 힘을 알고 있습니다.",
+      "traits": ["Open", "Expressive", "Authentic"],
+      "traitsKo": ["개방적인", "표현적인", "진정성 있는"],
+      "strengthsKo": ["감정을 솔직하게 표현해 관계에 깊이를 더해요", "감정적 정직함으로 신뢰를 빠르게 형성해요", "자신의 내면 상태를 잘 알고 있어요"],
+      "weaknessesKo": ["때로 상황에 맞지 않게 감정이 과도하게 표현될 수 있어요", "감정 표현 후 노출됐다는 느낌으로 취약감을 느낄 수 있어요"],
+      "careerFitsKo": ["배우/예술가", "상담사/치료사", "영업/영감을 주는 리더"],
+      "relationshipTipKo": "감정을 표현하기 전에 잠시 '지금 이 감정을 나눌 적절한 타이밍인가?'를 생각해보면 더 효과적인 소통이 돼요.",
+      "compatibleWith": ["balanced-expr"],
+      "compatibleDescriptionKo": "균형 표현형이 적절한 타이밍을 알려주면 표현형의 진정성이 더 효과적으로 전달돼요.",
+      "emoji": "💬",
+      "gradient": "from-rose-400 to-red-500"
+    },
+    {
+      "id": "reflective",
+      "title": "The Inner Reflector",
+      "titleKo": "내면 성찰형",
+      "description": "You process emotions internally before expressing them. Your emotional intelligence is deep, but sometimes others don't see it.",
+      "descriptionKo": "감정을 표현하기 전에 내부에서 처리합니다. 감정 지능이 깊지만 때로는 다른 사람들이 그것을 보지 못합니다. 내면에서 충분히 소화된 감정은 더 성숙하게 표현됩니다.",
+      "traits": ["Introspective", "Measured", "Emotionally intelligent"],
+      "traitsKo": ["내성적인", "신중한", "감정 지능이 높은"],
+      "strengthsKo": ["감정을 충분히 처리한 후 명확하게 소통해요", "충동적인 감정 반응을 잘 통제해요", "깊은 자기 이해를 바탕으로 감정을 다뤄요"],
+      "weaknessesKo": ["처리하는 동안 상대방은 차갑게 느낄 수 있어요", "내면의 깊이가 외부에 전달되지 않아 오해를 살 수 있어요"],
+      "careerFitsKo": ["연구원/학자", "작가/철학자", "심리치료사"],
+      "relationshipTipKo": "파트너에게 '지금 감정을 처리 중이에요, 시간이 조금 필요해요'라고 말해주면 침묵이 거부감으로 오해되지 않아요.",
+      "compatibleWith": ["balanced-expr"],
+      "compatibleDescriptionKo": "균형 표현형이 연결의 다리 역할을 하면 성찰형의 깊은 감정 세계가 관계에서 빛을 발해요.",
+      "emoji": "🌙",
+      "gradient": "from-indigo-400 to-violet-500"
+    },
+    {
+      "id": "suppressive",
+      "title": "The Emotional Suppressor",
+      "titleKo": "감정 억제형",
+      "description": "You keep emotions tightly contained. While this can be adaptive short-term, long-term suppression takes a toll on your body and relationships.",
+      "descriptionKo": "감정을 단단히 억제합니다. 단기적으로는 적응적일 수 있지만 장기적인 억제는 몸과 관계에 부담을 줍니다. 감정을 표현하는 것이 약함이 아닌 용기라는 것을 천천히 배워가는 과정에 있습니다.",
+      "traits": ["Stoic", "Self-contained", "Private"],
+      "traitsKo": ["고집스러운", "자급자족하는", "사적인"],
+      "strengthsKo": ["압박 상황에서 감정에 흔들리지 않고 기능해요", "외부에 안정적이고 믿음직한 인상을 줘요", "감정을 통제하는 능력이 있어요"],
+      "weaknessesKo": ["억압된 감정이 신체 증상으로 나타날 수 있어요", "친밀감 형성이 어려워 관계가 피상적으로 느껴질 수 있어요"],
+      "careerFitsKo": ["군인/경찰", "외과의/응급의", "엔지니어/기술자"],
+      "relationshipTipKo": "가장 안전하게 느끼는 한 사람에게 작은 감정 하나를 표현해보는 것으로 시작해보세요 — 작은 개방이 큰 변화를 만들어요.",
+      "compatibleWith": ["reflective"],
+      "compatibleDescriptionKo": "내면 성찰형은 감정 억제형에게 과도한 표현 없이도 감정을 처리하는 방법을 이해하고 지지할 수 있어요.",
+      "emoji": "🔒",
+      "gradient": "from-slate-500 to-gray-700"
+    },
+    {
+      "id": "balanced-expr",
+      "title": "The Balanced Expresser",
+      "titleKo": "균형 표현형",
+      "description": "You express emotions thoughtfully — neither over- nor under-sharing. You read the context and choose appropriate expression.",
+      "descriptionKo": "감정을 사려 깊게 표현합니다 — 너무 많이도, 너무 적게도 아니게. 맥락을 읽고 적절한 표현을 선택합니다. 이 감정적 균형감이 다양한 관계와 환경에서 당신을 빛나게 합니다.",
+      "traits": ["Contextually aware", "Regulated", "Authentic"],
+      "traitsKo": ["맥락을 잘 인식하는", "조절되는", "진정성 있는"],
+      "strengthsKo": ["상황에 맞는 감정 표현으로 관계를 잘 유지해요", "자신의 감정을 알면서도 통제력을 갖추고 있어요", "다양한 관계에서 신뢰와 안전감을 만들어요"],
+      "weaknessesKo": ["너무 조절되어 진정성이 부족해 보일 수 있어요", "맥락을 너무 의식하다 진짜 감정이 늦게 나올 수 있어요"],
+      "careerFitsKo": ["리더/매니저", "외교관/협상가", "상담사/코치"],
+      "relationshipTipKo": "균형을 유지하는 것도 중요하지만, 가장 가까운 사람들에게는 조금 더 날것의 감정을 나눠도 좋아요 — 그것이 진정한 친밀감이에요.",
+      "compatibleWith": ["expressive-open"],
+      "compatibleDescriptionKo": "표현형의 솔직함과 균형 표현형의 적절한 타이밍이 만나면 진정성 있으면서도 성숙한 소통이 이루어져요.",
+      "emoji": "🌊",
+      "gradient": "from-pink-400 to-rose-500"
+    }
+  ]
+}

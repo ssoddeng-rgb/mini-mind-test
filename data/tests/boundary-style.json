@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "boundary-style",
+    "slug": "boundary-style",
+    "title": "Boundary Style",
+    "titleKo": "나의 경계선 유형은?",
+    "description": "Discover how you set and maintain personal boundaries in relationships",
+    "descriptionKo": "관계에서 개인 경계선을 설정하고 유지하는 방식을 알아보세요",
+    "category": "romance",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Cloud & Townsend (1992) Boundaries",
+    "gradient": "from-violet-500 to-purple-700",
+    "emoji": "🛡️"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When your partner asks you to do something you don't want to do, you...",
+      "textKo": "파트너가 하기 싫은 것을 요청할 때...",
+      "options": [
+        { "id": "q1a", "text": "Say no clearly but kindly, and explain your reason", "textKo": "명확하지만 친절하게 거절하고 이유를 설명해요", "scores": { "healthy-boundary": 3 } },
+        { "id": "q1b", "text": "Say yes even though you feel uncomfortable inside", "textKo": "내심 불편하면서도 그냥 그러겠다고 해요", "scores": { "porous-boundary": 3 } },
+        { "id": "q1c", "text": "Refuse without explanation — it's your right", "textKo": "설명 없이 거절해요 — 내 권리니까요", "scores": { "rigid-boundary": 3 } },
+        { "id": "q1d", "text": "Consider the request and decide based on the context", "textKo": "요청을 고려하고 상황에 따라 결정해요", "scores": { "flexible-boundary": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How comfortable are you sharing personal struggles with your partner?",
+      "textKo": "파트너에게 개인적인 어려움을 나누는 것은 어떤가요?",
+      "options": [
+        { "id": "q2a", "text": "I share openly but choose what's appropriate to share", "textKo": "개방적으로 나누지만 적절한 것을 선택해서 나눠요", "scores": { "healthy-boundary": 3 } },
+        { "id": "q2b", "text": "I share everything — I want no secrets between us", "textKo": "모든 것을 나눠요 — 우리 사이에 비밀이 없어야 해요", "scores": { "porous-boundary": 3 } },
+        { "id": "q2c", "text": "I rarely share personal things — I handle things alone", "textKo": "거의 안 나눠요 — 혼자 해결해요", "scores": { "rigid-boundary": 3 } },
+        { "id": "q2d", "text": "I share gradually as trust deepens", "textKo": "신뢰가 깊어짐에 따라 점차 나눠요", "scores": { "flexible-boundary": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "In Korean family culture (e.g., in-law pressure, 부모 expectations), you...",
+      "textKo": "한국 가족 문화 (시댁/처가 압박, 부모 기대) 속에서...",
+      "options": [
+        { "id": "q3a", "text": "Respect family but protect personal limits respectfully", "textKo": "가족을 존중하지만 개인적 한계를 정중하게 보호해요", "scores": { "healthy-boundary": 3 } },
+        { "id": "q3b", "text": "Sacrifice personal needs to keep family harmony", "textKo": "가족 화합을 위해 개인적 필요를 희생해요", "scores": { "porous-boundary": 3 } },
+        { "id": "q3c", "text": "Keep significant distance — my life is my own", "textKo": "상당한 거리를 유지해요 — 내 삶은 내 것이에요", "scores": { "rigid-boundary": 3 } },
+        { "id": "q3d", "text": "Navigate case by case, adapting to what matters most", "textKo": "상황별로 유연하게 대응하며 가장 중요한 것에 맞춰요", "scores": { "flexible-boundary": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "When a friend repeatedly asks for emotional support beyond what you can give...",
+      "textKo": "친구가 내가 줄 수 있는 것 이상의 정서적 지지를 반복적으로 요청할 때...",
+      "options": [
+        { "id": "q4a", "text": "Communicate your limits and suggest professional help", "textKo": "내 한계를 전달하고 전문가 도움을 제안해요", "scores": { "healthy-boundary": 3 } },
+        { "id": "q4b", "text": "Give more than you have — you can't say no to a friend", "textKo": "가능한 것보다 더 줘요 — 친구에게 싫다고 할 수 없어요", "scores": { "porous-boundary": 3 } },
+        { "id": "q4c", "text": "Withdraw from the friendship — it's too draining", "textKo": "우정에서 물러나요 — 너무 소모적이에요", "scores": { "rigid-boundary": 3 } },
+        { "id": "q4d", "text": "Have an honest conversation and renegotiate the dynamic", "textKo": "솔직한 대화를 나누고 관계 패턴을 재협상해요", "scores": { "flexible-boundary": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Your partner reads your phone without permission. You feel...",
+      "textKo": "파트너가 허락 없이 내 폰을 봤어요. 어떻게 느끼나요?",
+      "options": [
+        { "id": "q5a", "text": "Violated — privacy is important in any relationship", "textKo": "침해받았어요 — 프라이버시는 모든 관계에서 중요해요", "scores": { "healthy-boundary": 3 } },
+        { "id": "q5b", "text": "A bit uncomfortable but understand their insecurity", "textKo": "약간 불편하지만 그들의 불안감을 이해해요", "scores": { "porous-boundary": 3 } },
+        { "id": "q5c", "text": "Deeply betrayed — this is a dealbreaker", "textKo": "깊이 배신당했어요 — 이건 관계를 끊을 수 있는 일이에요", "scores": { "rigid-boundary": 3 } },
+        { "id": "q5d", "text": "Upset but willing to discuss what led to this", "textKo": "화가 나지만 이것이 왜 일어났는지 논의할 의향이 있어요", "scores": { "flexible-boundary": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When setting limits in a relationship, you typically...",
+      "textKo": "관계에서 한계를 설정할 때 보통...",
+      "options": [
+        { "id": "q6a", "text": "Communicate clearly: 'This is what I need'", "textKo": "명확하게 소통해요: '나는 이게 필요해요'", "scores": { "healthy-boundary": 3 } },
+        { "id": "q6b", "text": "Hint at it and hope the other person understands", "textKo": "힌트를 주고 상대방이 이해하길 바라요", "scores": { "porous-boundary": 3 } },
+        { "id": "q6c", "text": "Enforce limits without discussion", "textKo": "논의 없이 한계를 강요해요", "scores": { "rigid-boundary": 3 } },
+        { "id": "q6d", "text": "Discuss and find a mutually workable agreement", "textKo": "논의하고 서로 가능한 합의를 찾아요", "scores": { "flexible-boundary": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How do you feel when someone crosses a boundary you've set?",
+      "textKo": "내가 설정한 경계선을 누군가 넘었을 때 어떻게 느끼나요?",
+      "options": [
+        { "id": "q7a", "text": "Assertively address it — I speak up for myself", "textKo": "자기주장적으로 해결해요 — 내 목소리를 내요", "scores": { "healthy-boundary": 3 } },
+        { "id": "q7b", "text": "Feel hurt but say nothing to avoid conflict", "textKo": "상처받지만 충돌을 피하기 위해 아무 말도 안 해요", "scores": { "porous-boundary": 3 } },
+        { "id": "q7c", "text": "Feel deeply angry and may pull back completely", "textKo": "깊이 화가 나고 완전히 물러날 수 있어요", "scores": { "rigid-boundary": 3 } },
+        { "id": "q7d", "text": "Address it when the time is right and the mood is calm", "textKo": "분위기가 차분할 때 적절한 타이밍에 해결해요", "scores": { "flexible-boundary": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "When your partner needs space, you...",
+      "textKo": "파트너가 혼자만의 시간이 필요할 때...",
+      "options": [
+        { "id": "q8a", "text": "Respect it fully and use the time for yourself too", "textKo": "완전히 존중하고 나도 나만의 시간으로 활용해요", "scores": { "healthy-boundary": 3 } },
+        { "id": "q8b", "text": "Worry that they're distancing themselves from you", "textKo": "그들이 나에게서 멀어지고 있다고 걱정해요", "scores": { "porous-boundary": 3 } },
+        { "id": "q8c", "text": "Feel relieved — you prefer having your own space anyway", "textKo": "안도해요 — 어차피 나만의 공간을 선호해요", "scores": { "rigid-boundary": 3 } },
+        { "id": "q8d", "text": "Support it and check in after the agreed time", "textKo": "지지하고 합의된 시간 후에 확인해요", "scores": { "flexible-boundary": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "How much do you rely on your partner's opinion for personal decisions?",
+      "textKo": "개인적인 결정을 위해 파트너의 의견에 얼마나 의존하나요?",
+      "options": [
+        { "id": "q9a", "text": "I value input but the final decision is always mine", "textKo": "의견을 소중히 하지만 최종 결정은 항상 내 것이에요", "scores": { "healthy-boundary": 3 } },
+        { "id": "q9b", "text": "I often need their approval before deciding", "textKo": "결정하기 전에 그들의 승인이 자주 필요해요", "scores": { "porous-boundary": 3 } },
+        { "id": "q9c", "text": "I rarely involve them — I prefer full independence", "textKo": "거의 참여시키지 않아요 — 완전한 독립을 선호해요", "scores": { "rigid-boundary": 3 } },
+        { "id": "q9d", "text": "For small things I decide alone; big things we discuss", "textKo": "작은 것은 혼자, 큰 것은 함께 논의해요", "scores": { "flexible-boundary": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What does a healthy relationship look like to you?",
+      "textKo": "건강한 관계가 어떻게 생겼다고 생각하나요?",
+      "options": [
+        { "id": "q10a", "text": "Two whole people choosing to be together — together but separate", "textKo": "함께 있기를 선택하는 두 완전한 사람 — 함께이지만 독립적으로", "scores": { "healthy-boundary": 3 } },
+        { "id": "q10b", "text": "Two people who complete each other — total togetherness", "textKo": "서로를 완성시키는 두 사람 — 완전한 하나됨", "scores": { "porous-boundary": 3 } },
+        { "id": "q10c", "text": "Two independent people who choose when to connect", "textKo": "언제 연결할지 선택하는 두 독립적인 사람", "scores": { "rigid-boundary": 3 } },
+        { "id": "q10d", "text": "A dynamic partnership that evolves as needs change", "textKo": "필요가 변함에 따라 발전하는 역동적인 파트너십", "scores": { "flexible-boundary": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "healthy-boundary",
+      "title": "Healthy Boundary Type",
+      "titleKo": "건강한 경계선",
+      "description": "You know your limits and communicate them with care. You can say no without guilt and yes without resentment.",
+      "descriptionKo": "당신은 자신의 한계를 알고 배려로 소통합니다. 죄책감 없이 거절할 수 있고 분노 없이 수락할 수 있습니다. 관계에서 독립성과 친밀감의 균형을 잘 유지하는 것이 당신의 강점입니다.",
+      "traits": ["Self-aware", "Assertive", "Balanced"],
+      "traitsKo": ["자기 인식이 높은", "자기주장이 있는", "균형 잡힌"],
+      "strengthsKo": ["관계에서 자신을 잃지 않아요", "명확한 소통으로 오해를 줄여요", "상대방의 경계도 잘 존중해요"],
+      "weaknessesKo": ["경계를 너무 빨리 설정해 친밀감이 늦게 형성될 수 있어요", "모든 관계에서 같은 기준을 적용하려 할 수 있어요"],
+      "careerFitsKo": ["상담사/치료사", "팀 리더/HR", "코치/멘토"],
+      "relationshipTipKo": "자신의 경계를 솔직하게 나누는 것이 관계를 약하게 하는 게 아니라 더 강하게 만든다는 것을 기억하세요.",
+      "compatibleWith": ["flexible-boundary"],
+      "compatibleDescriptionKo": "유연한 경계선 유형과는 서로의 한계를 존중하면서도 함께 성장하는 건강한 파트너십을 이뤄요.",
+      "emoji": "🌿",
+      "gradient": "from-green-500 to-teal-600"
+    },
+    {
+      "id": "porous-boundary",
+      "title": "Porous Boundary Type",
+      "titleKo": "느슨한 경계선",
+      "description": "You give easily and struggle to protect your emotional space. Your warmth is a gift, but you sometimes lose yourself in relationships.",
+      "descriptionKo": "쉽게 주고 감정적 공간을 보호하는 데 어려움을 겪습니다. 따뜻함은 선물이지만 관계에서 자신을 잃기도 합니다. 사랑은 자신을 희생하는 것이 아니라 두 사람 모두가 온전할 때 가장 아름답게 피어납니다.",
+      "traits": ["Generous", "Accommodating", "Conflict-avoidant"],
+      "traitsKo": ["관대한", "맞춰주는", "갈등 회피형"],
+      "strengthsKo": ["상대방을 깊이 배려하고 잘 수용해요", "따뜻하고 공감 능력이 뛰어나요", "관계를 소중히 여기는 마음이 커요"],
+      "weaknessesKo": ["자신의 필요를 뒤로 미루다 지칠 수 있어요", "거절을 못 해 관계에서 착취당할 수 있어요"],
+      "careerFitsKo": ["사회복지사/간호사", "교사/돌봄 직종", "고객 서비스 전문가"],
+      "relationshipTipKo": "'싫어요'는 관계를 깨는 것이 아니라 진정한 자신을 지키는 것임을 기억하고 오늘 작은 거절 하나를 연습해보세요.",
+      "compatibleWith": ["healthy-boundary"],
+      "compatibleDescriptionKo": "건강한 경계선 유형이 모델을 보여주며 느슨한 경계선 유형이 자신의 한계를 발견하도록 도와줄 수 있어요.",
+      "emoji": "💧",
+      "gradient": "from-blue-300 to-cyan-400"
+    },
+    {
+      "id": "rigid-boundary",
+      "title": "Rigid Boundary Type",
+      "titleKo": "단단한 경계선",
+      "description": "You protect yourself through strong walls. Safety feels more important than connection, which can create loneliness.",
+      "descriptionKo": "강한 벽으로 자신을 보호합니다. 연결보다 안전이 더 중요하게 느껴지는데, 이것이 고독을 만들 수 있습니다. 과거의 상처가 현재의 연결을 막고 있지는 않은지 살펴볼 시간입니다.",
+      "traits": ["Self-protective", "Independent", "Guarded"],
+      "traitsKo": ["자기 보호적인", "독립적인", "경계하는"],
+      "strengthsKo": ["자신의 가치와 필요를 잘 알아요", "착취당하거나 상처받는 경우가 적어요", "강한 독립심과 자기 결정력이 있어요"],
+      "weaknessesKo": ["진정한 친밀감과 취약성을 허용하기 어려워요", "도움이 필요할 때도 요청하지 못할 수 있어요"],
+      "careerFitsKo": ["독립적인 연구자/작가", "전문 기술직", "창업자/1인 기업"],
+      "relationshipTipKo": "가장 안전하게 느끼는 사람 한 명에게 작은 취약함을 나누는 것부터 시작해보세요 — 연결은 거기서 시작돼요.",
+      "compatibleWith": ["flexible-boundary"],
+      "compatibleDescriptionKo": "유연한 경계선 유형이 인내심 있게 공간을 만들어주면 단단한 경계선 유형이 서서히 마음을 열 수 있어요.",
+      "emoji": "🪨",
+      "gradient": "from-gray-500 to-slate-700"
+    },
+    {
+      "id": "flexible-boundary",
+      "title": "Flexible Boundary Type",
+      "titleKo": "유연한 경계선",
+      "description": "You adjust your boundaries based on trust and context. This agility is a strength, as long as your core values remain non-negotiable.",
+      "descriptionKo": "신뢰와 상황에 따라 경계를 조정합니다. 이 민첩성은 강점이며, 핵심 가치가 협상 불가능하게 유지되는 한 그렇습니다. 관계마다 다른 경계선을 가질 수 있는 현명함이 있습니다.",
+      "traits": ["Adaptable", "Context-aware", "Nuanced"],
+      "traitsKo": ["적응력 있는", "상황을 잘 파악하는", "섬세한"],
+      "strengthsKo": ["다양한 관계에서 적절하게 대응해요", "상황에 맞는 개방성과 보호를 균형 있게 해요", "깊은 신뢰 관계에서 진정한 친밀감을 나눠요"],
+      "weaknessesKo": ["상황에 따라 일관성이 없어 보일 수 있어요", "핵심 경계가 흐려질 때 자신을 잃을 위험이 있어요"],
+      "careerFitsKo": ["외교관/국제 업무", "다문화 환경 근무자", "상담사/코치"],
+      "relationshipTipKo": "유연함을 유지하되, 어떤 상황에서도 절대 타협하지 않을 핵심 경계 세 가지를 글로 써두세요.",
+      "compatibleWith": ["healthy-boundary"],
+      "compatibleDescriptionKo": "건강한 경계선 유형이 명확성을 제공하면 유연한 경계선 유형이 상황 적응 능력을 더해 완성도 높은 관계가 돼요.",
+      "emoji": "🌊",
+      "gradient": "from-violet-400 to-indigo-500"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "relationship-dependency",
+    "slug": "relationship-dependency",
+    "title": "Relationship Dependency Style",
+    "titleKo": "나의 관계 의존 유형은?",
+    "description": "Discover your pattern of dependency and autonomy in close relationships",
+    "descriptionKo": "친밀한 관계에서 의존과 자율성의 패턴을 알아보세요",
+    "category": "romance",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Beattie (1987) Codependency / Bowen (1978)",
+    "gradient": "from-purple-400 to-violet-600",
+    "emoji": "💞"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When your partner is in a bad mood, you...",
+      "textKo": "파트너가 기분이 나쁠 때...",
+      "options": [
+        { "id": "q1a", "text": "Notice it, offer support, but can hold your own mood steady", "textKo": "알아차리고 지지를 제공하지만 내 기분은 안정적으로 유지해요", "scores": { "interdependent": 3 } },
+        { "id": "q1b", "text": "Feel it deeply — their mood significantly affects yours", "textKo": "깊이 느껴요 — 그들의 기분이 내 기분에 크게 영향을 미쳐요", "scores": { "codependent": 3 } },
+        { "id": "q1c", "text": "Give them space and feel relieved not to deal with it", "textKo": "공간을 주고 그것에 대처하지 않아도 돼서 안도해요", "scores": { "counter-dependent": 3 } },
+        { "id": "q1d", "text": "Acknowledge it empathetically and trust they'll manage it", "textKo": "공감적으로 인정하고 그들이 처리할 것이라 믿어요", "scores": { "independent-rel": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How would you describe your level of need for your partner's presence?",
+      "textKo": "파트너의 존재에 대한 필요도는 어떻게 묘사하겠어요?",
+      "options": [
+        { "id": "q2a", "text": "I value being together but am equally okay when apart", "textKo": "함께 있는 것을 소중히 하지만 떨어져 있을 때도 괜찮아요", "scores": { "interdependent": 3 } },
+        { "id": "q2b", "text": "High — I feel significantly better when they're around", "textKo": "높아요 — 그들이 주변에 있을 때 훨씬 더 좋아요", "scores": { "codependent": 3 } },
+        { "id": "q2c", "text": "Low — I tend to prefer significant alone time", "textKo": "낮아요 — 상당한 혼자만의 시간을 선호해요", "scores": { "counter-dependent": 3 } },
+        { "id": "q2d", "text": "Moderate — we connect deeply but I maintain my own life fully", "textKo": "보통이에요 — 깊이 연결하지만 내 삶을 완전히 유지해요", "scores": { "independent-rel": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When your partner has a problem to solve, you...",
+      "textKo": "파트너가 해결해야 할 문제가 있을 때...",
+      "options": [
+        { "id": "q3a", "text": "Support and listen but trust them to handle it themselves", "textKo": "지지하고 듣지만 그들이 스스로 처리할 것이라 믿어요", "scores": { "interdependent": 3 } },
+        { "id": "q3b", "text": "Feel anxious until it's resolved — it affects you too", "textKo": "해결될 때까지 불안해요 — 나에게도 영향을 미쳐요", "scores": { "codependent": 3 } },
+        { "id": "q3c", "text": "Stay detached — they need to figure it out themselves", "textKo": "분리돼 있어요 — 그들 스스로 알아내야 해요", "scores": { "counter-dependent": 3 } },
+        { "id": "q3d", "text": "Offer perspective if asked but respect their autonomy fully", "textKo": "요청 받으면 관점을 제공하지만 그들의 자율성을 완전히 존중해요", "scores": { "independent-rel": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "When you're going through something hard, you...",
+      "textKo": "힘든 것을 겪고 있을 때...",
+      "options": [
+        { "id": "q4a", "text": "Share it with your partner and also handle parts of it yourself", "textKo": "파트너와 나누고 일부는 스스로 처리해요", "scores": { "interdependent": 3 } },
+        { "id": "q4b", "text": "Depend heavily on your partner to help you through it", "textKo": "헤쳐나가도록 파트너에게 많이 의존해요", "scores": { "codependent": 3 } },
+        { "id": "q4c", "text": "Prefer to deal with it entirely on your own", "textKo": "완전히 혼자 처리하는 것을 선호해요", "scores": { "counter-dependent": 3 } },
+        { "id": "q4d", "text": "Handle it largely alone but share when the time feels right", "textKo": "대부분 혼자 처리하지만 적절한 때가 되면 나눠요", "scores": { "independent-rel": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How do you feel about spending time separately from your partner?",
+      "textKo": "파트너와 분리된 시간을 보내는 것에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q5a", "text": "Healthy and welcome — absence makes the heart grow fonder", "textKo": "건강하고 환영해요 — 떨어져 있으면 더 그리워져요", "scores": { "interdependent": 3 } },
+        { "id": "q5b", "text": "Uncomfortable — you feel more 'yourself' when they're around", "textKo": "불편해요 — 그들이 있을 때 더 '나다운' 느낌이에요", "scores": { "codependent": 3 } },
+        { "id": "q5c", "text": "Preferred — you actually recharge best when separate", "textKo": "선호해요 — 사실 분리됐을 때 가장 잘 충전돼요", "scores": { "counter-dependent": 3 } },
+        { "id": "q5d", "text": "Natural — you have a rich independent life alongside the relationship", "textKo": "자연스러워요 — 관계 옆에 풍요로운 독립적인 삶이 있어요", "scores": { "independent-rel": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When your partner does something that upsets you...",
+      "textKo": "파트너가 당신을 화나게 하는 것을 했을 때...",
+      "options": [
+        { "id": "q6a", "text": "Express your feelings clearly and work through it together", "textKo": "감정을 명확히 표현하고 함께 해결해요", "scores": { "interdependent": 3 } },
+        { "id": "q6b", "text": "Feel very hurt and need them to fix it before you feel okay", "textKo": "매우 상처받고 괜찮아지기 전에 그들이 고쳐줘야 해요", "scores": { "codependent": 3 } },
+        { "id": "q6c", "text": "Withdraw or go cold — emotions are hard to express", "textKo": "물러나거나 차가워져요 — 감정을 표현하기 어려워요", "scores": { "counter-dependent": 3 } },
+        { "id": "q6d", "text": "Address it directly and move on without lingering resentment", "textKo": "직접 해결하고 남은 분노 없이 넘어가요", "scores": { "independent-rel": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How important is it that your partner and you share all major life decisions?",
+      "textKo": "파트너와 모든 주요 인생 결정을 함께 하는 것이 얼마나 중요한가요?",
+      "options": [
+        { "id": "q7a", "text": "Important for big ones but I retain autonomy for personal ones", "textKo": "큰 것들에는 중요하지만 개인적인 것들은 자율성을 유지해요", "scores": { "interdependent": 3 } },
+        { "id": "q7b", "text": "Very — I feel insecure making major decisions without them", "textKo": "매우 중요해요 — 그들 없이 주요 결정을 내리면 불안해요", "scores": { "codependent": 3 } },
+        { "id": "q7c", "text": "Minimal — I prefer making decisions independently", "textKo": "최소한이에요 — 독립적으로 결정하는 것을 선호해요", "scores": { "counter-dependent": 3 } },
+        { "id": "q7d", "text": "Discuss and consider input, but stay clear on my own values", "textKo": "논의하고 의견을 고려하지만 내 가치관에 명확히 해요", "scores": { "independent-rel": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "What does intimacy feel like in your relationships?",
+      "textKo": "관계에서 친밀감은 어떤 느낌인가요?",
+      "options": [
+        { "id": "q8a", "text": "Warm and fulfilling — a deep sharing of two whole selves", "textKo": "따뜻하고 충만해요 — 두 온전한 자아의 깊은 나눔", "scores": { "interdependent": 3 } },
+        { "id": "q8b", "text": "Urgent — closeness is something you constantly seek and fear losing", "textKo": "절박해요 — 친밀감은 항상 추구하고 잃는 것을 두려워해요", "scores": { "codependent": 3 } },
+        { "id": "q8c", "text": "Sometimes uncomfortable — too much closeness feels suffocating", "textKo": "가끔 불편해요 — 너무 많은 친밀감은 질식감을 줘요", "scores": { "counter-dependent": 3 } },
+        { "id": "q8d", "text": "Rich but not dependent — closeness without losing yourself", "textKo": "풍요롭지만 의존적이지 않아요 — 자신을 잃지 않는 친밀감", "scores": { "independent-rel": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "In Korean relationships where family togetherness (우리 문화) is strong, you...",
+      "textKo": "가족 결속력이 강한 한국의 우리 문화 속에서...",
+      "options": [
+        { "id": "q9a", "text": "Embrace togetherness while maintaining individual identity", "textKo": "개인 정체성을 유지하면서 함께함을 받아들여요", "scores": { "interdependent": 3 } },
+        { "id": "q9b", "text": "Feel most comfortable fully immersed in the collective", "textKo": "집단에 완전히 몰입할 때 가장 편안해요", "scores": { "codependent": 3 } },
+        { "id": "q9c", "text": "Feel tension — too much togetherness without space feels hard", "textKo": "긴장감을 느껴요 — 공간 없는 너무 많은 함께함이 어려워요", "scores": { "counter-dependent": 3 } },
+        { "id": "q9d", "text": "Enjoy the warmth but protect personal space and boundaries", "textKo": "따뜻함을 즐기지만 개인 공간과 경계를 보호해요", "scores": { "independent-rel": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What does your ideal relationship dynamic look like?",
+      "textKo": "이상적인 관계 역학은 어떤 모습인가요?",
+      "options": [
+        { "id": "q10a", "text": "Two individuals who choose to build a shared life together", "textKo": "함께 공유된 삶을 구축하기로 선택한 두 개인", "scores": { "interdependent": 3 } },
+        { "id": "q10b", "text": "A deep bond where you truly need each other", "textKo": "진정으로 서로를 필요로 하는 깊은 유대", "scores": { "codependent": 3 } },
+        { "id": "q10c", "text": "Two independent people who enjoy each other's company", "textKo": "서로의 존재를 즐기는 두 독립적인 사람", "scores": { "counter-dependent": 3 } },
+        { "id": "q10d", "text": "A partnership built on mutual respect and individual wholeness", "textKo": "상호 존중과 개인적 온전함을 기반으로 한 파트너십", "scores": { "independent-rel": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "interdependent",
+      "title": "The Interdependent Type",
+      "titleKo": "상호의존형",
+      "description": "You share deeply with your partner while remaining whole as an individual. Connection enriches — it doesn't define — your sense of self.",
+      "descriptionKo": "개인으로서 온전함을 유지하면서 파트너와 깊이 나눕니다. 연결은 자아 의식을 규정하는 것이 아니라 풍요롭게 합니다. 가장 건강한 관계 유형으로, 사랑이 성장을 지지하고 자유를 제한하지 않습니다.",
+      "traits": ["Emotionally balanced", "Connected and autonomous", "Secure"],
+      "traitsKo": ["감정적으로 균형 잡힌", "연결되고 자율적인", "안정적인"],
+      "strengthsKo": ["관계에서 자신을 잃지 않고 깊이 연결해요", "파트너의 성장과 독립을 진심으로 지지해요", "갈등을 건강하게 처리하고 회복해요"],
+      "weaknessesKo": ["때로 너무 독립적으로 보여 파트너가 거리감을 느낄 수 있어요", "상대의 의존 필요를 충분히 채워주지 못할 수 있어요"],
+      "careerFitsKo": ["모든 분야 — 관계 패턴이 직업 적응력에 긍정적 영향을 줘요", "상담사/코치", "리더/멘토"],
+      "relationshipTipKo": "건강한 상호의존의 모습을 파트너와 함께 구체적으로 정의해보세요 — 서로의 기대를 명확히 하면 더 깊은 연결이 돼요.",
+      "compatibleWith": ["independent-rel"],
+      "compatibleDescriptionKo": "독립형은 상호의존형의 깊은 연결 능력을 보완하면서도 개인 공간을 존중하는 균형 잡힌 파트너가 돼요.",
+      "emoji": "💫",
+      "gradient": "from-violet-400 to-purple-500"
+    },
+    {
+      "id": "codependent",
+      "title": "The Codependent Type",
+      "titleKo": "공의존형",
+      "description": "Your sense of self is closely tied to your relationship. This creates deep loyalty but can lead to losing yourself in love.",
+      "descriptionKo": "자아 의식이 관계와 밀접하게 연결되어 있습니다. 이것이 깊은 충성심을 만들지만 사랑 속에서 자신을 잃을 수 있습니다. 파트너 없이도 온전한 나로 존재할 수 있다는 것을 배워가는 것이 중요한 여정입니다.",
+      "traits": ["Deeply loyal", "Other-focused", "Emotionally enmeshed"],
+      "traitsKo": ["깊이 충성스러운", "타인 중심의", "감정적으로 얽힌"],
+      "strengthsKo": ["관계에서 깊은 헌신과 사랑을 보여줘요", "파트너의 필요에 매우 민감하게 반응해요", "관계를 위해 희생하고 투자해요"],
+      "weaknessesKo": ["자신의 정체성이 관계에 의존해 불안정해질 수 있어요", "건강하지 않은 관계에서도 떠나기 어려울 수 있어요"],
+      "careerFitsKo": ["돌봄 직종 (자기 경계 훈련과 함께)", "팀 문화 강한 환경", "사회 서비스"],
+      "relationshipTipKo": "파트너 없이 혼자 즐길 수 있는 취미나 활동을 하나 시작해보세요 — 개인 정체성을 강화하는 것이 관계를 더 건강하게 만들어요.",
+      "compatibleWith": ["interdependent"],
+      "compatibleDescriptionKo": "상호의존형이 건강한 연결의 모델을 보여주고 공의존형이 자신의 독립성을 찾아가는 여정에 안전한 공간이 돼요.",
+      "emoji": "🌹",
+      "gradient": "from-rose-400 to-red-500"
+    },
+    {
+      "id": "counter-dependent",
+      "title": "The Counter-Dependent Type",
+      "titleKo": "반의존형",
+      "description": "You strongly resist depending on others. This protects you from vulnerability but can create distance and loneliness.",
+      "descriptionKo": "다른 사람에게 의존하는 것을 강하게 저항합니다. 이것이 취약성으로부터 보호하지만 거리와 고독을 만들 수 있습니다. 의존이 약함이 아닌 용기임을 천천히 배워가는 과정에 있습니다.",
+      "traits": ["Hyper-independent", "Emotionally contained", "Self-reliant"],
+      "traitsKo": ["초독립적인", "감정적으로 억제된", "자립적인"],
+      "strengthsKo": ["강한 자립심과 독립적인 기능 능력이 있어요", "외부 압박에 흔들리지 않는 안정감이 있어요", "자신의 필요를 스스로 해결하는 능력이 뛰어나요"],
+      "weaknessesKo": ["진정한 친밀감과 취약성을 허용하기 어려워요", "도움을 거부하다 불필요하게 힘들 수 있어요"],
+      "careerFitsKo": ["독립적인 전문직", "1인 기업/프리랜서", "연구원/탐험가"],
+      "relationshipTipKo": "작은 취약함을 나누는 것부터 시작해보세요 — '이것이 나를 힘들게 해요'라는 말 하나가 관계의 문을 열 수 있어요.",
+      "compatibleWith": ["independent-rel"],
+      "compatibleDescriptionKo": "독립형은 반의존형의 자율성을 존중하면서도 연결의 공간을 열어두어 자연스러운 친밀감을 만들어가요.",
+      "emoji": "🏔️",
+      "gradient": "from-slate-400 to-gray-600"
+    },
+    {
+      "id": "independent-rel",
+      "title": "The Independently Relational Type",
+      "titleKo": "독립형",
+      "description": "You maintain a strong individual identity within your relationship. You love deeply but stay grounded in who you are.",
+      "descriptionKo": "관계 안에서 강한 개인 정체성을 유지합니다. 깊이 사랑하지만 자신이 누구인지에 뿌리를 두고 있습니다. 사랑과 독립의 균형이 가능하다는 것을 알고 그것을 살아가는 유형입니다.",
+      "traits": ["Self-sufficient", "Relationally secure", "Boundaried"],
+      "traitsKo": ["자급자족하는", "관계에서 안정적인", "경계가 있는"],
+      "strengthsKo": ["관계에서 자신의 정체성을 잃지 않아요", "건강한 경계로 관계를 오래 유지해요", "파트너의 성장도 자신의 것처럼 응원해요"],
+      "weaknessesKo": ["때로 너무 독립적이어서 파트너가 외로움을 느낄 수 있어요", "감정적 의존의 자연스러운 표현을 억제할 수 있어요"],
+      "careerFitsKo": ["자율적인 전문직", "개인 브랜드/창업자", "상담사/치료사"],
+      "relationshipTipKo": "독립심을 지키면서도 파트너에게 '나는 네가 필요해'라고 말할 수 있는 취약함도 가끔 보여줘보세요.",
+      "compatibleWith": ["interdependent"],
+      "compatibleDescriptionKo": "상호의존형과 독립형이 만나면 자유와 연결 모두를 충분히 누리는 성숙한 파트너십이 형성돼요.",
+      "emoji": "🌊",
+      "gradient": "from-blue-400 to-indigo-500"
+    }
+  ]
+}

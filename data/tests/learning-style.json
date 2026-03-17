@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "learning-style",
+    "slug": "learning-style",
+    "title": "Learning Style",
+    "titleKo": "나의 학습 유형은?",
+    "description": "Discover how you learn and absorb information best",
+    "descriptionKo": "당신이 정보를 가장 잘 배우고 흡수하는 방식을 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Fleming (1992) VARK Model",
+    "gradient": "from-blue-500 to-cyan-600",
+    "emoji": "📚"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When learning a new subject, you prefer to start with...",
+      "textKo": "새로운 주제를 배울 때, 어떻게 시작하는 걸 선호하나요?",
+      "options": [
+        { "id": "q1a", "text": "Diagrams, charts, and visual maps", "textKo": "도표, 차트, 시각적 지도", "scores": { "visual": 3 } },
+        { "id": "q1b", "text": "Listening to an explanation or lecture", "textKo": "설명이나 강의를 듣는 것", "scores": { "auditory": 3 } },
+        { "id": "q1c", "text": "Reading a textbook or articles", "textKo": "교재나 기사를 읽는 것", "scores": { "reading": 3 } },
+        { "id": "q1d", "text": "Trying it hands-on right away", "textKo": "바로 직접 해보는 것", "scores": { "kinesthetic": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When you study for an exam, your main strategy is...",
+      "textKo": "시험공부를 할 때 주요 전략은...",
+      "options": [
+        { "id": "q2a", "text": "Drawing mind maps and color-coding notes", "textKo": "마인드맵을 그리고 형광펜으로 색깔 분류하기", "scores": { "visual": 3 } },
+        { "id": "q2b", "text": "Listening to recordings or explaining to someone else out loud", "textKo": "녹음을 듣거나 소리 내어 다른 사람에게 설명하기", "scores": { "auditory": 3 } },
+        { "id": "q2c", "text": "Making detailed written summaries and notes", "textKo": "상세한 필기 요약본 만들기", "scores": { "reading": 3 } },
+        { "id": "q2d", "text": "Doing practice problems and simulations", "textKo": "연습 문제와 모의 시험 풀기", "scores": { "kinesthetic": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "If you need to learn how to use a new app or device...",
+      "textKo": "새로운 앱이나 기기 사용법을 배워야 할 때...",
+      "options": [
+        { "id": "q3a", "text": "Watch a video tutorial with visuals", "textKo": "시각 자료가 있는 동영상 튜토리얼 시청", "scores": { "visual": 3 } },
+        { "id": "q3b", "text": "Listen to someone explain it to me", "textKo": "누군가가 설명해주는 것을 들어요", "scores": { "auditory": 3 } },
+        { "id": "q3c", "text": "Read the manual or written instructions carefully", "textKo": "매뉴얼이나 설명서를 꼼꼼히 읽어요", "scores": { "reading": 3 } },
+        { "id": "q3d", "text": "Just start clicking around and figure it out", "textKo": "그냥 직접 눌러보면서 파악해요", "scores": { "kinesthetic": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "When you try to memorize something important, you...",
+      "textKo": "중요한 것을 외울 때...",
+      "options": [
+        { "id": "q4a", "text": "Picture it visually or associate it with an image", "textKo": "시각적으로 그림을 그리거나 이미지와 연관시켜요", "scores": { "visual": 3 } },
+        { "id": "q4b", "text": "Say it out loud repeatedly", "textKo": "소리 내어 반복해서 말해요", "scores": { "auditory": 3 } },
+        { "id": "q4c", "text": "Write it down multiple times", "textKo": "여러 번 써요", "scores": { "reading": 2, "kinesthetic": 1 } },
+        { "id": "q4d", "text": "Connect it to a physical action or real experience", "textKo": "신체적 동작이나 실제 경험과 연결시켜요", "scores": { "kinesthetic": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "In school or a lecture, you take notes by...",
+      "textKo": "학교나 강의에서 노트는 어떻게 필기하나요?",
+      "options": [
+        { "id": "q5a", "text": "Drawing diagrams and sketches alongside text", "textKo": "텍스트와 함께 도식과 스케치를 그려요", "scores": { "visual": 3 } },
+        { "id": "q5b", "text": "Hardly writing — I focus on listening", "textKo": "거의 안 써요 — 듣는 것에 집중해요", "scores": { "auditory": 3 } },
+        { "id": "q5c", "text": "Detailed written notes capturing key points", "textKo": "핵심을 담은 상세한 문자 노트", "scores": { "reading": 3 } },
+        { "id": "q5d", "text": "Jotting shorthand while thinking about how to apply it", "textKo": "어떻게 적용할지 생각하며 짧게 메모해요", "scores": { "kinesthetic": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "You've just learned a new concept. To remember it, you...",
+      "textKo": "새로운 개념을 방금 배웠어요. 기억하기 위해...",
+      "options": [
+        { "id": "q6a", "text": "Visualize it as a flowchart or story", "textKo": "플로우차트나 이야기로 시각화해요", "scores": { "visual": 3 } },
+        { "id": "q6b", "text": "Discuss it with someone to reinforce it verbally", "textKo": "누군가와 대화로 구두로 강화해요", "scores": { "auditory": 3 } },
+        { "id": "q6c", "text": "Write a summary in your own words", "textKo": "내 말로 요약을 써요", "scores": { "reading": 3 } },
+        { "id": "q6d", "text": "Apply it immediately in a real situation", "textKo": "실제 상황에 즉시 적용해봐요", "scores": { "kinesthetic": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "What kind of study material do you find most helpful?",
+      "textKo": "어떤 학습 자료가 가장 도움이 되나요?",
+      "options": [
+        { "id": "q7a", "text": "Infographics, slides, and illustrated textbooks", "textKo": "인포그래픽, 슬라이드, 삽화가 있는 교재", "scores": { "visual": 3 } },
+        { "id": "q7b", "text": "Podcasts, lectures, and audio content", "textKo": "팟캐스트, 강의, 오디오 콘텐츠", "scores": { "auditory": 3 } },
+        { "id": "q7c", "text": "Well-written books and detailed articles", "textKo": "잘 쓰인 책과 상세한 기사", "scores": { "reading": 3 } },
+        { "id": "q7d", "text": "Labs, workshops, and hands-on exercises", "textKo": "실험, 워크숍, 실습 과제", "scores": { "kinesthetic": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "When receiving directions to a new place in Seoul, you prefer...",
+      "textKo": "서울에서 새로운 장소 길 안내를 받을 때 선호하는 방식은?",
+      "options": [
+        { "id": "q8a", "text": "Looking at a map or visual directions on your phone", "textKo": "지도나 폰의 시각적 경로를 보는 것", "scores": { "visual": 3 } },
+        { "id": "q8b", "text": "Having someone talk you through the turns verbally", "textKo": "누군가가 방향을 구두로 설명해주는 것", "scores": { "auditory": 3 } },
+        { "id": "q8c", "text": "Having detailed written turn-by-turn instructions", "textKo": "상세한 텍스트 단계별 안내를 보는 것", "scores": { "reading": 3 } },
+        { "id": "q8d", "text": "Just walking and figuring out the path by feel", "textKo": "그냥 걸어가면서 감으로 찾아가는 것", "scores": { "kinesthetic": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When learning a new sport or physical skill, you...",
+      "textKo": "새로운 운동이나 신체 기술을 배울 때...",
+      "options": [
+        { "id": "q9a", "text": "Watch videos of experts performing it first", "textKo": "전문가가 수행하는 영상을 먼저 봐요", "scores": { "visual": 3 } },
+        { "id": "q9b", "text": "Listen to a coach's verbal instructions carefully", "textKo": "코치의 구두 지시를 주의 깊게 들어요", "scores": { "auditory": 3 } },
+        { "id": "q9c", "text": "Read about the proper technique first", "textKo": "먼저 올바른 기술에 대해 읽어요", "scores": { "reading": 3 } },
+        { "id": "q9d", "text": "Jump right in and learn from doing", "textKo": "바로 뛰어들어 하면서 배워요", "scores": { "kinesthetic": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "When you understand something really well, you feel it because...",
+      "textKo": "무언가를 정말 잘 이해했을 때, 그것을 어떻게 알 수 있나요?",
+      "options": [
+        { "id": "q10a", "text": "You can picture it clearly in your mind", "textKo": "마음속에 명확하게 그려져요", "scores": { "visual": 3 } },
+        { "id": "q10b", "text": "You can explain it out loud to someone else easily", "textKo": "소리 내어 다른 사람에게 쉽게 설명할 수 있어요", "scores": { "auditory": 3 } },
+        { "id": "q10c", "text": "You can write a clear and organized explanation", "textKo": "명확하고 체계적인 설명을 쓸 수 있어요", "scores": { "reading": 3 } },
+        { "id": "q10d", "text": "You can actually use or apply it in real life", "textKo": "실생활에서 실제로 사용하거나 적용할 수 있어요", "scores": { "kinesthetic": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "visual",
+      "title": "Visual Learner",
+      "titleKo": "시각형 학습자",
+      "description": "You learn best through images, diagrams, and spatial understanding. Your brain naturally converts information into visuals.",
+      "descriptionKo": "당신은 이미지, 도표, 공간적 이해를 통해 가장 잘 배웁니다. 뇌가 자연스럽게 정보를 시각적으로 변환합니다. 색깔, 모양, 패턴으로 정보를 정리하는 것이 기억과 이해를 크게 높여줍니다.",
+      "traits": ["Visual thinker", "Pattern-focused", "Spatial"],
+      "traitsKo": ["시각적 사고자", "패턴 중심", "공간 지향적"],
+      "strengthsKo": ["복잡한 정보를 시각적으로 쉽게 정리해요", "공간적 관계와 패턴을 빨리 파악해요", "창의적인 시각 자료를 만드는 능력이 있어요"],
+      "weaknessesKo": ["시각 자료 없는 강의에서 집중이 힘들 수 있어요", "구두 지시만으로 이해하는 데 어려움을 겪을 수 있어요"],
+      "careerFitsKo": ["그래픽 디자이너/UX 디자이너", "건축가/도시 계획가", "데이터 시각화 전문가"],
+      "relationshipTipKo": "중요한 대화나 계획은 메모나 그림으로 함께 시각화하면 소통이 더 명확해져요.",
+      "compatibleWith": ["reading"],
+      "compatibleDescriptionKo": "읽기형은 시각형이 정리한 내용을 글로 체계화하는 걸 도와줘 함께 공부하면 효과적이에요.",
+      "emoji": "👁️",
+      "gradient": "from-violet-400 to-purple-600"
+    },
+    {
+      "id": "auditory",
+      "title": "Auditory Learner",
+      "titleKo": "청각형 학습자",
+      "description": "You learn best by hearing and speaking. Discussions, lectures, and verbal explanations stick in your memory most effectively.",
+      "descriptionKo": "당신은 듣고 말함으로써 가장 잘 배웁니다. 토론, 강의, 구두 설명이 가장 효과적으로 기억에 남습니다. 소리와 리듬, 구두 반복이 학습 효과를 극대화하며, 그룹 토론에서 특히 빛을 발합니다.",
+      "traits": ["Verbal processor", "Discussion-oriented", "Rhythmic"],
+      "traitsKo": ["구두 처리자", "토론 지향적", "리듬감 있는"],
+      "strengthsKo": ["강의와 토론에서 빠르게 정보를 흡수해요", "소리 내어 설명하며 이해를 깊게 해요", "그룹 학습에서 높은 시너지를 발휘해요"],
+      "weaknessesKo": ["조용한 독서 환경에서 집중이 어려울 수 있어요", "소음이 있는 환경에서 학습이 방해받을 수 있어요"],
+      "careerFitsKo": ["강사/교수", "팟캐스터/방송인", "영업 전문가/협상가"],
+      "relationshipTipKo": "중요한 정보는 소리 내어 반복하거나 상대방에게 설명해보는 방식으로 기억에 새겨보세요.",
+      "compatibleWith": ["kinesthetic"],
+      "compatibleDescriptionKo": "체험형이 실습을 통해 배운 것을 청각형에게 설명하면 두 유형 모두 이해가 깊어져요.",
+      "emoji": "🎧",
+      "gradient": "from-sky-400 to-blue-600"
+    },
+    {
+      "id": "reading",
+      "title": "Reading/Writing Learner",
+      "titleKo": "읽기·쓰기형 학습자",
+      "description": "You learn best through text — reading and writing. Detailed notes and well-structured texts are your most powerful tools.",
+      "descriptionKo": "당신은 텍스트를 통해 — 읽고 쓰는 것을 통해 가장 잘 배웁니다. 상세한 노트와 잘 구조화된 텍스트가 가장 강력한 도구입니다. 정보를 글로 정리하고 다시 읽는 과정에서 깊은 이해가 이루어집니다.",
+      "traits": ["Text-based", "Detail-oriented", "Organized"],
+      "traitsKo": ["텍스트 기반", "세부적인", "체계적인"],
+      "strengthsKo": ["복잡한 개념을 체계적인 글로 정리해요", "꼼꼼한 기록으로 복습 자료를 잘 만들어요", "서면 소통에서 명확하고 정확한 표현을 해요"],
+      "weaknessesKo": ["동영상이나 실습 위주의 콘텐츠에서 효과가 낮을 수 있어요", "글로만 정리하다 실제 적용이 늦을 수 있어요"],
+      "careerFitsKo": ["작가/기자/편집자", "연구원/학자", "법률 전문가"],
+      "relationshipTipKo": "중요한 약속이나 계획은 글로 공유하면 오해가 줄고 기억하기 쉬워져요.",
+      "compatibleWith": ["visual"],
+      "compatibleDescriptionKo": "시각형이 다이어그램을 만들고 읽기형이 이를 글로 설명하면 완벽한 학습 자료가 탄생해요.",
+      "emoji": "📝",
+      "gradient": "from-amber-400 to-orange-500"
+    },
+    {
+      "id": "kinesthetic",
+      "title": "Kinesthetic Learner",
+      "titleKo": "체험형 학습자",
+      "description": "You learn best by doing. Theory makes sense only when you can touch, move, or apply it in a real situation.",
+      "descriptionKo": "당신은 해봄으로써 가장 잘 배웁니다. 이론은 실제 상황에서 만지고 움직이거나 적용할 수 있을 때만 의미가 있습니다. 직접 경험하고 느끼는 것이 학습을 완성시키며, 실험과 시행착오를 통해 가장 빠르게 성장합니다.",
+      "traits": ["Hands-on", "Experiential", "Action-oriented"],
+      "traitsKo": ["실습 중심의", "경험적인", "행동 지향적인"],
+      "strengthsKo": ["실제 상황에서 빠르게 기술을 익혀요", "경험에서 배운 것은 오래 기억해요", "문제를 직접 해결하는 능력이 탁월해요"],
+      "weaknessesKo": ["이론과 개념만 다루는 수업에서 지루함을 느낄 수 있어요", "먼저 해보려는 경향 때문에 실수가 많을 수 있어요"],
+      "careerFitsKo": ["엔지니어/기술자", "의사/간호사/치료사", "스포츠 코치/트레이너"],
+      "relationshipTipKo": "배운 내용을 바로 적용하고 싶은 충동을 최대한 활용하되, 간단한 메모로 핵심을 기록해두세요.",
+      "compatibleWith": ["auditory"],
+      "compatibleDescriptionKo": "청각형이 이론을 설명해주고 체험형이 실습하면 서로의 학습 속도와 깊이가 올라가요.",
+      "emoji": "🙌",
+      "gradient": "from-green-400 to-emerald-600"
+    }
+  ]
+}

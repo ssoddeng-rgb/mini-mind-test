@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "perfectionism-type",
+    "slug": "perfectionism-type",
+    "title": "Perfectionism Type",
+    "titleKo": "나의 완벽주의 유형은?",
+    "description": "Discover how perfectionism shapes your behavior and relationships",
+    "descriptionKo": "완벽주의가 당신의 행동과 관계를 어떻게 형성하는지 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Hewitt & Flett (1991) MPS",
+    "gradient": "from-slate-500 to-gray-700",
+    "emoji": "✨"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you submit or present work, you feel...",
+      "textKo": "과제나 작업을 제출하거나 발표할 때...",
+      "options": [
+        { "id": "q1a", "text": "Satisfied when it meets the high standard I set for myself", "textKo": "내가 스스로 정한 높은 기준을 충족할 때 만족해요", "scores": { "adaptive": 3 } },
+        { "id": "q1b", "text": "Always anxious that it wasn't good enough", "textKo": "항상 충분히 잘하지 못했다는 불안감을 느껴요", "scores": { "self-critical": 3 } },
+        { "id": "q1c", "text": "Worried about what others will think of me", "textKo": "다른 사람들이 나를 어떻게 볼지 걱정돼요", "scores": { "socially-prescribed": 3 } },
+        { "id": "q1d", "text": "Fine — done is better than perfect", "textKo": "괜찮아요 — 완성이 완벽보다 낫죠", "scores": { "relaxed": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When you make a mistake, you usually...",
+      "textKo": "실수를 했을 때 보통 어떻게 하나요?",
+      "options": [
+        { "id": "q2a", "text": "Analyze it, learn from it, and move on", "textKo": "분석하고 배운 뒤 앞으로 나아가요", "scores": { "adaptive": 3 } },
+        { "id": "q2b", "text": "Ruminate on it for days and feel terrible about myself", "textKo": "며칠 동안 곱씹으며 자책해요", "scores": { "self-critical": 3 } },
+        { "id": "q2c", "text": "Worry most about how others judged me for it", "textKo": "다른 사람들이 나를 어떻게 판단할지 가장 걱정돼요", "scores": { "socially-prescribed": 3 } },
+        { "id": "q2d", "text": "Acknowledge it and move on without much stress", "textKo": "인정하고 큰 스트레스 없이 넘어가요", "scores": { "relaxed": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Which statement best describes your work habits?",
+      "textKo": "다음 중 당신의 작업 습관을 가장 잘 설명하는 것은?",
+      "options": [
+        { "id": "q3a", "text": "I set ambitious goals and feel energized working toward them", "textKo": "야심찬 목표를 세우고 달성하는 과정에서 에너지를 얻어요", "scores": { "adaptive": 3 } },
+        { "id": "q3b", "text": "I often redo work because it never feels perfect enough", "textKo": "완벽하지 않게 느껴져 작업을 자주 다시 해요", "scores": { "self-critical": 3 } },
+        { "id": "q3c", "text": "I work extra hard because I fear disappointing others", "textKo": "남들을 실망시킬까봐 더 열심히 해요", "scores": { "socially-prescribed": 3 } },
+        { "id": "q3d", "text": "I work at a sustainable pace and know when enough is enough", "textKo": "지속 가능한 페이스로 일하고 충분할 때를 알아요", "scores": { "relaxed": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How do you feel about asking for help?",
+      "textKo": "도움을 요청하는 것에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q4a", "text": "It's smart — getting help makes outcomes better", "textKo": "현명한 일이에요 — 도움을 받으면 결과가 더 좋아져요", "scores": { "adaptive": 3 } },
+        { "id": "q4b", "text": "Difficult — feels like admitting I'm not good enough", "textKo": "어려워요 — 내가 충분하지 않다는 걸 인정하는 것 같아요", "scores": { "self-critical": 3 } },
+        { "id": "q4c", "text": "Uncomfortable — I don't want others to see my weaknesses", "textKo": "불편해요 — 내 약점을 남에게 보이고 싶지 않아요", "scores": { "socially-prescribed": 3 } },
+        { "id": "q4d", "text": "Easy — I ask freely without attaching shame to it", "textKo": "쉬워요 — 부끄러움 없이 자유롭게 물어봐요", "scores": { "relaxed": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How do you respond to others' high standards or criticism?",
+      "textKo": "다른 사람의 높은 기준이나 비판에 어떻게 반응하나요?",
+      "options": [
+        { "id": "q5a", "text": "I consider it objectively and use it to improve", "textKo": "객관적으로 검토하고 개선에 활용해요", "scores": { "adaptive": 3 } },
+        { "id": "q5b", "text": "I internalize it deeply and it stings for a long time", "textKo": "깊이 내면화해서 오랫동안 마음이 쓰려요", "scores": { "self-critical": 3 } },
+        { "id": "q5c", "text": "I'm very sensitive — I really care what others think", "textKo": "매우 예민해요 — 다른 사람이 뭐라 하는지 정말 신경 써요", "scores": { "socially-prescribed": 3 } },
+        { "id": "q5d", "text": "I consider it but don't let it shake me", "textKo": "고려하지만 흔들리지 않아요", "scores": { "relaxed": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "In Korean culture, how do you respond to 체면 (face-saving pressure)?",
+      "textKo": "한국 문화에서 체면 압박에 어떻게 반응하나요?",
+      "options": [
+        { "id": "q6a", "text": "I navigate it without letting it dictate my self-worth", "textKo": "자존감을 지키며 잘 대처해요", "scores": { "adaptive": 3 } },
+        { "id": "q6b", "text": "It intensifies my inner critic — I judge myself very harshly", "textKo": "내면의 비판자가 더 강해져 스스로를 매우 혹독하게 판단해요", "scores": { "self-critical": 3 } },
+        { "id": "q6c", "text": "I feel huge pressure to maintain a perfect image for others", "textKo": "다른 사람들 앞에서 완벽한 이미지를 유지해야 한다는 엄청난 압박을 느껴요", "scores": { "socially-prescribed": 3 } },
+        { "id": "q6d", "text": "I'm mostly unbothered — I know my value doesn't depend on others' views", "textKo": "대체로 신경 안 써요 — 내 가치는 남의 시선에 달려있지 않다고 알아요", "scores": { "relaxed": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "When a project isn't going to be perfect, you...",
+      "textKo": "프로젝트가 완벽할 수 없을 것 같을 때...",
+      "options": [
+        { "id": "q7a", "text": "Refocus on what is achievable and make the best of it", "textKo": "달성 가능한 것에 집중하고 최선을 다해요", "scores": { "adaptive": 3 } },
+        { "id": "q7b", "text": "Struggle to release it — it never feels done", "textKo": "완성됐다는 느낌이 없어서 내놓기가 힘들어요", "scores": { "self-critical": 3 } },
+        { "id": "q7c", "text": "Feel most anxious about how others will perceive the result", "textKo": "결과를 다른 사람들이 어떻게 볼지가 가장 걱정돼요", "scores": { "socially-prescribed": 3 } },
+        { "id": "q7d", "text": "Accept it easily and submit without much inner conflict", "textKo": "쉽게 받아들이고 내면 갈등 없이 제출해요", "scores": { "relaxed": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Your closest friends would say perfectionism makes you...",
+      "textKo": "가장 친한 친구들은 완벽주의가 당신을 어떻게 만든다고 할까요?",
+      "options": [
+        { "id": "q8a", "text": "Highly capable and reliable but occasionally too driven", "textKo": "매우 유능하고 믿음직하지만 가끔 너무 의욕이 넘쳐요", "scores": { "adaptive": 3 } },
+        { "id": "q8b", "text": "Hard on yourself — they often tell you to be kinder to yourself", "textKo": "자신에게 너무 가혹해요 — 자주 스스로에게 더 친절하라고 말해요", "scores": { "self-critical": 3 } },
+        { "id": "q8c", "text": "Very concerned with appearance and image", "textKo": "겉모습과 이미지에 매우 신경을 써요", "scores": { "socially-prescribed": 3 } },
+        { "id": "q8d", "text": "Pleasantly easy-going and low-stress to be around", "textKo": "함께 있으면 기분 좋게 여유롭고 스트레스가 없어요", "scores": { "relaxed": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "How do you handle a 'good enough' result when perfection wasn't possible?",
+      "textKo": "완벽이 불가능할 때 '충분히 좋은' 결과를 어떻게 받아들이나요?",
+      "options": [
+        { "id": "q9a", "text": "Feel fine — I gave my best under the circumstances", "textKo": "괜찮아요 — 상황 내에서 최선을 다했어요", "scores": { "adaptive": 3 } },
+        { "id": "q9b", "text": "Feel guilty even though I know rationally it was okay", "textKo": "이성적으로 괜찮다는 걸 알면서도 죄책감을 느껴요", "scores": { "self-critical": 3 } },
+        { "id": "q9c", "text": "Worry that others will see it as a personal failure", "textKo": "다른 사람들이 나의 실패로 볼까봐 걱정해요", "scores": { "socially-prescribed": 3 } },
+        { "id": "q9d", "text": "Feel genuinely satisfied — perfection was never the goal", "textKo": "진심으로 만족해요 — 완벽이 목표가 아니었으니까요", "scores": { "relaxed": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "When setting goals, you typically...",
+      "textKo": "목표를 설정할 때 보통 어떻게 하나요?",
+      "options": [
+        { "id": "q10a", "text": "Set ambitious but realistic goals with a growth mindset", "textKo": "성장 마인드셋으로 야심차지만 현실적인 목표를 세워요", "scores": { "adaptive": 3 } },
+        { "id": "q10b", "text": "Set extremely high goals and feel like a failure if I fall short", "textKo": "매우 높은 목표를 세우고 못 미치면 실패한 것 같아요", "scores": { "self-critical": 3 } },
+        { "id": "q10c", "text": "Set goals based on what I think others expect of me", "textKo": "다른 사람들이 나에게 기대하는 것을 기준으로 목표를 세워요", "scores": { "socially-prescribed": 3 } },
+        { "id": "q10d", "text": "Set flexible goals and adjust without self-judgment", "textKo": "유연한 목표를 세우고 자기 비판 없이 조정해요", "scores": { "relaxed": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "adaptive",
+      "title": "Adaptive Perfectionist",
+      "titleKo": "적응적 완벽주의자",
+      "description": "Your high standards fuel your success without destroying your wellbeing. You strive for excellence in a healthy, sustainable way.",
+      "descriptionKo": "당신의 높은 기준은 행복을 해치지 않으면서 성공을 이끌어냅니다. 건강하고 지속 가능한 방식으로 탁월함을 추구합니다. 목표와 실수를 균형 있게 바라보는 능력이 있어 완벽주의가 강점이 됩니다.",
+      "traits": ["High standards", "Resilient", "Growth-oriented"],
+      "traitsKo": ["높은 기준의", "회복력 있는", "성장 지향적인"],
+      "strengthsKo": ["높은 성취 기준을 유지하면서도 자기 자신을 존중해요", "실수에서 배우는 능력이 탁월해요", "야심찬 목표와 현실적 기대 사이의 균형을 잘 잡아요"],
+      "weaknessesKo": ["가끔 기준이 너무 높아 타인을 힘들게 할 수 있어요", "번아웃 신호를 놓칠 수 있어요"],
+      "careerFitsKo": ["연구개발 분야", "고품질 크리에이티브 역할", "전문직 (의료, 법률, 건축)"],
+      "relationshipTipKo": "자신에게는 관대하게 대하는 것처럼 파트너나 친구에게도 같은 기준의 공감을 보여주세요.",
+      "compatibleWith": ["relaxed"],
+      "compatibleDescriptionKo": "여유로운 현실주의자 유형이 균형을 잡아주고 적응적 완벽주의자가 방향성을 제공해 서로를 보완해요.",
+      "emoji": "🎯",
+      "gradient": "from-blue-500 to-indigo-600"
+    },
+    {
+      "id": "self-critical",
+      "title": "Self-Critical Perfectionist",
+      "titleKo": "자기비판형 완벽주의자",
+      "description": "You hold yourself to impossibly high standards and punish yourself harshly for any shortcoming, even small ones.",
+      "descriptionKo": "당신은 스스로에게 불가능할 정도로 높은 기준을 적용하고 작은 부족함에도 자신을 가혹하게 벌합니다. 열심히 하는 것은 큰 강점이지만, 자기 자신을 좀 더 친절하게 대하는 것이 지속 가능한 성장의 열쇠입니다.",
+      "traits": ["Self-demanding", "High achiever", "Self-critical"],
+      "traitsKo": ["자기 요구가 높은", "고성취자", "자기비판적인"],
+      "strengthsKo": ["매우 높은 수준의 결과물을 꾸준히 만들어내요", "자기 개선에 대한 강한 의지가 있어요", "책임감이 강하고 일의 질을 매우 중시해요"],
+      "weaknessesKo": ["만성적인 자기 비판이 정신 건강을 해칠 수 있어요", "완성된 것을 인정하지 못해 프로젝트가 미완성으로 남을 수 있어요"],
+      "careerFitsKo": ["예술가/작가 (자기 표현 분야)", "학자/연구자", "의료 전문가"],
+      "relationshipTipKo": "하루의 끝에 잘 한 것 세 가지를 인정해주는 작은 습관이 자기 자신에 대한 관계를 바꿔줄 수 있어요.",
+      "compatibleWith": ["adaptive"],
+      "compatibleDescriptionKo": "적응적 완벽주의자는 건강한 기준 설정의 모델이 되어 자기비판형에게 영감을 줘요.",
+      "emoji": "🔍",
+      "gradient": "from-slate-400 to-gray-600"
+    },
+    {
+      "id": "socially-prescribed",
+      "title": "Socially-Prescribed Perfectionist",
+      "titleKo": "사회적 완벽주의자",
+      "description": "You believe others expect perfection from you. Living under this pressure is exhausting, and it's time to reclaim your own standards.",
+      "descriptionKo": "당신은 다른 사람들이 당신에게 완벽함을 기대한다고 믿습니다. 이 압박 속에서 사는 것은 매우 피로한 일이며, 자신만의 기준을 되찾을 때입니다. 특히 한국 사회의 높은 기대 속에서 이 패턴이 강하게 나타날 수 있습니다.",
+      "traits": ["People-pleasing", "Approval-seeking", "Externally driven"],
+      "traitsKo": ["남을 기쁘게 하려는", "인정 추구형", "외부 동기 중심의"],
+      "strengthsKo": ["다른 사람의 기대와 필요를 잘 파악해요", "사회적 기준에 민감하게 반응해요", "협력적이고 배려심 있는 태도를 보여요"],
+      "weaknessesKo": ["자신의 진정한 욕구와 목표를 잃어버릴 수 있어요", "인정을 받지 못할 때 자기 가치감이 급격히 떨어질 수 있어요"],
+      "careerFitsKo": ["서비스/고객 관련 직종", "공공 서비스/정치", "PR/홍보 전문가"],
+      "relationshipTipKo": "오늘 하루 '내가 이것을 원하기 때문에 한다'는 선택을 하나만 의식적으로 해보세요.",
+      "compatibleWith": ["relaxed"],
+      "compatibleDescriptionKo": "여유로운 현실주의자와 함께하면 외부 시선에서 벗어나 자신의 기준을 되찾는 힘을 얻을 수 있어요.",
+      "emoji": "🎭",
+      "gradient": "from-violet-400 to-purple-600"
+    },
+    {
+      "id": "relaxed",
+      "title": "Relaxed Realist",
+      "titleKo": "여유로운 현실주의자",
+      "description": "You know that done is better than perfect. You have a healthy relationship with standards — good enough really is good enough.",
+      "descriptionKo": "완성이 완벽보다 낫다는 것을 알고 있습니다. 기준에 대해 건강한 관계를 가지고 있으며 충분히 좋은 것은 정말로 충분히 좋습니다. 이 여유로움이 지속 가능한 성과와 풍요로운 삶의 비결이 됩니다.",
+      "traits": ["Flexible", "Self-accepting", "Pragmatic"],
+      "traitsKo": ["유연한", "자기 수용적인", "실용적인"],
+      "strengthsKo": ["스트레스 없이 꾸준한 성과를 내요", "마감을 잘 지키고 결과물을 기꺼이 내놓아요", "자기 자신과 타인에게 균형 잡힌 기대를 가져요"],
+      "weaknessesKo": ["때로는 더 높은 기준을 가져도 좋을 기회를 놓칠 수 있어요", "완벽주의가 필요한 상황에서 충분히 노력을 기울이지 않을 수 있어요"],
+      "careerFitsKo": ["기업가/스타트업", "이벤트 플래너", "일반 관리직"],
+      "relationshipTipKo": "관계에서도 '충분히 좋은' 기준을 적용하되, 중요한 순간만큼은 조금 더 신경 써주는 균형을 유지해보세요.",
+      "compatibleWith": ["self-critical"],
+      "compatibleDescriptionKo": "여유로운 현실주의자의 자기 수용적 태도가 자기비판형 완벽주의자에게 안정감과 균형을 줄 수 있어요.",
+      "emoji": "😌",
+      "gradient": "from-teal-400 to-cyan-500"
+    }
+  ]
+}

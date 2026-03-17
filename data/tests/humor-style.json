@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "humor-style",
+    "slug": "humor-style",
+    "title": "Humor Style",
+    "titleKo": "나의 유머 스타일은?",
+    "description": "Discover how you use humor and what it says about your personality",
+    "descriptionKo": "당신이 유머를 사용하는 방식과 그것이 성격에 대해 무엇을 말해주는지 알아보세요",
+    "category": "friendship",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Martin et al. (2003) Humor Styles Questionnaire",
+    "gradient": "from-yellow-400 to-orange-500",
+    "emoji": "😄"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What's the main purpose of humor for you?",
+      "textKo": "당신에게 유머의 주요 목적은 무엇인가요?",
+      "options": [
+        { "id": "q1a", "text": "To connect with others and make everyone feel included", "textKo": "다른 사람들과 연결하고 모두가 포함된 느낌을 주기 위해", "scores": { "affiliative": 3 } },
+        { "id": "q1b", "text": "To cope with my own stress and see the lighter side", "textKo": "내 스트레스에 대처하고 가벼운 면을 보기 위해", "scores": { "self-enhancing": 3 } },
+        { "id": "q1c", "text": "To be bold, edgy, and say what others are too scared to say", "textKo": "대담하고 날카롭게 다른 사람들이 두려워서 못 하는 말을 하기 위해", "scores": { "aggressive": 3 } },
+        { "id": "q1d", "text": "To make others laugh, even if it's at my own expense", "textKo": "내가 희생되더라도 다른 사람을 웃게 하기 위해", "scores": { "self-defeating": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "In a group setting, your humor tends to...",
+      "textKo": "그룹 환경에서 당신의 유머는 보통...",
+      "options": [
+        { "id": "q2a", "text": "Bring the group together — shared laughter", "textKo": "그룹을 하나로 모아요 — 함께 웃는 것", "scores": { "affiliative": 3 } },
+        { "id": "q2b", "text": "Come out naturally as an inner monologue made external", "textKo": "내면 독백이 외부로 나온 것처럼 자연스럽게 나와요", "scores": { "self-enhancing": 3 } },
+        { "id": "q2c", "text": "Target someone or something directly, often getting big laughs", "textKo": "누군가나 무언가를 직접 겨냥해 자주 큰 웃음을 얻어요", "scores": { "aggressive": 3 } },
+        { "id": "q2d", "text": "Make me the butt of the joke to ease tension", "textKo": "긴장을 완화하기 위해 내가 농담의 대상이 돼요", "scores": { "self-defeating": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When you're going through a hard time personally, humor helps you by...",
+      "textKo": "개인적으로 힘든 시간을 보낼 때, 유머는 어떻게 도움을 주나요?",
+      "options": [
+        { "id": "q3a", "text": "Turning to lighthearted moments with friends as an escape", "textKo": "탈출구로 친구들과 가벼운 순간으로 전환해요", "scores": { "affiliative": 3 } },
+        { "id": "q3b", "text": "Finding absurdity in the situation and laughing at the irony", "textKo": "상황의 불합리함을 찾아내 아이러니에 웃어요", "scores": { "self-enhancing": 3 } },
+        { "id": "q3c", "text": "Roasting the cause of the problem — venting through humor", "textKo": "문제의 원인을 조롱해요 — 유머로 발산해요", "scores": { "aggressive": 3 } },
+        { "id": "q3d", "text": "Laughing at yourself for being in this situation", "textKo": "이런 상황에 처한 자신을 비웃어요", "scores": { "self-defeating": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How do you feel about humor that makes fun of people?",
+      "textKo": "사람을 놀리는 유머에 대해 어떻게 느끼나요?",
+      "options": [
+        { "id": "q4a", "text": "Uncomfortable — humor should never exclude or hurt anyone", "textKo": "불편해요 — 유머는 누구도 배제하거나 상처 줘서는 안 돼요", "scores": { "affiliative": 3 } },
+        { "id": "q4b", "text": "Depends — I prefer absurd or situational humor", "textKo": "경우에 따라 달라요 — 황당하거나 상황적 유머를 더 선호해요", "scores": { "self-enhancing": 2 } },
+        { "id": "q4c", "text": "Sometimes that's what makes it funny — being direct", "textKo": "가끔 그게 웃긴 이유예요 — 직접적으로 말하는 것", "scores": { "aggressive": 3 } },
+        { "id": "q4d", "text": "Fine if I'm the one being made fun of — others should be protected", "textKo": "내가 대상이면 괜찮아요 — 다른 사람은 보호받아야 해요", "scores": { "self-defeating": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "At a 회식 or gathering, your role is often...",
+      "textKo": "회식이나 모임에서 당신의 역할은 종종...",
+      "options": [
+        { "id": "q5a", "text": "The one making sure everyone is having a good time", "textKo": "모두가 좋은 시간을 보내도록 하는 사람이에요", "scores": { "affiliative": 3 } },
+        { "id": "q5b", "text": "Witty commentator — you notice funny things others miss", "textKo": "재치 있는 해설자 — 다른 사람들이 놓치는 재미있는 것을 알아채요", "scores": { "self-enhancing": 3 } },
+        { "id": "q5c", "text": "The one who makes controversial jokes that split the room", "textKo": "반응이 엇갈리는 논란 있는 농담을 하는 사람이에요", "scores": { "aggressive": 3 } },
+        { "id": "q5d", "text": "The entertainer who jokes about their own awkward moments", "textKo": "자신의 어색한 순간을 농담으로 만드는 엔터테이너예요", "scores": { "self-defeating": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When someone doesn't laugh at your joke...",
+      "textKo": "누군가 내 농담에 웃지 않을 때...",
+      "options": [
+        { "id": "q6a", "text": "Try another angle — I want them to feel comfortable", "textKo": "다른 방식으로 시도해요 — 편안함을 느끼게 하고 싶어요", "scores": { "affiliative": 3 } },
+        { "id": "q6b", "text": "Still find it funny myself — humor is my personal coping tool", "textKo": "나 혼자라도 여전히 재미있어요 — 유머는 내 개인적 대처 도구예요", "scores": { "self-enhancing": 3 } },
+        { "id": "q6c", "text": "Think they're too sensitive or can't take a joke", "textKo": "너무 예민하거나 농담을 못 받아들인다고 생각해요", "scores": { "aggressive": 3 } },
+        { "id": "q6d", "text": "Feel embarrassed and apologize even if it wasn't offensive", "textKo": "기분 나쁜 말이 아니어도 당황하고 사과해요", "scores": { "self-defeating": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "What kind of humor makes you laugh hardest?",
+      "textKo": "어떤 유머가 당신을 가장 크게 웃게 하나요?",
+      "options": [
+        { "id": "q7a", "text": "Wholesome, relatable humor everyone can enjoy", "textKo": "모두가 즐길 수 있는 건전하고 공감 가는 유머", "scores": { "affiliative": 3 } },
+        { "id": "q7b", "text": "Dry, absurdist, or clever observational humor", "textKo": "건조하고 황당하거나 날카로운 관찰형 유머", "scores": { "self-enhancing": 3 } },
+        { "id": "q7c", "text": "Edgy, provocative, or brutally honest comedy", "textKo": "날카롭고 도발적이거나 냉혹하게 솔직한 코미디", "scores": { "aggressive": 3 } },
+        { "id": "q7d", "text": "Self-deprecating stories and comedians who laugh at themselves", "textKo": "자기비하 이야기와 자신을 웃음거리로 만드는 코미디언", "scores": { "self-defeating": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "In a new group of people, you use humor to...",
+      "textKo": "새로운 그룹의 사람들 사이에서 유머를 어떻게 활용하나요?",
+      "options": [
+        { "id": "q8a", "text": "Break the ice and make everyone feel at ease", "textKo": "어색함을 깨고 모두를 편안하게 해요", "scores": { "affiliative": 3 } },
+        { "id": "q8b", "text": "Show your personality subtly through witty observations", "textKo": "재치 있는 관찰을 통해 개성을 미묘하게 드러내요", "scores": { "self-enhancing": 3 } },
+        { "id": "q8c", "text": "Test the waters — see who gets bold humor", "textKo": "물을 떠봐요 — 누가 과감한 유머를 이해하는지 봐요", "scores": { "aggressive": 2 } },
+        { "id": "q8d", "text": "Make yourself the underdog so others feel comfortable", "textKo": "다른 사람들이 편안하도록 내가 약자 역할을 해요", "scores": { "self-defeating": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Korean 개그 (comedy) culture — which resonates with you most?",
+      "textKo": "한국 개그 문화 중 어떤 것이 가장 공감되나요?",
+      "options": [
+        { "id": "q9a", "text": "개그콘서트 style — clean, family-friendly, communal fun", "textKo": "개그콘서트 스타일 — 깔끔하고 가족 친화적인 공동체적 재미", "scores": { "affiliative": 3 } },
+        { "id": "q9b", "text": "Deadpan, observational 혼잣말 (monologue) comedy", "textKo": "무표정하고 관찰적인 혼잣말 코미디", "scores": { "self-enhancing": 3 } },
+        { "id": "q9c", "text": "Dark or satirical humor that challenges taboos", "textKo": "터부에 도전하는 어둡거나 풍자적인 유머", "scores": { "aggressive": 3 } },
+        { "id": "q9d", "text": "'나 진짜 왜 이러지' style — laughing at your own absurdity", "textKo": "'나 진짜 왜 이러지' 스타일 — 자신의 황당함에 웃는", "scores": { "self-defeating": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Friends would describe your humor as...",
+      "textKo": "친구들은 당신의 유머를 어떻게 묘사할까요?",
+      "options": [
+        { "id": "q10a", "text": "Warm and inclusive — no one feels left out", "textKo": "따뜻하고 포용적이에요 — 아무도 소외감을 느끼지 않아요", "scores": { "affiliative": 3 } },
+        { "id": "q10b", "text": "Smart and dry — you find humor where others don't", "textKo": "스마트하고 건조해요 — 다른 사람들이 못 보는 곳에서 유머를 찾아요", "scores": { "self-enhancing": 3 } },
+        { "id": "q10c", "text": "Bold and sometimes shocking — but often surprisingly funny", "textKo": "대담하고 가끔 충격적이에요 — 하지만 종종 놀라울 정도로 웃겨요", "scores": { "aggressive": 3 } },
+        { "id": "q10d", "text": "Self-deprecating and charming — you're your own punchline", "textKo": "자기비하적이고 매력적이에요 — 당신 자신이 웃음 포인트예요", "scores": { "self-defeating": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "affiliative",
+      "title": "Affiliative Humor",
+      "titleKo": "친화적 유머",
+      "description": "You use humor to connect, include, and make everyone feel good. Your humor brings people together and is a social superpower.",
+      "descriptionKo": "유머로 연결하고 포용하며 모든 사람을 기분 좋게 만듭니다. 당신의 유머는 사람들을 하나로 모으는 사회적 슈퍼파워입니다. 어디서든 분위기를 밝게 만드는 능력이 있어 사람들이 당신 곁에 있고 싶어합니다.",
+      "traits": ["Warm", "Inclusive", "Connective"],
+      "traitsKo": ["따뜻한", "포용적인", "연결하는"],
+      "strengthsKo": ["어떤 분위기도 편안하게 만들어요", "새로운 사람들과 빠르게 친해져요", "그룹 내 소속감과 단합을 높여요"],
+      "weaknessesKo": ["너무 분위기를 맞추다 진지한 순간을 놓칠 수 있어요", "모두를 웃기려는 압박이 자신을 지치게 할 수 있어요"],
+      "careerFitsKo": ["이벤트 MC/호스트", "마케터/PR 전문가", "교사/강사"],
+      "relationshipTipKo": "유머로 분위기를 만드는 것도 좋지만, 때로는 진지한 감정도 있는 그대로 표현해보세요.",
+      "compatibleWith": ["self-enhancing"],
+      "compatibleDescriptionKo": "자기고양 유머 유형의 재치 있는 관찰이 친화적 유머 유형의 따뜻한 분위기와 만나면 최고의 케미가 나와요.",
+      "emoji": "🌞",
+      "gradient": "from-yellow-400 to-orange-400"
+    },
+    {
+      "id": "self-enhancing",
+      "title": "Self-Enhancing Humor",
+      "titleKo": "자기고양 유머",
+      "description": "You find humor in life's absurdity, especially during tough times. This is the healthiest form of humor — it protects your wellbeing.",
+      "descriptionKo": "특히 힘든 시간에 삶의 불합리함에서 유머를 찾습니다. 이것은 가장 건강한 형태의 유머로 당신의 행복을 보호합니다. 어떤 상황에서도 가벼운 면을 찾을 수 있는 능력이 진정한 내면의 강점입니다.",
+      "traits": ["Resilient", "Witty", "Self-aware"],
+      "traitsKo": ["회복력 있는", "재치 있는", "자기 인식이 높은"],
+      "strengthsKo": ["스트레스 상황에서도 유머로 균형을 유지해요", "혼자서도 웃을 수 있는 내면의 가벼움이 있어요", "역경 속에서도 밝은 면을 찾는 능력이 뛰어나요"],
+      "weaknessesKo": ["혼자만의 유머가 다른 사람에게 전달이 안 될 수 있어요", "진지한 감정을 유머로 회피할 수 있어요"],
+      "careerFitsKo": ["작가/코미디언", "상담사 (유머 치료)", "1인 크리에이터"],
+      "relationshipTipKo": "내면의 유머 감각을 파트너나 친구와 자주 나누면 관계에 신선함과 회복력이 더해져요.",
+      "compatibleWith": ["affiliative"],
+      "compatibleDescriptionKo": "친화적 유머 유형이 그룹을 따뜻하게 만들면 자기고양 유머 유형의 재치가 더해져 대화의 깊이가 생겨요.",
+      "emoji": "😏",
+      "gradient": "from-amber-400 to-yellow-500"
+    },
+    {
+      "id": "aggressive",
+      "title": "Aggressive Humor",
+      "titleKo": "공격적 유머",
+      "description": "You use humor that challenges, provokes, and doesn't hold back. When used wisely, it can be powerful — but it's worth reflecting on its impact.",
+      "descriptionKo": "도전하고 자극하며 물러서지 않는 유머를 사용합니다. 현명하게 사용되면 강력할 수 있지만 그 영향을 성찰할 가치가 있습니다. 날카로운 관찰력과 솔직함이 강점이지만, 경계와 공감도 유머의 일부임을 기억하세요.",
+      "traits": ["Bold", "Direct", "Provocative"],
+      "traitsKo": ["대담한", "직접적인", "도발적인"],
+      "strengthsKo": ["금기를 깨고 사람들이 생각하게 만들어요", "솔직하고 대담한 관찰력이 뛰어나요", "풍자와 비평으로 사회적 메시지를 전달해요"],
+      "weaknessesKo": ["의도치 않게 사람들을 상처 줄 수 있어요", "유머와 공격 사이의 경계가 흐려질 수 있어요"],
+      "careerFitsKo": ["스탠드업 코미디언", "사회 비평가/칼럼니스트", "풍자 작가"],
+      "relationshipTipKo": "농담하기 전에 '이 사람이 웃을 수 있는 여유가 지금 있는가?'를 한 번 생각해보는 습관이 관계를 지킬 수 있어요.",
+      "compatibleWith": ["self-enhancing"],
+      "compatibleDescriptionKo": "자기고양 유머 유형은 공격적 유머 유형의 날카로움을 이해하고 재치로 균형을 맞춰줄 수 있어요.",
+      "emoji": "🎭",
+      "gradient": "from-red-400 to-orange-600"
+    },
+    {
+      "id": "self-defeating",
+      "title": "Self-Defeating Humor",
+      "titleKo": "자기비하 유머",
+      "description": "You joke at your own expense to connect with others. While endearing, check whether it comes from self-acceptance or self-criticism.",
+      "descriptionKo": "다른 사람들과 연결하기 위해 자신을 희생합니다. 사랑스럽지만 그것이 자기 수용에서 오는지 자기 비판에서 오는지 확인해볼 가치가 있습니다. 때로는 자신을 보호하는 것도 유머만큼 중요합니다.",
+      "traits": ["Self-aware", "Endearing", "Accommodating"],
+      "traitsKo": ["자기 인식이 있는", "사랑스러운", "맞춰주는"],
+      "strengthsKo": ["주변 사람들을 편안하게 만드는 따뜻함이 있어요", "겸손하고 접근하기 쉬운 분위기를 만들어요", "자신에 대한 유머 감각으로 긴장을 완화해요"],
+      "weaknessesKo": ["자기비하가 낮은 자존감에서 비롯될 수 있어요", "다른 사람들이 당신을 진지하게 대하지 않을 수 있어요"],
+      "careerFitsKo": ["개그맨/엔터테이너", "유튜버/크리에이터", "서비스직"],
+      "relationshipTipKo": "자신을 웃음거리로 만들 때 '나는 이것이 진심으로 괜찮은가?'를 스스로에게 물어보고, 진정한 자기 존중도 함께 키워보세요.",
+      "compatibleWith": ["affiliative"],
+      "compatibleDescriptionKo": "친화적 유머 유형이 그룹을 따뜻하게 만드는 동안 자기비하 유머 유형이 아이스브레이커 역할을 해 완벽한 조화를 이뤄요.",
+      "emoji": "🙈",
+      "gradient": "from-pink-300 to-rose-400"
+    }
+  ]
+}

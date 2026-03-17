@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "resilience-type",
+    "slug": "resilience-type",
+    "title": "Resilience Type",
+    "titleKo": "나의 회복탄력성 유형은?",
+    "description": "Discover how you bounce back from adversity and setbacks",
+    "descriptionKo": "역경과 좌절에서 회복하는 방식을 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Connor & Davidson (2003) CD-RISC",
+    "gradient": "from-green-500 to-emerald-600",
+    "emoji": "🌱"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When something bad happens, how quickly do you typically recover?",
+      "textKo": "나쁜 일이 생겼을 때 보통 얼마나 빨리 회복하나요?",
+      "options": [
+        { "id": "q1a", "text": "Very fast — I shake it off and move on the same day", "textKo": "매우 빠르게요 — 같은 날 털어버리고 앞으로 나아가요", "scores": { "bouncer": 3 } },
+        { "id": "q1b", "text": "Takes time but I always come back stronger", "textKo": "시간이 걸리지만 항상 더 강하게 돌아와요", "scores": { "grower": 3 } },
+        { "id": "q1c", "text": "I need to fully understand it before I can move on", "textKo": "완전히 이해해야만 앞으로 나아갈 수 있어요", "scores": { "processor": 3 } },
+        { "id": "q1d", "text": "I recover faster when I can talk it through with someone", "textKo": "누군가와 이야기할 때 더 빨리 회복해요", "scores": { "seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When you face a major failure, you believe...",
+      "textKo": "큰 실패에 직면했을 때...",
+      "options": [
+        { "id": "q2a", "text": "Failure is just information — dust off and try again", "textKo": "실패는 정보일 뿐이에요 — 털고 다시 시도해요", "scores": { "bouncer": 3 } },
+        { "id": "q2b", "text": "Failure is a doorway to becoming a better version of yourself", "textKo": "실패는 더 나은 자신이 되는 문이에요", "scores": { "grower": 3 } },
+        { "id": "q2c", "text": "The key is understanding exactly what went wrong first", "textKo": "핵심은 정확히 무엇이 잘못됐는지 먼저 이해하는 거예요", "scores": { "processor": 3 } },
+        { "id": "q2d", "text": "Sharing the experience helps process and move through it", "textKo": "경험을 나누는 것이 처리하고 헤쳐나가는 데 도움이 돼요", "scores": { "seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When life throws unexpected changes at you (job loss, breakup, etc.), you...",
+      "textKo": "예상치 못한 변화 (실직, 이별 등)가 닥쳤을 때...",
+      "options": [
+        { "id": "q3a", "text": "Adapt quickly — no point dwelling on what you can't change", "textKo": "빠르게 적응해요 — 바꿀 수 없는 것에 집착해봐야 소용없어요", "scores": { "bouncer": 3 } },
+        { "id": "q3b", "text": "Feel the difficulty deeply but know you'll emerge changed", "textKo": "어려움을 깊이 느끼지만 변화된 모습으로 나올 것을 알아요", "scores": { "grower": 3 } },
+        { "id": "q3c", "text": "Take time to thoroughly process all the implications", "textKo": "모든 의미를 철저히 처리할 시간을 가져요", "scores": { "processor": 3 } },
+        { "id": "q3d", "text": "Reach out to trusted people immediately for support", "textKo": "지원을 위해 즉시 믿을 수 있는 사람들에게 연락해요", "scores": { "seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "In the middle of a hardship, what keeps you going?",
+      "textKo": "힘든 시간 중에 무엇이 당신을 버티게 하나요?",
+      "options": [
+        { "id": "q4a", "text": "Action — doing something, anything, keeps me from spiraling", "textKo": "행동이요 — 무언가를 하는 것이 나를 침체에서 구해요", "scores": { "bouncer": 3 } },
+        { "id": "q4b", "text": "The belief that this experience is shaping me into someone stronger", "textKo": "이 경험이 나를 더 강한 사람으로 만들고 있다는 믿음", "scores": { "grower": 3 } },
+        { "id": "q4c", "text": "Making sense of the situation through reflection and analysis", "textKo": "성찰과 분석을 통해 상황을 이해하는 것", "scores": { "processor": 3 } },
+        { "id": "q4d", "text": "Knowing I have people in my corner who care about me", "textKo": "나를 걱정하는 사람들이 내 편에 있다는 것을 아는 것", "scores": { "seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How long do you typically dwell on a difficult situation after it's resolved?",
+      "textKo": "어려운 상황이 해결된 후 보통 얼마나 생각하나요?",
+      "options": [
+        { "id": "q5a", "text": "Barely at all — I've already mentally moved on", "textKo": "거의 안 해요 — 이미 정신적으로 앞으로 나아갔어요", "scores": { "bouncer": 3 } },
+        { "id": "q5b", "text": "For a while — I like to extract all the lessons from it", "textKo": "한동안 해요 — 거기서 모든 교훈을 뽑아내고 싶어요", "scores": { "grower": 3 } },
+        { "id": "q5c", "text": "For a long time — I need full closure and understanding", "textKo": "오랫동안 해요 — 완전한 마무리와 이해가 필요해요", "scores": { "processor": 3 } },
+        { "id": "q5d", "text": "Until I've talked it through with someone who understands", "textKo": "이해해주는 누군가와 충분히 이야기할 때까지요", "scores": { "seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "After a hard period, you feel...",
+      "textKo": "힘든 시기를 지나고 나면...",
+      "options": [
+        { "id": "q6a", "text": "Relieved and ready to get back to normal life", "textKo": "안도하고 일상으로 돌아갈 준비가 됐어요", "scores": { "bouncer": 3 } },
+        { "id": "q6b", "text": "Genuinely different — like you've grown in some meaningful way", "textKo": "진정으로 다른 사람이 된 것 같아요 — 의미 있게 성장한 것처럼", "scores": { "grower": 3 } },
+        { "id": "q6c", "text": "More settled once you've made full sense of what happened", "textKo": "무슨 일이 있었는지 완전히 이해하고 나면 더 안정돼요", "scores": { "processor": 3 } },
+        { "id": "q6d", "text": "Grateful for the support of the people who helped you through", "textKo": "도움을 준 사람들의 지지에 감사해요", "scores": { "seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "When a close friend is going through a crisis, you...",
+      "textKo": "친한 친구가 위기를 겪고 있을 때...",
+      "options": [
+        { "id": "q7a", "text": "Encourage them to take action and move forward quickly", "textKo": "빠르게 행동하고 앞으로 나아가도록 격려해요", "scores": { "bouncer": 3 } },
+        { "id": "q7b", "text": "Help them see how the struggle can lead to growth", "textKo": "어려움이 어떻게 성장으로 이어질 수 있는지 보도록 도와요", "scores": { "grower": 3 } },
+        { "id": "q7c", "text": "Help them analyze and understand the situation fully", "textKo": "상황을 완전히 분석하고 이해하도록 도와요", "scores": { "processor": 3 } },
+        { "id": "q7d", "text": "Be a consistent presence to talk and listen without judgment", "textKo": "판단 없이 이야기하고 들어주는 일관된 존재가 돼요", "scores": { "seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How do you relate to challenges and difficult experiences in your past?",
+      "textKo": "과거의 도전과 어려운 경험을 어떻게 바라보나요?",
+      "options": [
+        { "id": "q8a", "text": "They're in the past — I don't dwell on them", "textKo": "과거의 일이에요 — 생각하지 않아요", "scores": { "bouncer": 3 } },
+        { "id": "q8b", "text": "They made me who I am — I'm grateful for them", "textKo": "나를 지금의 나로 만들어줬어요 — 감사해요", "scores": { "grower": 3 } },
+        { "id": "q8c", "text": "I still revisit them — understanding the past helps me now", "textKo": "여전히 돌아봐요 — 과거를 이해하는 것이 지금 도움이 돼요", "scores": { "processor": 3 } },
+        { "id": "q8d", "text": "The people who helped me through them mean the most to me", "textKo": "그것을 헤쳐나가도록 도와준 사람들이 나에게 가장 소중해요", "scores": { "seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When the 수능 (CSAT) or another high-pressure event ends badly for someone, what's your recovery advice?",
+      "textKo": "수능 등 고부담 시험이나 행사가 누군가에게 잘못 끝났을 때 회복 조언은?",
+      "options": [
+        { "id": "q9a", "text": "Get right back on track — there are other paths ahead", "textKo": "바로 다시 궤도에 올라요 — 앞에 다른 길들이 있어요", "scores": { "bouncer": 3 } },
+        { "id": "q9b", "text": "Use this as a turning point to discover what really matters", "textKo": "이것을 진정으로 중요한 것을 발견하는 전환점으로 사용해요", "scores": { "grower": 3 } },
+        { "id": "q9c", "text": "Take time to reflect and understand what happened before moving on", "textKo": "나아가기 전에 무슨 일이 있었는지 성찰하고 이해해요", "scores": { "processor": 3 } },
+        { "id": "q9d", "text": "Talk to parents, counselors, or friends who've been through it", "textKo": "그것을 경험한 부모, 상담사, 또는 친구들과 이야기해요", "scores": { "seeker": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What does resilience mean to you, personally?",
+      "textKo": "개인적으로 회복탄력성은 당신에게 무엇을 의미하나요?",
+      "options": [
+        { "id": "q10a", "text": "The ability to get up immediately after being knocked down", "textKo": "쓰러진 후 즉시 일어나는 능력", "scores": { "bouncer": 3 } },
+        { "id": "q10b", "text": "Transforming pain into purpose and wisdom", "textKo": "고통을 목적과 지혜로 변환하는 것", "scores": { "grower": 3 } },
+        { "id": "q10c", "text": "Making sense of what happened so it doesn't haunt you", "textKo": "일어난 일을 이해해서 그것이 나를 괴롭히지 않게 하는 것", "scores": { "processor": 3 } },
+        { "id": "q10d", "text": "Knowing you're never alone — that support exists", "textKo": "혼자가 아니라는 것을 아는 것 — 지지가 존재한다는 것", "scores": { "seeker": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "bouncer",
+      "title": "The Immediate Bouncer",
+      "titleKo": "즉각 회복형",
+      "description": "You recover fast and refuse to let setbacks define you. Your capacity for quick renewal is a genuine strength.",
+      "descriptionKo": "빠르게 회복하고 좌절이 당신을 규정하도록 내버려 두지 않습니다. 빠른 쇄신 능력은 진정한 강점입니다. 행동 지향적인 회복 방식이 당신을 앞으로 나아가게 하는 강력한 엔진이 됩니다.",
+      "traits": ["Quick-recovery", "Action-oriented", "Adaptable"],
+      "traitsKo": ["빠른 회복의", "행동 지향적인", "적응력 있는"],
+      "strengthsKo": ["좌절 후 빠르게 다시 시작하는 능력이 있어요", "부정적인 상태에 오래 머무르지 않아요", "불확실한 상황에서도 앞으로 나아가요"],
+      "weaknessesKo": ["감정을 충분히 처리하지 않고 넘어갈 수 있어요", "같은 실수를 반복할 수 있어요"],
+      "careerFitsKo": ["영업/세일즈", "스타트업 환경", "스포츠 선수/코치"],
+      "relationshipTipKo": "빠른 회복이 강점이지만, 파트너나 친구는 당신보다 더 오래 걸릴 수 있다는 것을 기억하고 함께 기다려주세요.",
+      "compatibleWith": ["grower"],
+      "compatibleDescriptionKo": "성장형 회복 유형이 깊이를 더해주고 즉각 회복형이 속도를 제공해 함께 강한 회복력을 만들어요.",
+      "emoji": "⚡",
+      "gradient": "from-orange-400 to-amber-500"
+    },
+    {
+      "id": "grower",
+      "title": "The Growth-Through-Adversity Type",
+      "titleKo": "성장형 회복",
+      "description": "You don't just recover — you transform. Hardship, for you, is the raw material for becoming a wiser, deeper version of yourself.",
+      "descriptionKo": "단순히 회복하는 것이 아니라 변화합니다. 당신에게 역경은 더 현명하고 깊은 자신이 되기 위한 원재료입니다. 고통에서 의미를 찾는 능력이 진정한 회복탄력성의 정수입니다.",
+      "traits": ["Post-traumatic growth", "Meaning-seeking", "Wise"],
+      "traitsKo": ["외상 후 성장", "의미를 찾는", "지혜로운"],
+      "strengthsKo": ["어려움에서 깊은 의미와 교훈을 찾아요", "역경 후 이전보다 더 강하고 현명해져요", "다른 사람의 성장을 영감으로 이끄는 능력이 있어요"],
+      "weaknessesKo": ["회복 과정이 느려 주변 사람들이 걱정할 수 있어요", "모든 경험에서 의미를 찾으려다 지칠 수 있어요"],
+      "careerFitsKo": ["상담사/치료사", "작가/강연가", "교육자/멘토"],
+      "relationshipTipKo": "성장의 여정을 파트너와 나누되, 모든 순간에 의미를 찾아야 한다는 압박 없이 그냥 함께 있는 것도 충분히 소중해요.",
+      "compatibleWith": ["processor"],
+      "compatibleDescriptionKo": "숙고 회복형의 깊은 분석이 성장형 회복의 변화 과정에 방향과 명확성을 더해줘요.",
+      "emoji": "🦋",
+      "gradient": "from-emerald-400 to-green-600"
+    },
+    {
+      "id": "processor",
+      "title": "The Thoughtful Processor",
+      "titleKo": "숙고 회복형",
+      "description": "You heal through understanding. You can't simply move on — you need full closure and comprehension before you can truly let go.",
+      "descriptionKo": "이해를 통해 치유됩니다. 단순히 넘어갈 수 없고, 진정으로 내려놓기 전에 완전한 마무리와 이해가 필요합니다. 철저한 분석과 성찰을 통해 깊은 치유와 통찰을 만들어냅니다.",
+      "traits": ["Analytical", "Thorough", "Introspective"],
+      "traitsKo": ["분석적인", "철저한", "내성적인"],
+      "strengthsKo": ["같은 실수를 반복하지 않아요", "깊은 자기 이해와 통찰력이 있어요", "과거 경험에서 풍부한 지혜를 쌓아요"],
+      "weaknessesKo": ["과도한 반추로 회복이 늦어질 수 있어요", "결론을 내리기 어려운 상황에서 오래 머물 수 있어요"],
+      "careerFitsKo": ["연구원/학자", "심리치료사", "작가/철학자"],
+      "relationshipTipKo": "처리 시간이 필요할 때 파트너에게 '시간이 필요해, 도망가는 게 아니야'라고 미리 알려주면 오해를 줄일 수 있어요.",
+      "compatibleWith": ["grower"],
+      "compatibleDescriptionKo": "성장형 회복 유형이 과거를 의미로 전환하는 것을 도우면 숙고 회복형이 더 빨리 앞으로 나아갈 수 있어요.",
+      "emoji": "🔍",
+      "gradient": "from-indigo-400 to-blue-600"
+    },
+    {
+      "id": "seeker",
+      "title": "The Support Seeker",
+      "titleKo": "지지 추구형",
+      "description": "You recover through connection. Talking it out, being heard, and leaning on your people is how you restore yourself.",
+      "descriptionKo": "연결을 통해 회복합니다. 이야기하고, 들어지고, 사람들에게 기대는 것이 자신을 회복하는 방법입니다. 관계 속에서 힘을 얻는 이 능력은 아름다운 강점이며, 동시에 건강한 자기 회복력도 함께 키워가면 좋아요.",
+      "traits": ["Socially resilient", "Connection-based", "Supported"],
+      "traitsKo": ["사회적 회복력의", "연결 기반의", "지지받는"],
+      "strengthsKo": ["관계에서 힘을 얻는 능력이 탁월해요", "도움을 요청하는 것을 두려워하지 않아요", "지원 네트워크를 잘 구축하고 유지해요"],
+      "weaknessesKo": ["혼자 있을 때 회복이 어려울 수 있어요", "지지를 주는 사람에게 과도하게 의존할 수 있어요"],
+      "careerFitsKo": ["팀 기반 환경의 모든 직종", "커뮤니티 매니저", "사회복지/상담 분야"],
+      "relationshipTipKo": "지지를 구하는 능력은 강점이지만, 혼자서도 자신을 다독이는 자기 돌봄 루틴을 하나씩 만들어보세요.",
+      "compatibleWith": ["bouncer"],
+      "compatibleDescriptionKo": "즉각 회복형이 행동 에너지를 제공하고 지지 추구형이 감정적 연결을 더하면 함께 더 빠르고 깊은 회복이 이루어져요.",
+      "emoji": "🤝",
+      "gradient": "from-teal-400 to-emerald-500"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "id": "work-values",
+    "slug": "work-values",
+    "title": "Work Values",
+    "titleKo": "나의 직업 가치관은?",
+    "description": "Discover what drives and fulfills you in your professional life",
+    "descriptionKo": "직업적 삶에서 당신을 움직이고 만족시키는 것을 알아보세요",
+    "category": "self",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Super (1970) Work Values Inventory",
+    "gradient": "from-zinc-500 to-slate-700",
+    "emoji": "💼"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What would make you most proud about your career?",
+      "textKo": "직업에 대해 가장 자랑스러울 것은 무엇인가요?",
+      "options": [
+        { "id": "q1a", "text": "Achieving goals and being recognized as excellent at my work", "textKo": "목표를 달성하고 일을 탁월하게 잘한다는 인정을 받는 것", "scores": { "achievement-worker": 3 } },
+        { "id": "q1b", "text": "Having a career that doesn't consume my whole life", "textKo": "내 삶 전체를 잠식하지 않는 직업을 가지는 것", "scores": { "balance-worker": 3 } },
+        { "id": "q1c", "text": "Making a difference in people's lives through my work", "textKo": "일을 통해 사람들의 삶에 변화를 만드는 것", "scores": { "social-worker": 3 } },
+        { "id": "q1d", "text": "Having financial security and job stability long-term", "textKo": "장기적으로 재정적 안정과 직업 안정성을 갖는 것", "scores": { "security-worker": 3 } },
+        { "id": "q1e", "text": "Building something on my own terms with complete autonomy", "textKo": "완전한 자율성으로 내 방식대로 무언가를 만드는 것", "scores": { "freedom-worker": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "When evaluating a job opportunity, which factor matters most?",
+      "textKo": "취업 기회를 평가할 때 어떤 요소가 가장 중요한가요?",
+      "options": [
+        { "id": "q2a", "text": "Growth potential and advancement opportunities", "textKo": "성장 가능성과 승진 기회", "scores": { "achievement-worker": 3 } },
+        { "id": "q2b", "text": "Flexible hours and supportive work-life policies", "textKo": "유연한 근무 시간과 워라밸 지원 정책", "scores": { "balance-worker": 3 } },
+        { "id": "q2c", "text": "Company culture and quality of the team relationships", "textKo": "회사 문화와 팀 관계의 질", "scores": { "social-worker": 3 } },
+        { "id": "q2d", "text": "Job security, benefits, and retirement plan", "textKo": "고용 안정성, 복리후생, 퇴직 연금", "scores": { "security-worker": 3 } },
+        { "id": "q2e", "text": "Creative freedom and decision-making authority", "textKo": "창의적 자유와 의사결정 권한", "scores": { "freedom-worker": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "On a Sunday evening before the work week, you feel...",
+      "textKo": "일주일이 시작되는 일요일 저녁에 어떤 기분인가요?",
+      "options": [
+        { "id": "q3a", "text": "Energized — new week, new challenges to tackle", "textKo": "에너지가 넘쳐요 — 새로운 주, 새로운 도전이 기다려요", "scores": { "achievement-worker": 3 } },
+        { "id": "q3b", "text": "Hoping the week ahead won't eat into my personal time", "textKo": "다가오는 주가 개인 시간을 침식하지 않길 바라요", "scores": { "balance-worker": 3 } },
+        { "id": "q3c", "text": "Looking forward to seeing your colleagues and team", "textKo": "동료들과 팀을 만나는 것이 기대돼요", "scores": { "social-worker": 3 } },
+        { "id": "q3d", "text": "Comforted by the routine and stability ahead", "textKo": "앞으로의 일상과 안정에 위안을 받아요", "scores": { "security-worker": 3 } },
+        { "id": "q3e", "text": "Motivated to work on your own projects and vision", "textKo": "내 프로젝트와 비전을 향해 일하고 싶어요", "scores": { "freedom-worker": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "If your boss offers you a demanding but high-visibility project...",
+      "textKo": "상사가 힘들지만 주목받는 프로젝트를 제안한다면...",
+      "options": [
+        { "id": "q4a", "text": "Embrace it — this is how you get ahead", "textKo": "수락해요 — 이렇게 성장하는 거예요", "scores": { "achievement-worker": 3 } },
+        { "id": "q4b", "text": "Ask about the expected hours before deciding", "textKo": "결정하기 전에 예상 근무 시간을 물어봐요", "scores": { "balance-worker": 3 } },
+        { "id": "q4c", "text": "Ask who you'll be working with — team matters most", "textKo": "함께 일할 사람을 물어봐요 — 팀이 가장 중요해요", "scores": { "social-worker": 3 } },
+        { "id": "q4d", "text": "Consider the risk — could this affect job security?", "textKo": "위험을 고려해요 — 고용 안정성에 영향이 있을까요?", "scores": { "security-worker": 3 } },
+        { "id": "q4e", "text": "Negotiate for creative control over how to execute it", "textKo": "실행 방식에 대한 창의적 통제권을 협상해요", "scores": { "freedom-worker": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How do you feel about 야근 (overtime / late nights at work)?",
+      "textKo": "야근에 대해 어떻게 생각하나요?",
+      "options": [
+        { "id": "q5a", "text": "Fine occasionally when working toward a meaningful goal", "textKo": "의미 있는 목표를 향할 때는 가끔 괜찮아요", "scores": { "achievement-worker": 3 } },
+        { "id": "q5b", "text": "Resent it — it disrupts the life I've built outside work", "textKo": "싫어요 — 직장 밖 삶을 방해해요", "scores": { "balance-worker": 3 } },
+        { "id": "q5c", "text": "Tolerable if it's for the team and people I care about", "textKo": "내가 아끼는 사람들과 팀을 위한 거라면 견딜 수 있어요", "scores": { "social-worker": 3 } },
+        { "id": "q5d", "text": "Acceptable if compensated fairly with overtime pay", "textKo": "야근 수당으로 공정하게 보상받으면 허용할 수 있어요", "scores": { "security-worker": 3 } },
+        { "id": "q5e", "text": "Only acceptable if I'm working on my own passion project", "textKo": "내 열정 프로젝트에서 일할 때만 허용해요", "scores": { "freedom-worker": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "What kind of recognition feels most meaningful to you at work?",
+      "textKo": "직장에서 어떤 인정이 가장 의미 있게 느껴지나요?",
+      "options": [
+        { "id": "q6a", "text": "Promotion, award, or being seen as the best in your field", "textKo": "승진, 수상, 또는 분야에서 최고로 인정받는 것", "scores": { "achievement-worker": 3 } },
+        { "id": "q6b", "text": "Being trusted to manage your own time and schedule", "textKo": "내 시간과 일정을 스스로 관리하도록 신뢰받는 것", "scores": { "balance-worker": 3 } },
+        { "id": "q6c", "text": "Heartfelt thanks from colleagues or people you helped", "textKo": "동료나 도운 사람들로부터 진심 어린 감사", "scores": { "social-worker": 3 } },
+        { "id": "q6d", "text": "Salary raise, clear contract, and protected benefits", "textKo": "급여 인상, 명확한 계약, 보호된 복리후생", "scores": { "security-worker": 3 } },
+        { "id": "q6e", "text": "Being given a free hand on an important project", "textKo": "중요한 프로젝트에서 완전한 자유를 얻는 것", "scores": { "freedom-worker": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "If you had to choose between two job offers...",
+      "textKo": "두 가지 일자리 제안 중 선택해야 한다면...",
+      "options": [
+        { "id": "q7a", "text": "Higher salary and more responsibility vs. comfortable but limited role", "textKo": "더 높은 급여와 책임 vs. 편하지만 성장이 제한된 역할 → 높은 급여와 책임", "scores": { "achievement-worker": 3 } },
+        { "id": "q7b", "text": "Lower pay but 5pm guaranteed vs. high pay but unpredictable hours", "textKo": "낮은 급여지만 오후 5시 칼퇴 보장 vs. 높은 급여지만 불규칙한 시간 → 칼퇴 보장", "scores": { "balance-worker": 3 } },
+        { "id": "q7c", "text": "Dream company with solo work vs. average company with amazing team", "textKo": "혼자 일하는 꿈의 회사 vs. 훌륭한 팀이 있는 평범한 회사 → 훌륭한 팀", "scores": { "social-worker": 3 } },
+        { "id": "q7d", "text": "Exciting startup with risk vs. stable corporate with tenure track", "textKo": "리스크 있는 흥미로운 스타트업 vs. 안정적 대기업 정규직 → 안정적 대기업", "scores": { "security-worker": 3 } },
+        { "id": "q7e", "text": "Well-paid job with micromanagement vs. low-paid job with full autonomy", "textKo": "급여 좋지만 세세하게 관리당하는 직장 vs. 낮은 급여지만 완전 자율적인 직장 → 자율적인 직장", "scores": { "freedom-worker": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "When you imagine your ideal 60s and retirement...",
+      "textKo": "이상적인 60대와 은퇴를 상상할 때...",
+      "options": [
+        { "id": "q8a", "text": "I want to be known for the legacy I built in my career", "textKo": "직업에서 쌓은 유산으로 기억되고 싶어요", "scores": { "achievement-worker": 3 } },
+        { "id": "q8b", "text": "I want to have lived a full life beyond just work", "textKo": "일 이상의 풍요로운 삶을 살고 싶어요", "scores": { "balance-worker": 3 } },
+        { "id": "q8c", "text": "I want to be surrounded by the people I've built relationships with", "textKo": "함께 관계를 쌓아온 사람들에 둘러싸여 있고 싶어요", "scores": { "social-worker": 3 } },
+        { "id": "q8d", "text": "I want financial security and no worries about the future", "textKo": "재정적 안정을 갖추고 미래에 대한 걱정 없이 살고 싶어요", "scores": { "security-worker": 3 } },
+        { "id": "q8e", "text": "I want to still be creating and exploring on my own terms", "textKo": "내 방식대로 여전히 창조하고 탐구하고 있고 싶어요", "scores": { "freedom-worker": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "How do you feel about the Korean 공무원 (civil servant) exam culture?",
+      "textKo": "한국의 공무원 시험 문화에 대해 어떻게 생각하나요?",
+      "options": [
+        { "id": "q9a", "text": "Seems too limiting — I want to be measured by achievement, not rank", "textKo": "너무 제한적인 것 같아요 — 직급이 아닌 성취로 평가받고 싶어요", "scores": { "achievement-worker": 3 } },
+        { "id": "q9b", "text": "Appealing because of the predictable hours and holidays", "textKo": "예측 가능한 근무 시간과 휴일 때문에 매력적이에요", "scores": { "balance-worker": 3 } },
+        { "id": "q9c", "text": "The community service aspect is appealing", "textKo": "지역 사회 봉사 측면이 매력적이에요", "scores": { "social-worker": 3 } },
+        { "id": "q9d", "text": "Ideal — job security, pension, and predictable path", "textKo": "이상적이에요 — 고용 안정, 연금, 예측 가능한 경로", "scores": { "security-worker": 3 } },
+        { "id": "q9e", "text": "Not for me — I can't work in that rigid structure", "textKo": "나와 맞지 않아요 — 그런 경직된 구조에서는 일할 수 없어요", "scores": { "freedom-worker": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "If you could redesign your current (or ideal) job, what would you change first?",
+      "textKo": "현재 (또는 이상적인) 직업을 재설계할 수 있다면 가장 먼저 무엇을 바꾸나요?",
+      "options": [
+        { "id": "q10a", "text": "Clearer goals and fairer recognition for performance", "textKo": "더 명확한 목표와 성과에 대한 공정한 인정", "scores": { "achievement-worker": 3 } },
+        { "id": "q10b", "text": "Better work-life boundaries and remote flexibility", "textKo": "더 나은 워라밸 경계와 재택근무 유연성", "scores": { "balance-worker": 3 } },
+        { "id": "q10c", "text": "More team activities and collaborative culture", "textKo": "더 많은 팀 활동과 협력적 문화", "scores": { "social-worker": 3 } },
+        { "id": "q10d", "text": "Greater job security and a clearer long-term path", "textKo": "더 높은 고용 안정성과 더 명확한 장기 경로", "scores": { "security-worker": 3 } },
+        { "id": "q10e", "text": "More autonomy over how, where, and when I work", "textKo": "일하는 방법, 장소, 시간에 대한 더 많은 자율성", "scores": { "freedom-worker": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "achievement-worker",
+      "title": "Achievement-Oriented Worker",
+      "titleKo": "성취 추구형",
+      "description": "You're driven by goals, growth, and recognition. Climbing, mastering, and exceeding expectations are what get you out of bed.",
+      "descriptionKo": "목표, 성장, 인정에 의해 움직입니다. 올라가고, 숙달하고, 기대를 초과하는 것이 당신을 일으켜 세우는 것입니다. 성취의 기쁨이 직업적 동력의 핵심입니다.",
+      "traits": ["Ambitious", "Goal-driven", "Competitive"],
+      "traitsKo": ["야심찬", "목표 지향적인", "경쟁적인"],
+      "strengthsKo": ["높은 목표를 향해 지속적으로 나아가요", "성과 기반 환경에서 두각을 나타내요", "성장 기회를 적극적으로 탐색해요"],
+      "weaknessesKo": ["번아웃이나 일 중독에 취약할 수 있어요", "결과에 집착하다 과정의 즐거움을 잃을 수 있어요"],
+      "careerFitsKo": ["영업/마케팅 임원", "스타트업 리더", "전문직 파트너 트랙"],
+      "relationshipTipKo": "직업 성취만큼이나 관계에서의 '성공'도 소중하게 투자하는 시간을 의도적으로 만들어보세요.",
+      "compatibleWith": ["freedom-worker"],
+      "compatibleDescriptionKo": "자유 추구형이 새로운 길을 열면 성취 추구형이 그 안에서 최고의 결과를 만들어내요.",
+      "emoji": "🏆",
+      "gradient": "from-amber-500 to-orange-600"
+    },
+    {
+      "id": "balance-worker",
+      "title": "Balance-Seeker Worker",
+      "titleKo": "균형 추구형",
+      "description": "You believe work is part of life, not all of it. You're willing to trade some career ceiling for a fuller, healthier existence.",
+      "descriptionKo": "일은 삶의 일부이지 전부가 아니라고 믿습니다. 더 충만하고 건강한 삶을 위해 일부 커리어 상승을 포기할 의향이 있습니다. 지속 가능한 삶의 방식을 소중히 여기는 지혜로운 직업관입니다.",
+      "traits": ["Balanced", "Boundary-setter", "Life-oriented"],
+      "traitsKo": ["균형 잡힌", "경계를 설정하는", "삶 중심적인"],
+      "strengthsKo": ["번아웃 없이 꾸준한 성과를 유지해요", "삶의 다양한 영역에서 에너지를 재충전해요", "일과 생활의 경계를 건강하게 유지해요"],
+      "weaknessesKo": ["커리어 성장이 느릴 수 있어요", "야심찬 동료들 사이에서 압박을 받을 수 있어요"],
+      "careerFitsKo": ["공무원/공공 기관", "4대 보험 완비 중소기업", "재택근무 가능 IT 직종"],
+      "relationshipTipKo": "균형을 추구하는 가치관을 파트너에게 솔직하게 공유하면 서로의 커리어 목표를 더 잘 지지할 수 있어요.",
+      "compatibleWith": ["social-worker"],
+      "compatibleDescriptionKo": "관계 중시형과 균형 추구형은 일 이외의 삶을 풍요롭게 만드는 공통 가치를 공유해요.",
+      "emoji": "⚖️",
+      "gradient": "from-teal-400 to-cyan-500"
+    },
+    {
+      "id": "social-worker",
+      "title": "Social-Oriented Worker",
+      "titleKo": "관계 중시형",
+      "description": "People are your work. You thrive in environments built on collaboration, care, and meaningful human connection.",
+      "descriptionKo": "사람이 당신의 일입니다. 협력, 배려, 의미 있는 인간 연결을 기반으로 하는 환경에서 번성합니다. 관계의 질이 직업 만족도의 가장 중요한 요소입니다.",
+      "traits": ["People-oriented", "Collaborative", "Empathetic"],
+      "traitsKo": ["사람 중심적인", "협력적인", "공감 능력이 높은"],
+      "strengthsKo": ["팀 문화를 밝고 따뜻하게 만들어요", "동료들과 깊은 신뢰 관계를 형성해요", "네트워크와 인간관계를 통해 기회를 만들어요"],
+      "weaknessesKo": ["독립적 작업 환경에서 동기 부여가 낮아질 수 있어요", "갈등 있는 팀에서 스트레스를 크게 받을 수 있어요"],
+      "careerFitsKo": ["사회복지사/상담사", "HR 전문가", "교사/코치"],
+      "relationshipTipKo": "직장 관계가 개인 관계를 대체하지 않도록 삶의 다른 영역에서도 깊은 연결을 키워나가세요.",
+      "compatibleWith": ["balance-worker"],
+      "compatibleDescriptionKo": "균형 추구형은 관계 중시형에게 건강한 경계를 가르쳐주고 함께 지속 가능한 직업 문화를 만들어요.",
+      "emoji": "🤝",
+      "gradient": "from-rose-400 to-pink-500"
+    },
+    {
+      "id": "security-worker",
+      "title": "Security-Oriented Worker",
+      "titleKo": "안정 중시형",
+      "description": "Stability and predictability give you freedom. When you know your future is secure, you can focus on other parts of life.",
+      "descriptionKo": "안정성과 예측 가능성이 자유를 줍니다. 미래가 안전하다는 것을 알 때 삶의 다른 부분에 집중할 수 있습니다. 탄탄한 기반 위에 삶을 세우는 지혜로운 접근입니다.",
+      "traits": ["Stable", "Reliable", "Cautious"],
+      "traitsKo": ["안정적인", "믿음직한", "신중한"],
+      "strengthsKo": ["재정적 불안 없이 현재에 집중해요", "장기적인 직장 충성도와 전문성을 쌓아요", "예측 가능한 환경에서 꾸준한 성과를 내요"],
+      "weaknessesKo": ["리스크를 피하다 성장 기회를 놓칠 수 있어요", "안정에 집착해 변화에 저항하는 경향이 있어요"],
+      "careerFitsKo": ["공무원/공공 기관", "은행/금융권 정규직", "대기업 안정적 직종"],
+      "relationshipTipKo": "안정을 추구하되, 작은 새로운 도전을 의도적으로 시도해보면 커리어에 새로운 에너지가 생겨요.",
+      "compatibleWith": ["achievement-worker"],
+      "compatibleDescriptionKo": "성취 추구형이 새로운 도전을 제시하면 안정 중시형이 지속 가능성을 담보해 서로를 보완해요.",
+      "emoji": "🏠",
+      "gradient": "from-slate-400 to-zinc-600"
+    },
+    {
+      "id": "freedom-worker",
+      "title": "Freedom-Seeking Worker",
+      "titleKo": "자유 추구형",
+      "description": "Autonomy is your oxygen. You do your best work when you control the how, where, and when of your professional life.",
+      "descriptionKo": "자율성은 당신의 산소입니다. 직업적 삶의 방법, 장소, 시간을 스스로 통제할 때 최고의 일을 합니다. 창의성과 독립성이 보장된 환경에서 진정한 능력을 발휘합니다.",
+      "traits": ["Autonomous", "Creative", "Self-directed"],
+      "traitsKo": ["자율적인", "창의적인", "자기 주도적인"],
+      "strengthsKo": ["자기 동기 부여 능력이 탁월해요", "창의적인 문제 해결 방식을 찾아내요", "자신만의 방식으로 탁월한 결과를 만들어요"],
+      "weaknessesKo": ["팀 환경이나 위계 구조에서 갈등이 생길 수 있어요", "구조 없이 자유만 있으면 생산성이 흔들릴 수 있어요"],
+      "careerFitsKo": ["프리랜서/1인 기업", "스타트업 창업자", "크리에이터/아티스트"],
+      "relationshipTipKo": "독립을 중시하는 만큼 함께하는 사람들과의 공동 목표도 만들어보면 자유와 연결 모두를 얻을 수 있어요.",
+      "compatibleWith": ["achievement-worker"],
+      "compatibleDescriptionKo": "성취 추구형이 목표를 명확히 하면 자유 추구형이 자신만의 방식으로 그것을 가장 창의적으로 달성해요.",
+      "emoji": "🕊️",
+      "gradient": "from-sky-400 to-blue-500"
+    }
+  ]
+}

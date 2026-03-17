@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "trust-style",
+    "slug": "trust-style",
+    "title": "Trust Formation Style",
+    "titleKo": "나의 신뢰 형성 유형은?",
+    "description": "Discover how you build and extend trust in relationships",
+    "descriptionKo": "관계에서 신뢰를 구축하고 확장하는 방식을 알아보세요",
+    "category": "romance",
+    "questionCount": 10,
+    "estimatedMinutes": 3,
+    "academicSource": "Rotter (1967) Interpersonal Trust Scale",
+    "gradient": "from-blue-400 to-indigo-600",
+    "emoji": "🤝"
+  },
+  "scoring": {
+    "method": "accumulation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you first meet someone, you tend to...",
+      "textKo": "처음 누군가를 만날 때...",
+      "options": [
+        { "id": "q1a", "text": "Trust them openly until they give you reason not to", "textKo": "이유가 생기기 전까지 개방적으로 신뢰해요", "scores": { "quick-truster": 3 } },
+        { "id": "q1b", "text": "Start neutral and let trust build through consistent actions", "textKo": "중립으로 시작하고 일관된 행동을 통해 신뢰가 쌓이도록 해요", "scores": { "earned-truster": 3 } },
+        { "id": "q1c", "text": "Hold back until you've seen how they handle pressure or conflict", "textKo": "압박이나 갈등을 어떻게 처리하는지 볼 때까지 거리를 유지해요", "scores": { "skeptic-truster": 3 } },
+        { "id": "q1d", "text": "Feel cautious — past experiences make trust difficult", "textKo": "조심스러워요 — 과거 경험이 신뢰를 어렵게 해요", "scores": { "wounded-truster": 3 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How quickly do you open up to a new romantic partner?",
+      "textKo": "새로운 연인에게 얼마나 빨리 속마음을 열나요?",
+      "options": [
+        { "id": "q2a", "text": "Fairly quickly — vulnerability builds closeness", "textKo": "꽤 빠르게요 — 취약함이 친밀감을 만들어요", "scores": { "quick-truster": 3 } },
+        { "id": "q2b", "text": "Gradually, as I see consistent care and behavior over time", "textKo": "시간이 지나면서 일관된 배려와 행동을 보고 점차 열어요", "scores": { "earned-truster": 3 } },
+        { "id": "q2c", "text": "Slowly — I watch how they act in difficult situations first", "textKo": "천천히요 — 먼저 어려운 상황에서 어떻게 행동하는지 봐요", "scores": { "skeptic-truster": 3 } },
+        { "id": "q2d", "text": "Very slowly — I've been hurt before and protect myself", "textKo": "매우 천천히요 — 전에 상처받았고 스스로를 보호해요", "scores": { "wounded-truster": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "If a close friend breaks your confidence once, you...",
+      "textKo": "친한 친구가 한 번 신뢰를 저버렸을 때...",
+      "options": [
+        { "id": "q3a", "text": "Forgive quickly — everyone makes mistakes", "textKo": "빨리 용서해요 — 누구나 실수를 해요", "scores": { "quick-truster": 3 } },
+        { "id": "q3b", "text": "Address it, give them a chance to repair it, and rebuild carefully", "textKo": "해결하고, 회복할 기회를 주고, 신중하게 재구축해요", "scores": { "earned-truster": 3 } },
+        { "id": "q3c", "text": "File it away — you become more guarded going forward", "textKo": "기억해둬요 — 이후 더 경계하게 돼요", "scores": { "skeptic-truster": 3 } },
+        { "id": "q3d", "text": "Find it very hard to rebuild — the damage runs deep", "textKo": "재구축이 매우 어려워요 — 피해가 깊이 남아요", "scores": { "wounded-truster": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "When someone is kind to you right away, you think...",
+      "textKo": "누군가 처음부터 친절할 때...",
+      "options": [
+        { "id": "q4a", "text": "Appreciate it and respond in kind — why not?", "textKo": "감사히 여기고 같이 친절하게 반응해요 — 왜 안 해요?", "scores": { "quick-truster": 3 } },
+        { "id": "q4b", "text": "Appreciate it but still observe their actions over time", "textKo": "감사히 여기지만 시간이 지나도 행동을 관찰해요", "scores": { "earned-truster": 3 } },
+        { "id": "q4c", "text": "Appreciate it but wonder if they want something", "textKo": "감사히 여기지만 뭔가 원하는 것이 있는지 궁금해요", "scores": { "skeptic-truster": 3 } },
+        { "id": "q4d", "text": "Feel pleased but struggle to fully receive it — is it real?", "textKo": "기쁘지만 완전히 받아들이는 것이 어려워요 — 진심일까요?", "scores": { "wounded-truster": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How do you handle situations where you don't know if you can trust someone?",
+      "textKo": "누군가를 신뢰할 수 있는지 모를 때 어떻게 하나요?",
+      "options": [
+        { "id": "q5a", "text": "Lean toward trusting — most people are good", "textKo": "신뢰 쪽으로 기울어요 — 대부분의 사람들은 선해요", "scores": { "quick-truster": 3 } },
+        { "id": "q5b", "text": "Wait and observe behavior over time without forcing it", "textKo": "강요하지 않고 시간이 지나면서 행동을 기다리고 관찰해요", "scores": { "earned-truster": 3 } },
+        { "id": "q5c", "text": "Test them subtly before committing to trust", "textKo": "신뢰하기 전에 은밀하게 테스트해봐요", "scores": { "skeptic-truster": 3 } },
+        { "id": "q5d", "text": "Default to caution — the risk of being hurt feels too high", "textKo": "기본적으로 조심해요 — 상처받을 위험이 너무 크게 느껴져요", "scores": { "wounded-truster": 3 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "What does trust mean to you in a friendship?",
+      "textKo": "우정에서 신뢰가 당신에게 무엇을 의미하나요?",
+      "options": [
+        { "id": "q6a", "text": "The foundation you give freely — connection starts with openness", "textKo": "자유롭게 주는 기반이에요 — 연결은 개방성에서 시작해요", "scores": { "quick-truster": 3 } },
+        { "id": "q6b", "text": "Something precious that must be earned through consistent behavior", "textKo": "일관된 행동으로 얻어야 하는 소중한 것이에요", "scores": { "earned-truster": 3 } },
+        { "id": "q6c", "text": "Something rare — most people don't fully earn it", "textKo": "드문 것이에요 — 대부분의 사람들은 완전히 얻지 못해요", "scores": { "skeptic-truster": 3 } },
+        { "id": "q6d", "text": "Something fragile and precious — once broken, hard to restore", "textKo": "연약하고 소중한 것이에요 — 한번 깨지면 회복하기 어려워요", "scores": { "wounded-truster": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "In a new workplace, how long does it take you to trust colleagues?",
+      "textKo": "새 직장에서 동료들을 신뢰하는 데 얼마나 걸리나요?",
+      "options": [
+        { "id": "q7a", "text": "From the start — I work better when I assume good intent", "textKo": "처음부터요 — 좋은 의도를 가정할 때 더 잘 일해요", "scores": { "quick-truster": 3 } },
+        { "id": "q7b", "text": "After a few months of seeing their work ethic and integrity", "textKo": "업무 윤리와 성실함을 본 몇 달 후에요", "scores": { "earned-truster": 3 } },
+        { "id": "q7c", "text": "After they've been tested in a real conflict or challenge", "textKo": "실제 갈등이나 어려움에서 시험받은 후에요", "scores": { "skeptic-truster": 3 } },
+        { "id": "q7d", "text": "It's hard — professional betrayal in the past makes it difficult", "textKo": "어려워요 — 과거 직장에서의 배신이 힘들게 해요", "scores": { "wounded-truster": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How do you feel when someone says 'You can trust me' early on?",
+      "textKo": "누군가 초반에 '나를 믿어요'라고 말할 때 어떻게 느끼나요?",
+      "options": [
+        { "id": "q8a", "text": "Reassured — saying it and meaning it is normal", "textKo": "안심이 돼요 — 말하고 진심인 것은 자연스러운 일이에요", "scores": { "quick-truster": 3 } },
+        { "id": "q8b", "text": "Neutral — actions will speak louder than words", "textKo": "중립이에요 — 행동이 말보다 더 크게 말할 거예요", "scores": { "earned-truster": 3 } },
+        { "id": "q8c", "text": "Slightly suspicious — why do they need to say that?", "textKo": "약간 의심스러워요 — 왜 그 말을 해야 할까요?", "scores": { "skeptic-truster": 3 } },
+        { "id": "q8d", "text": "Worried — those exact words have been said before by people who hurt you", "textKo": "걱정돼요 — 정확히 그 말을 당신을 상처 준 사람들도 했어요", "scores": { "wounded-truster": 3 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "If you discover someone has talked about you behind your back...",
+      "textKo": "누군가 당신 뒤에서 이야기했다는 것을 알게 되면...",
+      "options": [
+        { "id": "q9a", "text": "Give them the benefit of the doubt and have a conversation", "textKo": "너그럽게 여기고 대화를 나눠요", "scores": { "quick-truster": 3 } },
+        { "id": "q9b", "text": "Confront it directly and decide based on their response", "textKo": "직접 맞서고 그들의 반응에 따라 결정해요", "scores": { "earned-truster": 3 } },
+        { "id": "q9c", "text": "Feel validated — you had a feeling they couldn't be fully trusted", "textKo": "확인된 느낌이에요 — 완전히 신뢰할 수 없다는 느낌이 있었어요", "scores": { "skeptic-truster": 3 } },
+        { "id": "q9d", "text": "Feel deeply betrayed and likely cut them off", "textKo": "깊이 배신당한 느낌이에요 — 아마 관계를 끊을 거예요", "scores": { "wounded-truster": 3 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What's your general outlook on human nature?",
+      "textKo": "인간 본성에 대한 일반적인 견해는 무엇인가요?",
+      "options": [
+        { "id": "q10a", "text": "Most people are fundamentally good and trustworthy", "textKo": "대부분의 사람들은 근본적으로 선하고 신뢰할 수 있어요", "scores": { "quick-truster": 3 } },
+        { "id": "q10b", "text": "People are complex — good and bad — and earn trust through actions", "textKo": "사람들은 복잡해요 — 선하고 나쁜 — 그리고 행동을 통해 신뢰를 얻어요", "scores": { "earned-truster": 3 } },
+        { "id": "q10c", "text": "People are self-interested — trust must be earned carefully", "textKo": "사람들은 이기적이에요 — 신뢰는 신중하게 얻어야 해요", "scores": { "skeptic-truster": 3 } },
+        { "id": "q10d", "text": "People can be wonderful but have hurt me enough to be cautious", "textKo": "사람들은 훌륭할 수 있지만 나를 충분히 상처 줬기에 조심해요", "scores": { "wounded-truster": 3 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "quick-truster",
+      "title": "The Quick Truster",
+      "titleKo": "빠른 신뢰형",
+      "description": "You extend trust freely and generously. This openness creates rapid deep connections but can sometimes leave you vulnerable.",
+      "descriptionKo": "자유롭고 관대하게 신뢰를 확장합니다. 이 개방성이 빠른 깊은 연결을 만들지만 때로는 취약하게 만들 수 있습니다. 신뢰하는 용기가 관계의 문을 활짝 열어주는 강점이 됩니다.",
+      "traits": ["Open", "Generous", "Optimistic about people"],
+      "traitsKo": ["개방적인", "관대한", "사람에 대해 낙관적인"],
+      "strengthsKo": ["빠르고 깊은 관계를 형성하는 능력이 있어요", "새로운 사람들에게 편안함을 줘요", "관계에서 온기와 개방성을 만들어요"],
+      "weaknessesKo": ["너무 빠른 신뢰로 상처받을 수 있어요", "경계 없는 신뢰가 착취를 허용할 수 있어요"],
+      "careerFitsKo": ["영업/고객 관계 담당자", "상담사/코치", "팀 빌더"],
+      "relationshipTipKo": "빠른 신뢰는 아름다운 강점이지만, 중요한 결정 전에 '이 사람이 신뢰를 통해 행동으로 보여줬는가?'를 한번 확인해보세요.",
+      "compatibleWith": ["earned-truster"],
+      "compatibleDescriptionKo": "신중한 신뢰형이 균형과 분별력을 더해주면 빠른 신뢰형의 개방성이 더 안전하게 꽃을 피워요.",
+      "emoji": "🌸",
+      "gradient": "from-pink-300 to-rose-400"
+    },
+    {
+      "id": "earned-truster",
+      "title": "The Earned Truster",
+      "titleKo": "신중한 신뢰형",
+      "description": "You give trust where it is deserved. Your relationships are deep and durable because they're built on demonstrated reliability.",
+      "descriptionKo": "값어치가 있는 곳에 신뢰를 줍니다. 관계가 깊고 지속 가능한 것은 입증된 신뢰성 위에 세워졌기 때문입니다. 시간을 두고 쌓은 신뢰가 가장 튼튼한 관계의 기반이 됩니다.",
+      "traits": ["Discerning", "Loyal once trusted", "Reliable"],
+      "traitsKo": ["분별력 있는", "신뢰 후 충성스러운", "믿음직한"],
+      "strengthsKo": ["신중하게 형성된 관계는 매우 깊고 지속적이에요", "신뢰를 받으면 그에 상응하는 충성으로 돌려줘요", "관계에서 일관성과 안정감을 줘요"],
+      "weaknessesKo": ["신뢰를 쌓는 데 시간이 걸려 초반 관계가 느릴 수 있어요", "일부 사람들은 너무 차갑거나 거리감 있다고 느낄 수 있어요"],
+      "careerFitsKo": ["법률/금융 전문가", "매니저/팀 리더", "연구원"],
+      "relationshipTipKo": "좋은 사람을 기다리게 하지 않도록, 신뢰 구축 과정에 있다는 것을 솔직하게 공유해보세요.",
+      "compatibleWith": ["quick-truster"],
+      "compatibleDescriptionKo": "빠른 신뢰형의 개방성이 관계를 따뜻하게 열어주고 신중한 신뢰형이 깊이를 더해 서로를 보완해요.",
+      "emoji": "🌳",
+      "gradient": "from-teal-400 to-blue-500"
+    },
+    {
+      "id": "skeptic-truster",
+      "title": "The Skeptical Truster",
+      "titleKo": "회의적 신뢰형",
+      "description": "You trust carefully and conditionally. Your discernment protects you, but sometimes you may hold back from connections that could genuinely nourish you.",
+      "descriptionKo": "신중하고 조건부로 신뢰합니다. 분별력이 보호해주지만 때로는 진정으로 키울 수 있는 연결에서 물러날 수 있습니다. 건강한 회의주의와 열린 마음 사이의 균형이 관계를 풍요롭게 합니다.",
+      "traits": ["Cautious", "Perceptive", "Self-protective"],
+      "traitsKo": ["조심스러운", "지각 있는", "자기 보호적인"],
+      "strengthsKo": ["관계에서 착취당하거나 배신당하는 경우가 적어요", "사람의 동기를 잘 파악하는 능력이 있어요", "신뢰를 주면 그것이 진심이에요"],
+      "weaknessesKo": ["과도한 회의주의로 좋은 관계 기회를 놓칠 수 있어요", "타인이 당신에 대해 차갑다는 인상을 가질 수 있어요"],
+      "careerFitsKo": ["리스크 분석가", "탐사 저널리스트", "법률/감사 전문가"],
+      "relationshipTipKo": "상대방을 테스트하는 것보다 '이 사람은 어떤 사람인가?'에 집중하면 관계가 더 자연스럽게 흘러가요.",
+      "compatibleWith": ["earned-truster"],
+      "compatibleDescriptionKo": "신중한 신뢰형은 회의적 신뢰형의 조심스러운 접근을 이해하고 인내심 있게 신뢰를 쌓아가요.",
+      "emoji": "🔎",
+      "gradient": "from-slate-400 to-blue-500"
+    },
+    {
+      "id": "wounded-truster",
+      "title": "The Wounded Truster",
+      "titleKo": "상처받은 신뢰형",
+      "description": "Past betrayals have made trust feel dangerous. Your caution is a protection, and healing that wound can unlock deeper connections.",
+      "descriptionKo": "과거의 배신이 신뢰를 위험하게 느껴지도록 만들었습니다. 조심성은 보호이며, 그 상처를 치유하면 더 깊은 연결이 열릴 수 있습니다. 천천히, 안전하게 신뢰를 재학습하는 과정에 있는 용감한 유형입니다.",
+      "traits": ["Protective", "Healing", "Deep capacity for love"],
+      "traitsKo": ["보호적인", "치유 중인", "깊은 사랑 능력이 있는"],
+      "strengthsKo": ["신뢰를 줄 때 그것이 매우 진심이에요", "배신을 알아보는 능력이 뛰어나요", "관계의 소중함을 깊이 알고 있어요"],
+      "weaknessesKo": ["신뢰 형성이 너무 느려 관계 기회를 잃을 수 있어요", "과거 상처가 현재 좋은 사람에게 투영될 수 있어요"],
+      "careerFitsKo": ["상담사/치료사 (경험을 강점으로)", "작가/예술가", "동물 치료사 (안전한 연결)"],
+      "relationshipTipKo": "과거의 상처를 현재 관계로 가져가지 않도록, 신뢰할 수 있는 전문가와 치유 작업을 해보는 것을 고려해보세요.",
+      "compatibleWith": ["earned-truster"],
+      "compatibleDescriptionKo": "신중한 신뢰형은 판단 없이 서서히 신뢰를 쌓는 방식으로 상처받은 신뢰형이 다시 마음을 열도록 도울 수 있어요.",
+      "emoji": "🌷",
+      "gradient": "from-rose-300 to-violet-500"
+    }
+  ]
+}
